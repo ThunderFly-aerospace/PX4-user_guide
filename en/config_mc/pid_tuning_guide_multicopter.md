@@ -14,19 +14,18 @@ For example, different ESCs or motors require different tuning gains for optimal
 
 PX4 uses **P**roportional, **I**ntegral, **D**erivative (PID) controllers, which are the most widespread control technique. 
 
-The controllers are layered, which means a higher-level controller passes its
-results to a lower-level controller. The lowest-level controller is the the **rate
-controller**, then there is the **attitude contoller**, and then the **velocity
-& position controller**.
-The PID tuning needs to be done in the same order, starting with the rate
-controller, as it will affect all other controllers.
+The controllers are layered, which means a higher-level controller passes its results to a lower-level controller.
+The lowest-level controller is the the **rate controller**, then there is the **attitude contoller**, and then the **velocity & position controller**.
+The PID tuning needs to be done in the same order, starting with the rate controller, as it will affect all other controllers.
 
 
 ## Preconditions
 
-- You have selected the closest matching [default airframe configuration](../config/airframe.md) for your vehicle. This should give you a vehicle that already flies.
+- You have selected the closest matching [default airframe configuration](../config/airframe.md) for your vehicle.
+  This should give you a vehicle that already flies.
 - You should have done an [ESC calibration](../advanced_config/esc_calibration.md).
-- [PWM_MIN](../advanced_config/parameter_reference.md#PWM_MIN) is set correctly. It needs to be set low, but such that the **motors never stop** when the vehicle is armed.
+- [PWM_MIN](../advanced_config/parameter_reference.md#PWM_MIN) is set correctly.
+  It needs to be set low, but such that the **motors never stop** when the vehicle is armed.
 
   This can be tested in [Acro mode](../flight_modes/acro_mc.md) or in [Manual/Stabilized mode](../flight_modes/manual_stabilized_mc.md):
   - Remove propellers
@@ -51,7 +50,9 @@ Here are some general points to follow when tuning:
 
 ### Rate Controller
 
-The rate controller is the inner-most loop with three independent PID controllers to control the body rates. It can be implemented in several (mathematically equivalent) forms.
+The rate controller is the inner-most loop with three independent PID controllers to control the body rates.
+It can be implemented in several (mathematically equivalent) forms.
+
 > **Note** The derivative term (**D**) is on the feedback path in order to avoid an effect knowm as the [derivative kick](http://brettbeauregard.com/blog/2011/04/improving-the-beginner%E2%80%99s-pid-derivative-kick/).
 
 - Parallel form:
@@ -59,7 +60,7 @@ The rate controller is the inner-most loop with three independent PID controller
   - Three independant paths
   - **I** and **D** terms are unitless
 
-![PID_Parallel](../../images/mc_pid_tuning/PID_algorithm_Parallel.png)
+  ![PID_Parallel](../../images/mc_pid_tuning/PID_algorithm_Parallel.png)
 
 - Ideal form:
   - Commonly used in industrial controllers
@@ -67,7 +68,7 @@ The rate controller is the inner-most loop with three independent PID controller
   - **I** and **D** terms represent the integral and derivative time constants
   - More intuitive to tune than the parallel form
 
-![PID_Ideal](../../images/mc_pid_tuning/PID_algorithm_Ideal.png)
+  ![PID_Ideal](../../images/mc_pid_tuning/PID_algorithm_Ideal.png)
 
 
 In order to let the user choose which form he wants to use, a mixed form is implemented in the flight controller.
@@ -82,25 +83,24 @@ The related parameters for the tuning of the PID rate controllers are:
 - Yaw rate control ([MC_YAWRATE_P](../advanced_config/parameter_reference.md#MC_YAWRATE_P), [MC_YAWRATE_I](../advanced_config/parameter_reference.md#MC_YAWRATE_I), [MC_YAWRATE_D](../advanced_config/parameter_reference.md#MC_YAWRATE_D), [MC_YAWRATE_K](../advanced_config/parameter_reference.md#MC_YAWRATE_K))
 
 
-> **Note** A well-tuned rate controller is very important as it affects *all* flight modes. A badly tuned rate controller will be visible in [Position mode](../flight_modes/position_mc.md), for example, as "twitches" (the vehicle will not hold perfectly still in the air).
+> **Note** A well-tuned rate controller is very important as it affects *all* flight modes.
+  A badly tuned rate controller will be visible in [Position mode](../flight_modes/position_mc.md), for example, as "twitches" (the vehicle will not hold perfectly still in the air).
 
 The rate controller can be tuned in [Acro mode](../flight_modes/acro_mc.md) or [Manual/Stabilized mode](../flight_modes/manual_stabilized_mc.md):
-- *Acro mode* is preferred, but is harder to fly. If you choose this mode, disable all stick expo:
-  - `MC_ACRO_EXPO` = 0, `MC_ACRO_EXPO_Y` = 0, `MC_ACRO_SUPEXPO` = 0, 
-    `MC_ACRO_SUPEXPOY` = 0
+- *Acro mode* is preferred, but is harder to fly.
+  If you choose this mode, disable all stick expo:
+  - `MC_ACRO_EXPO` = 0, `MC_ACRO_EXPO_Y` = 0, `MC_ACRO_SUPEXPO` = 0, `MC_ACRO_SUPEXPOY` = 0
   - `MC_ACRO_P_MAX` = 200, `MC_ACRO_R_MAX` = 200
   - `MC_ACRO_Y_MAX` = 100
 - *Manual/Stabilized mode* is simpler to fly, but it is also more difficult to see if the attitude or the rate controller needs more tuning.
 
 In case your vehicle does not fly at all:
-- If you notice strong oscillations when first trying to takeoff (to the point where it does not fly), 
-  decrease all **P** and **D** gains until it takes off.
+- If you notice strong oscillations when first trying to takeoff (to the point where it does not fly), decrease all **P** and **D** gains until it takes off.
 - If on the other hand you hardly get any reaction at all to your RC commands, increase the **P** gains.
 
 The actual tuning is roughly the same in *Manual mode* or *Acro mode*:
 You iteratively tune the **P** and **D** gains for roll and pitch, and then the **I** gain.
-Initially you can use the same values for roll and pitch, and once you have good values, 
-you can fine-tune them by looking at roll and pitch response separately (if your vehicle is symmetric, this is not needed).
+Initially you can use the same values for roll and pitch, and once you have good values, you can fine-tune them by looking at roll and pitch response separately (if your vehicle is symmetric, this is not needed).
 For yaw it is very similar, except that **D** can be left at 0.
 
 #### P/K Gain
@@ -114,17 +114,19 @@ It is responsible for a quick response and thus should be set as high as possibl
 
 #### D Gain
 
-The **D** (derivative) gain is used for rate damping. It is required but should be set only as high as needed to avoid overshoots.
+The **D** (derivative) gain is used for rate damping.
+It is required but should be set only as high as needed to avoid overshoots.
 - If the **D** gain is too high: the motors become twitchy (and maybe hot), because the **D** term amplifies noise.
 - If the **D** gain is too low: you see overshoots after a step-input.
 
 #### I Gain
 
-The **I** (integral) gain keeps a memory of the error. The **I** term increases when the desired rate is not reached over some time. 
+The **I** (integral) gain keeps a memory of the error.
+The **I** term increases when the desired rate is not reached over some time. 
 It is important (especially when flying *Acro mode*), but it should not be set too high.
 - If the I gain is too high: you will see slow oscillations.
-- If the I gain is too low: this is best tested in *Acro mode*, by tilting the vehicle to one side about 45 degrees, 
-  and keeping it like that. It should keep the same angle. 
+- If the I gain is too low: this is best tested in *Acro mode*, by tilting the vehicle to one side about 45 degrees, and keeping it like that. 
+  It should keep the same angle. 
   If it drifts back, increase the **I** gain. 
   A low **I** gain is also visible in a log, when there is an offset between the desired and the actual rate over a longer time.
 
@@ -135,8 +137,7 @@ Typical values are between 0.3 and 0.5, and the pitch gain usually needs to be a
 To test the current gains, provide a fast **step-input** when hovering and observe how the vehicle reacts. 
 It should immediately follow the command, and neither oscillate, nor overshoot (it feels 'locked-in').
 
-You can create a step-input for example for roll, by quickly pushing the roll stick to one side, 
-and then let it go back quickly (be aware that the stick will oscillate too if you just let go of it, because it is spring-loaded — a well-tuned vehicle will follow these oscillations).
+You can create a step-input for example for roll, by quickly pushing the roll stick to one side, and then let it go back quickly (be aware that the stick will oscillate too if you just let go of it, because it is spring-loaded — a well-tuned vehicle will follow these oscillations).
 
 > **Note** A well-tuned vehicle in *Acro mode* will not tilt randomly towards one side,
 > but keeps the attitude for tens of seconds even without any corrections.
@@ -204,8 +205,6 @@ There are two ways to counteract that:
 
 
 
-
-
 <!-- TODO
 ### Velocity & Position Controller
 The PID-Gains should be chosen such that tracking is as tight as possible. Before doing any position/velocity control related tuning,
@@ -229,31 +228,22 @@ This step is called mixing.
 It can happen that one of the motor commands becomes negative, for example for a low thrust and large roll command (and similarly it can go above 100%). 
 This is a mixer saturation. 
 It is physically impossible for the vehicle to execute these commands (except for reversible motors). PX4 has two modes to resolve this:
-- Either by reducing the commanded torque for roll such that none of the motor commands is
-  below zero (Airmode disabled). In the extreme case where the commanded thrust
-  is zero, it means that no attitude correction is possible anymore, which is
-  why a minimum thrust is always required for this mode.
-- Or by increasing (boosting) the commanded thrust, such that none of the motor
-  commands is negative (Airmode enabled). This has the big advantage that the
-  attitude/rates can be tracked correctly even at low or zero throttle. It
-  generally improves the flight performance.
+- Either by reducing the commanded torque for roll such that none of the motor commands is below zero (Airmode disabled).
+  In the extreme case where the commanded thrust is zero, it means that no attitude correction is possible anymore, which is why a minimum thrust is always required for this mode.
+- Or by increasing (boosting) the commanded thrust, such that none of the motor commands is negative (Airmode enabled).
+  This has the big advantage that the attitude/rates can be tracked correctly even at low or zero throttle.
+  It generally improves the flight performance.
 
-  However it increases the total thrust which can lead to situations where the
-  vehicle continues to ascend even though the throttle is reduced to zero. For a
-  well-tuned, correctly functioning vehicle it is not the case, but for example
-  it can happen when the vehicle strongly oscillates due to too high P tuning
-  gains.
+  However it increases the total thrust which can lead to situations where the vehicle continues to ascend even though the throttle is reduced to zero.
+  For a well-tuned, correctly functioning vehicle it is not the case, but for example it can happen when the vehicle strongly oscillates due to too high P tuning gains.
 
-Both modes are shown below with a 2D illustration for two motors and a torque
-command for roll <span style="color:#9673A6">r</span>. On the left motor
-<span style="color:#9673A6">r</span> is added to the commanded thrust, while on
-the right motor it is substracted from it.
+Both modes are shown below with a 2D illustration for two motors and a torque command for roll <span style="color:#9673A6">r</span>.
+On the left motor <span style="color:#9673A6">r</span> is added to the commanded thrust, while on the right motor it is substracted from it.
 The motor thrusts are in <span style="color:#6A9153">green</span>.
-With Airmode enabled, the commanded thrust is increased by
-<span style="color:#B85450">b</span>. When it is disabled,
-<span style="color:#9673A6">r</span> is reduced.
+With Airmode enabled, the commanded thrust is increased by <span style="color:#B85450">b</span>.
+When it is disabled, <span style="color:#9673A6">r</span> is reduced.
 
-  ![Airmode](../../images/mc_pid_tuning/MC_PID_tuning-Airmode.svg)
+![Airmode](../../images/mc_pid_tuning/MC_PID_tuning-Airmode.svg)
 <!-- The drawing is on draw.io: https://drive.google.com/file/d/1N0qjbiJX6JuEk2I1-xFvigLEPKJRIjBP/view?usp=sharing
      On the first Tab
 -->
