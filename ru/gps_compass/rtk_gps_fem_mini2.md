@@ -6,7 +6,8 @@ The receiver is connected to PX4 via a serial port (UART) and may be configured 
 
 ![MINI II Receiver](../../assets/hardware/gps/rtk_fem_miniII_receiver.jpg)
 
-> **Note** PX4 drivers for Ethernet, CAN and USB are under development.
+:::note PX4 drivers for Ethernet, CAN and USB are under development.
+:::
 
 ## Required Firmware Options
 
@@ -48,11 +49,11 @@ Once configured the receiver is used in the same way as any other [RTK GPS](../g
 
 The MINI2 incorporates the following components:
 
-- [FB672](http://www.femtomes.com/FB672_EN.html): Compact, dual antenna, dual frequency GNSS OEM board (delivers centimeter accurate position and precise heading).
+- [FB672](http://www.femtomes.com/en/FB672.php): Compact, dual antenna, dual frequency GNSS OEM board (delivers centimeter accurate position and precise heading).
 
   ![FB672](../../assets/hardware/gps/rtk_fem_fb_1.jpg)
 
-- [FB6A0](http://www.femtomes.com/FB6A0_EN.html): Compact, quadruple frequency GNSS OEM board (delivers centimeter-accurate positioning)
+- [FB6A0](http://www.femtomes.com/en/FB6A0.php): Compact, quadruple frequency GNSS OEM board (delivers centimeter-accurate positioning)
 
   ![FB6A0](../../assets/hardware/gps/rtk_fem_fb_2.jpg)
 

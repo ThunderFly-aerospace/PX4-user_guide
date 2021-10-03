@@ -1,16 +1,18 @@
 # 电调（ESC）校准
 
-> **Note** 这些说明仅与 [PWM 电调](../peripherals/pwm_escs_and_servo.md) 有关。
+:::note
+这些说明仅与 [PWM 电调相关](../peripherals/pwm_escs_and_servo.md)。
+:::
 
-电子速度控制器 (ESCs) 根据来自飞行控制器 (FC) 的 PWM 输入值调节电机速度 (和方向)。 ESC 响应的输入范围是可配置的, 甚至同一型号的不同 ESC 之间的默认范围也会有所不同。
+电调根据飞控的 PWM 输入值 来调节电机速度（和方向）。 电调响应的输入范围是可配置的，甚至同一模型下的不同电调之间的默认范围也是不同的。
 
-此校准将更新所有 ESCs, 其最大和最小 PWM 输入值将由飞行控制器提供。 继而，所有的ECSs将以同样的方式响应飞控的输入(在完整的输入范围内)。
+此校准将更新所有 ESCs, 其最大和最小 PWM 输入值将由飞控提供。 随后，所有电调/电机机都将以同样方式（跨越整个输入范围）对飞控输入作出反应。
 
-建议同时校准所有的ESCs，特别是对于低成本的模型机。
+建议对所有电调进行校准，特别是低成本模型机。
 
-## 操作前提
+## 前置条件
 
-系统必须包括一个电源模块（PX4 使用测量过的电压来确定电池是否连接）。
+系统必须包括一个电源模块（PX4 使用测量的电压来确定电池是否连接）。
 
 ## 步骤
 
@@ -18,26 +20,30 @@
 
 1. 卸下螺旋桨。
     
-    > **Warning** 切勿进行电调校准时将螺旋桨装上。
-    > 
-    > 电调校准期间电机不应旋转。 但是，如果ESC没有正确的进入校准程序，它将通过以最大的速度运行电机来响应pwm输入。
+:::warning
+切勿带桨进行电调校准。
+    
+    电调校准期间电机不应旋转。 但是如果电调不支持/检测校准序列，它将以最大速度运行电机来响应 PWM 输入。
+:::
 
 2. 断开电池并（仅）通过 USB 连接飞行控制器。
 
 3. 打开 * QGroundControl *** 设置 > 电源**界面，然后按 **校准** 按钮。
     
-    ![ESC校准步骤1](../../assets/qgc/setup/esc/qgc_esc_calibration.png)
+    ![电调校准步骤 1](../../assets/qgc/setup/esc/qgc_esc_calibration.png)
 
 4. 在出现提示时连接电池:
     
-    ![ESC校准步骤2](../../assets/qgc/setup/esc/esc_calibration_step_2.png)
+    ![电调校准步骤 2](../../assets/qgc/setup/esc/esc_calibration_step_2.png)
     
     校准将自动开始:
     
-    ![ESC校准步骤3](../../assets/qgc/setup/esc/esc_calibration_step_3.png)
+    ![电调校准步骤 3](../../assets/qgc/setup/esc/esc_calibration_step_3.png)
 
 5. 校准完成后, 系统将提示您断开电池的连接。
     
-    ![ESC校准步骤4](../../assets/qgc/setup/esc/esc_calibration_step_4.png)
+    ![电调校准步骤 4](../../assets/qgc/setup/esc/esc_calibration_step_4.png)
 
-> **Note** 某些高品质的ESC在出厂时就已经被校准过。 *按理说*，这意味着这些电调可以按照电调技术规格书仅通过设置 [PWM_MIN](../advanced_config/parameter_reference.md#PWM_MIN)，[PWM_MAX](../advanced_config/parameter_reference.md#PWM_MAX)参数来进行配置即可。 实际上，高品质的飞控也存在着不同的输入范围，因此我们推荐再次校准。
+:::note
+高品质的电调带有出厂校准。 In *theory* this means that they can be configured by just setting the [PWM_MAIN_MINn](../advanced_config/parameter_reference.md#PWM_MAIN_MIN)/[PWM_AUX_MINn](../advanced_config/parameter_reference.md#PWM_AUX_MIN) and [PWM_MAIN_MAXn](../advanced_config/parameter_reference.md#PWM_MAIN_MAX)/[PWM_AUX_MAXn](../advanced_config/parameter_reference.md#PWM_AUX_MAX) parameters to the values provided in the ESC technical specification. 实际上，即使在高质量控制器上，输入范围也可能不同，这就是建议校准的原因。
+:::

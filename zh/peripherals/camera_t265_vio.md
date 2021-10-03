@@ -2,7 +2,9 @@
 
 The [Intel Realsense Tracking Camera T265](https://www.intelrealsense.com/tracking-camera-t265/) provides odometry information that can be used for [VIO](../computer_vision/visual_inertial_odometry.md), augmenting or replacing other positioning systems on PX4.
 
-> **Tip** This camera is recommended, and is used in the [Visual Inertial Odometry (VIO) > Supported Setup](../computer_vision/visual_inertial_odometry.md#supported_setup).
+:::tip
+This camera is recommended, and is used in the [Visual Inertial Odometry (VIO) > Supported Setup](../computer_vision/visual_inertial_odometry.md#supported_setup).
+:::
 
 ![Intel Realsense Tracking Camera T265 - Angled Image](../../assets/peripherals/camera_vio/t265_intel_realsense_tracking_camera_photo_angle.jpg)
 
@@ -18,7 +20,7 @@ The instructions in [Visual Inertial Odometry (VIO)](../computer_vision/visual_i
 
 At high level:
 - The [VIO bridge ROS node](https://github.com/Auterion/VIO_bridge) provides a bridge between ROS and this camera. This node is only intended for use with this camera.
-- The camera should be mounted with lenses facing down (default). For other orientations modify [bridge_mavros.launch](https://github.com/Auterion/VIO/blob/master/launch/bridge_mavros.launch) in the section below:
+- The camera should be mounted with lenses facing down (default). For other orientations modify [bridge.launch](https://github.com/Auterion/VIO/blob/master/launch/bridge.launch) in the section below:
     ```xml
     <node pkg="tf" type="static_transform_publisher" name="tf_baseLink_cameraPose"
         args="0 0 0 0 1.5708 0 base_link camera_pose_frame 1000"/>
@@ -29,7 +31,7 @@ At high level:
 - The camera is sensitive to high frequency vibrations! It should be soft-mounted with, for example, vibration isolation foam.
 <span id="launch_files"></span> Launch files are provided for a number of different scenarios.
 
-| Launch File                                                                                                 | Starts               | Description                                                      |
+| Launch File                                                                                                 | Starts               | 参数描述                                                             |
 | ----------------------------------------------------------------------------------------------------------- | -------------------- | ---------------------------------------------------------------- |
 | [bridge_mavros.launch](https://github.com/Auterion/VIO/blob/master/launch/bridge_mavros.launch)             | Bridge, MAVROS       | Use on vehicle in most cases                                     |
 | [bridge.launch](https://github.com/Auterion/VIO/blob/master/launch/bridge.launch)                           | Bridge only          | Use if some other component is responsible for starting MAVROS). |

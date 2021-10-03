@@ -1,10 +1,15 @@
-# Pixracer 배선 퀵 스타트
+# Pixracer 배선 개요
 
-> **경고** 작성 중인 문서입니다.
+:::warning PX4에서는 이런 종류의 자동 항법 장치를 제조하지는 않습니다. 하드웨어 지원 또는 호환 문제는 [제조사](https://store.mrobotics.io/)와 상담하십시오.
+:::
 
-이 퀵 스타트 설명서는 [Pixracer](../flight_controller/pixracer.md) 비행 컨트롤러에 전원을 공급하고 중요한 주변 장치를 연결하는 방법을 설명합니다.
+:::warning
+작성 중인 문서입니다
+:::
 
-<img src="../../assets/flight_controller/pixracer/pixracer_hero_grey.jpg" width="300px" title="pixracer + 8266 grey" />
+이 설명서는 [Pixracer](../flight_controller/pixracer.md) 비행 컨트롤러에 전원을 공급하고 중요한 주변 장치를 연결하는 방법을 설명합니다.
+
+<img src="../../assets/flight_controller/pixracer/pixracer_hero_grey.jpg" width="300px" title="pixracer + 8266 회색" />
 
 ## 배선 설명서
 
@@ -18,11 +23,11 @@
 
 ### 무선/원격 컨트롤
 
-리모트 컨트롤(RC) 라디오 시스템은 기체를 *수동*으로 제어할 때 필요합니다 (PX4에는 자율 비행 모드를 위한 라디오 시스템이 필요하지 않습니다).
+무선 조종기는 기체 *수동*제어시에 사용합니다 (PX4에는 자율 비행 모드에서는 무선 조종기가 필수는 아닙니다).
 
 기체와 조종자가 서로 통신하기 위해 [호환되는 송신기/수신기를 선택하고](../getting_started/rc_transmitter_receiver.md), 송신기와 수신기를 *바인드*해야 합니다 (송신기와 수신기에 포함된 지시사항을 읽으십시오).
 
-아래 지침은 다양한 유형의 수신기를 연결하는 방법을 보여 줍니다.
+아래의 지침은 다양한 유형의 수신기를 연결하는 방법을 보여 줍니다.
 
 - FrSky 수신기는 표시된 포트를 통해 연결되며 제공된 I/O 커넥터를 사용할 수 있습니다.
     

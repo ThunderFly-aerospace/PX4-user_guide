@@ -8,7 +8,7 @@
 
 卫星通信链接需要以下组成部件：
 
-* 一个连接到Pixhawk的 [RockBlock 9603](http://www.rock7mobile.com/products-rockblock-9603) 模块，要求Pixhawk已烧写PX4固件。
+* A [RockBlock 9603](https://www.rock7.com/products/rockblock-9603-compact-plug-play-satellite-transmitter) module connected to a Pixhawk flashed with the PX4 Autopilot.
 * 运行 Ubuntu 系统的消息中继服务器。
 * 在 Ubuntu上运行 *QGroundControl* 的地面站
 
@@ -16,12 +16,12 @@
 
 ![Architecture](../../assets/satcom/architecture.jpg)
 
-> **请注意：**该安装在将当前版本的*QGroundControl* 部署到Ubuntu 14.04 和 16.04上时测试通过。
+:::note
+The setup was tested with the current release of *QGroundControl* running on Ubuntu 14.04 and 16.04.
 
-    或许可以在其他地面站和操作系统上运行该系统， 但尚未对此进行测试（而且无法保证工作）。
-    -也可以使用 [RockBlock MK2]（http://www.rock7mobile.com/products-rockblock）模块。 
-      推荐使用RockBlock 9603模块，因为它不但功能相同，而且更小更轻。
-    
+* It may be possible to run the system on other ground stations and operating systems, but this has not been tested (and is not guaranteed to work).
+* The [RockBlock MK2](https://www.rock7.com/products/rockblock-iridium-9602-satellite-modem) module can also be used. The RockBlock 9603 module is recommended because it is smaller and lighter, while providing the same functionality.
+:::
 
 ## Costs
 
@@ -42,7 +42,7 @@ Connect the RockBlock module to a serial port of the Pixhawk. Due to the power r
 
 The module can either use the internal antenna or an external one connected to the SMA connector. To [switch between the two antennas modes](https://docs.rockblock.rock7.com/docs/switching-rockblock-9603-antenna-mode) the position of a small RF link cable needs to changed. If an external antenna is used always make sure that the antenna is connected to the module before powering it up to avoid damage to the module.
 
-The default baud rate of the module is 19200. However, the PX4 *iridiumsbd* driver requires a baud rate of 115200 so it needs to be changed using the [AT commands](http://www.rock7mobile.com/downloads/IRDM_ISU_ATCommandReferenceMAN0009_Rev2.0_ATCOMM_Oct2012.pdf).
+The default baud rate of the module is 19200. However, the PX4 *iridiumsbd* driver requires a baud rate of 115200 so it needs to be changed using the [AT commands](https://www.rock7.com/downloads/IRDM_ISU_ATCommandReferenceMAN0009_Rev2.0_ATCOMM_Oct2012.pdf).
 
 1. Connect to the module with using a 19200/8-N-1 setting and check if the communication is working using the command: `AT`. The response should be: `OK`.
 2. Change the baud rate: ```AT+IPR=9```
@@ -54,7 +54,13 @@ The module is now ready to be used with PX4.
 
 [Configure the serial port](../peripherals/serial_configuration.md) on which the RockBlock module will run using [ISBD_CONFIG](../advanced_config/parameter_reference.md#ISBD_CONFIG). There is no need to set the baud rate for the port, as this is configured by the driver.
 
-> **Note** If the configuration parameter is not available in *QGroundControl* then you may need to [add the driver to the firmware](../peripherals/serial_configuration.md#parameter_not_in_firmware): ```drivers/telemetry/iridiumsbd```
+:::note
+If the configuration parameter is not available in *QGroundControl* then you may need to [add the driver to the firmware](../peripherals/serial_configuration.md#parameter_not_in_firmware):
+
+    drivers/telemetry/iridiumsbd
+    
+
+:::
 
 ## RockBlock Setup
 
@@ -118,7 +124,7 @@ To setup the ground station:
     
     ![High Latency Link Settings](../../assets/satcom/linksettings.png)
 
-### Verification
+### 验证
 
 1. Open a terminal on the ground station computer and change to the location of the *SatComInfrastructure* repository. Then start the **udp2rabbit.py** script: ```./udp2rabbit.py```
 
@@ -130,7 +136,7 @@ If in the terminal where the `udp2rabbit.py` script is running within a couple o
 
 ## Running the System
 
-1. Start *QGroundControl*. Manually connect the high latency link first, then the regular telemetry link:
+1. 开启 *QGroundControl*。 Manually connect the high latency link first, then the regular telemetry link:
   
   ![Connect the High Latency link](../../assets/satcom/linkconnect.png)
 
@@ -168,4 +174,4 @@ If in the terminal where the `udp2rabbit.py` script is running within a couple o
 
 * A first message is received on the ground but as soon as the vehicle is flying no message can be transmitted or the latency is significantly larger (in the order of minutes)
   
-  * Check the signal quality after the flight. If it is decreasing during the flight and you are using the internal antenna consider using an external antenna. If you are already using the external antenna try moving the antenna as far away as possible from any electronics or anything which might disturb the signal. Also make sure that the antenna is is not damaged.
+  * Check the signal quality after the flight. If it is decreasing during the flight and you are using the internal antenna consider using an external antenna. If you are already using the external antenna try moving the antenna as far away as possible from any electronics or anything which might disturb the signal. Also make sure that the antenna is not damaged.

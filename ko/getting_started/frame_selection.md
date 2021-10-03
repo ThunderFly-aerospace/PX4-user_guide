@@ -1,32 +1,18 @@
-# 프레임 선택
+# 기체 선택
 
-## 기체
+PX4는 항공, 지상, 수상 및 수중 차량을 지원합니다. PX4와 호환되는 차량 프레임의 전체 목록은 [기체 정의서](../airframes/airframe_reference.md)를 참고하십시오.
 
-If you plan using PX4 for flying aircraft the most important question you should answer is, what will be the application. Is it for fun or for work, what is the planned flight times and coverage.
+아래를 참고하여 목적에 적합한 기체를 선택하십시오.
 
-- If you need precision hovering and you don't mind shorter flight times then focus on **Multicopters**.
-- For longer flights and larger areas of coverage you will need fixed wing aircraft i.e. **Airplanes**.
-- There is even mixed type of aircraft called **VTOL** - Vertical Takeoff and Landing aircraft. It can take off in vertical mode like Multicopter and then transition in forward flight like Airplane.
+- **멀티 콥터**는 저속 단거리 비행용이며, 정밀한 호버링과 수직 이착륙의 장점을 가지고 있습니다. PX4는 드론 비행에 널리 사용되는 편리한 비행 모드들을 제공합니다.
+- **고정익**은 전방 장거리 고속 비행용에 적합하며, 항공 감시 등의 목적으로 사용됩니다. 멀티콥터보다 이착륙이 어렵고 호버링이나 저속 비행(예 : 수직 구조물 조사 등)등 에는 적합하지 않는 단점이 있습니다.
+- **VTOL**(수직 이착륙기)은 틸트로터, 테일 시터, 쿼드 플레인 등의 다양한 기체 유형들이 있습니다. 멀티콥터의 수직 이착륙 및 호버링의 장점과 고정익의 전방 고속 비행의 장점을 모두 가지고 있습니다. 멀티콥터와 고정익보다 비싸고 제작과 튜닝이 어려운 단점이 있습니다.
+- **비행선과 풍선**은 비행 속도와 방향 제어가 극히 제한되며, 저비용 고고도 장기 비행에 적합한 공기보다 가벼운 기체입니다.
+- **로버**는 자동차와 같은 지상용 차량입니다. 제어와 사용이 용이합니다.
+- **보트**는 수상 차량입니다.
+- **잠수정**은 수중 차량입니다.
 
-The [airframe reference](../airframes/airframe_reference.md) lists frames that have been tuned for perfect flight with PX4.
+:::note PX4의 초기 [기체 설정](../config/airframe.md)은 *QGroundControl*을 사용합니다.
 
-Once you select and buy or assemble your air-frame you will have to preset it in *QGroundControl* with a template during the [Initial Setup process](../config/README.md).
-
-![프레임 선택](../../assets/qgc/setup/airframe/frame_selection.png)
-
-<!-- 
-### Types of VTOL
-
-Depending on the way the VTOL flies in copter mode or how it makes the transition there are three main types of VTOL aircraft.
-
-**Multicopter - Airplane** - Generic airplane with pusher/puller motor and separate motors for vertical thrust. The VTOL hovers with its vertical motors. The transition is done when the forward motors are enabled and after the plane reaches cruising speed the hover motors are disabled in horizontal flight.
-
-**Tail-sitter** - Airplane with two or more motors that sits on its tail while landed, then in vertical flight it balances in vertical frame orientation. The transition is made when the whole airplane changes its orientation from vertical to horizontal.
-
-**Tilt-rotor** - Airplane with two or more motors that mechanical swing around an Y axis. The transition is done when gradually the motors change the thrust vector from vertical to horizontal.
-
--->
-
-## 지상 기체
-
-## 해양 기체
+![프레임 선택 ](../../assets/qgc/setup/airframe/airframe_px4.jpg)
+:::

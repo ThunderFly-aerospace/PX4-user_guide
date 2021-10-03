@@ -1,26 +1,30 @@
 # ESC 캘리브레이션
 
-> **Note** 이 지침은 [PWM ESC](../peripherals/pwm_escs_and_servo.md)에 한정 합니다.
+:::note
+이 섹션은 [PWM ESC](../peripherals/pwm_escs_and_servo.md)에 관한 것입니다.
+:::
 
-전자 속도 제어기(ESC)는 비행 제어기(FC)의 PWM 입력 값을 기반으로 모터 속도(및 방향)를 조절합니다. ESC가 응답할 입력 범위는 설정 가능하며, 동일한 모델의 ESC간에도 기본 응답 범위가 다를 수 있습니다.
+전자속도 콘트롤러 (ESC)는 비행 콘트롤러(FC)의 PWM 입력 값을 기반으로 모터 속도와 방향을 조절합니다. ESC 입력 범위는 설정 가능하며, 동일한 모델의 ESC에도 응답 범위가 다를 수 있습니다.
 
-ESC 캘리브레이션은 모든 ESC를 비행 컨트롤러가 제공하는 동일한 최대 및 최소 PWM 신호값으로 업데이트합니다. 결과적으로 모든 ESC/모터는(전체 입력 범위에서) 동일한 방식으로 비행 컨트롤러 입력에 응답합니다.
+비행 콘트롤러에서 입력하는 최대/최소 PWM 입력값으로 ESC를 업데이트합니다. 결과적으로, 모든 ESC와 모터는 같은 방식으로 (전체 입력 범위에 걸쳐) 비행 콘트롤러 입력에 반응합니다.
 
-모든 ESC, 특히 저가 모델의 경우에 캘리브레이션이 권장됩니다.
+특히, 저비용 ESC는 보정이 중요합니다.
 
 ## 전제 조건
 
-시스템에는 전원 모듈이 있어야합니다. (PX4는 측정된 전압을 사용하여 배터리 연결 여부를 결정합니다).
+시스템에는 전원 모듈이 포함되어야합니다. PX4는 측정된 전압으로 배터리 연결 여부를 판별합니다.
 
 ## 단계 
 
-ESC를 캘리브레이션하려면 다음을 수행하십시오.
+ESC를 보정하려면 :
 
 1. 프로펠러를 분리하십시오.
     
-    > **경고** 절대로 프로펠러를 장착하고 ESC 캘리브레이션을 수행하지 마십시오.
-    > 
-    > 모터는 ESC 캘리브레이션 동안 작동하지 않습니다. 그러나 만약 ESC가 캘리브레이션 시퀀스를 적절히 지원하거나 감지하지 않으면, ESC는 모터를 최대 속도로 회전시키는 것으로 PWM 입력신호에 응답합니다.
+:::warning
+프로펠러를 장착한 상태에서 ESC 보정을 하지 마십시오.
+    
+    ESC 보정중에는 모터가 회전하지 않아야 합니다. 그러나, ESC가 보정 시퀀스를 제대로 지원/감지하지 않으면 모터를 최대 속도로 실행하여 PWM 입력에 응답합니다.
+:::
 
 2. 배터리를 분리하고 USB만을 사용하여 비행 컨트롤러를 연결하십시오.(그 외 다른 연결 방법을 사용하지 마십시오.)
 
@@ -40,4 +44,6 @@ ESC를 캘리브레이션하려면 다음을 수행하십시오.
     
     ![ESC 캘리브레이션 단계 4](../../assets/qgc/setup/esc/esc_calibration_step_4.png)
 
-> **참고** 고품질 컨트롤러는 출고 시 공정 캘리브레이션이 되어 있습니다. *이론적으로* 캘리브레이션은 [PWM_MIN](../advanced_config/parameter_reference.md#PWM_MIN)과 [PWM_MAX](../advanced_config/parameter_reference.md#PWM_MAX) 파라미터를 ESC 기술 사양에 기재된 값으로 설정하는 것으로 완료할 수 있습니다. 하지만 실제로는 PWM 입력 범위가 고품질 컨트롤러에서도 (출고 시 설정값과) 다를 수 있으므로 캘리브레이션이 권장됩니다.
+:::note
+고품질의 컨트롤러는 공장에서 보정후에 판매됩니다. *이론*적으로는 [PWM_MAIN_MINn](../advanced_config/parameter_reference.md#PWM_MAIN_MIN)/[PWM_AUX_MINn](../advanced_config/parameter_reference.md#PWM_AUX_MIN) 와[PWM_MAIN_MAXn](../advanced_config/parameter_reference.md#PWM_MAIN_MAX)/[PWM_AUX_MAXn](../advanced_config/parameter_reference.md#PWM_AUX_MAX) 매개변수만 ESC 기술 사양에 제공된 값으로 변경할 수 있습니다. 그러나, 실제로는 PWM 입력 범위가 고품질 콘트롤러에서도 출고시 설정값과 다를 수 있으므로, 보정을 하는 것이 좋습니다.
+:::

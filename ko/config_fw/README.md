@@ -1,3 +1,3 @@
-# Fixed Wing Vehicle Configuration
+# 고정익 설정
 
-This section contains configuration and tuning topics related to fixed wing vehicles.
+고정익 설정과 튜닝 방법에 대하여 설명합니다.

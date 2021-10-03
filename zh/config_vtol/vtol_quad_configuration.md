@@ -10,17 +10,23 @@
 
 ### 飞行模式/模式转换
 
-In *QGroundControl* assign a switch of your remote to the transition function during the RC calibration step or by setting [RC_MAP_TRANS_SW](../advanced_config/parameter_reference.md#RC_MAP_TRANS_SW).
+You should assign a switch on your RC controller for switching between the multicopter- and fixed wing modes.
 
-这个按钮可以让你在固定翼和多旋翼两个模式进行切换。 The switch in the off-position means that you are flying in multicopter mode.
+:::note
+While PX4 allows flight without an RC controller, you must have one when tuning/configuring up a new airframe.
+:::
+
+This is done in [Flight Mode](../config/flight_mode.md) configuration, where you [assign flight modes and other functions](../config/flight_mode.md#what-flight-modes-and-switches-should-i-set) to switches on your RC controller. The switch can also be assigned using the parameter [RC_MAP_TRANS_SW](../advanced_config/parameter_reference.md#RC_MAP_TRANS_SW).
+
+The switch in the off-position means that you are flying in multicopter mode.
 
 ### 多旋翼/固定翼调参
 
-Before you attempt your first transition to fixed wing flight you need to make absolutely sure that your VTOL is well tuned in multirotor mode. One reason is this is the mode you will return to if something goes wrong with a transition and it could be it will be moving fairly quickly already. 如果你多旋翼模式没调好的话，可能会炸机。
+Before you attempt your first transition to fixed wing flight you need to make absolutely sure that your VTOL is well tuned in multirotor mode. One reason is this is the mode you will return to if something goes wrong with a transition and it could be it will be moving fairly quickly already. If it isn’t well tuned bad things might happen.
 
 If you have a runway available and the total weight isn’t too high you will also want to tune fixed wing flight as well. If not then you will be attempting this when it switches to fixed wing mode. If something goes wrong you need to be ready (and able) to switch back to multirotor mode.
 
-Follow the the respective tuning guides on how to tune multirotors and fixed wings.
+Follow the respective tuning guides on how to tune multirotors and fixed wings.
 
 ### 转换调参
 
@@ -28,7 +34,9 @@ While it might seem that you are dealing with a vehicle that can fly in two mode
 
 Getting your transition tuning right is important for obtaining a safe entry into fixed wing mode, for example, if your airspeed is too slow when it transitions it might stall.
 
-#### Transition Throttle {#transition_throttle}
+<span id="transition_throttle"></span>
+
+#### 过渡阶段油门
 
 Parameter: [VT_F_TRANS_THR](../advanced_config/parameter_reference.md#VT_F_TRANS_THR)
 
@@ -70,7 +78,9 @@ Activating permanent stabilisation will result in fixed wing flight being stabil
 
 Note that if you have not yet tuned your fixed wing mode you should leave this off until you are sure it behaves well in this mode.
 
-### 过渡模式小提示 {#transitioning_tips}
+<span id="transitioning_tips"></span>
+
+### 过渡模式小提示
 
 As already mentioned make sure you have a well tuned multirotor mode. If during a transition something goes wrong you will switch back to this mode and it should be quite smooth.
 
@@ -92,7 +102,9 @@ Start your transition. It should transition within 50 – 100 meters. If it does
 
 As soon as you notice the transition happen be ready to handle height loss which may include throttling up quickly.
 
-> **Caution** The following feature has been discussed but not implemented yet: Once the transition happens the multirotor motors will stop and the pusher/puller throttle will remain at the `VT_F_TRANS_THR` level until you move the throttle stick, assuming you are in manual mode.
+:::caution
+The following feature has been discussed but not implemented yet: Once the transition happens the multirotor motors will stop and the pusher/puller throttle will remain at the `VT_F_TRANS_THR` level until you move the throttle stick, assuming you are in manual mode.
+:::
 
 #### 过渡：从固定翼模式过渡到多旋翼模式（后转换）
 
@@ -102,7 +114,9 @@ Consider that the throttle value you have when you transition will command the a
 
 For advanced tuning of the back-transition please refer to the [Back-transition Tuning Guide](vtol_back_transition_tuning.md)
 
-#### 紧急切出过渡模式 {#aborting_a_transition}
+<span id="aborting_a_transition"></span>
+
+#### 紧急切出过渡模式
 
 It’s important to know what to expect when you revert a transition command *during* a transition.
 

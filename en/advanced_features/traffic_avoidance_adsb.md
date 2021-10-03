@@ -4,18 +4,19 @@ PX4 can use [ADS-B](https://en.wikipedia.org/wiki/Automatic_dependent_surveillan
 If a potential collision is detected, PX4 can *warn*, immediately [land](../flight_modes/land.md), or [return](../flight_modes/return.md) (depending on the value of [NAV_TRAFF_AVOID](#NAV_TRAFF_AVOID)).
 
 
-## Supported Hardware {#supported_hardware}
+<a id="supported_hardware"></a>
+## Supported Hardware
 
 PX4 traffic avoidance works with ADS-B or FLARM products that supply transponder data using the MAVLink [ADSB_VEHICLE](https://mavlink.io/en/messages/common.html#ADSB_VEHICLE) message.
 
 It has been tested with the following devices:
 - [PingRX ADS-B Receiver](https://uavionix.com/product/pingrx/) (uAvionix)
-- [FLARM](https://flarm.com/products/powerflarm/uav/)
+- [FLARM](https://flarm.com/products/powerflarm/uav/) 
 
 
 ## Hardware Setup
 
-Either device can can be connected to any free/unused serial port on the flight controller.
+Either device can be connected to any free/unused serial port on the flight controller.
 Most commonly it they are connected to TELEM2 (if this is not being use for some other purpose).
 
 ### PingRX
@@ -46,8 +47,9 @@ Pin | Signal | Volt
 5 (blk) | - | +3.3V
 6 (blk) | GND      | GND
 
-> **Note** The TX and RX on the flight controller must be connected to the RX and TX on the FLARM, respectively.
-
+:::note
+The TX and RX on the flight controller must be connected to the RX and TX on the FLARM, respectively.
+:::
 
 ## Software Configuration
 
@@ -66,8 +68,6 @@ Assuming you have connected the device to the TELEM2 port, [set the parameters](
 Then reboot the vehicle. 
 
 You will now find a new parameter called [SER_TEL2_BAUD](../advanced_config/parameter_reference.md#SER_TEL2_BAUD), which must be set to 57600.
-
-> **Note** Prior to PX4 v1.9 you can set up the port using the deprecated parameter: `SYS_COMPANION`.
 
 ### Configure Traffic Avoidance
 
@@ -90,7 +90,7 @@ If the crossing point is less than the configured distance for altitude and path
 The detection distance can be configured separately for manned and unmanned aviation.
 
 
-The code can be found in `Navigator::check_traffic` ([/src/modules/navigator/navigator_main.cpp](https://github.com/PX4/Firmware/blob/master/src/modules/navigator/navigator_main.cpp)).
+The code can be found in `Navigator::check_traffic` ([/src/modules/navigator/navigator_main.cpp](https://github.com/PX4/PX4-Autopilot/blob/master/src/modules/navigator/navigator_main.cpp)).
 
 PX4 will also forward the transponder data to a GCS if this has been configured for the MAVLink instance (this is recommended).
 The last 10 Digits of the GUID is displayed as Drone identification.

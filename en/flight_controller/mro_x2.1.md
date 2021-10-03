@@ -1,10 +1,18 @@
 # mRo-X2.1 Autopilot
 
-The [mRo-X2.1 autopilot](http://www.mRobotics.io/) is based on the [Pixhawk<sup>&reg;</sup>-project](https://pixhawk.org/) **FMUv2** open hardware design. It runs PX4 on the [NuttX](http://nuttx.org) OS.
+:::warning
+PX4 does not manufacture this (or any) autopilot.
+Contact the [manufacturer](https://store.mrobotics.io/) for hardware support or compliance issues.
+:::
+
+The [mRo-X2.1 autopilot](http://www.mRobotics.io/) is based on the [Pixhawk<sup>&reg;</sup>-project](https://pixhawk.org/) **FMUv2** open hardware design.
+It runs PX4 on the [NuttX](https://nuttx.apache.org/) OS.
 
 ![mRo X2.1](../../assets/flight_controller/mro/mro_x2.1.jpg)
 
-> **Note** This flight controller is [manufacturer supported](../flight_controller/autopilot_manufacturer_supported.md).
+:::note
+This flight controller is [manufacturer supported](../flight_controller/autopilot_manufacturer_supported.md).
+:::
 
 ## Quick Summary
 
@@ -68,7 +76,7 @@ The update steps are:
 
 ## Availability
 
-This product can be ordered at the [mRobotics<sup>&reg;</sup> Store](https://store.mrobotics.io/mRo-X2-1-Rev-2-p/mro-x2.1rv2-mr.htm).
+This product can be ordered at the [mRobotics<sup>&reg;</sup> Store](https://store.mrobotics.io/mRo-X2-1-Rev-2-p/m10021a.htm).
  
 ## Wiring Guide
 
@@ -76,10 +84,12 @@ This product can be ordered at the [mRobotics<sup>&reg;</sup> Store](https://sto
 
 ## Building Firmware
 
-> **Tip** Most users will not need to build this firmware!
-  It is pre-built and automatically installed by *QGroundControl* when appropriate hardware is connected.
+:::tip
+Most users will not need to build this firmware!
+It is pre-built and automatically installed by *QGroundControl* when appropriate hardware is connected.
+:::
 
-To [build PX4](https://dev.px4.io/master/en/setup/building_px4.html) for this target:
+To [build PX4](../dev_setup/building_px4.md) for this target:
 ```
 make mro_x21_default
 ```
@@ -100,3 +110,5 @@ UART4 | /dev/ttyS3 | GPS/I2C
 USART6 | /dev/ttyS4 | PX4IO
 UART7 | /dev/ttyS5 | SERIAL5 CONSOLE
 UART8 | /dev/ttyS6 | SERIAL4
+
+<!-- Note: Got ports using https://github.com/PX4/px4_user_guide/pull/672#issuecomment-598198434 -->

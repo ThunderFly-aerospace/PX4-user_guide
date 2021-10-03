@@ -8,7 +8,7 @@ This topic describes how to set up a system that uses RockBlock as the service p
 
 The following components are needed for the satellite communication link:
 
-* A [RockBlock 9603](http://www.rock7mobile.com/products-rockblock-9603) module connected to a Pixhawk flashed with the PX4 Autopilot.
+* A [RockBlock 9603](https://www.rock7.com/products/rockblock-9603-compact-plug-play-satellite-transmitter) module connected to a Pixhawk flashed with the PX4 Autopilot.
 * A message relay server running Ubuntu Linux.
 * A ground station computer running *QGroundControl* on Ubuntu Linux
 
@@ -16,12 +16,12 @@ The full system architecture is shown below:
 
 ![Architecture](../../assets/satcom/architecture.jpg)
 
-> **Note** The setup was tested with the current release of *QGroundControl* running on Ubuntu 14.04 and 16.04.
+:::note
+The setup was tested with the current release of *QGroundControl* running on Ubuntu 14.04 and 16.04.
 
-    - It may be possible to run the system on other ground stations and operating systems, but this has not been tested (and is not guaranteed to work).
-    - The [RockBlock MK2](http://www.rock7mobile.com/products-rockblock) module can also be used. 
-      The RockBlock 9603 module is recommended because it is smaller and lighter, while providing the same functionality.
-    
+* It may be possible to run the system on other ground stations and operating systems, but this has not been tested (and is not guaranteed to work).
+* The [RockBlock MK2](https://www.rock7.com/products/rockblock-iridium-9602-satellite-modem) module can also be used. The RockBlock 9603 module is recommended because it is smaller and lighter, while providing the same functionality.
+:::
 
 ## Costs
 
@@ -42,7 +42,7 @@ Connect the RockBlock module to a serial port of the Pixhawk. Due to the power r
 
 The module can either use the internal antenna or an external one connected to the SMA connector. To [switch between the two antennas modes](https://docs.rockblock.rock7.com/docs/switching-rockblock-9603-antenna-mode) the position of a small RF link cable needs to changed. If an external antenna is used always make sure that the antenna is connected to the module before powering it up to avoid damage to the module.
 
-The default baud rate of the module is 19200. However, the PX4 *iridiumsbd* driver requires a baud rate of 115200 so it needs to be changed using the [AT commands](http://www.rock7mobile.com/downloads/IRDM_ISU_ATCommandReferenceMAN0009_Rev2.0_ATCOMM_Oct2012.pdf).
+The default baud rate of the module is 19200. However, the PX4 *iridiumsbd* driver requires a baud rate of 115200 so it needs to be changed using the [AT commands](https://www.rock7.com/downloads/IRDM_ISU_ATCommandReferenceMAN0009_Rev2.0_ATCOMM_Oct2012.pdf).
 
 1. Connect to the module with using a 19200/8-N-1 setting and check if the communication is working using the command: `AT`. The response should be: `OK`.
 2. Change the baud rate: ```AT+IPR=9```
@@ -54,7 +54,13 @@ The module is now ready to be used with PX4.
 
 [Configure the serial port](../peripherals/serial_configuration.md) on which the RockBlock module will run using [ISBD_CONFIG](../advanced_config/parameter_reference.md#ISBD_CONFIG). There is no need to set the baud rate for the port, as this is configured by the driver.
 
-> **Note** If the configuration parameter is not available in *QGroundControl* then you may need to [add the driver to the firmware](../peripherals/serial_configuration.md#parameter_not_in_firmware): ```drivers/telemetry/iridiumsbd```
+:::note
+If the configuration parameter is not available in *QGroundControl* then you may need to [add the driver to the firmware](../peripherals/serial_configuration.md#parameter_not_in_firmware):
+
+    drivers/telemetry/iridiumsbd
+    
+
+:::
 
 ## RockBlock Setup
 
@@ -168,4 +174,4 @@ If in the terminal where the `udp2rabbit.py` script is running within a couple o
 
 * A first message is received on the ground but as soon as the vehicle is flying no message can be transmitted or the latency is significantly larger (in the order of minutes)
   
-  * Check the signal quality after the flight. If it is decreasing during the flight and you are using the internal antenna consider using an external antenna. If you are already using the external antenna try moving the antenna as far away as possible from any electronics or anything which might disturb the signal. Also make sure that the antenna is is not damaged.
+  * Check the signal quality after the flight. If it is decreasing during the flight and you are using the internal antenna consider using an external antenna. If you are already using the external antenna try moving the antenna as far away as possible from any electronics or anything which might disturb the signal. Also make sure that the antenna is not damaged.

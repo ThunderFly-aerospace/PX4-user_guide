@@ -12,9 +12,15 @@ For airframe specific documentation and build instructions see [VTOL Framebuilds
 
 ### Flight / Transition Mode Switch
 
-In *QGroundControl* assign a switch of your remote to the transition function during the RC calibration step or by setting [RC_MAP_TRANS_SW](../advanced_config/parameter_reference.md#RC_MAP_TRANS_SW).
+You should assign a switch on your RC controller for switching between the multicopter- and fixed wing modes.
 
-This allows you to switch between the multicopter- and fixed wing mode.
+:::note
+While PX4 allows flight without an RC controller, you must have one when tuning/configuring up a new airframe.
+:::
+
+This is done in [Flight Mode](../config/flight_mode.md) configuration, where you [assign flight modes and other functions](../config/flight_mode.md#what-flight-modes-and-switches-should-i-set) to switches on your RC controller.
+The switch can also be assigned using the parameter [RC_MAP_TRANS_SW](../advanced_config/parameter_reference.md#RC_MAP_TRANS_SW).
+
 The switch in the off-position means that you are flying in multicopter mode.
 
 
@@ -28,7 +34,7 @@ If you have a runway available and the total weight isn’t too high you will al
 If not then you will be attempting this when it switches to fixed wing mode.
 If something goes wrong you need to be ready (and able) to switch back to multirotor mode.
 
-Follow the the respective tuning guides on how to tune multirotors and fixed wings.
+Follow the respective tuning guides on how to tune multirotors and fixed wings.
 
 
 ### Transition Tuning
@@ -37,7 +43,8 @@ While it might seem that you are dealing with a vehicle that can fly in two mode
 
 Getting your transition tuning right is important for obtaining a safe entry into fixed wing mode, for example, if your airspeed is too slow when it transitions it might stall.
 
-#### Transition Throttle {#transition_throttle}
+<span id="transition_throttle"></span>
+#### Transition Throttle
 
 Parameter: [VT_F_TRANS_THR](../advanced_config/parameter_reference.md#VT_F_TRANS_THR)
 
@@ -92,7 +99,8 @@ As soon as a transition to fixed wing occurs it will be stabilised.
 Note that if you have not yet tuned your fixed wing mode you should leave this off until you are sure it behaves well in this mode.
 
 
-### Transitioning Tips {#transitioning_tips}
+<span id="transitioning_tips"></span>
+### Transitioning Tips
 
 As already mentioned make sure you have a well tuned multirotor mode.
 If during a transition something goes wrong you will switch back to this mode and it should be quite smooth.
@@ -125,9 +133,10 @@ If you are using an airspeed sensor consider lowering the transition airspeed bu
 
 As soon as you notice the transition happen be ready to handle height loss which may include throttling up quickly.
 
-> **Caution** The following feature has been discussed but not implemented yet: 
-  Once the transition happens the multirotor motors will stop and the pusher/puller throttle will remain at the `VT_F_TRANS_THR` level until you move the throttle stick, assuming you are in manual mode.
-
+:::caution
+The following feature has been discussed but not implemented yet: 
+Once the transition happens the multirotor motors will stop and the pusher/puller throttle will remain at the `VT_F_TRANS_THR` level until you move the throttle stick, assuming you are in manual mode.
+:::
 
 #### Transition: Fixed Wing to Multirotor (Back-transition)
 
@@ -139,7 +148,8 @@ Because the wing will still be flying you’ll find you have plenty of time to a
 For advanced tuning of the back-transition please refer to the [Back-transition Tuning Guide](vtol_back_transition_tuning.md)
 
 
-#### Aborting a Transition {#aborting_a_transition}
+<span id="aborting_a_transition"></span>
+#### Aborting a Transition
 
 It’s important to know what to expect when you revert a transition command *during* a transition.
 

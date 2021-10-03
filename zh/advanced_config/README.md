@@ -1,7 +1,9 @@
 # 高级配置
 
-本节包含各种高级配置的主题,包括无人机的调参,以及较不常见的传感器和外围设备。
+本节包含高级配置主题，覆盖特殊载具调参，以及不常见的传感器和外设。
 
-> **Tip** 如果要创建新的机架类型或大幅度修改已支持的机架，这些主题将非常有用。 通常，如果您使用的是[已支持的机型](../airframes/airframe_reference.md#copter)（例如, [QGroundControl](../config/airframe.md)中的机架）， 则默认的参数和设置应足以安全地飞行。
+:::tip
+如果要创建新的机架类型或者大幅度修改已经支持的机架，这些主题会有用。 一般来说，如果使用[支持的机架](../airframes/airframe_reference.md#copter)（例如来自[QGroundControl > 机架](../config/airframe.md)），默认的调校和配置应该是可以接受的。
+:::
 
-对于每个无人机机型的标准配置，请参阅：[基本配置](../config/README.md)。
+适合每一种载具的标准配置见： [基本配置](../config/README.md)。

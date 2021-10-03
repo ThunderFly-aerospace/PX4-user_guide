@@ -8,11 +8,13 @@ Hardware for the SiK radio can be obtained from various manufacturers/stores in 
 
 ![SiK 电台](../../assets/hardware/telemetry/holybro_sik_radio.jpg)
 
-## Vendors {#vendors}
+<a id="vendors"></a>
+
+## Vendors
 
 * [RFD900 遥测无线电](../telemetry/rfd900_telemetry.md)
-* [HKPilot Telemetry Radio](../telemetry/hkpilot_sik_radio.md)
 * [Holybro Telemetry Radio](../telemetry/holybro_sik_radio.md)
+* <del><em>HKPilot Telemetry Radio</em></del> (Discontinued)
 * <del><em>3DR Telemetry Radio</em></del> (Discontinued)
 
 ## 安装/配置
@@ -29,4 +31,4 @@ You can update the radio firmware using *QGroundControl*: [QGroundControl User G
 
 ## 高级安装/配置
 
-The PX4 Developer Guide has [additional information](https://dev.px4.io/master/en/data_links/sik_radio.html) about building firmware and AT-command based configuration. This should not be required by non-developers.
+The Development section has [additional information](../data_links/sik_radio.md) about building firmware and AT-command based configuration. This should not be required by non-developers.

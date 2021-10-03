@@ -1,70 +1,33 @@
 # ESP8266 WiFi 模块
 
-ESP8266 是一款低成本且易于使用的 Wi-Fi 模块，具有完整的 TCP/IP 协议栈和微控制器功能。 It can be used with any Pixhawk series controller.
+The ESP8266 and its clones are low-cost and readily available Wi-Fi modules with full TCP/IP stack and microcontroller capability. They can be used with any Pixhawk series controller.
 
-> **Tip** ESP8266是 *事实上的* 默认WiFi模块，用于 [Pixracer](../flight_controller/pixracer.md) (通常与其捆绑在一起)。
+:::tip ESP8266 is the *defacto* default WiFi module for use with [Pixracer](../flight_controller/pixracer.md) (and is usually bundled with it).
+:::
 
 ## 购买地点
 
-该模块是现成的。 下面列出了一些供应商。
+The ESP8266 module is readily available from a number of suppliers. A few vendors are listed below.
 
-- [Sparkfun](https://www.sparkfun.com/products/13678)
-- [GearBeast](https://us.gearbest.com/boards-shields/pp_009604906563.html)
+Most modules support 3.3 V input (only), while some flight controllers (e.g. Pixhawk 4) output at 5V (you will need to check compatibility and step down the voltage if needed).
 
-## 模块设置
+Modules that accept 3.3V supply:
 
-ESP8266固件具有以下 *工厂* 设置：
+* [WRL-17146](https://www.sparkfun.com/products/13678) (Sparkfun)
+* [AI Cloud](https://us.gearbest.com/boards-shields/pp_009604906563.html) - discontinued (GearBeast)
 
-- SSID: PixRacer
-- Password: pixracer
-- WiFi Channel: 11
-- UART speed 921600
+Modules that accept 5.0V supply:
 
-### 从源文件编译
+* [AI Thinker](https://www.banggood.com/Wireless-Wifi-to-Uart-Telemetry-Module-With-Antenna-for-Mini-APM-Flight-Controller-p-1065339.html) (Banggood)
+* [AlphaUAVLink](https://www.banggood.com/MAVLink-Wifi-Bridge-2_4G-Wireless-Wifi-Telemetry-Module-with-Antenna-for-Pixhawk-APM-Flight-Controller-p-1428590.html) (Banggood)
 
-[固件仓库](https://github.com/dogmaphobic/mavesp8266) 包含编译和下载固件所需的所有指令和工具。
+<span id="px4_config"></span>
 
-### 预编译二进制文件
+## Pixhawk/PX4 Setup & Configuration
 
-[MavLink ESP8266 Firmware V 1.2.2](http://www.grubba.com/mavesp8266/firmware-1.2.2.bin)
-
-### 更新固件
-
-如果您安装了 1.0.4 或更高版本的固件，则可以通过使用 ESP 的 *Over The Air Update* 特性进行更新。 Just connect to its AP WiFi link and browse to: `http://192.168.4.1/update`. 然后，您可以选择上面下载的固件文件，并将其上传到 WiFi 模块。
-
-### Flashing the ESP8266 Firmware
-
-在下载之前，请确保在 *Flash Mode* 中启动 ESP8266，如下所述。 如果您克隆了 [MavESP8266](https://github.com/dogmaphobic/mavesp8266)存储库，您可以使用提供的 [PlatformIO](http://platformio.org) 工具和环境编译和下载固件。 如果下载了上面预先编译的固件，请下载 [esptool](https://github.com/espressif/esptool) 实用程序，并使用下面的命令行：
-
-    esptool.py --baud 921600 --port /dev/your_serial_port write_flash 0x00000 firmware_xxxxx.bin
-    
-
-其中：
-
-- **firmware_xxxxx.bin** 是您上面下载的固件
-- **your_serial_port** 是ESP 8266连接到的串行端口的名称 (例如 `/dev/cu.usbmodem`) 。
-
-### 下载固件接线
-
-> **Warning** ESP8266 必须仅以 3.3 伏特供电。
-
-将 ESP8266 设置为 *Flash Mode* 有多种方法，但并非所有 USB/UART 适配器都为自动模式切换提供了所有必要的引脚。 为了以 *Flash Mode* 启动 ESP8266，必须将 GPIO-0 引脚设置为低(GND)，必须将 CH_PD 引脚设置为高(VCC)。 这就是我自己的设置：
-
-![eSP8266 下载图](../../assets/hardware/telemetry/esp8266_flashing_rig.jpg)
-
-我制作了一条电缆，其中 RX、TX、VCC 和 GND 可以从 FTDI 适配器直接连接到 ESP8266。 我为 ESP8266 留下了两条空闲线，并连接到 GPIO-0 和 CH_PD ，这样我可以通过把它们分别连接到 GND 和 VCC 而在正常或在 Flash Mode 下启动 ESP8266。
-
-### ESP8266 (ESP-01) 引脚图
-
-![eSP8266 无线模块引脚图](../../assets/hardware/telemetry/esp8266_pinout.jpg)
-
-### Flashing Diagram using an FTDI USB/UART Adapter
-
-![eSP8266 下载](../../assets/hardware/telemetry/esp8266_flashing_ftdi.jpg)
-
-## Pixhawk/PX4 Setup & Configuration {#px4_config}
-
-> **Tip** If using PX4 1.8.2 (and earlier) you should connect the ESP8266 to TELEM2 and configure the port by [setting the parameter](../advanced_config/parameters.md) `SYS_COMPANION` to 1921600 (remember to reboot after setting the parameter). The following instructions assume you are using PX4 versions after 1.8.2
+:::tip
+You *may* first need to update the radio with PX4-compatible ESP8266 firmware ([see below](#esp8266-flashing-firmware-advanced)). The manufacture instructions should explain if this is needed.
+:::
 
 Connect your ESP8266 to your Pixhawk-series flight controller (e.g. Pixracer) on any free UART.
 
@@ -72,26 +35,112 @@ Connect the flight controller to your ground station via USB (as WiFi is not yet
 
 Using *QGroundControl*:
 
-- [Load recent PX4 firwmare](../config/firmware.md)
-- [Configure the serial port](../peripherals/serial_configuration.md) used to connect the ESP8266. Remember to set the baud rate to 921600 in order to match the value set for the ESP8266.
+* [Load recent PX4 firwmare onto the flight controller](../config/firmware.md).
+* [Configure the serial port](../peripherals/serial_configuration.md) used to connect the ESP8266. Remember to set the baud rate to 921600 in order to match the value set for the ESP8266.
 
-Once the firmware (port) is set up you can remove the physical USB connection between the ground station and the vehicle.
+Once you have configured the flight controller serial port used for connecting to the radio, you can remove the physical USB connection between the ground station and the vehicle.
 
 ## Connect via ESP8266 to QGC
 
-On your wifi-enabled *QGroundControl* ground station computer/tablet, find and connect to the open wireless network for your ESP8266.
+The module exposes a WiFi hotspot that your ground station computer can use to connect to the vehicle.
 
-- By default the ESP8266 network is named **PixRacer** and the default password is **pixracer**.
-- On Windows, the connection settings will look like this:
-    
-    ![Windows Network Setup: Connection](../../assets/peripherals/pixracer_network_setup_connection_windows.png)
-    
-    ![Windows Network Setup: Security](../../assets/peripherals/pixracer_network_setup_security_windows.png)
+:::note
+The settings for the ESP8266 hotspot should be provided with the board (e.g. typically printed on the reverse side of the board or on the packaging).
 
-QGC automatically starts its UDP link on boot. Once your computer/tablet is connected to the **PixRacer** WiFi Access Point, it will automatically make the connection.
+A common factory network setting is:
+
+* **SSID:** PixRacer
+* **Password:** pixracer
+* **WiFi Channel:** 11
+* **UART speed:** 921600
+
+Other modules may use settings like this:
+
+* **SSID:** IFFRC_xxxxxxxx
+* **Password:** 12345678
+* **IP:** 192.168.4.1
+* **Port:** 6789 (TCP)
+
+Examples of boards from AlphaUILink and DOITING are shown below:
+
+<img src="../../assets/peripherals/telemetry/esp8266/alpha_uavlink_back.jpg" width="250px" alt="AlphaUAVLink - Back" /> <img src="../../assets/peripherals/telemetry/esp8266/alpha_uavlink_front.jpg" width="250px" alt="AlphaUAVLink - Front" /> <img src="../../assets/peripherals/telemetry/esp8266/doiting_eps_12f_back.jpg" width="250px" alt="DOITING EPS 12F - Back" /> <img src="../../assets/peripherals/telemetry/esp8266/doiting_eps_12f_front.jpg" width="250px" alt="DOITING EPS 12F - Front" />
+:::
+
+On your wifi-enabled *QGroundControl* ground station computer/tablet, find and connect to the open wireless network for your ESP8266. On a Windows computer the connection settings for a network with name **Pixracer** and default password **pixracer** point will look like this:
+
+![Windows Network Setup: Connection](../../assets/peripherals/pixracer_network_setup_connection_windows.png) ![Windows Network Setup: Security](../../assets/peripherals/pixracer_network_setup_security_windows.png)
+
+*QGroundControl* will automatically connect to the vehicle when the ground station computer is attached to a WiFi access point named "Pixracer".
+
+If you're using a module with any other WiFi name you will need to manually set up the QGroundControl WiFi connection, as shown in the following section.
+
+## Configure QGC with non-standard WiFi connections
+
+*QGroundControl* will automatically connect to the vehicle when the ground station computer is attached to the "Pixracer" WiFi access point. For any other access point name you will need to manually create a custom comm link:
+
+1. Go to [Application Settings > Comm Links](https://docs.qgroundcontrol.com/master/en/SettingsView/SettingsView.html)
+2. Add new connection with appropriate settings.
+3. Select the new connection, and click **Connect**.
+4. The vehicle should now connect
+
+## Verify
 
 You should now see HUD movement on your QGC computer via wireless link and be able to view the summary panel for the ESP8266 WiFi Bridge (as shown below).
 
 ![QGC Summary showing Wifi Bridge](../../assets/qgc/summary/wifi_bridge.png)
 
-> **Tip** If you have any problem connecting, see [QGC Installation/Configuration Problems](https://docs.qgroundcontrol.com/en/Support/troubleshooting_qgc.html#waiting_for_connection).
+:::tip
+If you have any problem connecting, see [QGC Installation/Configuration Problems](https://docs.qgroundcontrol.com/en/Support/troubleshooting_qgc.html#waiting_for_connection).
+:::
+
+## ESP8266 Flashing/Firmware (Advanced)
+
+ESP8266 modules from different manufacturers may not have appropriate ESP8266 firmware pre-installed. The instructions below explain how to update radios with the correct version.
+
+### Pre Built Binaries
+
+[MavLink ESP8266 Firmware V 1.2.2](http://www.grubba.com/mavesp8266/firmware-1.2.2.bin)
+
+### Build From Sources
+
+The [firmware repository](https://github.com/dogmaphobic/mavesp8266) contains instructions and all the tools needed for building and flashing the ESP8266 firmware.
+
+### Updating the Firmware OTA
+
+If you have firmware 1.0.4 or greater installed, you can do the update using the ESP's *Over The Air Update* feature. Just connect to its AP WiFi link and browse to: `http://192.168.4.1/update`. You can then select the firmware file you downloaded above and upload it to the WiFi Module.
+
+:::tip
+This is the easiest way to update firmware!
+:::
+
+### Flashing the ESP8266 Firmware
+
+Before flashing, make sure you boot the ESP8266 in *Flash Mode* as described below. If you cloned the [MavESP8266](https://github.com/dogmaphobic/mavesp8266) repository, you can build and flash the firmware using the provided [PlatformIO](http://platformio.org) tools and environment. If you downloaded the pre-built firmware above, download the [esptool](https://github.com/espressif/esptool) utility and use the command line below:
+
+    esptool.py --baud 921600 --port /dev/your_serial_port write_flash 0x00000 firmware_xxxxx.bin
+    
+
+Where:
+
+* **firmware_xxxxx.bin** is the firmware you downloaded above
+* **your_serial_port** is the name of the serial port where the ESP8266 is connected to (`/dev/cu.usbmodem` for example)
+
+### 下载固件接线
+
+:::warning
+Most ESP8266 modules support 3.3 volts (only), while some flight controllers (e.g. Pixhawk 4) output at 5V. Check compatibility and step down the voltage if needed.
+:::
+
+There are various methods for setting the ESP8266 into *Flash Mode* but not all USB/UART adapters provide all the necessary pins for automatic mode switching. In order to boot the ESP8266 in *Flash Mode*, the GPIO-0 pin must be set low (GND) and the CH_PD pin must be set high (VCC). This is what my own setup looks like:
+
+![esp8266 flashing rig](../../assets/hardware/telemetry/esp8266_flashing_rig.jpg)
+
+I built a cable where RX, TX, VCC, and GND are properly wired directly from the FTDI adapter to the ESP8266. From the ESP8266, I left two wires connected to GPIO-0 and CH_PD free so I can boot it either normally or in flash mode by connecting them to GND and VCC respectively.
+
+#### ESP8266 (ESP-01) Pinout
+
+![esp8266 wifi module pinout](../../assets/hardware/telemetry/esp8266_pinout.jpg)
+
+#### Flashing Diagram using an FTDI USB/UART Adapter
+
+![esp8266 flashing](../../assets/hardware/telemetry/esp8266_flashing_ftdi.jpg)
