@@ -3,14 +3,18 @@
 :::note
 This list is [auto-generated](https://github.com/PX4/PX4-Autopilot/blob/master/msg/tools/generate_msg_docs.py) from the source code.
 :::
-    
+
 This topic lists the UORB messages available in PX4 (some of which may be may be shared by the [PX4-ROS 2 Bridge](../ros/ros2_comm.md)).
 Graphs showing how these are used [can be found here](../middleware/uorb_graph.md).
-    
+
+- [action_request](action_request.md)
 - [actuator_armed](actuator_armed.md)
 - [actuator_controls](actuator_controls.md)
 - [actuator_controls_status](actuator_controls_status.md)
+- [actuator_motors](actuator_motors.md) — Motor control message
 - [actuator_outputs](actuator_outputs.md)
+- [actuator_servos](actuator_servos.md) — Servo control message
+- [actuator_test](actuator_test.md)
 - [adc_report](adc_report.md)
 - [airspeed](airspeed.md)
 - [airspeed_validated](airspeed_validated.md)
@@ -49,6 +53,7 @@ scale errors, in-run bias and thermal drift (if thermal compensation is enabled 
 - [estimator_status](estimator_status.md)
 - [estimator_status_flags](estimator_status_flags.md)
 - [event](event.md) — Events interface
+- [failure_detector_status](failure_detector_status.md)
 - [follow_target](follow_target.md)
 - [generator_status](generator_status.md)
 - [geofence_result](geofence_result.md)
@@ -84,7 +89,6 @@ These are the externally visible LED's, not the board LED's
 - [mission](mission.md)
 - [mission_result](mission_result.md)
 - [mount_orientation](mount_orientation.md)
-- [multirotor_motor_limits](multirotor_motor_limits.md)
 - [navigator_mission_item](navigator_mission_item.md)
 - [obstacle_distance](obstacle_distance.md) — Obstacle distances in front of the sensor.
 - [offboard_control_mode](offboard_control_mode.md) — Off-board control mode
@@ -111,7 +115,7 @@ This are the three next waypoints (or just the next two or one).
 - [rc_channels](rc_channels.md)
 - [rc_parameter_map](rc_parameter_map.md)
 - [rpm](rpm.md)
-- [rtl_flight_time](rtl_flight_time.md)
+- [rtl_time_estimate](rtl_time_estimate.md)
 - [safety](safety.md)
 - [satellite_info](satellite_info.md)
 - [sensor_accel](sensor_accel.md)
@@ -154,7 +158,6 @@ mavlink message
 - [ulog_stream_ack](ulog_stream_ack.md) — Ack a previously sent ulog_stream message that had
 the NEED_ACK flag set
 - [vehicle_acceleration](vehicle_acceleration.md)
-- [vehicle_actuator_setpoint](vehicle_actuator_setpoint.md)
 - [vehicle_air_data](vehicle_air_data.md)
 - [vehicle_angular_acceleration](vehicle_angular_acceleration.md)
 - [vehicle_angular_acceleration_setpoint](vehicle_angular_acceleration_setpoint.md)

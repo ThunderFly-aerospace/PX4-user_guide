@@ -76,19 +76,27 @@ Flow data should arrive at 10Hz.
 
 ### PX4 Configuration
 
-You need to set the EKF optical flow parameters to enable fusing optical flow measurements for velocity calculation and define offsets if the sensor is not centred within the vehicle.
-- In *QGroundControl* manually set the parameter [EKF2_AID_MASK](../advanced_config/parameter_reference.md#EKF2_AID_MASK) to `2` to use optical flow only or `3` to use GPS and optical flow. To manually set the value, select `Advanced Settings` and check `manual entry`, then enter the value at the top and save. 
-- The parameters [EKF2_OF_POS_X](../advanced_config/parameter_reference.md#EKF2_OF_POS_X), [EKF2_OF_POS_Y](../advanced_config/parameter_reference.md#EKF2_OF_POS_Y) and [EKF2_OF_POS_Z](../advanced_config/parameter_reference.md#EKF2_OF_POS_Z) can be set to account for the offset of the Ark Flow from the vehicles centre of gravity.
+You need to set the EKF optical flow parameters to enable fusing optical flow measurements for velocity calculation, set necessary [UAVCAN](README.md) parameters, and define offsets if the sensor is not centred within the vehicle.
+- In *QGroundControl* manually set the parameter [EKF2_AID_MASK](../advanced_config/parameter_reference.md#EKF2_AID_MASK) to `2` to use optical flow only or `3` to use GPS and optical flow.
+  To manually set the value, select `Advanced Settings` and check `manual entry`, then enter the value at the top and save. 
 - Set [UAVCAN_RNG_MIN](../advanced_config/parameter_reference.md#UAVCAN_RNG_MAX) to `0.08` and [UAVCAN_RNG_MAX](../advanced_config/parameter_reference.md#UAVCAN_RNG_MAX) to `30`.
+- Enable [UAVCAN_SUB_FLOW](../advanced_config/parameter_reference.md#UAVCAN_SUB_FLOW) and [UAVCAN_SUB_RNG](../advanced_config/parameter_reference.md#UAVCAN_SUB_RNG).
+- The parameters [EKF2_OF_POS_X](../advanced_config/parameter_reference.md#EKF2_OF_POS_X), [EKF2_OF_POS_Y](../advanced_config/parameter_reference.md#EKF2_OF_POS_Y) and [EKF2_OF_POS_Z](../advanced_config/parameter_reference.md#EKF2_OF_POS_Z) can be set to account for the offset of the Ark Flow from the vehicle centre of gravity.
 
-In addition you may need to configure the following parameters:
+In addition you may need to configure the following parameters on the flight controller:
 
 Parameter | Description
 --- | ---
 <a id="SENS_FLOW_MAXHGT"></a>[SENS_FLOW_MAXHGT](../advanced_config/parameter_reference.md#SENS_FLOW_MAXHGT) | Maximum height above ground when reliant on optical flow.
 <a id="SENS_FLOW_MINHGT"></a>[SENS_FLOW_MINHGT](../advanced_config/parameter_reference.md#SENS_FLOW_MINHGT) | Minimum height above ground when reliant on optical flow.
 <a id="SENS_FLOW_MAXR"></a>[SENS_FLOW_MAXR](../advanced_config/parameter_reference.md#SENS_FLOW_MAXR) | Maximum angular flow rate reliably measurable by the optical flow sensor.
-<a id="SENS_FLOW_ROT"></a>[SENS_FLOW_ROT](../advanced_config/parameter_reference.md#SENS_FLOW_ROT) | Yaw rotation of the board relative to the vehicle body frame.
+
+On the ARK Flow, you may need to configure the following parameters:
+
+Parameter | Description
+--- | ---
+<a id="CANNODE_FLOW_ROT"></a>[CANNODE_FLOW_ROT](../advanced_config/parameter_reference.md#CANNODE_FLOW_ROT) | Yaw rotation of the board relative to the vehicle body frame.
+<a id="CANNODE_TERM"></a>[CANNODE_TERM](../advanced_config/parameter_reference.md#CANNODE_FLOW_ROT) | CAN built-in bus termination.
 
 
 ## Building Ark Flow Firmware

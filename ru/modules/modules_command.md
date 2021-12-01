@@ -1,5 +1,35 @@
 # Modules Reference: Command
 
+## actuator_test
+Source: [systemcmds/actuator_test](https://github.com/PX4/PX4-Autopilot/tree/master/src/systemcmds/actuator_test)
+
+
+Utility to test actuators.
+
+Note: this is only used in combination with SYS_CTRL_ALLOC=1.
+
+WARNING: remove all props before using this command.
+
+<a id="actuator_test_usage"></a>
+
+### Usage
+```
+actuator_test <command> [arguments...]
+ Commands:
+   set           Set an actuator to a specific output value
+
+ The actuator can be specified by motor, servo or function directly:
+     [-m <val>]  Motor to test (1...8)
+     [-s <val>]  Servo to test (1...8)
+     [-f <val>]  Specify function directly
+     -v <val>    value (-1...1)
+     [-t <val>]  Timeout in seconds (run interactive if not set)
+                 default: 0
+
+   iterate-motors Iterate all motors starting and stopping one after the other
+
+   iterate-servos Iterate all servos deflecting one after the other
+```
 ## bl_update
 Source: [systemcmds/bl_update](https://github.com/PX4/PX4-Autopilot/tree/master/src/systemcmds/bl_update)
 
@@ -611,8 +641,24 @@ sd_bench [arguments...]
                  default: 5
      [-d <val>]  Duration of a run in ms
                  default: 2000
+     [-k]        Keep the test file
      [-s]        Call fsync after each block (default=at end of each run)
-     [-u]        Test performance with unaligned data)
+     [-u]        Test performance with unaligned data
+     [-v]        Verify data and block number
+```
+## sd_stress
+Source: [systemcmds/sd_stress](https://github.com/PX4/PX4-Autopilot/tree/master/src/systemcmds/sd_stress)
+
+Test operations on an SD Card
+<a id="sd_stress_usage"></a>
+
+### Usage
+```
+sd_stress [arguments...]
+     [-r <val>]  Number of runs
+                 default: 5
+     [-b <val>]  Number of bytes
+                 default: 100
 ```
 ## system_time
 Source: [systemcmds/system_time](https://github.com/PX4/PX4-Autopilot/tree/master/src/systemcmds/system_time)

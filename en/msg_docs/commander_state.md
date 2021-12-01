@@ -1,5 +1,5 @@
 # commander_state (UORB message)
-        
+
 Main state, i.e. what user wants. Controlled by RC or from ground station via telemetry link.
 
 [source file](https://github.com/PX4/PX4-Autopilot/blob/master/msg/commander_state.msg)
@@ -25,7 +25,7 @@ uint8 MAIN_STATE_AUTO_PRECLAND      = 13
 uint8 MAIN_STATE_ORBIT              = 14
 uint8 MAIN_STATE_MAX                = 15
 
-uint8 main_state		    	# main state machine
+uint8 main_state
 
 uint16 main_state_changes
 
