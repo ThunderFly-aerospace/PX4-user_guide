@@ -25,6 +25,9 @@ The board is equipped with (two through pass) I²C connectors for connecting to 
 TFRPM01A electronics is equipped with signaling LED that can be used to check that the probe is connected properly.
 The LED lights up when the pulse input is grounded or exposed to logical 0, so you can check the probe is working correctly just by manually spinning a rotor.
 
+### Multiple sensors
+For many purposes, it is advisable to have a connection and the ability to read the frequency from multiple tachometers simultaneously. The number of connected devices is limited by the number of addresses set of the sensor and the number of available I2C busses. The sensor supports two addresses, which means that two sensors (with different addresses) can be connected to 1 bus. The sensor replacement procedure can be found in the [sensor documentation](https://github.com/ThunderFly-aerospace/TFRPM01#ic-address-configuration) page. 
+
 ### Hall-Effect Sensor Probe
 
 Hall-Effect sensors (magnetically operated) are ideal for harsh environments, where dirt, dust, and water can contact the sensed rotor.
@@ -46,31 +49,46 @@ Both transmissive and reflective sensor types may be used for pulse generation.
 
 ### Starting driver
 
-The driver is not started automatically (in any airframe).
-You will need to start it manually, either using the [QGroundControl MAVLink Console](https://docs.qgroundcontrol.com/master/en/analyze_view/mavlink_console.html) or by adding the driver to the [startup script](../concept/system_startup.md#customizing-the-system-startup) on an SD card.
+The driver is able to start automatically if a parameter that turns this driver on is set. Parametr `[SENS_EN_PCG8583](../advanced_config/parameter_reference.md#SENS_EN_PCF8583)` must be set to 1. 
+
+:::note
+
+If you do not see this parameter in the parameter list, make sure you are using a version later than **** . If you are using a newer version, you may need to [add the driver to the firmware](../peripherals/serial_configuration.md#parameter_not_in_firmware):
+```
+CONFIG_DRIVERS_RPM=y
+```
+:::
+
+
+
+If multiple sensors are available, they will be indexed by address and then by bus. For example:
+
+1. 0x50 I2C1
+2. 0x50 I2C3
+3. 0x51 I2C1
+4. 0x51 I2C2
+
+
+### Parameters
+The parameters are commonf for all instances. 
+
+| Parameter name | Default value | Description |
+| ----- | ------ | ----- |
+| PCF8583_POOL | 1000000 [us] | How often sensor is read out |
+| PCF8583_RESET | 500000 [ticks] | When to clear counter |
+| PCF8583_MAGNET | 2 [pcs] | Number of signals per one revolution |
 
 #### Start driver from console
 
 Start the driver from the [console](https://docs.qgroundcontrol.com/master/en/analyze_view/mavlink_console.html) using the command:
 ```
-pcf8583 start -X -b <bus number>
+pcf8583 start -X -b <bus number> -a <i2c address>
 ```
 where:
 - `-X` means that it is an external bus.
-- `<bus number>` is the bus number to which the device is connected 
+- `-m <bus number>` is the bus number to which the device is connected 
+- `-a <i2c address` is address of TFRPM sensor. Default address is 0x50.
 
-:::note
-The bus number in code `-b <bus number>` may not match the bus labels on the autopilot.
-For example, when using CUAV V5+ or CUAV Nano:
-
-Autopilot label | -b number
---- | ---
-I2C1 | -X -b 4  |
-I2C2 | -X -b 2  |
-I2C3 | -X -b 1  |
-
-The `pcf8583 start` command outputs the corresponding autopilot bus name/label for each bus number.
-:::
 
 ### Testing
 
