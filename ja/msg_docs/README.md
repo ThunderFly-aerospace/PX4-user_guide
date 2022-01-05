@@ -13,6 +13,7 @@ This topic lists the UORB messages available in PX4 (some of which may be may be
 - [actuator_motors](actuator_motors.md) — Motor control message
 - [actuator_outputs](actuator_outputs.md)
 - [actuator_servos](actuator_servos.md) — Servo control message
+- [actuator_servos_trim](actuator_servos_trim.md) — Servo trims, added as offset to servo outputs
 - [actuator_test](actuator_test.md)
 - [adc_report](adc_report.md)
 - [airspeed](airspeed.md)
@@ -100,6 +101,7 @@ This topic lists the UORB messages available in PX4 (some of which may be may be
 - [position_setpoint_triplet](position_setpoint_triplet.md) — Global position setpoint triplet in WGS84 coordinates. This are the three next waypoints (or just the next two or one).
 - [power_button_state](power_button_state.md) — power button state notification message
 - [power_monitor](power_monitor.md) — power monitor message
+- [pps_capture](pps_capture.md)
 - [pwm_input](pwm_input.md)
 - [px4io_status](px4io_status.md)
 - [radio_status](radio_status.md)
@@ -119,6 +121,7 @@ This topic lists the UORB messages available in PX4 (some of which may be may be
 - [sensor_gyro](sensor_gyro.md)
 - [sensor_gyro_fft](sensor_gyro_fft.md)
 - [sensor_gyro_fifo](sensor_gyro_fifo.md)
+- [sensor_hygrometer](sensor_hygrometer.md)
 - [sensor_mag](sensor_mag.md)
 - [sensor_preflight_mag](sensor_preflight_mag.md) — Pre-flight sensor check metrics. The topic will not be updated when the vehicle is armed
 - [sensor_selection](sensor_selection.md) — Sensor ID's for the voted sensors output on the sensor_combined topic. Will be updated on startup of the sensor module and when sensor selection changes

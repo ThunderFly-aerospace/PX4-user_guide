@@ -2385,6 +2385,8 @@ table {
 <li><strong>2000:</strong> Camera Trigger</li> 
 
 <li><strong>2032:</strong> Camera Capture</li> 
+
+<li><strong>2064:</strong> PPS Input</li> 
 </ul>
   </td>
  <td></td>
@@ -2479,6 +2481,8 @@ table {
 <li><strong>2000:</strong> Camera Trigger</li> 
 
 <li><strong>2032:</strong> Camera Capture</li> 
+
+<li><strong>2064:</strong> PPS Input</li> 
 </ul>
   </td>
  <td></td>
@@ -2573,6 +2577,8 @@ table {
 <li><strong>2000:</strong> Camera Trigger</li> 
 
 <li><strong>2032:</strong> Camera Capture</li> 
+
+<li><strong>2064:</strong> PPS Input</li> 
 </ul>
   </td>
  <td></td>
@@ -2667,6 +2673,8 @@ table {
 <li><strong>2000:</strong> Camera Trigger</li> 
 
 <li><strong>2032:</strong> Camera Capture</li> 
+
+<li><strong>2064:</strong> PPS Input</li> 
 </ul>
   </td>
  <td></td>
@@ -2761,6 +2769,8 @@ table {
 <li><strong>2000:</strong> Camera Trigger</li> 
 
 <li><strong>2032:</strong> Camera Capture</li> 
+
+<li><strong>2064:</strong> PPS Input</li> 
 </ul>
   </td>
  <td></td>
@@ -2855,6 +2865,8 @@ table {
 <li><strong>2000:</strong> Camera Trigger</li> 
 
 <li><strong>2032:</strong> Camera Capture</li> 
+
+<li><strong>2064:</strong> PPS Input</li> 
 </ul>
   </td>
  <td></td>
@@ -2949,6 +2961,8 @@ table {
 <li><strong>2000:</strong> Camera Trigger</li> 
 
 <li><strong>2032:</strong> Camera Capture</li> 
+
+<li><strong>2064:</strong> PPS Input</li> 
 </ul>
   </td>
  <td></td>
@@ -3043,6 +3057,8 @@ table {
 <li><strong>2000:</strong> Camera Trigger</li> 
 
 <li><strong>2032:</strong> Camera Capture</li> 
+
+<li><strong>2064:</strong> PPS Input</li> 
 </ul>
   </td>
  <td></td>
@@ -3137,6 +3153,8 @@ table {
 <li><strong>2000:</strong> Camera Trigger</li> 
 
 <li><strong>2032:</strong> Camera Capture</li> 
+
+<li><strong>2064:</strong> PPS Input</li> 
 </ul>
   </td>
  <td></td>
@@ -3231,6 +3249,8 @@ table {
 <li><strong>2000:</strong> Camera Trigger</li> 
 
 <li><strong>2032:</strong> Camera Capture</li> 
+
+<li><strong>2064:</strong> PPS Input</li> 
 </ul>
   </td>
  <td></td>
@@ -3325,6 +3345,8 @@ table {
 <li><strong>2000:</strong> Camera Trigger</li> 
 
 <li><strong>2032:</strong> Camera Capture</li> 
+
+<li><strong>2064:</strong> PPS Input</li> 
 </ul>
   </td>
  <td></td>
@@ -3486,6 +3508,25 @@ table {
  <td></td>
 </tr>
 <tr>
+ <td><strong id="PWM_AUX_REV">PWM_AUX_REV</strong> (INT32)</td>
+ <td>Reverse Output Range for PWM AUX <p><strong>Comment:</strong> Allows to reverse the output range for each channel. Note: this is only useful for servos.</p>  <strong>Bitmask:</strong><ul>  <li><strong>0:</strong> PWM Aux 1</li> 
+  <li><strong>1:</strong> PWM Aux 2</li> 
+  <li><strong>2:</strong> PWM Aux 3</li> 
+  <li><strong>3:</strong> PWM Aux 4</li> 
+  <li><strong>4:</strong> PWM Aux 5</li> 
+  <li><strong>5:</strong> PWM Aux 6</li> 
+  <li><strong>6:</strong> PWM Aux 7</li> 
+  <li><strong>7:</strong> PWM Aux 8</li> 
+  <li><strong>8:</strong> PWM Capture 1</li> 
+  <li><strong>9:</strong> PWM Capture 2</li> 
+  <li><strong>10:</strong> PWM Capture 3</li> 
+</ul>
+ </td>
+ <td>0 > 2047 </td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
  <td><strong id="PWM_AUX_TIM0">PWM_AUX_TIM0</strong> (INT32)</td>
  <td>Output Protocol Configuration for PWM Aux 1-4 <p><strong>Comment:</strong> Select which Output Protocol to use for outputs PWM Aux 1-4. Custom PWM rates can be used by directly setting any value >0.</p> <strong>Values:</strong><ul>
 <li><strong>-5:</strong> DShot150</li> 
@@ -3567,838 +3608,6 @@ table {
 </td>
  <td></td>
  <td>400</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_DIS1">PWM_DIS1</strong> (INT32)</td>
- <td>PWM Output Channel 1 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
- <td>800 > 2200 </td>
- <td>900</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_DIS2">PWM_DIS2</strong> (INT32)</td>
- <td>PWM Output Channel 2 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
- <td>800 > 2200 </td>
- <td>900</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_DIS3">PWM_DIS3</strong> (INT32)</td>
- <td>PWM Output Channel 3 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
- <td>800 > 2200 </td>
- <td>900</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_DIS4">PWM_DIS4</strong> (INT32)</td>
- <td>PWM Output Channel 4 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
- <td>800 > 2200 </td>
- <td>900</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_DIS5">PWM_DIS5</strong> (INT32)</td>
- <td>PWM Output Channel 5 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
- <td>800 > 2200 </td>
- <td>900</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_DIS6">PWM_DIS6</strong> (INT32)</td>
- <td>PWM Output Channel 6 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
- <td>800 > 2200 </td>
- <td>900</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_DIS7">PWM_DIS7</strong> (INT32)</td>
- <td>PWM Output Channel 7 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
- <td>800 > 2200 </td>
- <td>900</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_DIS8">PWM_DIS8</strong> (INT32)</td>
- <td>PWM Output Channel 8 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
- <td>800 > 2200 </td>
- <td>900</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_FAIL1">PWM_FAIL1</strong> (INT32)</td>
- <td>PWM Output Channel 1 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PWM_FUNC1).</p>   </td>
- <td>-1 > 2200 </td>
- <td>-1</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_FAIL2">PWM_FAIL2</strong> (INT32)</td>
- <td>PWM Output Channel 2 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PWM_FUNC2).</p>   </td>
- <td>-1 > 2200 </td>
- <td>-1</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_FAIL3">PWM_FAIL3</strong> (INT32)</td>
- <td>PWM Output Channel 3 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PWM_FUNC3).</p>   </td>
- <td>-1 > 2200 </td>
- <td>-1</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_FAIL4">PWM_FAIL4</strong> (INT32)</td>
- <td>PWM Output Channel 4 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PWM_FUNC4).</p>   </td>
- <td>-1 > 2200 </td>
- <td>-1</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_FAIL5">PWM_FAIL5</strong> (INT32)</td>
- <td>PWM Output Channel 5 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PWM_FUNC5).</p>   </td>
- <td>-1 > 2200 </td>
- <td>-1</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_FAIL6">PWM_FAIL6</strong> (INT32)</td>
- <td>PWM Output Channel 6 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PWM_FUNC6).</p>   </td>
- <td>-1 > 2200 </td>
- <td>-1</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_FAIL7">PWM_FAIL7</strong> (INT32)</td>
- <td>PWM Output Channel 7 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PWM_FUNC7).</p>   </td>
- <td>-1 > 2200 </td>
- <td>-1</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_FAIL8">PWM_FAIL8</strong> (INT32)</td>
- <td>PWM Output Channel 8 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PWM_FUNC8).</p>   </td>
- <td>-1 > 2200 </td>
- <td>-1</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_FUNC1">PWM_FUNC1</strong> (INT32)</td>
- <td>PWM Output Channel 1 Output Function <p><strong>Comment:</strong> Select what should be output on PWM Output Channel 1. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
-<li><strong>0:</strong> Disabled</li> 
-
-<li><strong>1:</strong> Constant Min</li> 
-
-<li><strong>2:</strong> Constant Max</li> 
-
-<li><strong>101:</strong> Motor 1</li> 
-
-<li><strong>102:</strong> Motor 2</li> 
-
-<li><strong>103:</strong> Motor 3</li> 
-
-<li><strong>104:</strong> Motor 4</li> 
-
-<li><strong>105:</strong> Motor 5</li> 
-
-<li><strong>106:</strong> Motor 6</li> 
-
-<li><strong>107:</strong> Motor 7</li> 
-
-<li><strong>108:</strong> Motor 8</li> 
-
-<li><strong>201:</strong> Servo 1</li> 
-
-<li><strong>202:</strong> Servo 2</li> 
-
-<li><strong>203:</strong> Servo 3</li> 
-
-<li><strong>204:</strong> Servo 4</li> 
-
-<li><strong>205:</strong> Servo 5</li> 
-
-<li><strong>206:</strong> Servo 6</li> 
-
-<li><strong>207:</strong> Servo 7</li> 
-
-<li><strong>208:</strong> Servo 8</li> 
-
-<li><strong>301:</strong> Offboard Actuator Set 1</li> 
-
-<li><strong>302:</strong> Offboard Actuator Set 2</li> 
-
-<li><strong>303:</strong> Offboard Actuator Set 3</li> 
-
-<li><strong>304:</strong> Offboard Actuator Set 4</li> 
-
-<li><strong>305:</strong> Offboard Actuator Set 5</li> 
-
-<li><strong>306:</strong> Offboard Actuator Set 6</li> 
-
-<li><strong>400:</strong> Landing Gear</li> 
-
-<li><strong>401:</strong> Parachute</li> 
-
-<li><strong>402:</strong> RC Roll</li> 
-
-<li><strong>403:</strong> RC Pitch</li> 
-
-<li><strong>404:</strong> RC Throttle</li> 
-
-<li><strong>405:</strong> RC Yaw</li> 
-
-<li><strong>406:</strong> RC Flaps</li> 
-
-<li><strong>407:</strong> RC AUX 1</li> 
-
-<li><strong>408:</strong> RC AUX 2</li> 
-
-<li><strong>409:</strong> RC AUX 3</li> 
-
-<li><strong>410:</strong> RC AUX 4</li> 
-
-<li><strong>411:</strong> RC AUX 5</li> 
-
-<li><strong>412:</strong> RC AUX 6</li> 
-
-<li><strong>420:</strong> Gimbal Roll</li> 
-
-<li><strong>421:</strong> Gimbal Pitch</li> 
-
-<li><strong>422:</strong> Gimbal Yaw</li> 
-</ul>
-  </td>
- <td></td>
- <td>0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_FUNC2">PWM_FUNC2</strong> (INT32)</td>
- <td>PWM Output Channel 2 Output Function <p><strong>Comment:</strong> Select what should be output on PWM Output Channel 2. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
-<li><strong>0:</strong> Disabled</li> 
-
-<li><strong>1:</strong> Constant Min</li> 
-
-<li><strong>2:</strong> Constant Max</li> 
-
-<li><strong>101:</strong> Motor 1</li> 
-
-<li><strong>102:</strong> Motor 2</li> 
-
-<li><strong>103:</strong> Motor 3</li> 
-
-<li><strong>104:</strong> Motor 4</li> 
-
-<li><strong>105:</strong> Motor 5</li> 
-
-<li><strong>106:</strong> Motor 6</li> 
-
-<li><strong>107:</strong> Motor 7</li> 
-
-<li><strong>108:</strong> Motor 8</li> 
-
-<li><strong>201:</strong> Servo 1</li> 
-
-<li><strong>202:</strong> Servo 2</li> 
-
-<li><strong>203:</strong> Servo 3</li> 
-
-<li><strong>204:</strong> Servo 4</li> 
-
-<li><strong>205:</strong> Servo 5</li> 
-
-<li><strong>206:</strong> Servo 6</li> 
-
-<li><strong>207:</strong> Servo 7</li> 
-
-<li><strong>208:</strong> Servo 8</li> 
-
-<li><strong>301:</strong> Offboard Actuator Set 1</li> 
-
-<li><strong>302:</strong> Offboard Actuator Set 2</li> 
-
-<li><strong>303:</strong> Offboard Actuator Set 3</li> 
-
-<li><strong>304:</strong> Offboard Actuator Set 4</li> 
-
-<li><strong>305:</strong> Offboard Actuator Set 5</li> 
-
-<li><strong>306:</strong> Offboard Actuator Set 6</li> 
-
-<li><strong>400:</strong> Landing Gear</li> 
-
-<li><strong>401:</strong> Parachute</li> 
-
-<li><strong>402:</strong> RC Roll</li> 
-
-<li><strong>403:</strong> RC Pitch</li> 
-
-<li><strong>404:</strong> RC Throttle</li> 
-
-<li><strong>405:</strong> RC Yaw</li> 
-
-<li><strong>406:</strong> RC Flaps</li> 
-
-<li><strong>407:</strong> RC AUX 1</li> 
-
-<li><strong>408:</strong> RC AUX 2</li> 
-
-<li><strong>409:</strong> RC AUX 3</li> 
-
-<li><strong>410:</strong> RC AUX 4</li> 
-
-<li><strong>411:</strong> RC AUX 5</li> 
-
-<li><strong>412:</strong> RC AUX 6</li> 
-
-<li><strong>420:</strong> Gimbal Roll</li> 
-
-<li><strong>421:</strong> Gimbal Pitch</li> 
-
-<li><strong>422:</strong> Gimbal Yaw</li> 
-</ul>
-  </td>
- <td></td>
- <td>0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_FUNC3">PWM_FUNC3</strong> (INT32)</td>
- <td>PWM Output Channel 3 Output Function <p><strong>Comment:</strong> Select what should be output on PWM Output Channel 3. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
-<li><strong>0:</strong> Disabled</li> 
-
-<li><strong>1:</strong> Constant Min</li> 
-
-<li><strong>2:</strong> Constant Max</li> 
-
-<li><strong>101:</strong> Motor 1</li> 
-
-<li><strong>102:</strong> Motor 2</li> 
-
-<li><strong>103:</strong> Motor 3</li> 
-
-<li><strong>104:</strong> Motor 4</li> 
-
-<li><strong>105:</strong> Motor 5</li> 
-
-<li><strong>106:</strong> Motor 6</li> 
-
-<li><strong>107:</strong> Motor 7</li> 
-
-<li><strong>108:</strong> Motor 8</li> 
-
-<li><strong>201:</strong> Servo 1</li> 
-
-<li><strong>202:</strong> Servo 2</li> 
-
-<li><strong>203:</strong> Servo 3</li> 
-
-<li><strong>204:</strong> Servo 4</li> 
-
-<li><strong>205:</strong> Servo 5</li> 
-
-<li><strong>206:</strong> Servo 6</li> 
-
-<li><strong>207:</strong> Servo 7</li> 
-
-<li><strong>208:</strong> Servo 8</li> 
-
-<li><strong>301:</strong> Offboard Actuator Set 1</li> 
-
-<li><strong>302:</strong> Offboard Actuator Set 2</li> 
-
-<li><strong>303:</strong> Offboard Actuator Set 3</li> 
-
-<li><strong>304:</strong> Offboard Actuator Set 4</li> 
-
-<li><strong>305:</strong> Offboard Actuator Set 5</li> 
-
-<li><strong>306:</strong> Offboard Actuator Set 6</li> 
-
-<li><strong>400:</strong> Landing Gear</li> 
-
-<li><strong>401:</strong> Parachute</li> 
-
-<li><strong>402:</strong> RC Roll</li> 
-
-<li><strong>403:</strong> RC Pitch</li> 
-
-<li><strong>404:</strong> RC Throttle</li> 
-
-<li><strong>405:</strong> RC Yaw</li> 
-
-<li><strong>406:</strong> RC Flaps</li> 
-
-<li><strong>407:</strong> RC AUX 1</li> 
-
-<li><strong>408:</strong> RC AUX 2</li> 
-
-<li><strong>409:</strong> RC AUX 3</li> 
-
-<li><strong>410:</strong> RC AUX 4</li> 
-
-<li><strong>411:</strong> RC AUX 5</li> 
-
-<li><strong>412:</strong> RC AUX 6</li> 
-
-<li><strong>420:</strong> Gimbal Roll</li> 
-
-<li><strong>421:</strong> Gimbal Pitch</li> 
-
-<li><strong>422:</strong> Gimbal Yaw</li> 
-</ul>
-  </td>
- <td></td>
- <td>0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_FUNC4">PWM_FUNC4</strong> (INT32)</td>
- <td>PWM Output Channel 4 Output Function <p><strong>Comment:</strong> Select what should be output on PWM Output Channel 4. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
-<li><strong>0:</strong> Disabled</li> 
-
-<li><strong>1:</strong> Constant Min</li> 
-
-<li><strong>2:</strong> Constant Max</li> 
-
-<li><strong>101:</strong> Motor 1</li> 
-
-<li><strong>102:</strong> Motor 2</li> 
-
-<li><strong>103:</strong> Motor 3</li> 
-
-<li><strong>104:</strong> Motor 4</li> 
-
-<li><strong>105:</strong> Motor 5</li> 
-
-<li><strong>106:</strong> Motor 6</li> 
-
-<li><strong>107:</strong> Motor 7</li> 
-
-<li><strong>108:</strong> Motor 8</li> 
-
-<li><strong>201:</strong> Servo 1</li> 
-
-<li><strong>202:</strong> Servo 2</li> 
-
-<li><strong>203:</strong> Servo 3</li> 
-
-<li><strong>204:</strong> Servo 4</li> 
-
-<li><strong>205:</strong> Servo 5</li> 
-
-<li><strong>206:</strong> Servo 6</li> 
-
-<li><strong>207:</strong> Servo 7</li> 
-
-<li><strong>208:</strong> Servo 8</li> 
-
-<li><strong>301:</strong> Offboard Actuator Set 1</li> 
-
-<li><strong>302:</strong> Offboard Actuator Set 2</li> 
-
-<li><strong>303:</strong> Offboard Actuator Set 3</li> 
-
-<li><strong>304:</strong> Offboard Actuator Set 4</li> 
-
-<li><strong>305:</strong> Offboard Actuator Set 5</li> 
-
-<li><strong>306:</strong> Offboard Actuator Set 6</li> 
-
-<li><strong>400:</strong> Landing Gear</li> 
-
-<li><strong>401:</strong> Parachute</li> 
-
-<li><strong>402:</strong> RC Roll</li> 
-
-<li><strong>403:</strong> RC Pitch</li> 
-
-<li><strong>404:</strong> RC Throttle</li> 
-
-<li><strong>405:</strong> RC Yaw</li> 
-
-<li><strong>406:</strong> RC Flaps</li> 
-
-<li><strong>407:</strong> RC AUX 1</li> 
-
-<li><strong>408:</strong> RC AUX 2</li> 
-
-<li><strong>409:</strong> RC AUX 3</li> 
-
-<li><strong>410:</strong> RC AUX 4</li> 
-
-<li><strong>411:</strong> RC AUX 5</li> 
-
-<li><strong>412:</strong> RC AUX 6</li> 
-
-<li><strong>420:</strong> Gimbal Roll</li> 
-
-<li><strong>421:</strong> Gimbal Pitch</li> 
-
-<li><strong>422:</strong> Gimbal Yaw</li> 
-</ul>
-  </td>
- <td></td>
- <td>0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_FUNC5">PWM_FUNC5</strong> (INT32)</td>
- <td>PWM Output Channel 5 Output Function <p><strong>Comment:</strong> Select what should be output on PWM Output Channel 5. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
-<li><strong>0:</strong> Disabled</li> 
-
-<li><strong>1:</strong> Constant Min</li> 
-
-<li><strong>2:</strong> Constant Max</li> 
-
-<li><strong>101:</strong> Motor 1</li> 
-
-<li><strong>102:</strong> Motor 2</li> 
-
-<li><strong>103:</strong> Motor 3</li> 
-
-<li><strong>104:</strong> Motor 4</li> 
-
-<li><strong>105:</strong> Motor 5</li> 
-
-<li><strong>106:</strong> Motor 6</li> 
-
-<li><strong>107:</strong> Motor 7</li> 
-
-<li><strong>108:</strong> Motor 8</li> 
-
-<li><strong>201:</strong> Servo 1</li> 
-
-<li><strong>202:</strong> Servo 2</li> 
-
-<li><strong>203:</strong> Servo 3</li> 
-
-<li><strong>204:</strong> Servo 4</li> 
-
-<li><strong>205:</strong> Servo 5</li> 
-
-<li><strong>206:</strong> Servo 6</li> 
-
-<li><strong>207:</strong> Servo 7</li> 
-
-<li><strong>208:</strong> Servo 8</li> 
-
-<li><strong>301:</strong> Offboard Actuator Set 1</li> 
-
-<li><strong>302:</strong> Offboard Actuator Set 2</li> 
-
-<li><strong>303:</strong> Offboard Actuator Set 3</li> 
-
-<li><strong>304:</strong> Offboard Actuator Set 4</li> 
-
-<li><strong>305:</strong> Offboard Actuator Set 5</li> 
-
-<li><strong>306:</strong> Offboard Actuator Set 6</li> 
-
-<li><strong>400:</strong> Landing Gear</li> 
-
-<li><strong>401:</strong> Parachute</li> 
-
-<li><strong>402:</strong> RC Roll</li> 
-
-<li><strong>403:</strong> RC Pitch</li> 
-
-<li><strong>404:</strong> RC Throttle</li> 
-
-<li><strong>405:</strong> RC Yaw</li> 
-
-<li><strong>406:</strong> RC Flaps</li> 
-
-<li><strong>407:</strong> RC AUX 1</li> 
-
-<li><strong>408:</strong> RC AUX 2</li> 
-
-<li><strong>409:</strong> RC AUX 3</li> 
-
-<li><strong>410:</strong> RC AUX 4</li> 
-
-<li><strong>411:</strong> RC AUX 5</li> 
-
-<li><strong>412:</strong> RC AUX 6</li> 
-
-<li><strong>420:</strong> Gimbal Roll</li> 
-
-<li><strong>421:</strong> Gimbal Pitch</li> 
-
-<li><strong>422:</strong> Gimbal Yaw</li> 
-</ul>
-  </td>
- <td></td>
- <td>0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_FUNC6">PWM_FUNC6</strong> (INT32)</td>
- <td>PWM Output Channel 6 Output Function <p><strong>Comment:</strong> Select what should be output on PWM Output Channel 6. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
-<li><strong>0:</strong> Disabled</li> 
-
-<li><strong>1:</strong> Constant Min</li> 
-
-<li><strong>2:</strong> Constant Max</li> 
-
-<li><strong>101:</strong> Motor 1</li> 
-
-<li><strong>102:</strong> Motor 2</li> 
-
-<li><strong>103:</strong> Motor 3</li> 
-
-<li><strong>104:</strong> Motor 4</li> 
-
-<li><strong>105:</strong> Motor 5</li> 
-
-<li><strong>106:</strong> Motor 6</li> 
-
-<li><strong>107:</strong> Motor 7</li> 
-
-<li><strong>108:</strong> Motor 8</li> 
-
-<li><strong>201:</strong> Servo 1</li> 
-
-<li><strong>202:</strong> Servo 2</li> 
-
-<li><strong>203:</strong> Servo 3</li> 
-
-<li><strong>204:</strong> Servo 4</li> 
-
-<li><strong>205:</strong> Servo 5</li> 
-
-<li><strong>206:</strong> Servo 6</li> 
-
-<li><strong>207:</strong> Servo 7</li> 
-
-<li><strong>208:</strong> Servo 8</li> 
-
-<li><strong>301:</strong> Offboard Actuator Set 1</li> 
-
-<li><strong>302:</strong> Offboard Actuator Set 2</li> 
-
-<li><strong>303:</strong> Offboard Actuator Set 3</li> 
-
-<li><strong>304:</strong> Offboard Actuator Set 4</li> 
-
-<li><strong>305:</strong> Offboard Actuator Set 5</li> 
-
-<li><strong>306:</strong> Offboard Actuator Set 6</li> 
-
-<li><strong>400:</strong> Landing Gear</li> 
-
-<li><strong>401:</strong> Parachute</li> 
-
-<li><strong>402:</strong> RC Roll</li> 
-
-<li><strong>403:</strong> RC Pitch</li> 
-
-<li><strong>404:</strong> RC Throttle</li> 
-
-<li><strong>405:</strong> RC Yaw</li> 
-
-<li><strong>406:</strong> RC Flaps</li> 
-
-<li><strong>407:</strong> RC AUX 1</li> 
-
-<li><strong>408:</strong> RC AUX 2</li> 
-
-<li><strong>409:</strong> RC AUX 3</li> 
-
-<li><strong>410:</strong> RC AUX 4</li> 
-
-<li><strong>411:</strong> RC AUX 5</li> 
-
-<li><strong>412:</strong> RC AUX 6</li> 
-
-<li><strong>420:</strong> Gimbal Roll</li> 
-
-<li><strong>421:</strong> Gimbal Pitch</li> 
-
-<li><strong>422:</strong> Gimbal Yaw</li> 
-</ul>
-  </td>
- <td></td>
- <td>0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_FUNC7">PWM_FUNC7</strong> (INT32)</td>
- <td>PWM Output Channel 7 Output Function <p><strong>Comment:</strong> Select what should be output on PWM Output Channel 7. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
-<li><strong>0:</strong> Disabled</li> 
-
-<li><strong>1:</strong> Constant Min</li> 
-
-<li><strong>2:</strong> Constant Max</li> 
-
-<li><strong>101:</strong> Motor 1</li> 
-
-<li><strong>102:</strong> Motor 2</li> 
-
-<li><strong>103:</strong> Motor 3</li> 
-
-<li><strong>104:</strong> Motor 4</li> 
-
-<li><strong>105:</strong> Motor 5</li> 
-
-<li><strong>106:</strong> Motor 6</li> 
-
-<li><strong>107:</strong> Motor 7</li> 
-
-<li><strong>108:</strong> Motor 8</li> 
-
-<li><strong>201:</strong> Servo 1</li> 
-
-<li><strong>202:</strong> Servo 2</li> 
-
-<li><strong>203:</strong> Servo 3</li> 
-
-<li><strong>204:</strong> Servo 4</li> 
-
-<li><strong>205:</strong> Servo 5</li> 
-
-<li><strong>206:</strong> Servo 6</li> 
-
-<li><strong>207:</strong> Servo 7</li> 
-
-<li><strong>208:</strong> Servo 8</li> 
-
-<li><strong>301:</strong> Offboard Actuator Set 1</li> 
-
-<li><strong>302:</strong> Offboard Actuator Set 2</li> 
-
-<li><strong>303:</strong> Offboard Actuator Set 3</li> 
-
-<li><strong>304:</strong> Offboard Actuator Set 4</li> 
-
-<li><strong>305:</strong> Offboard Actuator Set 5</li> 
-
-<li><strong>306:</strong> Offboard Actuator Set 6</li> 
-
-<li><strong>400:</strong> Landing Gear</li> 
-
-<li><strong>401:</strong> Parachute</li> 
-
-<li><strong>402:</strong> RC Roll</li> 
-
-<li><strong>403:</strong> RC Pitch</li> 
-
-<li><strong>404:</strong> RC Throttle</li> 
-
-<li><strong>405:</strong> RC Yaw</li> 
-
-<li><strong>406:</strong> RC Flaps</li> 
-
-<li><strong>407:</strong> RC AUX 1</li> 
-
-<li><strong>408:</strong> RC AUX 2</li> 
-
-<li><strong>409:</strong> RC AUX 3</li> 
-
-<li><strong>410:</strong> RC AUX 4</li> 
-
-<li><strong>411:</strong> RC AUX 5</li> 
-
-<li><strong>412:</strong> RC AUX 6</li> 
-
-<li><strong>420:</strong> Gimbal Roll</li> 
-
-<li><strong>421:</strong> Gimbal Pitch</li> 
-
-<li><strong>422:</strong> Gimbal Yaw</li> 
-</ul>
-  </td>
- <td></td>
- <td>0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_FUNC8">PWM_FUNC8</strong> (INT32)</td>
- <td>PWM Output Channel 8 Output Function <p><strong>Comment:</strong> Select what should be output on PWM Output Channel 8. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
-<li><strong>0:</strong> Disabled</li> 
-
-<li><strong>1:</strong> Constant Min</li> 
-
-<li><strong>2:</strong> Constant Max</li> 
-
-<li><strong>101:</strong> Motor 1</li> 
-
-<li><strong>102:</strong> Motor 2</li> 
-
-<li><strong>103:</strong> Motor 3</li> 
-
-<li><strong>104:</strong> Motor 4</li> 
-
-<li><strong>105:</strong> Motor 5</li> 
-
-<li><strong>106:</strong> Motor 6</li> 
-
-<li><strong>107:</strong> Motor 7</li> 
-
-<li><strong>108:</strong> Motor 8</li> 
-
-<li><strong>201:</strong> Servo 1</li> 
-
-<li><strong>202:</strong> Servo 2</li> 
-
-<li><strong>203:</strong> Servo 3</li> 
-
-<li><strong>204:</strong> Servo 4</li> 
-
-<li><strong>205:</strong> Servo 5</li> 
-
-<li><strong>206:</strong> Servo 6</li> 
-
-<li><strong>207:</strong> Servo 7</li> 
-
-<li><strong>208:</strong> Servo 8</li> 
-
-<li><strong>301:</strong> Offboard Actuator Set 1</li> 
-
-<li><strong>302:</strong> Offboard Actuator Set 2</li> 
-
-<li><strong>303:</strong> Offboard Actuator Set 3</li> 
-
-<li><strong>304:</strong> Offboard Actuator Set 4</li> 
-
-<li><strong>305:</strong> Offboard Actuator Set 5</li> 
-
-<li><strong>306:</strong> Offboard Actuator Set 6</li> 
-
-<li><strong>400:</strong> Landing Gear</li> 
-
-<li><strong>401:</strong> Parachute</li> 
-
-<li><strong>402:</strong> RC Roll</li> 
-
-<li><strong>403:</strong> RC Pitch</li> 
-
-<li><strong>404:</strong> RC Throttle</li> 
-
-<li><strong>405:</strong> RC Yaw</li> 
-
-<li><strong>406:</strong> RC Flaps</li> 
-
-<li><strong>407:</strong> RC AUX 1</li> 
-
-<li><strong>408:</strong> RC AUX 2</li> 
-
-<li><strong>409:</strong> RC AUX 3</li> 
-
-<li><strong>410:</strong> RC AUX 4</li> 
-
-<li><strong>411:</strong> RC AUX 5</li> 
-
-<li><strong>412:</strong> RC AUX 6</li> 
-
-<li><strong>420:</strong> Gimbal Roll</li> 
-
-<li><strong>421:</strong> Gimbal Pitch</li> 
-
-<li><strong>422:</strong> Gimbal Yaw</li> 
-</ul>
-  </td>
- <td></td>
- <td>0</td>
  <td></td>
 </tr>
 <tr>
@@ -5346,6 +4555,22 @@ table {
  <td></td>
 </tr>
 <tr>
+ <td><strong id="PWM_MAIN_REV">PWM_MAIN_REV</strong> (INT32)</td>
+ <td>Reverse Output Range for PWM MAIN <p><strong>Comment:</strong> Allows to reverse the output range for each channel. Note: this is only useful for servos.</p>  <strong>Bitmask:</strong><ul>  <li><strong>0:</strong> MAIN 1</li> 
+  <li><strong>1:</strong> MAIN 2</li> 
+  <li><strong>2:</strong> MAIN 3</li> 
+  <li><strong>3:</strong> MAIN 4</li> 
+  <li><strong>4:</strong> MAIN 5</li> 
+  <li><strong>5:</strong> MAIN 6</li> 
+  <li><strong>6:</strong> MAIN 7</li> 
+  <li><strong>7:</strong> MAIN 8</li> 
+</ul>
+ </td>
+ <td>0 > 255 </td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
  <td><strong id="PWM_MAIN_TIM0">PWM_MAIN_TIM0</strong> (INT32)</td>
  <td>Output Protocol Configuration for MAIN 1-2 <p><strong>Comment:</strong> Select which Output Protocol to use for outputs MAIN 1-2. Custom PWM rates can be used by directly setting any value >0.</p> <strong>Values:</strong><ul>
 <li><strong>-1:</strong> OneShot</li> 
@@ -5400,118 +4625,6 @@ table {
 </td>
  <td></td>
  <td>400</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_MAX1">PWM_MAX1</strong> (INT32)</td>
- <td>PWM Output Channel 1 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
- <td>1600 > 2200 </td>
- <td>2000</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_MAX2">PWM_MAX2</strong> (INT32)</td>
- <td>PWM Output Channel 2 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
- <td>1600 > 2200 </td>
- <td>2000</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_MAX3">PWM_MAX3</strong> (INT32)</td>
- <td>PWM Output Channel 3 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
- <td>1600 > 2200 </td>
- <td>2000</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_MAX4">PWM_MAX4</strong> (INT32)</td>
- <td>PWM Output Channel 4 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
- <td>1600 > 2200 </td>
- <td>2000</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_MAX5">PWM_MAX5</strong> (INT32)</td>
- <td>PWM Output Channel 5 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
- <td>1600 > 2200 </td>
- <td>2000</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_MAX6">PWM_MAX6</strong> (INT32)</td>
- <td>PWM Output Channel 6 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
- <td>1600 > 2200 </td>
- <td>2000</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_MAX7">PWM_MAX7</strong> (INT32)</td>
- <td>PWM Output Channel 7 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
- <td>1600 > 2200 </td>
- <td>2000</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_MAX8">PWM_MAX8</strong> (INT32)</td>
- <td>PWM Output Channel 8 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
- <td>1600 > 2200 </td>
- <td>2000</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_MIN1">PWM_MIN1</strong> (INT32)</td>
- <td>PWM Output Channel 1 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
- <td>800 > 1400 </td>
- <td>1000</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_MIN2">PWM_MIN2</strong> (INT32)</td>
- <td>PWM Output Channel 2 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
- <td>800 > 1400 </td>
- <td>1000</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_MIN3">PWM_MIN3</strong> (INT32)</td>
- <td>PWM Output Channel 3 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
- <td>800 > 1400 </td>
- <td>1000</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_MIN4">PWM_MIN4</strong> (INT32)</td>
- <td>PWM Output Channel 4 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
- <td>800 > 1400 </td>
- <td>1000</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_MIN5">PWM_MIN5</strong> (INT32)</td>
- <td>PWM Output Channel 5 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
- <td>800 > 1400 </td>
- <td>1000</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_MIN6">PWM_MIN6</strong> (INT32)</td>
- <td>PWM Output Channel 6 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
- <td>800 > 1400 </td>
- <td>1000</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_MIN7">PWM_MIN7</strong> (INT32)</td>
- <td>PWM Output Channel 7 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
- <td>800 > 1400 </td>
- <td>1000</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="PWM_MIN8">PWM_MIN8</strong> (INT32)</td>
- <td>PWM Output Channel 8 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
- <td>800 > 1400 </td>
- <td>1000</td>
  <td></td>
 </tr>
 <tr>
@@ -7123,6 +6236,22 @@ table {
  <td></td>
 </tr>
 <tr>
+ <td><strong id="UAVCAN_EC_REV">UAVCAN_EC_REV</strong> (INT32)</td>
+ <td>Reverse Output Range for UAVCAN <p><strong>Comment:</strong> Allows to reverse the output range for each channel. Note: this is only useful for servos.</p>  <strong>Bitmask:</strong><ul>  <li><strong>0:</strong> UAVCAN ESC 1</li> 
+  <li><strong>1:</strong> UAVCAN ESC 2</li> 
+  <li><strong>2:</strong> UAVCAN ESC 3</li> 
+  <li><strong>3:</strong> UAVCAN ESC 4</li> 
+  <li><strong>4:</strong> UAVCAN ESC 5</li> 
+  <li><strong>5:</strong> UAVCAN ESC 6</li> 
+  <li><strong>6:</strong> UAVCAN ESC 7</li> 
+  <li><strong>7:</strong> UAVCAN ESC 8</li> 
+</ul>
+ </td>
+ <td>0 > 255 </td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
  <td><strong id="UAVCAN_SV_DIS1">UAVCAN_SV_DIS1</strong> (INT32)</td>
  <td>UAVCAN Servo 1 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
  <td>0 > 1000 </td>
@@ -8063,6 +7192,22 @@ table {
  <td><strong id="UAVCAN_SV_MIN8">UAVCAN_SV_MIN8</strong> (INT32)</td>
  <td>UAVCAN Servo 8 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
  <td>0 > 1000 </td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_REV">UAVCAN_SV_REV</strong> (INT32)</td>
+ <td>Reverse Output Range for UAVCAN <p><strong>Comment:</strong> Allows to reverse the output range for each channel. Note: this is only useful for servos.</p>  <strong>Bitmask:</strong><ul>  <li><strong>0:</strong> UAVCAN Servo 1</li> 
+  <li><strong>1:</strong> UAVCAN Servo 2</li> 
+  <li><strong>2:</strong> UAVCAN Servo 3</li> 
+  <li><strong>3:</strong> UAVCAN Servo 4</li> 
+  <li><strong>4:</strong> UAVCAN Servo 5</li> 
+  <li><strong>5:</strong> UAVCAN Servo 6</li> 
+  <li><strong>6:</strong> UAVCAN Servo 7</li> 
+  <li><strong>7:</strong> UAVCAN Servo 8</li> 
+</ul>
+ </td>
+ <td>0 > 255 </td>
  <td>0</td>
  <td></td>
 </tr>
@@ -9842,6 +8987,30 @@ table {
  <td>1</td>
  <td></td>
 </tr>
+<tr>
+ <td><strong id="UCAN1_ESC_REV">UCAN1_ESC_REV</strong> (INT32)</td>
+ <td>Reverse Output Range for UAVCANv1 <p><strong>Comment:</strong> Allows to reverse the output range for each channel. Note: this is only useful for servos.</p>  <strong>Bitmask:</strong><ul>  <li><strong>0:</strong> UAVCANv1 ESC 1</li> 
+  <li><strong>1:</strong> UAVCANv1 ESC 2</li> 
+  <li><strong>2:</strong> UAVCANv1 ESC 3</li> 
+  <li><strong>3:</strong> UAVCANv1 ESC 4</li> 
+  <li><strong>4:</strong> UAVCANv1 ESC 5</li> 
+  <li><strong>5:</strong> UAVCANv1 ESC 6</li> 
+  <li><strong>6:</strong> UAVCANv1 ESC 7</li> 
+  <li><strong>7:</strong> UAVCANv1 ESC 8</li> 
+  <li><strong>8:</strong> UAVCANv1 ESC 9</li> 
+  <li><strong>9:</strong> UAVCANv1 ESC 10</li> 
+  <li><strong>10:</strong> UAVCANv1 ESC 11</li> 
+  <li><strong>11:</strong> UAVCANv1 ESC 12</li> 
+  <li><strong>12:</strong> UAVCANv1 ESC 13</li> 
+  <li><strong>13:</strong> UAVCANv1 ESC 14</li> 
+  <li><strong>14:</strong> UAVCANv1 ESC 15</li> 
+  <li><strong>15:</strong> UAVCANv1 ESC 16</li> 
+</ul>
+ </td>
+ <td>0 > 65535 </td>
+ <td>0</td>
+ <td></td>
+</tr>
 </tbody></table>
 
 ## Airspeed Validator
@@ -10347,6 +9516,8 @@ table {
 <tr>
  <td><strong id="BAT1_N_CELLS">BAT1_N_CELLS</strong> (INT32)</td>
  <td>Number of cells for battery 1 <p><strong>Comment:</strong> Defines the number of cells the attached battery consists of.</p> <strong>Values:</strong><ul>
+<li><strong>1:</strong> 1S Battery</li> 
+
 <li><strong>2:</strong> 2S Battery</li> 
 
 <li><strong>3:</strong> 3S Battery</li> 
@@ -10475,6 +9646,8 @@ table {
 <tr>
  <td><strong id="BAT2_N_CELLS">BAT2_N_CELLS</strong> (INT32)</td>
  <td>Number of cells for battery 2 <p><strong>Comment:</strong> Defines the number of cells the attached battery consists of.</p> <strong>Values:</strong><ul>
+<li><strong>1:</strong> 1S Battery</li> 
+
 <li><strong>2:</strong> 2S Battery</li> 
 
 <li><strong>3:</strong> 3S Battery</li> 
@@ -11032,7 +10205,7 @@ table {
 </ul>
   </td>
  <td></td>
- <td>1</td>
+ <td>2</td>
  <td></td>
 </tr>
 <tr>
@@ -11366,6 +10539,14 @@ table {
  <td>s</td>
 </tr>
 <tr>
+ <td><strong id="COM_HOME_EN">COM_HOME_EN</strong> (INT32)</td>
+ <td>Home position enabled <p><strong>Comment:</strong> Set home position automatically if possible.</p>   <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>Enabled (1)</td>
+ <td></td>
+</tr>
+<tr>
  <td><strong id="COM_HOME_H_T">COM_HOME_H_T</strong> (FLOAT)</td>
  <td>Home set horizontal threshold <p><strong>Comment:</strong> The home position will be set if the estimated positioning accuracy is below the threshold.</p>   </td>
  <td>2 > 15 (0.5)</td>
@@ -11610,13 +10791,17 @@ table {
  <td>RC control input mode <p><strong>Comment:</strong> The default value of 0 requires a valid RC transmitter setup. Setting this to 1 allows joystick control and disables RC input handling and the associated checks. A value of 2 will generate RC control data from manual input received via MAVLink instead of directly forwarding the manual input data.</p> <strong>Values:</strong><ul>
 <li><strong>0:</strong> RC Transmitter only</li> 
 
-<li><strong>1:</strong> Joystick only/No RC Checks</li> 
+<li><strong>1:</strong> Joystick only</li> 
 
-<li><strong>2:</strong> RC and Joystick are accepted</li> 
+<li><strong>2:</strong> RC and Joystick with fallback</li> 
+
+<li><strong>3:</strong> RC or Joystick keep first</li> 
+
+<li><strong>4:</strong> Stick input disabled</li> 
 </ul>
   </td>
- <td>0 > 2 </td>
- <td>0</td>
+ <td>0 > 4 </td>
+ <td>3</td>
  <td></td>
 </tr>
 <tr>
@@ -11712,516 +10897,6 @@ table {
   </td>
  <td>1 > 6 </td>
  <td>2</td>
- <td></td>
-</tr>
-</tbody></table>
-
-## Control Allocation
-
-<table>
- <colgroup><col style="width: 23%"><col style="width: 46%"><col style="width: 11%"><col style="width: 11%"><col style="width: 9%"></colgroup>
- <thead>
-   <tr><th>Name</th><th>Description</th><th>Min > Max (Incr.)</th><th>Default</th><th>Units</th></tr>
- </thead>
-<tbody>
-<tr>
- <td><strong id="CA_AIRFRAME">CA_AIRFRAME</strong> (INT32)</td>
- <td>Airframe selection <p><strong>Comment:</strong> Defines which mixer implementation to use. Some are generic, while others are specifically fit to a certain vehicle with a fixed set of actuators.</p> <strong>Values:</strong><ul>
-<li><strong>0:</strong> Multirotor</li> 
-
-<li><strong>1:</strong> Standard VTOL (WIP)</li> 
-
-<li><strong>2:</strong> Tiltrotor VTOL (WIP)</li> 
-</ul>
-  </td>
- <td></td>
- <td>0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R0_AX">CA_MC_R0_AX</strong> (FLOAT)</td>
- <td>Axis of rotor 0 thrust vector, X body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R0_AY">CA_MC_R0_AY</strong> (FLOAT)</td>
- <td>Axis of rotor 0 thrust vector, Y body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R0_AZ">CA_MC_R0_AZ</strong> (FLOAT)</td>
- <td>Axis of rotor 0 thrust vector, Z body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
- <td>-100 > 100 (0.1)</td>
- <td>-1.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R0_CT">CA_MC_R0_CT</strong> (FLOAT)</td>
- <td>Thrust coefficient of rotor 0 <p><strong>Comment:</strong> The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</p>   </td>
- <td>0 > 100 (1)</td>
- <td>6.5</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R0_KM">CA_MC_R0_KM</strong> (FLOAT)</td>
- <td>Moment coefficient of rotor 0 <p><strong>Comment:</strong> The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</p>   </td>
- <td>-1 > 1 (0.01)</td>
- <td>0.05</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R0_PX">CA_MC_R0_PX</strong> (FLOAT)</td>
- <td>Position of rotor 0 along X body axis    </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td>m</td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R0_PY">CA_MC_R0_PY</strong> (FLOAT)</td>
- <td>Position of rotor 0 along Y body axis    </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td>m</td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R0_PZ">CA_MC_R0_PZ</strong> (FLOAT)</td>
- <td>Position of rotor 0 along Z body axis    </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td>m</td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R1_AX">CA_MC_R1_AX</strong> (FLOAT)</td>
- <td>Axis of rotor 1 thrust vector, X body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R1_AY">CA_MC_R1_AY</strong> (FLOAT)</td>
- <td>Axis of rotor 1 thrust vector, Y body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R1_AZ">CA_MC_R1_AZ</strong> (FLOAT)</td>
- <td>Axis of rotor 1 thrust vector, Z body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
- <td>-100 > 100 (0.1)</td>
- <td>-1.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R1_CT">CA_MC_R1_CT</strong> (FLOAT)</td>
- <td>Thrust coefficient of rotor 1 <p><strong>Comment:</strong> The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</p>   </td>
- <td>0 > 100 (1)</td>
- <td>6.5</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R1_KM">CA_MC_R1_KM</strong> (FLOAT)</td>
- <td>Moment coefficient of rotor 1 <p><strong>Comment:</strong> The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</p>   </td>
- <td>-1 > 1 (0.01)</td>
- <td>0.05</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R1_PX">CA_MC_R1_PX</strong> (FLOAT)</td>
- <td>Position of rotor 1 along X body axis    </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td>m</td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R1_PY">CA_MC_R1_PY</strong> (FLOAT)</td>
- <td>Position of rotor 1 along Y body axis    </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td>m</td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R1_PZ">CA_MC_R1_PZ</strong> (FLOAT)</td>
- <td>Position of rotor 1 along Z body axis    </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td>m</td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R2_AX">CA_MC_R2_AX</strong> (FLOAT)</td>
- <td>Axis of rotor 2 thrust vector, X body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R2_AY">CA_MC_R2_AY</strong> (FLOAT)</td>
- <td>Axis of rotor 2 thrust vector, Y body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R2_AZ">CA_MC_R2_AZ</strong> (FLOAT)</td>
- <td>Axis of rotor 2 thrust vector, Z body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
- <td>-100 > 100 (0.1)</td>
- <td>-1.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R2_CT">CA_MC_R2_CT</strong> (FLOAT)</td>
- <td>Thrust coefficient of rotor 2 <p><strong>Comment:</strong> The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</p>   </td>
- <td>0 > 100 (1)</td>
- <td>6.5</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R2_KM">CA_MC_R2_KM</strong> (FLOAT)</td>
- <td>Moment coefficient of rotor 2 <p><strong>Comment:</strong> The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</p>   </td>
- <td>-1 > 1 (0.01)</td>
- <td>0.05</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R2_PX">CA_MC_R2_PX</strong> (FLOAT)</td>
- <td>Position of rotor 2 along X body axis    </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td>m</td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R2_PY">CA_MC_R2_PY</strong> (FLOAT)</td>
- <td>Position of rotor 2 along Y body axis    </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td>m</td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R2_PZ">CA_MC_R2_PZ</strong> (FLOAT)</td>
- <td>Position of rotor 2 along Z body axis    </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td>m</td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R3_AX">CA_MC_R3_AX</strong> (FLOAT)</td>
- <td>Axis of rotor 3 thrust vector, X body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R3_AY">CA_MC_R3_AY</strong> (FLOAT)</td>
- <td>Axis of rotor 3 thrust vector, Y body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R3_AZ">CA_MC_R3_AZ</strong> (FLOAT)</td>
- <td>Axis of rotor 3 thrust vector, Z body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
- <td>-100 > 100 (0.1)</td>
- <td>-1.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R3_CT">CA_MC_R3_CT</strong> (FLOAT)</td>
- <td>Thrust coefficient of rotor 3 <p><strong>Comment:</strong> The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</p>   </td>
- <td>0 > 100 (1)</td>
- <td>6.5</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R3_KM">CA_MC_R3_KM</strong> (FLOAT)</td>
- <td>Moment coefficient of rotor 3 <p><strong>Comment:</strong> The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</p>   </td>
- <td>-1 > 1 (0.01)</td>
- <td>0.05</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R3_PX">CA_MC_R3_PX</strong> (FLOAT)</td>
- <td>Position of rotor 3 along X body axis    </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td>m</td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R3_PY">CA_MC_R3_PY</strong> (FLOAT)</td>
- <td>Position of rotor 3 along Y body axis    </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td>m</td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R3_PZ">CA_MC_R3_PZ</strong> (FLOAT)</td>
- <td>Position of rotor 3 along Z body axis    </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td>m</td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R4_AX">CA_MC_R4_AX</strong> (FLOAT)</td>
- <td>Axis of rotor 4 thrust vector, X body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R4_AY">CA_MC_R4_AY</strong> (FLOAT)</td>
- <td>Axis of rotor 4 thrust vector, Y body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R4_AZ">CA_MC_R4_AZ</strong> (FLOAT)</td>
- <td>Axis of rotor 4 thrust vector, Z body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
- <td>-100 > 100 (0.1)</td>
- <td>-1.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R4_CT">CA_MC_R4_CT</strong> (FLOAT)</td>
- <td>Thrust coefficient of rotor 4 <p><strong>Comment:</strong> The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</p>   </td>
- <td>0 > 100 (1)</td>
- <td>6.5</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R4_KM">CA_MC_R4_KM</strong> (FLOAT)</td>
- <td>Moment coefficient of rotor 4 <p><strong>Comment:</strong> The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</p>   </td>
- <td>-1 > 1 (0.01)</td>
- <td>0.05</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R4_PX">CA_MC_R4_PX</strong> (FLOAT)</td>
- <td>Position of rotor 4 along X body axis    </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td>m</td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R4_PY">CA_MC_R4_PY</strong> (FLOAT)</td>
- <td>Position of rotor 4 along Y body axis    </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td>m</td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R4_PZ">CA_MC_R4_PZ</strong> (FLOAT)</td>
- <td>Position of rotor 4 along Z body axis    </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td>m</td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R5_AX">CA_MC_R5_AX</strong> (FLOAT)</td>
- <td>Axis of rotor 5 thrust vector, X body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R5_AY">CA_MC_R5_AY</strong> (FLOAT)</td>
- <td>Axis of rotor 5 thrust vector, Y body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R5_AZ">CA_MC_R5_AZ</strong> (FLOAT)</td>
- <td>Axis of rotor 5 thrust vector, Z body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
- <td>-100 > 100 (0.1)</td>
- <td>-1.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R5_CT">CA_MC_R5_CT</strong> (FLOAT)</td>
- <td>Thrust coefficient of rotor 5 <p><strong>Comment:</strong> The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</p>   </td>
- <td>0 > 100 (1)</td>
- <td>6.5</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R5_KM">CA_MC_R5_KM</strong> (FLOAT)</td>
- <td>Moment coefficient of rotor 5 <p><strong>Comment:</strong> The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</p>   </td>
- <td>-1 > 1 (0.01)</td>
- <td>0.05</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R5_PX">CA_MC_R5_PX</strong> (FLOAT)</td>
- <td>Position of rotor 5 along X body axis    </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td>m</td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R5_PY">CA_MC_R5_PY</strong> (FLOAT)</td>
- <td>Position of rotor 5 along Y body axis    </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td>m</td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R5_PZ">CA_MC_R5_PZ</strong> (FLOAT)</td>
- <td>Position of rotor 5 along Z body axis    </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td>m</td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R6_AX">CA_MC_R6_AX</strong> (FLOAT)</td>
- <td>Axis of rotor 6 thrust vector, X body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R6_AY">CA_MC_R6_AY</strong> (FLOAT)</td>
- <td>Axis of rotor 6 thrust vector, Y body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R6_AZ">CA_MC_R6_AZ</strong> (FLOAT)</td>
- <td>Axis of rotor 6 thrust vector, Z body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
- <td>-100 > 100 (0.1)</td>
- <td>-1.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R6_CT">CA_MC_R6_CT</strong> (FLOAT)</td>
- <td>Thrust coefficient of rotor 6 <p><strong>Comment:</strong> The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</p>   </td>
- <td>0 > 100 (1)</td>
- <td>6.5</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R6_KM">CA_MC_R6_KM</strong> (FLOAT)</td>
- <td>Moment coefficient of rotor 6 <p><strong>Comment:</strong> The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</p>   </td>
- <td>-1 > 1 (0.01)</td>
- <td>0.05</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R6_PX">CA_MC_R6_PX</strong> (FLOAT)</td>
- <td>Position of rotor 6 along X body axis    </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td>m</td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R6_PY">CA_MC_R6_PY</strong> (FLOAT)</td>
- <td>Position of rotor 6 along Y body axis    </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td>m</td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R6_PZ">CA_MC_R6_PZ</strong> (FLOAT)</td>
- <td>Position of rotor 6 along Z body axis    </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td>m</td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R7_AX">CA_MC_R7_AX</strong> (FLOAT)</td>
- <td>Axis of rotor 7 thrust vector, X body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R7_AY">CA_MC_R7_AY</strong> (FLOAT)</td>
- <td>Axis of rotor 7 thrust vector, Y body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R7_AZ">CA_MC_R7_AZ</strong> (FLOAT)</td>
- <td>Axis of rotor 7 thrust vector, Z body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
- <td>-100 > 100 (0.1)</td>
- <td>-1.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R7_CT">CA_MC_R7_CT</strong> (FLOAT)</td>
- <td>Thrust coefficient of rotor 7 <p><strong>Comment:</strong> The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</p>   </td>
- <td>0 > 100 (1)</td>
- <td>6.5</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R7_KM">CA_MC_R7_KM</strong> (FLOAT)</td>
- <td>Moment coefficient of rotor 7 <p><strong>Comment:</strong> The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</p>   </td>
- <td>-1 > 1 (0.01)</td>
- <td>0.05</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R7_PX">CA_MC_R7_PX</strong> (FLOAT)</td>
- <td>Position of rotor 7 along X body axis    </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td>m</td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R7_PY">CA_MC_R7_PY</strong> (FLOAT)</td>
- <td>Position of rotor 7 along Y body axis    </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td>m</td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R7_PZ">CA_MC_R7_PZ</strong> (FLOAT)</td>
- <td>Position of rotor 7 along Z body axis    </td>
- <td>-100 > 100 (0.1)</td>
- <td>0.0</td>
- <td>m</td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R_COUNT">CA_MC_R_COUNT</strong> (INT32)</td>
- <td>Total number of rotors  <strong>Values:</strong><ul>
-<li><strong>0:</strong> 0 Motors</li> 
-
-<li><strong>1:</strong> 1 Motor</li> 
-
-<li><strong>2:</strong> 2 Motors</li> 
-
-<li><strong>3:</strong> 3 Motors</li> 
-
-<li><strong>4:</strong> 4 Motors</li> 
-
-<li><strong>5:</strong> 5 Motors</li> 
-
-<li><strong>6:</strong> 6 Motors</li> 
-
-<li><strong>7:</strong> 7 Motors</li> 
-
-<li><strong>8:</strong> 8 Motors</li> 
-</ul>
-  </td>
- <td></td>
- <td>0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_METHOD">CA_METHOD</strong> (INT32)</td>
- <td>Control allocation method <p><strong>Comment:</strong> Selects the algorithm and desaturation method</p> <strong>Values:</strong><ul>
-<li><strong>0:</strong> Pseudo-inverse with output clipping</li> 
-
-<li><strong>1:</strong> Pseudo-inverse with sequential desaturation technique</li> 
-</ul>
-  </td>
- <td></td>
- <td>1</td>
  <td></td>
 </tr>
 </tbody></table>
@@ -12809,7 +11484,7 @@ table {
  <td><strong id="EKF2_MAG_CHECK">EKF2_MAG_CHECK</strong> (INT32)</td>
  <td>Magnetic field strength test selection <p><strong>Comment:</strong> When set, the EKF checks the strength of the magnetic field to decide whether the magnetometer data is valid. If GPS data is received, the magnetic field is compared to a World Magnetic Model (WMM), otherwise an average value is used. This check is useful to reject occasional hard iron disturbance.</p>   </td>
  <td></td>
- <td>Disabled (0)</td>
+ <td>Enabled (1)</td>
  <td></td>
 </tr>
 <tr>
@@ -13716,10 +12391,10 @@ table {
 </tr>
 <tr>
  <td><strong id="FW_L1_PERIOD">FW_L1_PERIOD</strong> (FLOAT)</td>
- <td>L1 period <p><strong>Comment:</strong> This is the L1 distance and defines the tracking point ahead of the aircraft its following. A value of 18-25 meters works for most aircraft. Shorten slowly during tuning until response is sharp without oscillation.</p>   </td>
- <td>12.0 > 50.0 (0.5)</td>
+ <td>L1 period <p><strong>Comment:</strong> Used to determine the L1 gain and controller time constant. This parameter is proportional to the L1 distance (which points ahead of the aircraft on the path it is following). A value of 18-25 seconds works for most aircraft. Shorten slowly during tuning until response is sharp without oscillation.</p>   </td>
+ <td>7.0 > 50.0 (0.5)</td>
  <td>20.0</td>
- <td>m</td>
+ <td>s</td>
 </tr>
 <tr>
  <td><strong id="FW_L1_R_SLEW_MAX">FW_L1_R_SLEW_MAX</strong> (FLOAT)</td>
@@ -14432,6 +13107,14 @@ table {
  <td>0.</td>
  <td>deg</td>
 </tr>
+<tr>
+ <td><strong id="PPS_CAP_ENABLE">PPS_CAP_ENABLE</strong> (INT32)</td>
+ <td>PPS Capture Enable <p><strong>Comment:</strong> Enables the PPS capture module. This switches mode of FMU channel 7 to be the PPS input channel.</p>   <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>Disabled (0)</td>
+ <td></td>
+</tr>
 </tbody></table>
 
 ## Geofence
@@ -14504,6 +13187,1512 @@ table {
 </ul>
   </td>
  <td>0 > 1 </td>
+ <td>0</td>
+ <td></td>
+</tr>
+</tbody></table>
+
+## Geometry
+
+<table>
+ <colgroup><col style="width: 23%"><col style="width: 46%"><col style="width: 11%"><col style="width: 11%"><col style="width: 9%"></colgroup>
+ <thead>
+   <tr><th>Name</th><th>Description</th><th>Min > Max (Incr.)</th><th>Default</th><th>Units</th></tr>
+ </thead>
+<tbody>
+<tr>
+ <td><strong id="CA_AIRFRAME">CA_AIRFRAME</strong> (INT32)</td>
+ <td>Airframe selection <p><strong>Comment:</strong> Defines which mixer implementation to use. Some are generic, while others are specifically fit to a certain vehicle with a fixed set of actuators. 'Custom' should only be used if noting else can be used.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Multirotor</li> 
+
+<li><strong>1:</strong> Fixed-wing</li> 
+
+<li><strong>2:</strong> Standard VTOL</li> 
+
+<li><strong>3:</strong> Tiltrotor VTOL</li> 
+
+<li><strong>4:</strong> Tailsitter VTOL</li> 
+
+<li><strong>5:</strong> Rover (Ackermann)</li> 
+
+<li><strong>6:</strong> Rover (Differential)</li> 
+
+<li><strong>7:</strong> Motors (6DOF)</li> 
+
+<li><strong>8:</strong> Multirotor with Tilt</li> 
+
+<li><strong>9:</strong> Custom</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_METHOD">CA_METHOD</strong> (INT32)</td>
+ <td>Control allocation method <p><strong>Comment:</strong> Selects the algorithm and desaturation method. If set to Automtic, the selection is based on the airframe (CA_AIRFRAME).</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Pseudo-inverse with output clipping</li> 
+
+<li><strong>1:</strong> Pseudo-inverse with sequential desaturation technique</li> 
+
+<li><strong>2:</strong> Automatic</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>2</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_R0_SLEW">CA_R0_SLEW</strong> (FLOAT)</td>
+ <td>Motor 0 slew rate limit <p><strong>Comment:</strong> Minimum time allowed for the motor input signal to pass through the full output range. A value x means that the motor signal can only go from 0 to 1 in minimum x seconds (in case of reversible motors, the range is -1 to 1). Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>0 > 10 (0.01)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_R1_SLEW">CA_R1_SLEW</strong> (FLOAT)</td>
+ <td>Motor 1 slew rate limit <p><strong>Comment:</strong> Minimum time allowed for the motor input signal to pass through the full output range. A value x means that the motor signal can only go from 0 to 1 in minimum x seconds (in case of reversible motors, the range is -1 to 1). Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>0 > 10 (0.01)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_R2_SLEW">CA_R2_SLEW</strong> (FLOAT)</td>
+ <td>Motor 2 slew rate limit <p><strong>Comment:</strong> Minimum time allowed for the motor input signal to pass through the full output range. A value x means that the motor signal can only go from 0 to 1 in minimum x seconds (in case of reversible motors, the range is -1 to 1). Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>0 > 10 (0.01)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_R3_SLEW">CA_R3_SLEW</strong> (FLOAT)</td>
+ <td>Motor 3 slew rate limit <p><strong>Comment:</strong> Minimum time allowed for the motor input signal to pass through the full output range. A value x means that the motor signal can only go from 0 to 1 in minimum x seconds (in case of reversible motors, the range is -1 to 1). Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>0 > 10 (0.01)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_R4_SLEW">CA_R4_SLEW</strong> (FLOAT)</td>
+ <td>Motor 4 slew rate limit <p><strong>Comment:</strong> Minimum time allowed for the motor input signal to pass through the full output range. A value x means that the motor signal can only go from 0 to 1 in minimum x seconds (in case of reversible motors, the range is -1 to 1). Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>0 > 10 (0.01)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_R5_SLEW">CA_R5_SLEW</strong> (FLOAT)</td>
+ <td>Motor 5 slew rate limit <p><strong>Comment:</strong> Minimum time allowed for the motor input signal to pass through the full output range. A value x means that the motor signal can only go from 0 to 1 in minimum x seconds (in case of reversible motors, the range is -1 to 1). Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>0 > 10 (0.01)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_R6_SLEW">CA_R6_SLEW</strong> (FLOAT)</td>
+ <td>Motor 6 slew rate limit <p><strong>Comment:</strong> Minimum time allowed for the motor input signal to pass through the full output range. A value x means that the motor signal can only go from 0 to 1 in minimum x seconds (in case of reversible motors, the range is -1 to 1). Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>0 > 10 (0.01)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_R7_SLEW">CA_R7_SLEW</strong> (FLOAT)</td>
+ <td>Motor 7 slew rate limit <p><strong>Comment:</strong> Minimum time allowed for the motor input signal to pass through the full output range. A value x means that the motor signal can only go from 0 to 1 in minimum x seconds (in case of reversible motors, the range is -1 to 1). Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>0 > 10 (0.01)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR0_AX">CA_ROTOR0_AX</strong> (FLOAT)</td>
+ <td>Axis of rotor 0 thrust vector, X body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR0_AY">CA_ROTOR0_AY</strong> (FLOAT)</td>
+ <td>Axis of rotor 0 thrust vector, Y body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR0_AZ">CA_ROTOR0_AZ</strong> (FLOAT)</td>
+ <td>Axis of rotor 0 thrust vector, Z body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>-1.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR0_CT">CA_ROTOR0_CT</strong> (FLOAT)</td>
+ <td>Thrust coefficient of rotor 0 <p><strong>Comment:</strong> The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</p>   </td>
+ <td>0 > 100 (1)</td>
+ <td>6.5</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR0_KM">CA_ROTOR0_KM</strong> (FLOAT)</td>
+ <td>Moment coefficient of rotor 0 <p><strong>Comment:</strong> The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</p>   </td>
+ <td>-1 > 1 (0.01)</td>
+ <td>0.05</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR0_PX">CA_ROTOR0_PX</strong> (FLOAT)</td>
+ <td>Position of rotor 0 along X body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR0_PY">CA_ROTOR0_PY</strong> (FLOAT)</td>
+ <td>Position of rotor 0 along Y body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR0_PZ">CA_ROTOR0_PZ</strong> (FLOAT)</td>
+ <td>Position of rotor 0 along Z body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR0_TILT">CA_ROTOR0_TILT</strong> (INT32)</td>
+ <td>Rotor 0 tilt assignment <p><strong>Comment:</strong> If not set to None, this motor is tilted by the configured tilt servo.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> None</li> 
+
+<li><strong>1:</strong> Tilt 1</li> 
+
+<li><strong>2:</strong> Tilt 2</li> 
+
+<li><strong>3:</strong> Tilt 3</li> 
+
+<li><strong>4:</strong> Tilt 4</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR1_AX">CA_ROTOR1_AX</strong> (FLOAT)</td>
+ <td>Axis of rotor 1 thrust vector, X body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR1_AY">CA_ROTOR1_AY</strong> (FLOAT)</td>
+ <td>Axis of rotor 1 thrust vector, Y body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR1_AZ">CA_ROTOR1_AZ</strong> (FLOAT)</td>
+ <td>Axis of rotor 1 thrust vector, Z body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>-1.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR1_CT">CA_ROTOR1_CT</strong> (FLOAT)</td>
+ <td>Thrust coefficient of rotor 1 <p><strong>Comment:</strong> The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</p>   </td>
+ <td>0 > 100 (1)</td>
+ <td>6.5</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR1_KM">CA_ROTOR1_KM</strong> (FLOAT)</td>
+ <td>Moment coefficient of rotor 1 <p><strong>Comment:</strong> The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</p>   </td>
+ <td>-1 > 1 (0.01)</td>
+ <td>0.05</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR1_PX">CA_ROTOR1_PX</strong> (FLOAT)</td>
+ <td>Position of rotor 1 along X body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR1_PY">CA_ROTOR1_PY</strong> (FLOAT)</td>
+ <td>Position of rotor 1 along Y body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR1_PZ">CA_ROTOR1_PZ</strong> (FLOAT)</td>
+ <td>Position of rotor 1 along Z body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR1_TILT">CA_ROTOR1_TILT</strong> (INT32)</td>
+ <td>Rotor 1 tilt assignment <p><strong>Comment:</strong> If not set to None, this motor is tilted by the configured tilt servo.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> None</li> 
+
+<li><strong>1:</strong> Tilt 1</li> 
+
+<li><strong>2:</strong> Tilt 2</li> 
+
+<li><strong>3:</strong> Tilt 3</li> 
+
+<li><strong>4:</strong> Tilt 4</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR2_AX">CA_ROTOR2_AX</strong> (FLOAT)</td>
+ <td>Axis of rotor 2 thrust vector, X body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR2_AY">CA_ROTOR2_AY</strong> (FLOAT)</td>
+ <td>Axis of rotor 2 thrust vector, Y body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR2_AZ">CA_ROTOR2_AZ</strong> (FLOAT)</td>
+ <td>Axis of rotor 2 thrust vector, Z body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>-1.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR2_CT">CA_ROTOR2_CT</strong> (FLOAT)</td>
+ <td>Thrust coefficient of rotor 2 <p><strong>Comment:</strong> The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</p>   </td>
+ <td>0 > 100 (1)</td>
+ <td>6.5</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR2_KM">CA_ROTOR2_KM</strong> (FLOAT)</td>
+ <td>Moment coefficient of rotor 2 <p><strong>Comment:</strong> The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</p>   </td>
+ <td>-1 > 1 (0.01)</td>
+ <td>0.05</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR2_PX">CA_ROTOR2_PX</strong> (FLOAT)</td>
+ <td>Position of rotor 2 along X body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR2_PY">CA_ROTOR2_PY</strong> (FLOAT)</td>
+ <td>Position of rotor 2 along Y body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR2_PZ">CA_ROTOR2_PZ</strong> (FLOAT)</td>
+ <td>Position of rotor 2 along Z body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR2_TILT">CA_ROTOR2_TILT</strong> (INT32)</td>
+ <td>Rotor 2 tilt assignment <p><strong>Comment:</strong> If not set to None, this motor is tilted by the configured tilt servo.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> None</li> 
+
+<li><strong>1:</strong> Tilt 1</li> 
+
+<li><strong>2:</strong> Tilt 2</li> 
+
+<li><strong>3:</strong> Tilt 3</li> 
+
+<li><strong>4:</strong> Tilt 4</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR3_AX">CA_ROTOR3_AX</strong> (FLOAT)</td>
+ <td>Axis of rotor 3 thrust vector, X body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR3_AY">CA_ROTOR3_AY</strong> (FLOAT)</td>
+ <td>Axis of rotor 3 thrust vector, Y body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR3_AZ">CA_ROTOR3_AZ</strong> (FLOAT)</td>
+ <td>Axis of rotor 3 thrust vector, Z body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>-1.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR3_CT">CA_ROTOR3_CT</strong> (FLOAT)</td>
+ <td>Thrust coefficient of rotor 3 <p><strong>Comment:</strong> The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</p>   </td>
+ <td>0 > 100 (1)</td>
+ <td>6.5</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR3_KM">CA_ROTOR3_KM</strong> (FLOAT)</td>
+ <td>Moment coefficient of rotor 3 <p><strong>Comment:</strong> The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</p>   </td>
+ <td>-1 > 1 (0.01)</td>
+ <td>0.05</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR3_PX">CA_ROTOR3_PX</strong> (FLOAT)</td>
+ <td>Position of rotor 3 along X body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR3_PY">CA_ROTOR3_PY</strong> (FLOAT)</td>
+ <td>Position of rotor 3 along Y body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR3_PZ">CA_ROTOR3_PZ</strong> (FLOAT)</td>
+ <td>Position of rotor 3 along Z body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR3_TILT">CA_ROTOR3_TILT</strong> (INT32)</td>
+ <td>Rotor 3 tilt assignment <p><strong>Comment:</strong> If not set to None, this motor is tilted by the configured tilt servo.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> None</li> 
+
+<li><strong>1:</strong> Tilt 1</li> 
+
+<li><strong>2:</strong> Tilt 2</li> 
+
+<li><strong>3:</strong> Tilt 3</li> 
+
+<li><strong>4:</strong> Tilt 4</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR4_AX">CA_ROTOR4_AX</strong> (FLOAT)</td>
+ <td>Axis of rotor 4 thrust vector, X body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR4_AY">CA_ROTOR4_AY</strong> (FLOAT)</td>
+ <td>Axis of rotor 4 thrust vector, Y body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR4_AZ">CA_ROTOR4_AZ</strong> (FLOAT)</td>
+ <td>Axis of rotor 4 thrust vector, Z body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>-1.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR4_CT">CA_ROTOR4_CT</strong> (FLOAT)</td>
+ <td>Thrust coefficient of rotor 4 <p><strong>Comment:</strong> The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</p>   </td>
+ <td>0 > 100 (1)</td>
+ <td>6.5</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR4_KM">CA_ROTOR4_KM</strong> (FLOAT)</td>
+ <td>Moment coefficient of rotor 4 <p><strong>Comment:</strong> The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</p>   </td>
+ <td>-1 > 1 (0.01)</td>
+ <td>0.05</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR4_PX">CA_ROTOR4_PX</strong> (FLOAT)</td>
+ <td>Position of rotor 4 along X body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR4_PY">CA_ROTOR4_PY</strong> (FLOAT)</td>
+ <td>Position of rotor 4 along Y body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR4_PZ">CA_ROTOR4_PZ</strong> (FLOAT)</td>
+ <td>Position of rotor 4 along Z body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR4_TILT">CA_ROTOR4_TILT</strong> (INT32)</td>
+ <td>Rotor 4 tilt assignment <p><strong>Comment:</strong> If not set to None, this motor is tilted by the configured tilt servo.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> None</li> 
+
+<li><strong>1:</strong> Tilt 1</li> 
+
+<li><strong>2:</strong> Tilt 2</li> 
+
+<li><strong>3:</strong> Tilt 3</li> 
+
+<li><strong>4:</strong> Tilt 4</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR5_AX">CA_ROTOR5_AX</strong> (FLOAT)</td>
+ <td>Axis of rotor 5 thrust vector, X body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR5_AY">CA_ROTOR5_AY</strong> (FLOAT)</td>
+ <td>Axis of rotor 5 thrust vector, Y body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR5_AZ">CA_ROTOR5_AZ</strong> (FLOAT)</td>
+ <td>Axis of rotor 5 thrust vector, Z body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>-1.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR5_CT">CA_ROTOR5_CT</strong> (FLOAT)</td>
+ <td>Thrust coefficient of rotor 5 <p><strong>Comment:</strong> The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</p>   </td>
+ <td>0 > 100 (1)</td>
+ <td>6.5</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR5_KM">CA_ROTOR5_KM</strong> (FLOAT)</td>
+ <td>Moment coefficient of rotor 5 <p><strong>Comment:</strong> The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</p>   </td>
+ <td>-1 > 1 (0.01)</td>
+ <td>0.05</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR5_PX">CA_ROTOR5_PX</strong> (FLOAT)</td>
+ <td>Position of rotor 5 along X body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR5_PY">CA_ROTOR5_PY</strong> (FLOAT)</td>
+ <td>Position of rotor 5 along Y body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR5_PZ">CA_ROTOR5_PZ</strong> (FLOAT)</td>
+ <td>Position of rotor 5 along Z body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR5_TILT">CA_ROTOR5_TILT</strong> (INT32)</td>
+ <td>Rotor 5 tilt assignment <p><strong>Comment:</strong> If not set to None, this motor is tilted by the configured tilt servo.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> None</li> 
+
+<li><strong>1:</strong> Tilt 1</li> 
+
+<li><strong>2:</strong> Tilt 2</li> 
+
+<li><strong>3:</strong> Tilt 3</li> 
+
+<li><strong>4:</strong> Tilt 4</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR6_AX">CA_ROTOR6_AX</strong> (FLOAT)</td>
+ <td>Axis of rotor 6 thrust vector, X body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR6_AY">CA_ROTOR6_AY</strong> (FLOAT)</td>
+ <td>Axis of rotor 6 thrust vector, Y body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR6_AZ">CA_ROTOR6_AZ</strong> (FLOAT)</td>
+ <td>Axis of rotor 6 thrust vector, Z body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>-1.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR6_CT">CA_ROTOR6_CT</strong> (FLOAT)</td>
+ <td>Thrust coefficient of rotor 6 <p><strong>Comment:</strong> The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</p>   </td>
+ <td>0 > 100 (1)</td>
+ <td>6.5</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR6_KM">CA_ROTOR6_KM</strong> (FLOAT)</td>
+ <td>Moment coefficient of rotor 6 <p><strong>Comment:</strong> The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</p>   </td>
+ <td>-1 > 1 (0.01)</td>
+ <td>0.05</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR6_PX">CA_ROTOR6_PX</strong> (FLOAT)</td>
+ <td>Position of rotor 6 along X body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR6_PY">CA_ROTOR6_PY</strong> (FLOAT)</td>
+ <td>Position of rotor 6 along Y body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR6_PZ">CA_ROTOR6_PZ</strong> (FLOAT)</td>
+ <td>Position of rotor 6 along Z body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR6_TILT">CA_ROTOR6_TILT</strong> (INT32)</td>
+ <td>Rotor 6 tilt assignment <p><strong>Comment:</strong> If not set to None, this motor is tilted by the configured tilt servo.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> None</li> 
+
+<li><strong>1:</strong> Tilt 1</li> 
+
+<li><strong>2:</strong> Tilt 2</li> 
+
+<li><strong>3:</strong> Tilt 3</li> 
+
+<li><strong>4:</strong> Tilt 4</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR7_AX">CA_ROTOR7_AX</strong> (FLOAT)</td>
+ <td>Axis of rotor 7 thrust vector, X body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR7_AY">CA_ROTOR7_AY</strong> (FLOAT)</td>
+ <td>Axis of rotor 7 thrust vector, Y body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR7_AZ">CA_ROTOR7_AZ</strong> (FLOAT)</td>
+ <td>Axis of rotor 7 thrust vector, Z body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>-1.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR7_CT">CA_ROTOR7_CT</strong> (FLOAT)</td>
+ <td>Thrust coefficient of rotor 7 <p><strong>Comment:</strong> The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</p>   </td>
+ <td>0 > 100 (1)</td>
+ <td>6.5</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR7_KM">CA_ROTOR7_KM</strong> (FLOAT)</td>
+ <td>Moment coefficient of rotor 7 <p><strong>Comment:</strong> The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</p>   </td>
+ <td>-1 > 1 (0.01)</td>
+ <td>0.05</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR7_PX">CA_ROTOR7_PX</strong> (FLOAT)</td>
+ <td>Position of rotor 7 along X body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR7_PY">CA_ROTOR7_PY</strong> (FLOAT)</td>
+ <td>Position of rotor 7 along Y body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR7_PZ">CA_ROTOR7_PZ</strong> (FLOAT)</td>
+ <td>Position of rotor 7 along Z body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR7_TILT">CA_ROTOR7_TILT</strong> (INT32)</td>
+ <td>Rotor 7 tilt assignment <p><strong>Comment:</strong> If not set to None, this motor is tilted by the configured tilt servo.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> None</li> 
+
+<li><strong>1:</strong> Tilt 1</li> 
+
+<li><strong>2:</strong> Tilt 2</li> 
+
+<li><strong>3:</strong> Tilt 3</li> 
+
+<li><strong>4:</strong> Tilt 4</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR_COUNT">CA_ROTOR_COUNT</strong> (INT32)</td>
+ <td>Total number of rotors  <strong>Values:</strong><ul>
+<li><strong>0:</strong> 0</li> 
+
+<li><strong>1:</strong> 1</li> 
+
+<li><strong>2:</strong> 2</li> 
+
+<li><strong>3:</strong> 3</li> 
+
+<li><strong>4:</strong> 4</li> 
+
+<li><strong>5:</strong> 5</li> 
+
+<li><strong>6:</strong> 6</li> 
+
+<li><strong>7:</strong> 7</li> 
+
+<li><strong>8:</strong> 8</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_R_REV">CA_R_REV</strong> (INT32)</td>
+ <td>Reversible motors <p><strong>Comment:</strong> Configure motors to be reversible. Note that the output driver needs to support this as well.</p>  <strong>Bitmask:</strong><ul>  <li><strong>0:</strong> Motor 1</li> 
+  <li><strong>1:</strong> Motor 2</li> 
+  <li><strong>2:</strong> Motor 3</li> 
+  <li><strong>3:</strong> Motor 4</li> 
+  <li><strong>4:</strong> Motor 5</li> 
+  <li><strong>5:</strong> Motor 6</li> 
+  <li><strong>6:</strong> Motor 7</li> 
+  <li><strong>7:</strong> Motor 8</li> 
+</ul>
+ </td>
+ <td>0 > 255 </td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_STDVTOL_N_P">CA_STDVTOL_N_P</strong> (INT32)</td>
+ <td>Number of fixed wing (pusher/puller) motors  <strong>Values:</strong><ul>
+<li><strong>1:</strong> 1</li> 
+
+<li><strong>2:</strong> 2</li> 
+
+<li><strong>3:</strong> 3</li> 
+
+<li><strong>4:</strong> 4</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV0_SLEW">CA_SV0_SLEW</strong> (FLOAT)</td>
+ <td>Servo 0 slew rate limit <p><strong>Comment:</strong> Minimum time allowed for the servo input signal to pass through the full output range. A value x means that the servo signal can only go from -1 to 1 in minimum x seconds. Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>0 > 10 (0.05)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV1_SLEW">CA_SV1_SLEW</strong> (FLOAT)</td>
+ <td>Servo 1 slew rate limit <p><strong>Comment:</strong> Minimum time allowed for the servo input signal to pass through the full output range. A value x means that the servo signal can only go from -1 to 1 in minimum x seconds. Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>0 > 10 (0.05)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV2_SLEW">CA_SV2_SLEW</strong> (FLOAT)</td>
+ <td>Servo 2 slew rate limit <p><strong>Comment:</strong> Minimum time allowed for the servo input signal to pass through the full output range. A value x means that the servo signal can only go from -1 to 1 in minimum x seconds. Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>0 > 10 (0.05)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV3_SLEW">CA_SV3_SLEW</strong> (FLOAT)</td>
+ <td>Servo 3 slew rate limit <p><strong>Comment:</strong> Minimum time allowed for the servo input signal to pass through the full output range. A value x means that the servo signal can only go from -1 to 1 in minimum x seconds. Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>0 > 10 (0.05)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV4_SLEW">CA_SV4_SLEW</strong> (FLOAT)</td>
+ <td>Servo 4 slew rate limit <p><strong>Comment:</strong> Minimum time allowed for the servo input signal to pass through the full output range. A value x means that the servo signal can only go from -1 to 1 in minimum x seconds. Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>0 > 10 (0.05)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV5_SLEW">CA_SV5_SLEW</strong> (FLOAT)</td>
+ <td>Servo 5 slew rate limit <p><strong>Comment:</strong> Minimum time allowed for the servo input signal to pass through the full output range. A value x means that the servo signal can only go from -1 to 1 in minimum x seconds. Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>0 > 10 (0.05)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV6_SLEW">CA_SV6_SLEW</strong> (FLOAT)</td>
+ <td>Servo 6 slew rate limit <p><strong>Comment:</strong> Minimum time allowed for the servo input signal to pass through the full output range. A value x means that the servo signal can only go from -1 to 1 in minimum x seconds. Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>0 > 10 (0.05)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV7_SLEW">CA_SV7_SLEW</strong> (FLOAT)</td>
+ <td>Servo 7 slew rate limit <p><strong>Comment:</strong> Minimum time allowed for the servo input signal to pass through the full output range. A value x means that the servo signal can only go from -1 to 1 in minimum x seconds. Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>0 > 10 (0.05)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS0_TRIM">CA_SV_CS0_TRIM</strong> (FLOAT)</td>
+ <td>Control Surface 0 trim <p><strong>Comment:</strong> Can be used to add an offset to the servo control.</p>   </td>
+ <td>-1.0 > 1.0 </td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS0_TRQ_P">CA_SV_CS0_TRQ_P</strong> (FLOAT)</td>
+ <td>Control Surface 0 pitch torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS0_TRQ_R">CA_SV_CS0_TRQ_R</strong> (FLOAT)</td>
+ <td>Control Surface 0 roll torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS0_TRQ_Y">CA_SV_CS0_TRQ_Y</strong> (FLOAT)</td>
+ <td>Control Surface 0 yaw torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS0_TYPE">CA_SV_CS0_TYPE</strong> (INT32)</td>
+ <td>Control Surface 0 type  <strong>Values:</strong><ul>
+<li><strong>1:</strong> Left Aileron</li> 
+
+<li><strong>2:</strong> Right Aileron</li> 
+
+<li><strong>3:</strong> Elevator</li> 
+
+<li><strong>4:</strong> Rudder</li> 
+
+<li><strong>5:</strong> Left Elevon</li> 
+
+<li><strong>6:</strong> Right Elevon</li> 
+
+<li><strong>7:</strong> Left V-Tail</li> 
+
+<li><strong>8:</strong> Right V-Tail</li> 
+
+<li><strong>9:</strong> Left Flap</li> 
+
+<li><strong>10:</strong> Right Flap</li> 
+
+<li><strong>11:</strong> Airbrakes</li> 
+
+<li><strong>12:</strong> Custom</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS1_TRIM">CA_SV_CS1_TRIM</strong> (FLOAT)</td>
+ <td>Control Surface 1 trim <p><strong>Comment:</strong> Can be used to add an offset to the servo control.</p>   </td>
+ <td>-1.0 > 1.0 </td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS1_TRQ_P">CA_SV_CS1_TRQ_P</strong> (FLOAT)</td>
+ <td>Control Surface 1 pitch torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS1_TRQ_R">CA_SV_CS1_TRQ_R</strong> (FLOAT)</td>
+ <td>Control Surface 1 roll torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS1_TRQ_Y">CA_SV_CS1_TRQ_Y</strong> (FLOAT)</td>
+ <td>Control Surface 1 yaw torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS1_TYPE">CA_SV_CS1_TYPE</strong> (INT32)</td>
+ <td>Control Surface 1 type  <strong>Values:</strong><ul>
+<li><strong>1:</strong> Left Aileron</li> 
+
+<li><strong>2:</strong> Right Aileron</li> 
+
+<li><strong>3:</strong> Elevator</li> 
+
+<li><strong>4:</strong> Rudder</li> 
+
+<li><strong>5:</strong> Left Elevon</li> 
+
+<li><strong>6:</strong> Right Elevon</li> 
+
+<li><strong>7:</strong> Left V-Tail</li> 
+
+<li><strong>8:</strong> Right V-Tail</li> 
+
+<li><strong>9:</strong> Left Flap</li> 
+
+<li><strong>10:</strong> Right Flap</li> 
+
+<li><strong>11:</strong> Airbrakes</li> 
+
+<li><strong>12:</strong> Custom</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS2_TRIM">CA_SV_CS2_TRIM</strong> (FLOAT)</td>
+ <td>Control Surface 2 trim <p><strong>Comment:</strong> Can be used to add an offset to the servo control.</p>   </td>
+ <td>-1.0 > 1.0 </td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS2_TRQ_P">CA_SV_CS2_TRQ_P</strong> (FLOAT)</td>
+ <td>Control Surface 2 pitch torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS2_TRQ_R">CA_SV_CS2_TRQ_R</strong> (FLOAT)</td>
+ <td>Control Surface 2 roll torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS2_TRQ_Y">CA_SV_CS2_TRQ_Y</strong> (FLOAT)</td>
+ <td>Control Surface 2 yaw torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS2_TYPE">CA_SV_CS2_TYPE</strong> (INT32)</td>
+ <td>Control Surface 2 type  <strong>Values:</strong><ul>
+<li><strong>1:</strong> Left Aileron</li> 
+
+<li><strong>2:</strong> Right Aileron</li> 
+
+<li><strong>3:</strong> Elevator</li> 
+
+<li><strong>4:</strong> Rudder</li> 
+
+<li><strong>5:</strong> Left Elevon</li> 
+
+<li><strong>6:</strong> Right Elevon</li> 
+
+<li><strong>7:</strong> Left V-Tail</li> 
+
+<li><strong>8:</strong> Right V-Tail</li> 
+
+<li><strong>9:</strong> Left Flap</li> 
+
+<li><strong>10:</strong> Right Flap</li> 
+
+<li><strong>11:</strong> Airbrakes</li> 
+
+<li><strong>12:</strong> Custom</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS3_TRIM">CA_SV_CS3_TRIM</strong> (FLOAT)</td>
+ <td>Control Surface 3 trim <p><strong>Comment:</strong> Can be used to add an offset to the servo control.</p>   </td>
+ <td>-1.0 > 1.0 </td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS3_TRQ_P">CA_SV_CS3_TRQ_P</strong> (FLOAT)</td>
+ <td>Control Surface 3 pitch torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS3_TRQ_R">CA_SV_CS3_TRQ_R</strong> (FLOAT)</td>
+ <td>Control Surface 3 roll torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS3_TRQ_Y">CA_SV_CS3_TRQ_Y</strong> (FLOAT)</td>
+ <td>Control Surface 3 yaw torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS3_TYPE">CA_SV_CS3_TYPE</strong> (INT32)</td>
+ <td>Control Surface 3 type  <strong>Values:</strong><ul>
+<li><strong>1:</strong> Left Aileron</li> 
+
+<li><strong>2:</strong> Right Aileron</li> 
+
+<li><strong>3:</strong> Elevator</li> 
+
+<li><strong>4:</strong> Rudder</li> 
+
+<li><strong>5:</strong> Left Elevon</li> 
+
+<li><strong>6:</strong> Right Elevon</li> 
+
+<li><strong>7:</strong> Left V-Tail</li> 
+
+<li><strong>8:</strong> Right V-Tail</li> 
+
+<li><strong>9:</strong> Left Flap</li> 
+
+<li><strong>10:</strong> Right Flap</li> 
+
+<li><strong>11:</strong> Airbrakes</li> 
+
+<li><strong>12:</strong> Custom</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS4_TRIM">CA_SV_CS4_TRIM</strong> (FLOAT)</td>
+ <td>Control Surface 4 trim <p><strong>Comment:</strong> Can be used to add an offset to the servo control.</p>   </td>
+ <td>-1.0 > 1.0 </td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS4_TRQ_P">CA_SV_CS4_TRQ_P</strong> (FLOAT)</td>
+ <td>Control Surface 4 pitch torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS4_TRQ_R">CA_SV_CS4_TRQ_R</strong> (FLOAT)</td>
+ <td>Control Surface 4 roll torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS4_TRQ_Y">CA_SV_CS4_TRQ_Y</strong> (FLOAT)</td>
+ <td>Control Surface 4 yaw torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS4_TYPE">CA_SV_CS4_TYPE</strong> (INT32)</td>
+ <td>Control Surface 4 type  <strong>Values:</strong><ul>
+<li><strong>1:</strong> Left Aileron</li> 
+
+<li><strong>2:</strong> Right Aileron</li> 
+
+<li><strong>3:</strong> Elevator</li> 
+
+<li><strong>4:</strong> Rudder</li> 
+
+<li><strong>5:</strong> Left Elevon</li> 
+
+<li><strong>6:</strong> Right Elevon</li> 
+
+<li><strong>7:</strong> Left V-Tail</li> 
+
+<li><strong>8:</strong> Right V-Tail</li> 
+
+<li><strong>9:</strong> Left Flap</li> 
+
+<li><strong>10:</strong> Right Flap</li> 
+
+<li><strong>11:</strong> Airbrakes</li> 
+
+<li><strong>12:</strong> Custom</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS5_TRIM">CA_SV_CS5_TRIM</strong> (FLOAT)</td>
+ <td>Control Surface 5 trim <p><strong>Comment:</strong> Can be used to add an offset to the servo control.</p>   </td>
+ <td>-1.0 > 1.0 </td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS5_TRQ_P">CA_SV_CS5_TRQ_P</strong> (FLOAT)</td>
+ <td>Control Surface 5 pitch torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS5_TRQ_R">CA_SV_CS5_TRQ_R</strong> (FLOAT)</td>
+ <td>Control Surface 5 roll torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS5_TRQ_Y">CA_SV_CS5_TRQ_Y</strong> (FLOAT)</td>
+ <td>Control Surface 5 yaw torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS5_TYPE">CA_SV_CS5_TYPE</strong> (INT32)</td>
+ <td>Control Surface 5 type  <strong>Values:</strong><ul>
+<li><strong>1:</strong> Left Aileron</li> 
+
+<li><strong>2:</strong> Right Aileron</li> 
+
+<li><strong>3:</strong> Elevator</li> 
+
+<li><strong>4:</strong> Rudder</li> 
+
+<li><strong>5:</strong> Left Elevon</li> 
+
+<li><strong>6:</strong> Right Elevon</li> 
+
+<li><strong>7:</strong> Left V-Tail</li> 
+
+<li><strong>8:</strong> Right V-Tail</li> 
+
+<li><strong>9:</strong> Left Flap</li> 
+
+<li><strong>10:</strong> Right Flap</li> 
+
+<li><strong>11:</strong> Airbrakes</li> 
+
+<li><strong>12:</strong> Custom</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS6_TRIM">CA_SV_CS6_TRIM</strong> (FLOAT)</td>
+ <td>Control Surface 6 trim <p><strong>Comment:</strong> Can be used to add an offset to the servo control.</p>   </td>
+ <td>-1.0 > 1.0 </td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS6_TRQ_P">CA_SV_CS6_TRQ_P</strong> (FLOAT)</td>
+ <td>Control Surface 6 pitch torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS6_TRQ_R">CA_SV_CS6_TRQ_R</strong> (FLOAT)</td>
+ <td>Control Surface 6 roll torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS6_TRQ_Y">CA_SV_CS6_TRQ_Y</strong> (FLOAT)</td>
+ <td>Control Surface 6 yaw torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS6_TYPE">CA_SV_CS6_TYPE</strong> (INT32)</td>
+ <td>Control Surface 6 type  <strong>Values:</strong><ul>
+<li><strong>1:</strong> Left Aileron</li> 
+
+<li><strong>2:</strong> Right Aileron</li> 
+
+<li><strong>3:</strong> Elevator</li> 
+
+<li><strong>4:</strong> Rudder</li> 
+
+<li><strong>5:</strong> Left Elevon</li> 
+
+<li><strong>6:</strong> Right Elevon</li> 
+
+<li><strong>7:</strong> Left V-Tail</li> 
+
+<li><strong>8:</strong> Right V-Tail</li> 
+
+<li><strong>9:</strong> Left Flap</li> 
+
+<li><strong>10:</strong> Right Flap</li> 
+
+<li><strong>11:</strong> Airbrakes</li> 
+
+<li><strong>12:</strong> Custom</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS7_TRIM">CA_SV_CS7_TRIM</strong> (FLOAT)</td>
+ <td>Control Surface 7 trim <p><strong>Comment:</strong> Can be used to add an offset to the servo control.</p>   </td>
+ <td>-1.0 > 1.0 </td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS7_TRQ_P">CA_SV_CS7_TRQ_P</strong> (FLOAT)</td>
+ <td>Control Surface 7 pitch torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS7_TRQ_R">CA_SV_CS7_TRQ_R</strong> (FLOAT)</td>
+ <td>Control Surface 7 roll torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS7_TRQ_Y">CA_SV_CS7_TRQ_Y</strong> (FLOAT)</td>
+ <td>Control Surface 7 yaw torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS7_TYPE">CA_SV_CS7_TYPE</strong> (INT32)</td>
+ <td>Control Surface 7 type  <strong>Values:</strong><ul>
+<li><strong>1:</strong> Left Aileron</li> 
+
+<li><strong>2:</strong> Right Aileron</li> 
+
+<li><strong>3:</strong> Elevator</li> 
+
+<li><strong>4:</strong> Rudder</li> 
+
+<li><strong>5:</strong> Left Elevon</li> 
+
+<li><strong>6:</strong> Right Elevon</li> 
+
+<li><strong>7:</strong> Left V-Tail</li> 
+
+<li><strong>8:</strong> Right V-Tail</li> 
+
+<li><strong>9:</strong> Left Flap</li> 
+
+<li><strong>10:</strong> Right Flap</li> 
+
+<li><strong>11:</strong> Airbrakes</li> 
+
+<li><strong>12:</strong> Custom</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS_COUNT">CA_SV_CS_COUNT</strong> (INT32)</td>
+ <td>Total number of Control Surfaces  <strong>Values:</strong><ul>
+<li><strong>0:</strong> 0</li> 
+
+<li><strong>1:</strong> 1</li> 
+
+<li><strong>2:</strong> 2</li> 
+
+<li><strong>3:</strong> 3</li> 
+
+<li><strong>4:</strong> 4</li> 
+
+<li><strong>5:</strong> 5</li> 
+
+<li><strong>6:</strong> 6</li> 
+
+<li><strong>7:</strong> 7</li> 
+
+<li><strong>8:</strong> 8</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL0_CT">CA_SV_TL0_CT</strong> (INT32)</td>
+ <td>Tilt 0 is used for control <p><strong>Comment:</strong> Define if this servo is used for additional control.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> None</li> 
+
+<li><strong>1:</strong> Yaw</li> 
+
+<li><strong>2:</strong> Pitch</li> 
+
+<li><strong>3:</strong> Yaw and Pitch</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL0_MAXA">CA_SV_TL0_MAXA</strong> (FLOAT)</td>
+ <td>Tilt Servo 0 Tilt Angle at Maximum <p><strong>Comment:</strong> Defines the tilt angle when the servo is at the maximum. An angle of zero means upwards.</p>   </td>
+ <td>-90.0 > 90.0 </td>
+ <td>90.0</td>
+ <td>deg</td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL0_MINA">CA_SV_TL0_MINA</strong> (FLOAT)</td>
+ <td>Tilt Servo 0 Tilt Angle at Minimum <p><strong>Comment:</strong> Defines the tilt angle when the servo is at the minimum. An angle of zero means upwards.</p>   </td>
+ <td>-90.0 > 90.0 </td>
+ <td>0.0</td>
+ <td>deg</td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL0_TD">CA_SV_TL0_TD</strong> (INT32)</td>
+ <td>Tilt Servo 0 Tilt Direction <p><strong>Comment:</strong> Defines the direction the servo tilts towards when moving towards the maximum tilt angle. For example if the minimum tilt angle is -90, the maximum 90, and the direction 'Towards Front', the motor axis aligns with the XZ-plane, points towards -X at the minimum and +X at the maximum tilt.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Towards Front</li> 
+
+<li><strong>90:</strong> Towards Right</li> 
+</ul>
+  </td>
+ <td>0 > 359 </td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL1_CT">CA_SV_TL1_CT</strong> (INT32)</td>
+ <td>Tilt 1 is used for control <p><strong>Comment:</strong> Define if this servo is used for additional control.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> None</li> 
+
+<li><strong>1:</strong> Yaw</li> 
+
+<li><strong>2:</strong> Pitch</li> 
+
+<li><strong>3:</strong> Yaw and Pitch</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL1_MAXA">CA_SV_TL1_MAXA</strong> (FLOAT)</td>
+ <td>Tilt Servo 1 Tilt Angle at Maximum <p><strong>Comment:</strong> Defines the tilt angle when the servo is at the maximum. An angle of zero means upwards.</p>   </td>
+ <td>-90.0 > 90.0 </td>
+ <td>90.0</td>
+ <td>deg</td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL1_MINA">CA_SV_TL1_MINA</strong> (FLOAT)</td>
+ <td>Tilt Servo 1 Tilt Angle at Minimum <p><strong>Comment:</strong> Defines the tilt angle when the servo is at the minimum. An angle of zero means upwards.</p>   </td>
+ <td>-90.0 > 90.0 </td>
+ <td>0.0</td>
+ <td>deg</td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL1_TD">CA_SV_TL1_TD</strong> (INT32)</td>
+ <td>Tilt Servo 1 Tilt Direction <p><strong>Comment:</strong> Defines the direction the servo tilts towards when moving towards the maximum tilt angle. For example if the minimum tilt angle is -90, the maximum 90, and the direction 'Towards Front', the motor axis aligns with the XZ-plane, points towards -X at the minimum and +X at the maximum tilt.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Towards Front</li> 
+
+<li><strong>90:</strong> Towards Right</li> 
+</ul>
+  </td>
+ <td>0 > 359 </td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL2_CT">CA_SV_TL2_CT</strong> (INT32)</td>
+ <td>Tilt 2 is used for control <p><strong>Comment:</strong> Define if this servo is used for additional control.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> None</li> 
+
+<li><strong>1:</strong> Yaw</li> 
+
+<li><strong>2:</strong> Pitch</li> 
+
+<li><strong>3:</strong> Yaw and Pitch</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL2_MAXA">CA_SV_TL2_MAXA</strong> (FLOAT)</td>
+ <td>Tilt Servo 2 Tilt Angle at Maximum <p><strong>Comment:</strong> Defines the tilt angle when the servo is at the maximum. An angle of zero means upwards.</p>   </td>
+ <td>-90.0 > 90.0 </td>
+ <td>90.0</td>
+ <td>deg</td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL2_MINA">CA_SV_TL2_MINA</strong> (FLOAT)</td>
+ <td>Tilt Servo 2 Tilt Angle at Minimum <p><strong>Comment:</strong> Defines the tilt angle when the servo is at the minimum. An angle of zero means upwards.</p>   </td>
+ <td>-90.0 > 90.0 </td>
+ <td>0.0</td>
+ <td>deg</td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL2_TD">CA_SV_TL2_TD</strong> (INT32)</td>
+ <td>Tilt Servo 2 Tilt Direction <p><strong>Comment:</strong> Defines the direction the servo tilts towards when moving towards the maximum tilt angle. For example if the minimum tilt angle is -90, the maximum 90, and the direction 'Towards Front', the motor axis aligns with the XZ-plane, points towards -X at the minimum and +X at the maximum tilt.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Towards Front</li> 
+
+<li><strong>90:</strong> Towards Right</li> 
+</ul>
+  </td>
+ <td>0 > 359 </td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL3_CT">CA_SV_TL3_CT</strong> (INT32)</td>
+ <td>Tilt 3 is used for control <p><strong>Comment:</strong> Define if this servo is used for additional control.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> None</li> 
+
+<li><strong>1:</strong> Yaw</li> 
+
+<li><strong>2:</strong> Pitch</li> 
+
+<li><strong>3:</strong> Yaw and Pitch</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL3_MAXA">CA_SV_TL3_MAXA</strong> (FLOAT)</td>
+ <td>Tilt Servo 3 Tilt Angle at Maximum <p><strong>Comment:</strong> Defines the tilt angle when the servo is at the maximum. An angle of zero means upwards.</p>   </td>
+ <td>-90.0 > 90.0 </td>
+ <td>90.0</td>
+ <td>deg</td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL3_MINA">CA_SV_TL3_MINA</strong> (FLOAT)</td>
+ <td>Tilt Servo 3 Tilt Angle at Minimum <p><strong>Comment:</strong> Defines the tilt angle when the servo is at the minimum. An angle of zero means upwards.</p>   </td>
+ <td>-90.0 > 90.0 </td>
+ <td>0.0</td>
+ <td>deg</td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL3_TD">CA_SV_TL3_TD</strong> (INT32)</td>
+ <td>Tilt Servo 3 Tilt Direction <p><strong>Comment:</strong> Defines the direction the servo tilts towards when moving towards the maximum tilt angle. For example if the minimum tilt angle is -90, the maximum 90, and the direction 'Towards Front', the motor axis aligns with the XZ-plane, points towards -X at the minimum and +X at the maximum tilt.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Towards Front</li> 
+
+<li><strong>90:</strong> Towards Right</li> 
+</ul>
+  </td>
+ <td>0 > 359 </td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL_COUNT">CA_SV_TL_COUNT</strong> (INT32)</td>
+ <td>Total number of Tilt Servos  <strong>Values:</strong><ul>
+<li><strong>0:</strong> 0</li> 
+
+<li><strong>1:</strong> 1</li> 
+
+<li><strong>2:</strong> 2</li> 
+
+<li><strong>3:</strong> 3</li> 
+
+<li><strong>4:</strong> 4</li> 
+</ul>
+  </td>
+ <td></td>
  <td>0</td>
  <td></td>
 </tr>
@@ -14628,28 +14817,28 @@ table {
 <tbody>
 <tr>
  <td><strong id="LNDFW_AIRSPD_MAX">LNDFW_AIRSPD_MAX</strong> (FLOAT)</td>
- <td>Airspeed max <p><strong>Comment:</strong> Maximum airspeed allowed in the landed state</p>   </td>
- <td>4 > 20 </td>
+ <td>Fixed-wing land detector: Max airspeed <p><strong>Comment:</strong> Maximum airspeed allowed in the landed state</p>   </td>
+ <td>2 > 20 </td>
  <td>6.00</td>
  <td>m/s</td>
 </tr>
 <tr>
  <td><strong id="LNDFW_VEL_XY_MAX">LNDFW_VEL_XY_MAX</strong> (FLOAT)</td>
- <td>Fixedwing max horizontal velocity <p><strong>Comment:</strong> Maximum horizontal velocity allowed in the landed state</p>   </td>
+ <td>Fixed-wing land detector: Max horizontal velocity threshold <p><strong>Comment:</strong> Maximum horizontal velocity allowed in the landed state. A factor of 0.7 is applied in case of airspeed-less flying (either because no sensor is present or sensor data got invalid in flight).</p>   </td>
  <td>0.5 > 10 </td>
  <td>5.0</td>
  <td>m/s</td>
 </tr>
 <tr>
  <td><strong id="LNDFW_VEL_Z_MAX">LNDFW_VEL_Z_MAX</strong> (FLOAT)</td>
- <td>Fixedwing max climb rate <p><strong>Comment:</strong> Maximum vertical velocity allowed in the landed state</p>   </td>
+ <td>Fixed-wing land detector: Max vertiacal velocity threshold <p><strong>Comment:</strong> Maximum vertical velocity allowed in the landed state. A factor of 0.7 is applied in case of airspeed-less flying (either because no sensor is present or sensor data got invalid in flight).</p>   </td>
  <td>0.1 > 20 </td>
- <td>3.0</td>
+ <td>2.0</td>
  <td>m/s</td>
 </tr>
 <tr>
  <td><strong id="LNDFW_XYACC_MAX">LNDFW_XYACC_MAX</strong> (FLOAT)</td>
- <td>Fixedwing max horizontal acceleration <p><strong>Comment:</strong> Maximum horizontal (x,y body axes) acceleration allowed in the landed state</p>   </td>
+ <td>Fixed-wing land detector: Max horizontal acceleration <p><strong>Comment:</strong> Maximum horizontal (x,y body axes) acceleration allowed in the landed state</p>   </td>
  <td>2 > 15 </td>
  <td>8.0</td>
  <td>m/s^2</td>
@@ -14708,6 +14897,65 @@ table {
  <td>Total flight time in microseconds <p><strong>Comment:</strong> Total flight time of this autopilot. Lower 32 bits of the value. Flight time in microseconds = (LND_FLIGHT_T_HI << 32) | LND_FLIGHT_T_LO.</p>   </td>
  <td>0 > ? </td>
  <td>0</td>
+ <td></td>
+</tr>
+</tbody></table>
+
+## Landing Target Estimator
+
+<table>
+ <colgroup><col style="width: 23%"><col style="width: 46%"><col style="width: 11%"><col style="width: 11%"><col style="width: 9%"></colgroup>
+ <thead>
+   <tr><th>Name</th><th>Description</th><th>Min > Max (Incr.)</th><th>Default</th><th>Units</th></tr>
+ </thead>
+<tbody>
+<tr>
+ <td><strong id="LTEST_SENS_POS_X">LTEST_SENS_POS_X</strong> (FLOAT)</td>
+ <td>X Position of IRLOCK in body frame (forward)    <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="LTEST_SENS_POS_Y">LTEST_SENS_POS_Y</strong> (FLOAT)</td>
+ <td>Y Position of IRLOCK in body frame (right)    <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="LTEST_SENS_POS_Z">LTEST_SENS_POS_Z</strong> (FLOAT)</td>
+ <td>Z Position of IRLOCK in body frame (downward)    <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="LTEST_SENS_ROT">LTEST_SENS_ROT</strong> (INT32)</td>
+ <td>Rotation of IRLOCK sensor relative to airframe <p><strong>Comment:</strong> Default orientation of Yaw 90°</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> No rotation</li> 
+
+<li><strong>1:</strong> Yaw 45°</li> 
+
+<li><strong>2:</strong> Yaw 90°</li> 
+
+<li><strong>3:</strong> Yaw 135°</li> 
+
+<li><strong>4:</strong> Yaw 180°</li> 
+
+<li><strong>5:</strong> Yaw 225°</li> 
+
+<li><strong>6:</strong> Yaw 270°</li> 
+
+<li><strong>7:</strong> Yaw 315°</li> 
+</ul>
+  <p><b>Reboot required:</b> true</p>
+</td>
+ <td>-1 > 40 </td>
+ <td>2</td>
  <td></td>
 </tr>
 </tbody></table>
@@ -15917,14 +16165,14 @@ table {
  <td><strong id="MNT_RANGE_PITCH">MNT_RANGE_PITCH</strong> (FLOAT)</td>
  <td>Range of pitch channel output in degrees (only in AUX output mode)    </td>
  <td>1.0 > 720.0 </td>
- <td>360.0</td>
+ <td>90.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="MNT_RANGE_ROLL">MNT_RANGE_ROLL</strong> (FLOAT)</td>
  <td>Range of roll channel output in degrees (only in AUX output mode)    </td>
  <td>1.0 > 720.0 </td>
- <td>360.0</td>
+ <td>90.0</td>
  <td></td>
 </tr>
 <tr>
@@ -15946,6 +16194,18 @@ table {
  <td>Angular yaw rate for manual input in degrees/second <p><strong>Comment:</strong> Full stick input [-1..1] translats to [-yaw rate..yaw rate].</p>   </td>
  <td>1.0 > 90.0 </td>
  <td>30.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="MNT_RC_IN_MODE">MNT_RC_IN_MODE</strong> (INT32)</td>
+ <td>Input mode for RC gimbal input  <strong>Values:</strong><ul>
+<li><strong>0:</strong> Angle</li> 
+
+<li><strong>1:</strong> Angular rate</li> 
+</ul>
+  </td>
+ <td>0 > 1 </td>
+ <td>1</td>
  <td></td>
 </tr>
 </tbody></table>
@@ -16685,7 +16945,7 @@ table {
 <tbody>
 <tr>
  <td><strong id="MOT_SLEW_MAX">MOT_SLEW_MAX</strong> (FLOAT)</td>
- <td>Minimum motor rise time (slew rate limit) <p><strong>Comment:</strong> Minimum time allowed for the motor input signal to pass through a range of 1000 PWM units. A value x means that the motor signal can only go from 1000 to 2000 PWM in maximum x seconds. Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>Minimum motor rise time (slew rate limit) <p><strong>Comment:</strong> Minimum time allowed for the motor input signal to pass through a range of 1000 PWM units. A value x means that the motor signal can only go from 1000 to 2000 PWM in minimum x seconds. Zero means that slew rate limiting is disabled.</p>   </td>
  <td>0.0 > ? </td>
  <td>0.0</td>
  <td>s/(1000*PWM)</td>
@@ -23563,6 +23823,13 @@ table {
  <td></td>
 </tr>
 <tr>
+ <td><strong id="SENS_MAG_AUTOCAL">SENS_MAG_AUTOCAL</strong> (INT32)</td>
+ <td>Magnetometer auto calibration <p><strong>Comment:</strong> Automatically initialize magnetometer calibration from bias estimate if available.</p>   </td>
+ <td></td>
+ <td>Disabled (0)</td>
+ <td></td>
+</tr>
+<tr>
  <td><strong id="SENS_MAG_MODE">SENS_MAG_MODE</strong> (INT32)</td>
  <td>Sensors hub mag mode  <strong>Values:</strong><ul>
 <li><strong>0:</strong> Publish all magnetometers</li> 
@@ -25286,6 +25553,58 @@ table {
 </tr>
 </tbody></table>
 
+## Simulator
+
+<table>
+ <colgroup><col style="width: 23%"><col style="width: 46%"><col style="width: 11%"><col style="width: 11%"><col style="width: 9%"></colgroup>
+ <thead>
+   <tr><th>Name</th><th>Description</th><th>Min > Max (Incr.)</th><th>Default</th><th>Units</th></tr>
+ </thead>
+<tbody>
+<tr>
+ <td><strong id="SIM_BARO_OFF_P">SIM_BARO_OFF_P</strong> (FLOAT)</td>
+ <td>simulated barometer pressure offset    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="SIM_BARO_OFF_T">SIM_BARO_OFF_T</strong> (FLOAT)</td>
+ <td>simulated barometer temperature offset    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="SIM_GPS_USED">SIM_GPS_USED</strong> (INT32)</td>
+ <td>simulated GPS number of satellites used    </td>
+ <td>0 > 50 </td>
+ <td>10</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="SIM_MAG_OFFSET_X">SIM_MAG_OFFSET_X</strong> (FLOAT)</td>
+ <td>simulated magnetometer X offset    </td>
+ <td></td>
+ <td>0.0</td>
+ <td>gauss</td>
+</tr>
+<tr>
+ <td><strong id="SIM_MAG_OFFSET_Y">SIM_MAG_OFFSET_Y</strong> (FLOAT)</td>
+ <td>simulated magnetometer Y offset    </td>
+ <td></td>
+ <td>0.0</td>
+ <td>gauss</td>
+</tr>
+<tr>
+ <td><strong id="SIM_MAG_OFFSET_Z">SIM_MAG_OFFSET_Z</strong> (FLOAT)</td>
+ <td>simulated magnetometer Z offset    </td>
+ <td></td>
+ <td>0.0</td>
+ <td>gauss</td>
+</tr>
+</tbody></table>
+
 ## System
 
 <table>
@@ -25367,6 +25686,21 @@ table {
 <tr>
  <td><strong id="SYS_CTRL_ALLOC">SYS_CTRL_ALLOC</strong> (INT32)</td>
  <td>Enable Dynamic Control Allocation <p><strong>Comment:</strong> If disabled, the existing mixing implementation is used. If enabled, dynamic control allocation with runtime configuration of the mixing and output functions is used. Note: this is work-in-progress and not all vehicle types are supported yet.</p>   <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>Disabled (0)</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="SYS_DM_BACKEND">SYS_DM_BACKEND</strong> (INT32)</td>
+ <td>Dataman storage backend  <strong>Values:</strong><ul>
+<li><strong>-1:</strong> Disabled</li> 
+
+<li><strong>0:</strong> default (SD card)</li> 
+
+<li><strong>1:</strong> RAM (not persistent)</li> 
+</ul>
+  <p><b>Reboot required:</b> true</p>
 </td>
  <td></td>
  <td>Disabled (0)</td>
@@ -27134,6 +27468,14 @@ table {
  <td></td>
 </tr>
 <tr>
+ <td><strong id="UAVCAN_SUB_HYGRO">UAVCAN_SUB_HYGRO</strong> (INT32)</td>
+ <td>subscription hygrometer <p><strong>Comment:</strong> Enable UAVCAN hygrometer subscriptions. dronecan::sensors::hygrometer::Hygrometer</p>   <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>Disabled (0)</td>
+ <td></td>
+</tr>
+<tr>
  <td><strong id="UAVCAN_SUB_ICE">UAVCAN_SUB_ICE</strong> (INT32)</td>
  <td>subscription ICE <p><strong>Comment:</strong> Enable UAVCAN internal combusion engine (ICE) subscription. uavcan::equipment::ice::reciprocating::Status</p>   <p><b>Reboot required:</b> true</p>
 </td>
@@ -27271,6 +27613,13 @@ table {
 <tr>
  <td><strong id="UCAN1_UORB_GPS">UCAN1_UORB_GPS</strong> (INT32)</td>
  <td>sensor_gps uORB over UAVCAN v1 subscription port ID    </td>
+ <td>-1 > 6143 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_UORB_GPS_P">UCAN1_UORB_GPS_P</strong> (INT32)</td>
+ <td>sensor_gps uORB over UAVCAN v1 publication port ID    </td>
  <td>-1 > 6143 </td>
  <td>-1</td>
  <td></td>
@@ -27531,7 +27880,7 @@ table {
 </tr>
 <tr>
  <td><strong id="VT_ELEV_MC_LOCK">VT_ELEV_MC_LOCK</strong> (INT32)</td>
- <td>Lock elevons in multicopter mode <p><strong>Comment:</strong> If set to 1 the elevons are locked in multicopter mode</p>   </td>
+ <td>Lock control surfaces in hover <p><strong>Comment:</strong> If set to 1 the control surfaces are locked at the disarmed value in multicopter mode.</p>   </td>
  <td></td>
  <td>Enabled (1)</td>
  <td></td>
