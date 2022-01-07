@@ -55,9 +55,9 @@ Install the required Python packages
 
 ```sh
 # install required packages using pip3
-python3 -m pip install --user pyserial empy toml numpy pandas jinja2 pyyaml pyros-genmsg packaging
+python3 -m pip install --user pyserial empy toml numpy pandas jinja2 pyyaml pyros-genmsg packaging kconfiglib future jsonschema
 # if this fails with a permissions error, your Python install is in a system path - use this command instead:
-sudo -H python3 -m pip install --user pyserial empy toml numpy pandas jinja2 pyyaml pyros-genmsg packaging
+sudo -H python3 -m pip install --user pyserial empy toml numpy pandas jinja2 pyyaml pyros-genmsg packaging kconfiglib future jsonschema
 ```
 
 ## Gazebo Simulation
@@ -83,11 +83,10 @@ brew install px4-sim-gazebo
 
 ## jMAVSim Simulation
 
-To use SITL simulation with jMAVSim you need to install a recent version of Java (e.g. Java 15). You can download [Java 15 (or later) from Oracle](https://www.oracle.com/java/technologies/javase-downloads.html#JDK15) or use the AdoptOpenJDK tap:
+To use SITL simulation with jMAVSim you need to install a recent version of Java (e.g. Java 15). You can download [Java 15 (or later) from Oracle](https://www.oracle.com/java/technologies/javase-downloads.html#JDK15) or use [Termium](https://adoptium.net):
 
 ```sh
-brew tap AdoptOpenJDK/openjdk
-brew install --cask adoptopenjdk15
+brew install --cask temurin
 ```
 
 ```sh

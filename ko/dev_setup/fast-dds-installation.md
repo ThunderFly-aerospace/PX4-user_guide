@@ -9,8 +9,7 @@ Fast DDS는 PX4 uORB 주제가 동일한 DDS 도메인에 참여하는 로봇 �
 :::tip
 Fast DDS는 PX4 Autopilot의 필수 구성 요소가 아니며, ROS 2와 같은 다른 Fast RTPS/DDS 시스템과 함께 PX4 Autopilot을 사용할 계획인 경우에만 설치 합니다. This means you just need to install *Fast-RTPS-Gen* and have your ROS 2 environment sourced (`source /opt/ros/<distro>/setup.bash`) in order to be able to compile the `rtps` targets in the PX4-Autopilot repo.
 
-:::note
-Fast DDS는 이전에 FastRTPS로 명명되었습니다(버전 2.0.0에서는 이제 RTPS 유선 프로토콜이 아닌 전체 DDS 구현을 포함하므로 이름이 변경됨).
+For *ROS2 Galactic and above*, one has to install the `rmw` implementation through `apt` using `apt install ros-galactic-rmw-fastrtps`, since the default middleware for Galactic and above is CycloneDDS and the FastDDS middleware doesn't come installed by default.
 :::
 
 :::tip
@@ -37,7 +36,7 @@ Remember (again) you only need to install Fast DDS if you are not using ROS 2 an
 
 ### Java
 
-Java is required to build and use eProsima's RTPS/DDS from IDL code generation tool - *Fast-RTPS-Gen*. [Java JDK 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) is recommended, and it is installed through the setup scripts made available in [Ubuntu Development Environment](../dev_setu/dev_env_linux.md).
+Java is required to build and use eProsima's RTPS/DDS from IDL code generation tool - *Fast-RTPS-Gen*. [Java JDK 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) is recommended, and it is installed through the setup scripts made available in [Ubuntu Development Environment](../dev_setup/dev_env_linux.md).
 
 ### Gradle
 

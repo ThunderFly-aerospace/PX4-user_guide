@@ -1,5 +1,5 @@
 # offboard_control_mode (UORB message)
-        
+
 Off-board control mode
 
 [source file](https://github.com/PX4/PX4-Autopilot/blob/master/msg/offboard_control_mode.msg)
@@ -14,5 +14,6 @@ bool velocity
 bool acceleration
 bool attitude
 bool body_rate
+bool actuator
 
 ```

@@ -22,7 +22,7 @@ This is all you need to do just to build the latest code. [GIT Examples > Contri
 
 ## 初次编译（使用 jMAVSim 模拟器）
 
-First we'll build a simulated target using a console environment. This allows us to validate the system setup before moving on to real hardware and an IDE.
+首先我们要用控制台（小黑窗）来构建一个模拟模拟目标 This allows us to validate the system setup before moving on to real hardware and an IDE.
 
 导航到 **Firmware** 目录，并使用以下命令启动 [jMAVSim](../simulation/jmavsim.md)：
 ```sh
@@ -65,34 +65,37 @@ Flying the simulation with the ground control station is closer to the real oper
 
 For example, to build for [Pixhawk 4](../flight_controller/pixhawk4.md) hardware you could use the following command:
 ```sh
-/data/ftp/internal_000/px4 -s /home/root/px4.config
+cd PX4-Autopilot
+make px4_fmu-v5_default
 ```
 
 A successful run will end with similar output to:
 ```sh
-make px4_fmu-v4_default upload
+-- Build files have been written to: /home/youruser/src/PX4-Autopilot/build/px4_fmu-v4_default
+[954/954] Creating /home/youruser/src/PX4-Autopilot/build/px4_fmu-v4_default/px4_fmu-v4_default.px4
 ```
 
 The first part of the build target `px4_fmu-v4` indicates the firmware for a particular flight controller hardware. The following list shows the build commands for the [Pixhawk standard](../flight_controller/autopilot_pixhawk_standard.md) boards:
-* 在 OS X 上，点击 ⌘-space 并搜索 “terminal” 。
-* 在 Ubuntu 上，单击运行栏并搜索 “terminal”。
-* 在 Windows 上，在“开始”菜单中找到 PX4 文件夹，然后单击 "PX4 Console"。
-* [HKPilot32](https://docs.px4.io/en/flight_controller/HKPilot32.html): `make px4_fmu-v2_default`
-* [Crazyflie 2.0](https://docs.px4.io/en/flight_controller/crazyflie2.html): `make bitcraze_crazyflie_default`
-* [Pixracer](https://docs.px4.io/en/flight_controller/pixracer.html): `make px4_fmu-v4_default`
-* [Pixhawk 3 Pro](https://docs.px4.io/en/flight_controller/pixhawk3_pro.html): `make px4_fmu-v4pro_default`
-* [Pixhawk Mini](https://docs.px4.io/en/flight_controller/pixhawk_mini.html): `make px4_fmu-v3_default`
-* [Pixhawk 2](https://docs.px4.io/en/flight_controller/pixhawk-2.html): `make px4_fmu-v3_default`
+* [Pixhawk 4](../flight_controller/pixhawk4.md): `make px4_fmu-v5_default`
+* [Pixhawk 4 Mini](../flight_controller/pixhawk4_mini.md): `make px4_fmu-v5_default`
+* [CUAV V5+](../flight_controller/cuav_v5_plus.md): `make px4_fmu-v5_default`
+* [CUAV V5 nano](../flight_controller/cuav_v5_nano.md): `make px4_fmu-v5_default`
+* [Pixracer](../flight_controller/pixracer.md): `make px4_fmu-v4_default`
+* [Pixhawk 3 Pro](../flight_controller/pixhawk3_pro.md): `make px4_fmu-v4pro_default`
+* [Pixhawk Mini](../flight_controller/pixhawk_mini.md): `make px4_fmu-v3_default`
+* [Pixhawk 2 (Cube Black)](../flight_controller/pixhawk-2.md): `make px4_fmu-v3_default`
+* [mRo Pixhawk](../flight_controller/mro_pixhawk.md): `make px4_fmu-v3_default` (supports 2MB Flash)
 * [Holybro pix32](../flight_controller/holybro_pix32.md): `make px4_fmu-v2_default`
 * [Pixfalcon](../flight_controller/pixfalcon.md): `make px4_fmu-v2_default`
-* [mRo Pixhawk](https://docs.px4.io/en/flight_controller/mro_pixhawk.html): `make px4_fmu-v3_default`（支持 2MB 闪存）
+* [Dropix](../flight_controller/dropix.md): `make px4_fmu-v2_default`
 * [Pixhawk 1](../flight_controller/pixhawk.md): `make px4_fmu-v2_default` :::warning You **must** use a supported version of GCC to build this board (e.g. the same as used by [CI/docker](../test_and_ci/docker.md)) or remove modules from the build. Building with an unsupported GCC may fail, as PX4 is close to the board's 1MB flash limit.
 :::
 * Pixhawk 1 with 2 MB flash: `make px4_fmu-v3_default`
 
 Build commands for non-Pixhawk NuttX fight controllers (and for all other-boards) are provided in the documentation for the individual [flight controller boards](../flight_controller/README.md).
 
-"PX4" 可执行文件位于目录 **build/emlid_navio2_cross/** 中。 请确保您可以通过 ssh 连接到 RPi，请参阅 [介绍如何访问您的 RPi](https://docs.px4.io/en/flight_controller/raspberry_pi_navio2.html#developer-quick-start)。
+:::note
+The `_default` suffix is the firmware _configuration_. This is optional (i.e. you can also build using `make px4_fmu-v4`, `make bitcraze_crazyflie`, etc.).
 :::
 
 ### 将固件烧录到飞控板
@@ -263,7 +266,7 @@ Notes:
 - You can use a `none` value for `VIEWER_MODEL_DEBUGGER` to start PX4 and wait for a simulator. For example start PX4 using `make px4_sitl_default none` and jMAVSim using `./Tools/jmavsim_run.sh -l`.
 
 
-The `VENDOR_MODEL_VARIANT` options map to particular *cmake* configuration files in the PX4 source tree under the [/boards](https://github.com/PX4/PX4-Autopilot/tree/master/boards) directory. Specifically `VENDOR_MODEL_VARIANT` maps to a configuration file **boards/VENDOR/MODEL/VARIANT.cmake** (e.g. `px4_fmu-v5_default` corresponds to [boards/px4/fmu-v5/default.cmake](https://github.com/PX4/PX4-Autopilot/blob/master/boards/px4/fmu-v5/default.cmake)).
+The `VENDOR_MODEL_VARIANT` options map to particular *px4board* configuration files in the PX4 source tree under the [/boards](https://github.com/PX4/PX4-Autopilot/tree/master/boards) directory. Specifically `VENDOR_MODEL_VARIANT` maps to a configuration file **boards/VENDOR/MODEL/VARIANT.px4board** (e.g. `px4_fmu-v5_default` corresponds to [boards/px4/fmu-v5/default.px4board](https://github.com/PX4/PX4-Autopilot/blob/master/boards/px4/fmu-v5/default.px4board)).
 
 Additional make targets are discussed in relevant sections:
 - `bloaty_compare_master`: [Binary Size Profiling]()

@@ -247,6 +247,8772 @@ table {
 </tr>
 </tbody></table>
 
+## Actuator Outputs
+
+<table>
+ <colgroup><col style="width: 23%"><col style="width: 46%"><col style="width: 11%"><col style="width: 11%"><col style="width: 9%"></colgroup>
+ <thead>
+   <tr><th>Name</th><th>Description</th><th>Min > Max (Incr.)</th><th>Default</th><th>Units</th></tr>
+ </thead>
+<tbody>
+<tr>
+ <td><strong id="PCA9685_DIS1">PCA9685_DIS1</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 1 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_DIS10">PCA9685_DIS10</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 10 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_DIS11">PCA9685_DIS11</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 11 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_DIS12">PCA9685_DIS12</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 12 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_DIS13">PCA9685_DIS13</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 13 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_DIS14">PCA9685_DIS14</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 14 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_DIS15">PCA9685_DIS15</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 15 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_DIS16">PCA9685_DIS16</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 16 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_DIS2">PCA9685_DIS2</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 2 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_DIS3">PCA9685_DIS3</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 3 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_DIS4">PCA9685_DIS4</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 4 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_DIS5">PCA9685_DIS5</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 5 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_DIS6">PCA9685_DIS6</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 6 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_DIS7">PCA9685_DIS7</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 7 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_DIS8">PCA9685_DIS8</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 8 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_DIS9">PCA9685_DIS9</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 9 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_FAIL1">PCA9685_FAIL1</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 1 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PCA9685_FUNC1).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_FAIL10">PCA9685_FAIL10</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 10 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PCA9685_FUNC10).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_FAIL11">PCA9685_FAIL11</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 11 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PCA9685_FUNC11).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_FAIL12">PCA9685_FAIL12</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 12 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PCA9685_FUNC12).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_FAIL13">PCA9685_FAIL13</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 13 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PCA9685_FUNC13).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_FAIL14">PCA9685_FAIL14</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 14 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PCA9685_FUNC14).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_FAIL15">PCA9685_FAIL15</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 15 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PCA9685_FUNC15).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_FAIL16">PCA9685_FAIL16</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 16 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PCA9685_FUNC16).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_FAIL2">PCA9685_FAIL2</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 2 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PCA9685_FUNC2).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_FAIL3">PCA9685_FAIL3</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 3 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PCA9685_FUNC3).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_FAIL4">PCA9685_FAIL4</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 4 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PCA9685_FUNC4).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_FAIL5">PCA9685_FAIL5</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 5 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PCA9685_FUNC5).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_FAIL6">PCA9685_FAIL6</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 6 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PCA9685_FUNC6).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_FAIL7">PCA9685_FAIL7</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 7 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PCA9685_FUNC7).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_FAIL8">PCA9685_FAIL8</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 8 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PCA9685_FUNC8).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_FAIL9">PCA9685_FAIL9</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 9 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PCA9685_FUNC9).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_FUNC1">PCA9685_FUNC1</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 1 Output Function <p><strong>Comment:</strong> Select what should be output on PCA9685 Output Channel 1. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_FUNC10">PCA9685_FUNC10</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 10 Output Function <p><strong>Comment:</strong> Select what should be output on PCA9685 Output Channel 10. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_FUNC11">PCA9685_FUNC11</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 11 Output Function <p><strong>Comment:</strong> Select what should be output on PCA9685 Output Channel 11. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_FUNC12">PCA9685_FUNC12</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 12 Output Function <p><strong>Comment:</strong> Select what should be output on PCA9685 Output Channel 12. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_FUNC13">PCA9685_FUNC13</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 13 Output Function <p><strong>Comment:</strong> Select what should be output on PCA9685 Output Channel 13. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_FUNC14">PCA9685_FUNC14</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 14 Output Function <p><strong>Comment:</strong> Select what should be output on PCA9685 Output Channel 14. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_FUNC15">PCA9685_FUNC15</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 15 Output Function <p><strong>Comment:</strong> Select what should be output on PCA9685 Output Channel 15. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_FUNC16">PCA9685_FUNC16</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 16 Output Function <p><strong>Comment:</strong> Select what should be output on PCA9685 Output Channel 16. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_FUNC2">PCA9685_FUNC2</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 2 Output Function <p><strong>Comment:</strong> Select what should be output on PCA9685 Output Channel 2. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_FUNC3">PCA9685_FUNC3</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 3 Output Function <p><strong>Comment:</strong> Select what should be output on PCA9685 Output Channel 3. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_FUNC4">PCA9685_FUNC4</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 4 Output Function <p><strong>Comment:</strong> Select what should be output on PCA9685 Output Channel 4. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_FUNC5">PCA9685_FUNC5</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 5 Output Function <p><strong>Comment:</strong> Select what should be output on PCA9685 Output Channel 5. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_FUNC6">PCA9685_FUNC6</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 6 Output Function <p><strong>Comment:</strong> Select what should be output on PCA9685 Output Channel 6. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_FUNC7">PCA9685_FUNC7</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 7 Output Function <p><strong>Comment:</strong> Select what should be output on PCA9685 Output Channel 7. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_FUNC8">PCA9685_FUNC8</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 8 Output Function <p><strong>Comment:</strong> Select what should be output on PCA9685 Output Channel 8. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_FUNC9">PCA9685_FUNC9</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 9 Output Function <p><strong>Comment:</strong> Select what should be output on PCA9685 Output Channel 9. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_MAX1">PCA9685_MAX1</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 1 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_MAX10">PCA9685_MAX10</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 10 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_MAX11">PCA9685_MAX11</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 11 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_MAX12">PCA9685_MAX12</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 12 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_MAX13">PCA9685_MAX13</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 13 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_MAX14">PCA9685_MAX14</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 14 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_MAX15">PCA9685_MAX15</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 15 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_MAX16">PCA9685_MAX16</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 16 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_MAX2">PCA9685_MAX2</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 2 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_MAX3">PCA9685_MAX3</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 3 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_MAX4">PCA9685_MAX4</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 4 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_MAX5">PCA9685_MAX5</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 5 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_MAX6">PCA9685_MAX6</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 6 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_MAX7">PCA9685_MAX7</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 7 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_MAX8">PCA9685_MAX8</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 8 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_MAX9">PCA9685_MAX9</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 9 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_MIN1">PCA9685_MIN1</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 1 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_MIN10">PCA9685_MIN10</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 10 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_MIN11">PCA9685_MIN11</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 11 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_MIN12">PCA9685_MIN12</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 12 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_MIN13">PCA9685_MIN13</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 13 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_MIN14">PCA9685_MIN14</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 14 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_MIN15">PCA9685_MIN15</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 15 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_MIN16">PCA9685_MIN16</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 16 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_MIN2">PCA9685_MIN2</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 2 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_MIN3">PCA9685_MIN3</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 3 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_MIN4">PCA9685_MIN4</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 4 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_MIN5">PCA9685_MIN5</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 5 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_MIN6">PCA9685_MIN6</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 6 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_MIN7">PCA9685_MIN7</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 7 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_MIN8">PCA9685_MIN8</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 8 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_MIN9">PCA9685_MIN9</strong> (INT32)</td>
+ <td>PCA9685 Output Channel 9 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_DIS1">PWM_AUX_DIS1</strong> (INT32)</td>
+ <td>PWM Aux 1 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_DIS10">PWM_AUX_DIS10</strong> (INT32)</td>
+ <td>PWM Capture 2 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_DIS11">PWM_AUX_DIS11</strong> (INT32)</td>
+ <td>PWM Capture 3 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_DIS2">PWM_AUX_DIS2</strong> (INT32)</td>
+ <td>PWM Aux 2 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_DIS3">PWM_AUX_DIS3</strong> (INT32)</td>
+ <td>PWM Aux 3 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_DIS4">PWM_AUX_DIS4</strong> (INT32)</td>
+ <td>PWM Aux 4 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_DIS5">PWM_AUX_DIS5</strong> (INT32)</td>
+ <td>PWM Aux 5 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_DIS6">PWM_AUX_DIS6</strong> (INT32)</td>
+ <td>PWM Aux 6 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_DIS7">PWM_AUX_DIS7</strong> (INT32)</td>
+ <td>PWM Aux 7 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_DIS8">PWM_AUX_DIS8</strong> (INT32)</td>
+ <td>PWM Aux 8 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_DIS9">PWM_AUX_DIS9</strong> (INT32)</td>
+ <td>PWM Capture 1 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_FAIL1">PWM_AUX_FAIL1</strong> (INT32)</td>
+ <td>PWM Aux 1 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PWM_AUX_FUNC1).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_FAIL10">PWM_AUX_FAIL10</strong> (INT32)</td>
+ <td>PWM Capture 2 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PWM_AUX_FUNC2).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_FAIL11">PWM_AUX_FAIL11</strong> (INT32)</td>
+ <td>PWM Capture 3 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PWM_AUX_FUNC3).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_FAIL2">PWM_AUX_FAIL2</strong> (INT32)</td>
+ <td>PWM Aux 2 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PWM_AUX_FUNC2).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_FAIL3">PWM_AUX_FAIL3</strong> (INT32)</td>
+ <td>PWM Aux 3 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PWM_AUX_FUNC3).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_FAIL4">PWM_AUX_FAIL4</strong> (INT32)</td>
+ <td>PWM Aux 4 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PWM_AUX_FUNC4).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_FAIL5">PWM_AUX_FAIL5</strong> (INT32)</td>
+ <td>PWM Aux 5 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PWM_AUX_FUNC5).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_FAIL6">PWM_AUX_FAIL6</strong> (INT32)</td>
+ <td>PWM Aux 6 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PWM_AUX_FUNC6).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_FAIL7">PWM_AUX_FAIL7</strong> (INT32)</td>
+ <td>PWM Aux 7 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PWM_AUX_FUNC7).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_FAIL8">PWM_AUX_FAIL8</strong> (INT32)</td>
+ <td>PWM Aux 8 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PWM_AUX_FUNC8).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_FAIL9">PWM_AUX_FAIL9</strong> (INT32)</td>
+ <td>PWM Capture 1 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PWM_AUX_FUNC1).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_FUNC1">PWM_AUX_FUNC1</strong> (INT32)</td>
+ <td>PWM Aux 1 Output Function <p><strong>Comment:</strong> Select what should be output on PWM Aux 1. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+
+<li><strong>2000:</strong> Camera Trigger</li> 
+
+<li><strong>2032:</strong> Camera Capture</li> 
+
+<li><strong>2064:</strong> PPS Input</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_FUNC10">PWM_AUX_FUNC10</strong> (INT32)</td>
+ <td>PWM Capture 2 Output Function <p><strong>Comment:</strong> Select what should be output on PWM Capture 2. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+
+<li><strong>2000:</strong> Camera Trigger</li> 
+
+<li><strong>2032:</strong> Camera Capture</li> 
+
+<li><strong>2064:</strong> PPS Input</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_FUNC11">PWM_AUX_FUNC11</strong> (INT32)</td>
+ <td>PWM Capture 3 Output Function <p><strong>Comment:</strong> Select what should be output on PWM Capture 3. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+
+<li><strong>2000:</strong> Camera Trigger</li> 
+
+<li><strong>2032:</strong> Camera Capture</li> 
+
+<li><strong>2064:</strong> PPS Input</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_FUNC2">PWM_AUX_FUNC2</strong> (INT32)</td>
+ <td>PWM Aux 2 Output Function <p><strong>Comment:</strong> Select what should be output on PWM Aux 2. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+
+<li><strong>2000:</strong> Camera Trigger</li> 
+
+<li><strong>2032:</strong> Camera Capture</li> 
+
+<li><strong>2064:</strong> PPS Input</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_FUNC3">PWM_AUX_FUNC3</strong> (INT32)</td>
+ <td>PWM Aux 3 Output Function <p><strong>Comment:</strong> Select what should be output on PWM Aux 3. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+
+<li><strong>2000:</strong> Camera Trigger</li> 
+
+<li><strong>2032:</strong> Camera Capture</li> 
+
+<li><strong>2064:</strong> PPS Input</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_FUNC4">PWM_AUX_FUNC4</strong> (INT32)</td>
+ <td>PWM Aux 4 Output Function <p><strong>Comment:</strong> Select what should be output on PWM Aux 4. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+
+<li><strong>2000:</strong> Camera Trigger</li> 
+
+<li><strong>2032:</strong> Camera Capture</li> 
+
+<li><strong>2064:</strong> PPS Input</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_FUNC5">PWM_AUX_FUNC5</strong> (INT32)</td>
+ <td>PWM Aux 5 Output Function <p><strong>Comment:</strong> Select what should be output on PWM Aux 5. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+
+<li><strong>2000:</strong> Camera Trigger</li> 
+
+<li><strong>2032:</strong> Camera Capture</li> 
+
+<li><strong>2064:</strong> PPS Input</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_FUNC6">PWM_AUX_FUNC6</strong> (INT32)</td>
+ <td>PWM Aux 6 Output Function <p><strong>Comment:</strong> Select what should be output on PWM Aux 6. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+
+<li><strong>2000:</strong> Camera Trigger</li> 
+
+<li><strong>2032:</strong> Camera Capture</li> 
+
+<li><strong>2064:</strong> PPS Input</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_FUNC7">PWM_AUX_FUNC7</strong> (INT32)</td>
+ <td>PWM Aux 7 Output Function <p><strong>Comment:</strong> Select what should be output on PWM Aux 7. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+
+<li><strong>2000:</strong> Camera Trigger</li> 
+
+<li><strong>2032:</strong> Camera Capture</li> 
+
+<li><strong>2064:</strong> PPS Input</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_FUNC8">PWM_AUX_FUNC8</strong> (INT32)</td>
+ <td>PWM Aux 8 Output Function <p><strong>Comment:</strong> Select what should be output on PWM Aux 8. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+
+<li><strong>2000:</strong> Camera Trigger</li> 
+
+<li><strong>2032:</strong> Camera Capture</li> 
+
+<li><strong>2064:</strong> PPS Input</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_FUNC9">PWM_AUX_FUNC9</strong> (INT32)</td>
+ <td>PWM Capture 1 Output Function <p><strong>Comment:</strong> Select what should be output on PWM Capture 1. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+
+<li><strong>2000:</strong> Camera Trigger</li> 
+
+<li><strong>2032:</strong> Camera Capture</li> 
+
+<li><strong>2064:</strong> PPS Input</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_MAX1">PWM_AUX_MAX1</strong> (INT32)</td>
+ <td>PWM Aux 1 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_MAX10">PWM_AUX_MAX10</strong> (INT32)</td>
+ <td>PWM Capture 2 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_MAX11">PWM_AUX_MAX11</strong> (INT32)</td>
+ <td>PWM Capture 3 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_MAX2">PWM_AUX_MAX2</strong> (INT32)</td>
+ <td>PWM Aux 2 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_MAX3">PWM_AUX_MAX3</strong> (INT32)</td>
+ <td>PWM Aux 3 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_MAX4">PWM_AUX_MAX4</strong> (INT32)</td>
+ <td>PWM Aux 4 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_MAX5">PWM_AUX_MAX5</strong> (INT32)</td>
+ <td>PWM Aux 5 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_MAX6">PWM_AUX_MAX6</strong> (INT32)</td>
+ <td>PWM Aux 6 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_MAX7">PWM_AUX_MAX7</strong> (INT32)</td>
+ <td>PWM Aux 7 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_MAX8">PWM_AUX_MAX8</strong> (INT32)</td>
+ <td>PWM Aux 8 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_MAX9">PWM_AUX_MAX9</strong> (INT32)</td>
+ <td>PWM Capture 1 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_MIN1">PWM_AUX_MIN1</strong> (INT32)</td>
+ <td>PWM Aux 1 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_MIN10">PWM_AUX_MIN10</strong> (INT32)</td>
+ <td>PWM Capture 2 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_MIN11">PWM_AUX_MIN11</strong> (INT32)</td>
+ <td>PWM Capture 3 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_MIN2">PWM_AUX_MIN2</strong> (INT32)</td>
+ <td>PWM Aux 2 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_MIN3">PWM_AUX_MIN3</strong> (INT32)</td>
+ <td>PWM Aux 3 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_MIN4">PWM_AUX_MIN4</strong> (INT32)</td>
+ <td>PWM Aux 4 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_MIN5">PWM_AUX_MIN5</strong> (INT32)</td>
+ <td>PWM Aux 5 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_MIN6">PWM_AUX_MIN6</strong> (INT32)</td>
+ <td>PWM Aux 6 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_MIN7">PWM_AUX_MIN7</strong> (INT32)</td>
+ <td>PWM Aux 7 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_MIN8">PWM_AUX_MIN8</strong> (INT32)</td>
+ <td>PWM Aux 8 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_MIN9">PWM_AUX_MIN9</strong> (INT32)</td>
+ <td>PWM Capture 1 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_REV">PWM_AUX_REV</strong> (INT32)</td>
+ <td>Reverse Output Range for PWM AUX <p><strong>Comment:</strong> Allows to reverse the output range for each channel. Note: this is only useful for servos.</p>  <strong>Bitmask:</strong><ul>  <li><strong>0:</strong> PWM Aux 1</li> 
+  <li><strong>1:</strong> PWM Aux 2</li> 
+  <li><strong>2:</strong> PWM Aux 3</li> 
+  <li><strong>3:</strong> PWM Aux 4</li> 
+  <li><strong>4:</strong> PWM Aux 5</li> 
+  <li><strong>5:</strong> PWM Aux 6</li> 
+  <li><strong>6:</strong> PWM Aux 7</li> 
+  <li><strong>7:</strong> PWM Aux 8</li> 
+  <li><strong>8:</strong> PWM Capture 1</li> 
+  <li><strong>9:</strong> PWM Capture 2</li> 
+  <li><strong>10:</strong> PWM Capture 3</li> 
+</ul>
+ </td>
+ <td>0 > 2047 </td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_TIM0">PWM_AUX_TIM0</strong> (INT32)</td>
+ <td>Output Protocol Configuration for PWM Aux 1-4 <p><strong>Comment:</strong> Select which Output Protocol to use for outputs PWM Aux 1-4. Custom PWM rates can be used by directly setting any value >0.</p> <strong>Values:</strong><ul>
+<li><strong>-5:</strong> DShot150</li> 
+
+<li><strong>-4:</strong> DShot300</li> 
+
+<li><strong>-3:</strong> DShot600</li> 
+
+<li><strong>-2:</strong> DShot1200</li> 
+
+<li><strong>-1:</strong> OneShot</li> 
+
+<li><strong>50:</strong> PWM50</li> 
+
+<li><strong>100:</strong> PWM100</li> 
+
+<li><strong>200:</strong> PWM200</li> 
+
+<li><strong>400:</strong> PWM400</li> 
+</ul>
+  <p><b>Reboot required:</b> True</p>
+</td>
+ <td></td>
+ <td>400</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_TIM1">PWM_AUX_TIM1</strong> (INT32)</td>
+ <td>Output Protocol Configuration for PWM Aux 5-6 <p><strong>Comment:</strong> Select which Output Protocol to use for outputs PWM Aux 5-6. Custom PWM rates can be used by directly setting any value >0.</p> <strong>Values:</strong><ul>
+<li><strong>-1:</strong> OneShot</li> 
+
+<li><strong>50:</strong> PWM50</li> 
+
+<li><strong>100:</strong> PWM100</li> 
+
+<li><strong>200:</strong> PWM200</li> 
+
+<li><strong>400:</strong> PWM400</li> 
+</ul>
+  <p><b>Reboot required:</b> True</p>
+</td>
+ <td></td>
+ <td>400</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_TIM2">PWM_AUX_TIM2</strong> (INT32)</td>
+ <td>Output Protocol Configuration for PWM Aux 7-8 <p><strong>Comment:</strong> Select which Output Protocol to use for outputs PWM Aux 7-8. Custom PWM rates can be used by directly setting any value >0.</p> <strong>Values:</strong><ul>
+<li><strong>-1:</strong> OneShot</li> 
+
+<li><strong>50:</strong> PWM50</li> 
+
+<li><strong>100:</strong> PWM100</li> 
+
+<li><strong>200:</strong> PWM200</li> 
+
+<li><strong>400:</strong> PWM400</li> 
+</ul>
+  <p><b>Reboot required:</b> True</p>
+</td>
+ <td></td>
+ <td>400</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_AUX_TIM3">PWM_AUX_TIM3</strong> (INT32)</td>
+ <td>Output Protocol Configuration for PWM Capture 1-3 <p><strong>Comment:</strong> Select which Output Protocol to use for outputs PWM Capture 1-3. Custom PWM rates can be used by directly setting any value >0.</p> <strong>Values:</strong><ul>
+<li><strong>-1:</strong> OneShot</li> 
+
+<li><strong>50:</strong> PWM50</li> 
+
+<li><strong>100:</strong> PWM100</li> 
+
+<li><strong>200:</strong> PWM200</li> 
+
+<li><strong>400:</strong> PWM400</li> 
+</ul>
+  <p><b>Reboot required:</b> True</p>
+</td>
+ <td></td>
+ <td>400</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_DIS1">PWM_MAIN_DIS1</strong> (INT32)</td>
+ <td>MAIN 1 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_DIS2">PWM_MAIN_DIS2</strong> (INT32)</td>
+ <td>MAIN 2 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_DIS3">PWM_MAIN_DIS3</strong> (INT32)</td>
+ <td>MAIN 3 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_DIS4">PWM_MAIN_DIS4</strong> (INT32)</td>
+ <td>MAIN 4 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_DIS5">PWM_MAIN_DIS5</strong> (INT32)</td>
+ <td>MAIN 5 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_DIS6">PWM_MAIN_DIS6</strong> (INT32)</td>
+ <td>MAIN 6 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_DIS7">PWM_MAIN_DIS7</strong> (INT32)</td>
+ <td>MAIN 7 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_DIS8">PWM_MAIN_DIS8</strong> (INT32)</td>
+ <td>MAIN 8 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>800 > 2200 </td>
+ <td>900</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_FAIL1">PWM_MAIN_FAIL1</strong> (INT32)</td>
+ <td>MAIN 1 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PWM_MAIN_FUNC1).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_FAIL2">PWM_MAIN_FAIL2</strong> (INT32)</td>
+ <td>MAIN 2 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PWM_MAIN_FUNC2).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_FAIL3">PWM_MAIN_FAIL3</strong> (INT32)</td>
+ <td>MAIN 3 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PWM_MAIN_FUNC3).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_FAIL4">PWM_MAIN_FAIL4</strong> (INT32)</td>
+ <td>MAIN 4 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PWM_MAIN_FUNC4).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_FAIL5">PWM_MAIN_FAIL5</strong> (INT32)</td>
+ <td>MAIN 5 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PWM_MAIN_FUNC5).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_FAIL6">PWM_MAIN_FAIL6</strong> (INT32)</td>
+ <td>MAIN 6 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PWM_MAIN_FUNC6).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_FAIL7">PWM_MAIN_FAIL7</strong> (INT32)</td>
+ <td>MAIN 7 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PWM_MAIN_FUNC7).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_FAIL8">PWM_MAIN_FAIL8</strong> (INT32)</td>
+ <td>MAIN 8 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see PWM_MAIN_FUNC8).</p>   </td>
+ <td>-1 > 2200 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_FUNC1">PWM_MAIN_FUNC1</strong> (INT32)</td>
+ <td>MAIN 1 Output Function <p><strong>Comment:</strong> Select what should be output on MAIN 1. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_FUNC2">PWM_MAIN_FUNC2</strong> (INT32)</td>
+ <td>MAIN 2 Output Function <p><strong>Comment:</strong> Select what should be output on MAIN 2. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_FUNC3">PWM_MAIN_FUNC3</strong> (INT32)</td>
+ <td>MAIN 3 Output Function <p><strong>Comment:</strong> Select what should be output on MAIN 3. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_FUNC4">PWM_MAIN_FUNC4</strong> (INT32)</td>
+ <td>MAIN 4 Output Function <p><strong>Comment:</strong> Select what should be output on MAIN 4. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_FUNC5">PWM_MAIN_FUNC5</strong> (INT32)</td>
+ <td>MAIN 5 Output Function <p><strong>Comment:</strong> Select what should be output on MAIN 5. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_FUNC6">PWM_MAIN_FUNC6</strong> (INT32)</td>
+ <td>MAIN 6 Output Function <p><strong>Comment:</strong> Select what should be output on MAIN 6. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_FUNC7">PWM_MAIN_FUNC7</strong> (INT32)</td>
+ <td>MAIN 7 Output Function <p><strong>Comment:</strong> Select what should be output on MAIN 7. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_FUNC8">PWM_MAIN_FUNC8</strong> (INT32)</td>
+ <td>MAIN 8 Output Function <p><strong>Comment:</strong> Select what should be output on MAIN 8. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_MAX1">PWM_MAIN_MAX1</strong> (INT32)</td>
+ <td>MAIN 1 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_MAX2">PWM_MAIN_MAX2</strong> (INT32)</td>
+ <td>MAIN 2 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_MAX3">PWM_MAIN_MAX3</strong> (INT32)</td>
+ <td>MAIN 3 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_MAX4">PWM_MAIN_MAX4</strong> (INT32)</td>
+ <td>MAIN 4 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_MAX5">PWM_MAIN_MAX5</strong> (INT32)</td>
+ <td>MAIN 5 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_MAX6">PWM_MAIN_MAX6</strong> (INT32)</td>
+ <td>MAIN 6 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_MAX7">PWM_MAIN_MAX7</strong> (INT32)</td>
+ <td>MAIN 7 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_MAX8">PWM_MAIN_MAX8</strong> (INT32)</td>
+ <td>MAIN 8 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>1600 > 2200 </td>
+ <td>2000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_MIN1">PWM_MAIN_MIN1</strong> (INT32)</td>
+ <td>MAIN 1 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_MIN2">PWM_MAIN_MIN2</strong> (INT32)</td>
+ <td>MAIN 2 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_MIN3">PWM_MAIN_MIN3</strong> (INT32)</td>
+ <td>MAIN 3 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_MIN4">PWM_MAIN_MIN4</strong> (INT32)</td>
+ <td>MAIN 4 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_MIN5">PWM_MAIN_MIN5</strong> (INT32)</td>
+ <td>MAIN 5 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_MIN6">PWM_MAIN_MIN6</strong> (INT32)</td>
+ <td>MAIN 6 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_MIN7">PWM_MAIN_MIN7</strong> (INT32)</td>
+ <td>MAIN 7 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_MIN8">PWM_MAIN_MIN8</strong> (INT32)</td>
+ <td>MAIN 8 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>800 > 1400 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_REV">PWM_MAIN_REV</strong> (INT32)</td>
+ <td>Reverse Output Range for PWM MAIN <p><strong>Comment:</strong> Allows to reverse the output range for each channel. Note: this is only useful for servos.</p>  <strong>Bitmask:</strong><ul>  <li><strong>0:</strong> MAIN 1</li> 
+  <li><strong>1:</strong> MAIN 2</li> 
+  <li><strong>2:</strong> MAIN 3</li> 
+  <li><strong>3:</strong> MAIN 4</li> 
+  <li><strong>4:</strong> MAIN 5</li> 
+  <li><strong>5:</strong> MAIN 6</li> 
+  <li><strong>6:</strong> MAIN 7</li> 
+  <li><strong>7:</strong> MAIN 8</li> 
+</ul>
+ </td>
+ <td>0 > 255 </td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_TIM0">PWM_MAIN_TIM0</strong> (INT32)</td>
+ <td>Output Protocol Configuration for MAIN 1-2 <p><strong>Comment:</strong> Select which Output Protocol to use for outputs MAIN 1-2. Custom PWM rates can be used by directly setting any value >0.</p> <strong>Values:</strong><ul>
+<li><strong>-1:</strong> OneShot</li> 
+
+<li><strong>50:</strong> PWM50</li> 
+
+<li><strong>100:</strong> PWM100</li> 
+
+<li><strong>200:</strong> PWM200</li> 
+
+<li><strong>400:</strong> PWM400</li> 
+</ul>
+  <p><b>Reboot required:</b> True</p>
+</td>
+ <td></td>
+ <td>400</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_TIM1">PWM_MAIN_TIM1</strong> (INT32)</td>
+ <td>Output Protocol Configuration for MAIN 3-4 <p><strong>Comment:</strong> Select which Output Protocol to use for outputs MAIN 3-4. Custom PWM rates can be used by directly setting any value >0.</p> <strong>Values:</strong><ul>
+<li><strong>-1:</strong> OneShot</li> 
+
+<li><strong>50:</strong> PWM50</li> 
+
+<li><strong>100:</strong> PWM100</li> 
+
+<li><strong>200:</strong> PWM200</li> 
+
+<li><strong>400:</strong> PWM400</li> 
+</ul>
+  <p><b>Reboot required:</b> True</p>
+</td>
+ <td></td>
+ <td>400</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PWM_MAIN_TIM2">PWM_MAIN_TIM2</strong> (INT32)</td>
+ <td>Output Protocol Configuration for MAIN 5-8 <p><strong>Comment:</strong> Select which Output Protocol to use for outputs MAIN 5-8. Custom PWM rates can be used by directly setting any value >0.</p> <strong>Values:</strong><ul>
+<li><strong>-1:</strong> OneShot</li> 
+
+<li><strong>50:</strong> PWM50</li> 
+
+<li><strong>100:</strong> PWM100</li> 
+
+<li><strong>200:</strong> PWM200</li> 
+
+<li><strong>400:</strong> PWM400</li> 
+</ul>
+  <p><b>Reboot required:</b> True</p>
+</td>
+ <td></td>
+ <td>400</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="TAP_ESC_FUNC1">TAP_ESC_FUNC1</strong> (INT32)</td>
+ <td>TAP ESC Output ESC 1 Output Function <p><strong>Comment:</strong> Select what should be output on TAP ESC Output ESC 1. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="TAP_ESC_FUNC2">TAP_ESC_FUNC2</strong> (INT32)</td>
+ <td>TAP ESC Output ESC 2 Output Function <p><strong>Comment:</strong> Select what should be output on TAP ESC Output ESC 2. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="TAP_ESC_FUNC3">TAP_ESC_FUNC3</strong> (INT32)</td>
+ <td>TAP ESC Output ESC 3 Output Function <p><strong>Comment:</strong> Select what should be output on TAP ESC Output ESC 3. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="TAP_ESC_FUNC4">TAP_ESC_FUNC4</strong> (INT32)</td>
+ <td>TAP ESC Output ESC 4 Output Function <p><strong>Comment:</strong> Select what should be output on TAP ESC Output ESC 4. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="TAP_ESC_FUNC5">TAP_ESC_FUNC5</strong> (INT32)</td>
+ <td>TAP ESC Output ESC 5 Output Function <p><strong>Comment:</strong> Select what should be output on TAP ESC Output ESC 5. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="TAP_ESC_FUNC6">TAP_ESC_FUNC6</strong> (INT32)</td>
+ <td>TAP ESC Output ESC 6 Output Function <p><strong>Comment:</strong> Select what should be output on TAP ESC Output ESC 6. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="TAP_ESC_FUNC7">TAP_ESC_FUNC7</strong> (INT32)</td>
+ <td>TAP ESC Output ESC 7 Output Function <p><strong>Comment:</strong> Select what should be output on TAP ESC Output ESC 7. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="TAP_ESC_FUNC8">TAP_ESC_FUNC8</strong> (INT32)</td>
+ <td>TAP ESC Output ESC 8 Output Function <p><strong>Comment:</strong> Select what should be output on TAP ESC Output ESC 8. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_EC_FAIL1">UAVCAN_EC_FAIL1</strong> (INT32)</td>
+ <td>UAVCAN ESC 1 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see UAVCAN_EC_FUNC1).</p>   </td>
+ <td>-1 > 8191 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_EC_FAIL2">UAVCAN_EC_FAIL2</strong> (INT32)</td>
+ <td>UAVCAN ESC 2 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see UAVCAN_EC_FUNC2).</p>   </td>
+ <td>-1 > 8191 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_EC_FAIL3">UAVCAN_EC_FAIL3</strong> (INT32)</td>
+ <td>UAVCAN ESC 3 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see UAVCAN_EC_FUNC3).</p>   </td>
+ <td>-1 > 8191 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_EC_FAIL4">UAVCAN_EC_FAIL4</strong> (INT32)</td>
+ <td>UAVCAN ESC 4 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see UAVCAN_EC_FUNC4).</p>   </td>
+ <td>-1 > 8191 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_EC_FAIL5">UAVCAN_EC_FAIL5</strong> (INT32)</td>
+ <td>UAVCAN ESC 5 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see UAVCAN_EC_FUNC5).</p>   </td>
+ <td>-1 > 8191 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_EC_FAIL6">UAVCAN_EC_FAIL6</strong> (INT32)</td>
+ <td>UAVCAN ESC 6 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see UAVCAN_EC_FUNC6).</p>   </td>
+ <td>-1 > 8191 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_EC_FAIL7">UAVCAN_EC_FAIL7</strong> (INT32)</td>
+ <td>UAVCAN ESC 7 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see UAVCAN_EC_FUNC7).</p>   </td>
+ <td>-1 > 8191 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_EC_FAIL8">UAVCAN_EC_FAIL8</strong> (INT32)</td>
+ <td>UAVCAN ESC 8 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see UAVCAN_EC_FUNC8).</p>   </td>
+ <td>-1 > 8191 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_EC_FUNC1">UAVCAN_EC_FUNC1</strong> (INT32)</td>
+ <td>UAVCAN ESC 1 Output Function <p><strong>Comment:</strong> Select what should be output on UAVCAN ESC 1. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_EC_FUNC2">UAVCAN_EC_FUNC2</strong> (INT32)</td>
+ <td>UAVCAN ESC 2 Output Function <p><strong>Comment:</strong> Select what should be output on UAVCAN ESC 2. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_EC_FUNC3">UAVCAN_EC_FUNC3</strong> (INT32)</td>
+ <td>UAVCAN ESC 3 Output Function <p><strong>Comment:</strong> Select what should be output on UAVCAN ESC 3. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_EC_FUNC4">UAVCAN_EC_FUNC4</strong> (INT32)</td>
+ <td>UAVCAN ESC 4 Output Function <p><strong>Comment:</strong> Select what should be output on UAVCAN ESC 4. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_EC_FUNC5">UAVCAN_EC_FUNC5</strong> (INT32)</td>
+ <td>UAVCAN ESC 5 Output Function <p><strong>Comment:</strong> Select what should be output on UAVCAN ESC 5. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_EC_FUNC6">UAVCAN_EC_FUNC6</strong> (INT32)</td>
+ <td>UAVCAN ESC 6 Output Function <p><strong>Comment:</strong> Select what should be output on UAVCAN ESC 6. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_EC_FUNC7">UAVCAN_EC_FUNC7</strong> (INT32)</td>
+ <td>UAVCAN ESC 7 Output Function <p><strong>Comment:</strong> Select what should be output on UAVCAN ESC 7. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_EC_FUNC8">UAVCAN_EC_FUNC8</strong> (INT32)</td>
+ <td>UAVCAN ESC 8 Output Function <p><strong>Comment:</strong> Select what should be output on UAVCAN ESC 8. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_EC_MAX1">UAVCAN_EC_MAX1</strong> (INT32)</td>
+ <td>UAVCAN ESC 1 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>8191</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_EC_MAX2">UAVCAN_EC_MAX2</strong> (INT32)</td>
+ <td>UAVCAN ESC 2 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>8191</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_EC_MAX3">UAVCAN_EC_MAX3</strong> (INT32)</td>
+ <td>UAVCAN ESC 3 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>8191</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_EC_MAX4">UAVCAN_EC_MAX4</strong> (INT32)</td>
+ <td>UAVCAN ESC 4 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>8191</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_EC_MAX5">UAVCAN_EC_MAX5</strong> (INT32)</td>
+ <td>UAVCAN ESC 5 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>8191</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_EC_MAX6">UAVCAN_EC_MAX6</strong> (INT32)</td>
+ <td>UAVCAN ESC 6 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>8191</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_EC_MAX7">UAVCAN_EC_MAX7</strong> (INT32)</td>
+ <td>UAVCAN ESC 7 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>8191</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_EC_MAX8">UAVCAN_EC_MAX8</strong> (INT32)</td>
+ <td>UAVCAN ESC 8 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>8191</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_EC_MIN1">UAVCAN_EC_MIN1</strong> (INT32)</td>
+ <td>UAVCAN ESC 1 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_EC_MIN2">UAVCAN_EC_MIN2</strong> (INT32)</td>
+ <td>UAVCAN ESC 2 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_EC_MIN3">UAVCAN_EC_MIN3</strong> (INT32)</td>
+ <td>UAVCAN ESC 3 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_EC_MIN4">UAVCAN_EC_MIN4</strong> (INT32)</td>
+ <td>UAVCAN ESC 4 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_EC_MIN5">UAVCAN_EC_MIN5</strong> (INT32)</td>
+ <td>UAVCAN ESC 5 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_EC_MIN6">UAVCAN_EC_MIN6</strong> (INT32)</td>
+ <td>UAVCAN ESC 6 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_EC_MIN7">UAVCAN_EC_MIN7</strong> (INT32)</td>
+ <td>UAVCAN ESC 7 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_EC_MIN8">UAVCAN_EC_MIN8</strong> (INT32)</td>
+ <td>UAVCAN ESC 8 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_EC_REV">UAVCAN_EC_REV</strong> (INT32)</td>
+ <td>Reverse Output Range for UAVCAN <p><strong>Comment:</strong> Allows to reverse the output range for each channel. Note: this is only useful for servos.</p>  <strong>Bitmask:</strong><ul>  <li><strong>0:</strong> UAVCAN ESC 1</li> 
+  <li><strong>1:</strong> UAVCAN ESC 2</li> 
+  <li><strong>2:</strong> UAVCAN ESC 3</li> 
+  <li><strong>3:</strong> UAVCAN ESC 4</li> 
+  <li><strong>4:</strong> UAVCAN ESC 5</li> 
+  <li><strong>5:</strong> UAVCAN ESC 6</li> 
+  <li><strong>6:</strong> UAVCAN ESC 7</li> 
+  <li><strong>7:</strong> UAVCAN ESC 8</li> 
+</ul>
+ </td>
+ <td>0 > 255 </td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_DIS1">UAVCAN_SV_DIS1</strong> (INT32)</td>
+ <td>UAVCAN Servo 1 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>0 > 1000 </td>
+ <td>500</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_DIS2">UAVCAN_SV_DIS2</strong> (INT32)</td>
+ <td>UAVCAN Servo 2 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>0 > 1000 </td>
+ <td>500</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_DIS3">UAVCAN_SV_DIS3</strong> (INT32)</td>
+ <td>UAVCAN Servo 3 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>0 > 1000 </td>
+ <td>500</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_DIS4">UAVCAN_SV_DIS4</strong> (INT32)</td>
+ <td>UAVCAN Servo 4 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>0 > 1000 </td>
+ <td>500</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_DIS5">UAVCAN_SV_DIS5</strong> (INT32)</td>
+ <td>UAVCAN Servo 5 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>0 > 1000 </td>
+ <td>500</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_DIS6">UAVCAN_SV_DIS6</strong> (INT32)</td>
+ <td>UAVCAN Servo 6 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>0 > 1000 </td>
+ <td>500</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_DIS7">UAVCAN_SV_DIS7</strong> (INT32)</td>
+ <td>UAVCAN Servo 7 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>0 > 1000 </td>
+ <td>500</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_DIS8">UAVCAN_SV_DIS8</strong> (INT32)</td>
+ <td>UAVCAN Servo 8 Disarmed Value <p><strong>Comment:</strong> This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</p>   </td>
+ <td>0 > 1000 </td>
+ <td>500</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_FAIL1">UAVCAN_SV_FAIL1</strong> (INT32)</td>
+ <td>UAVCAN Servo 1 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see UAVCAN_SV_FUNC1).</p>   </td>
+ <td>-1 > 1000 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_FAIL2">UAVCAN_SV_FAIL2</strong> (INT32)</td>
+ <td>UAVCAN Servo 2 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see UAVCAN_SV_FUNC2).</p>   </td>
+ <td>-1 > 1000 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_FAIL3">UAVCAN_SV_FAIL3</strong> (INT32)</td>
+ <td>UAVCAN Servo 3 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see UAVCAN_SV_FUNC3).</p>   </td>
+ <td>-1 > 1000 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_FAIL4">UAVCAN_SV_FAIL4</strong> (INT32)</td>
+ <td>UAVCAN Servo 4 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see UAVCAN_SV_FUNC4).</p>   </td>
+ <td>-1 > 1000 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_FAIL5">UAVCAN_SV_FAIL5</strong> (INT32)</td>
+ <td>UAVCAN Servo 5 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see UAVCAN_SV_FUNC5).</p>   </td>
+ <td>-1 > 1000 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_FAIL6">UAVCAN_SV_FAIL6</strong> (INT32)</td>
+ <td>UAVCAN Servo 6 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see UAVCAN_SV_FUNC6).</p>   </td>
+ <td>-1 > 1000 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_FAIL7">UAVCAN_SV_FAIL7</strong> (INT32)</td>
+ <td>UAVCAN Servo 7 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see UAVCAN_SV_FUNC7).</p>   </td>
+ <td>-1 > 1000 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_FAIL8">UAVCAN_SV_FAIL8</strong> (INT32)</td>
+ <td>UAVCAN Servo 8 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see UAVCAN_SV_FUNC8).</p>   </td>
+ <td>-1 > 1000 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_FUNC1">UAVCAN_SV_FUNC1</strong> (INT32)</td>
+ <td>UAVCAN Servo 1 Output Function <p><strong>Comment:</strong> Select what should be output on UAVCAN Servo 1. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_FUNC2">UAVCAN_SV_FUNC2</strong> (INT32)</td>
+ <td>UAVCAN Servo 2 Output Function <p><strong>Comment:</strong> Select what should be output on UAVCAN Servo 2. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_FUNC3">UAVCAN_SV_FUNC3</strong> (INT32)</td>
+ <td>UAVCAN Servo 3 Output Function <p><strong>Comment:</strong> Select what should be output on UAVCAN Servo 3. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_FUNC4">UAVCAN_SV_FUNC4</strong> (INT32)</td>
+ <td>UAVCAN Servo 4 Output Function <p><strong>Comment:</strong> Select what should be output on UAVCAN Servo 4. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_FUNC5">UAVCAN_SV_FUNC5</strong> (INT32)</td>
+ <td>UAVCAN Servo 5 Output Function <p><strong>Comment:</strong> Select what should be output on UAVCAN Servo 5. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_FUNC6">UAVCAN_SV_FUNC6</strong> (INT32)</td>
+ <td>UAVCAN Servo 6 Output Function <p><strong>Comment:</strong> Select what should be output on UAVCAN Servo 6. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_FUNC7">UAVCAN_SV_FUNC7</strong> (INT32)</td>
+ <td>UAVCAN Servo 7 Output Function <p><strong>Comment:</strong> Select what should be output on UAVCAN Servo 7. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_FUNC8">UAVCAN_SV_FUNC8</strong> (INT32)</td>
+ <td>UAVCAN Servo 8 Output Function <p><strong>Comment:</strong> Select what should be output on UAVCAN Servo 8. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_MAX1">UAVCAN_SV_MAX1</strong> (INT32)</td>
+ <td>UAVCAN Servo 1 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 1000 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_MAX2">UAVCAN_SV_MAX2</strong> (INT32)</td>
+ <td>UAVCAN Servo 2 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 1000 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_MAX3">UAVCAN_SV_MAX3</strong> (INT32)</td>
+ <td>UAVCAN Servo 3 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 1000 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_MAX4">UAVCAN_SV_MAX4</strong> (INT32)</td>
+ <td>UAVCAN Servo 4 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 1000 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_MAX5">UAVCAN_SV_MAX5</strong> (INT32)</td>
+ <td>UAVCAN Servo 5 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 1000 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_MAX6">UAVCAN_SV_MAX6</strong> (INT32)</td>
+ <td>UAVCAN Servo 6 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 1000 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_MAX7">UAVCAN_SV_MAX7</strong> (INT32)</td>
+ <td>UAVCAN Servo 7 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 1000 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_MAX8">UAVCAN_SV_MAX8</strong> (INT32)</td>
+ <td>UAVCAN Servo 8 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 1000 </td>
+ <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_MIN1">UAVCAN_SV_MIN1</strong> (INT32)</td>
+ <td>UAVCAN Servo 1 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 1000 </td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_MIN2">UAVCAN_SV_MIN2</strong> (INT32)</td>
+ <td>UAVCAN Servo 2 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 1000 </td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_MIN3">UAVCAN_SV_MIN3</strong> (INT32)</td>
+ <td>UAVCAN Servo 3 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 1000 </td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_MIN4">UAVCAN_SV_MIN4</strong> (INT32)</td>
+ <td>UAVCAN Servo 4 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 1000 </td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_MIN5">UAVCAN_SV_MIN5</strong> (INT32)</td>
+ <td>UAVCAN Servo 5 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 1000 </td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_MIN6">UAVCAN_SV_MIN6</strong> (INT32)</td>
+ <td>UAVCAN Servo 6 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 1000 </td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_MIN7">UAVCAN_SV_MIN7</strong> (INT32)</td>
+ <td>UAVCAN Servo 7 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 1000 </td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_MIN8">UAVCAN_SV_MIN8</strong> (INT32)</td>
+ <td>UAVCAN Servo 8 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 1000 </td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SV_REV">UAVCAN_SV_REV</strong> (INT32)</td>
+ <td>Reverse Output Range for UAVCAN <p><strong>Comment:</strong> Allows to reverse the output range for each channel. Note: this is only useful for servos.</p>  <strong>Bitmask:</strong><ul>  <li><strong>0:</strong> UAVCAN Servo 1</li> 
+  <li><strong>1:</strong> UAVCAN Servo 2</li> 
+  <li><strong>2:</strong> UAVCAN Servo 3</li> 
+  <li><strong>3:</strong> UAVCAN Servo 4</li> 
+  <li><strong>4:</strong> UAVCAN Servo 5</li> 
+  <li><strong>5:</strong> UAVCAN Servo 6</li> 
+  <li><strong>6:</strong> UAVCAN Servo 7</li> 
+  <li><strong>7:</strong> UAVCAN Servo 8</li> 
+</ul>
+ </td>
+ <td>0 > 255 </td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_FAIL1">UCAN1_ESC_FAIL1</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 1 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see UCAN1_ESC_FUNC1).</p>   </td>
+ <td>-1 > 8191 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_FAIL10">UCAN1_ESC_FAIL10</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 10 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see UCAN1_ESC_FUNC10).</p>   </td>
+ <td>-1 > 8191 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_FAIL11">UCAN1_ESC_FAIL11</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 11 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see UCAN1_ESC_FUNC11).</p>   </td>
+ <td>-1 > 8191 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_FAIL12">UCAN1_ESC_FAIL12</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 12 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see UCAN1_ESC_FUNC12).</p>   </td>
+ <td>-1 > 8191 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_FAIL13">UCAN1_ESC_FAIL13</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 13 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see UCAN1_ESC_FUNC13).</p>   </td>
+ <td>-1 > 8191 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_FAIL14">UCAN1_ESC_FAIL14</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 14 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see UCAN1_ESC_FUNC14).</p>   </td>
+ <td>-1 > 8191 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_FAIL15">UCAN1_ESC_FAIL15</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 15 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see UCAN1_ESC_FUNC15).</p>   </td>
+ <td>-1 > 8191 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_FAIL16">UCAN1_ESC_FAIL16</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 16 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see UCAN1_ESC_FUNC16).</p>   </td>
+ <td>-1 > 8191 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_FAIL2">UCAN1_ESC_FAIL2</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 2 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see UCAN1_ESC_FUNC2).</p>   </td>
+ <td>-1 > 8191 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_FAIL3">UCAN1_ESC_FAIL3</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 3 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see UCAN1_ESC_FUNC3).</p>   </td>
+ <td>-1 > 8191 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_FAIL4">UCAN1_ESC_FAIL4</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 4 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see UCAN1_ESC_FUNC4).</p>   </td>
+ <td>-1 > 8191 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_FAIL5">UCAN1_ESC_FAIL5</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 5 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see UCAN1_ESC_FUNC5).</p>   </td>
+ <td>-1 > 8191 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_FAIL6">UCAN1_ESC_FAIL6</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 6 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see UCAN1_ESC_FUNC6).</p>   </td>
+ <td>-1 > 8191 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_FAIL7">UCAN1_ESC_FAIL7</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 7 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see UCAN1_ESC_FUNC7).</p>   </td>
+ <td>-1 > 8191 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_FAIL8">UCAN1_ESC_FAIL8</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 8 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see UCAN1_ESC_FUNC8).</p>   </td>
+ <td>-1 > 8191 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_FAIL9">UCAN1_ESC_FAIL9</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 9 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see UCAN1_ESC_FUNC9).</p>   </td>
+ <td>-1 > 8191 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_FUNC1">UCAN1_ESC_FUNC1</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 1 Output Function <p><strong>Comment:</strong> Select what should be output on UAVCANv1 ESC 1. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_FUNC10">UCAN1_ESC_FUNC10</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 10 Output Function <p><strong>Comment:</strong> Select what should be output on UAVCANv1 ESC 10. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_FUNC11">UCAN1_ESC_FUNC11</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 11 Output Function <p><strong>Comment:</strong> Select what should be output on UAVCANv1 ESC 11. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_FUNC12">UCAN1_ESC_FUNC12</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 12 Output Function <p><strong>Comment:</strong> Select what should be output on UAVCANv1 ESC 12. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_FUNC13">UCAN1_ESC_FUNC13</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 13 Output Function <p><strong>Comment:</strong> Select what should be output on UAVCANv1 ESC 13. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_FUNC14">UCAN1_ESC_FUNC14</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 14 Output Function <p><strong>Comment:</strong> Select what should be output on UAVCANv1 ESC 14. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_FUNC15">UCAN1_ESC_FUNC15</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 15 Output Function <p><strong>Comment:</strong> Select what should be output on UAVCANv1 ESC 15. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_FUNC16">UCAN1_ESC_FUNC16</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 16 Output Function <p><strong>Comment:</strong> Select what should be output on UAVCANv1 ESC 16. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_FUNC2">UCAN1_ESC_FUNC2</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 2 Output Function <p><strong>Comment:</strong> Select what should be output on UAVCANv1 ESC 2. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_FUNC3">UCAN1_ESC_FUNC3</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 3 Output Function <p><strong>Comment:</strong> Select what should be output on UAVCANv1 ESC 3. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_FUNC4">UCAN1_ESC_FUNC4</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 4 Output Function <p><strong>Comment:</strong> Select what should be output on UAVCANv1 ESC 4. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_FUNC5">UCAN1_ESC_FUNC5</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 5 Output Function <p><strong>Comment:</strong> Select what should be output on UAVCANv1 ESC 5. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_FUNC6">UCAN1_ESC_FUNC6</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 6 Output Function <p><strong>Comment:</strong> Select what should be output on UAVCANv1 ESC 6. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_FUNC7">UCAN1_ESC_FUNC7</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 7 Output Function <p><strong>Comment:</strong> Select what should be output on UAVCANv1 ESC 7. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_FUNC8">UCAN1_ESC_FUNC8</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 8 Output Function <p><strong>Comment:</strong> Select what should be output on UAVCANv1 ESC 8. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_FUNC9">UCAN1_ESC_FUNC9</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 9 Output Function <p><strong>Comment:</strong> Select what should be output on UAVCANv1 ESC 9. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Constant Min</li> 
+
+<li><strong>2:</strong> Constant Max</li> 
+
+<li><strong>101:</strong> Motor 1</li> 
+
+<li><strong>102:</strong> Motor 2</li> 
+
+<li><strong>103:</strong> Motor 3</li> 
+
+<li><strong>104:</strong> Motor 4</li> 
+
+<li><strong>105:</strong> Motor 5</li> 
+
+<li><strong>106:</strong> Motor 6</li> 
+
+<li><strong>107:</strong> Motor 7</li> 
+
+<li><strong>108:</strong> Motor 8</li> 
+
+<li><strong>201:</strong> Servo 1</li> 
+
+<li><strong>202:</strong> Servo 2</li> 
+
+<li><strong>203:</strong> Servo 3</li> 
+
+<li><strong>204:</strong> Servo 4</li> 
+
+<li><strong>205:</strong> Servo 5</li> 
+
+<li><strong>206:</strong> Servo 6</li> 
+
+<li><strong>207:</strong> Servo 7</li> 
+
+<li><strong>208:</strong> Servo 8</li> 
+
+<li><strong>301:</strong> Offboard Actuator Set 1</li> 
+
+<li><strong>302:</strong> Offboard Actuator Set 2</li> 
+
+<li><strong>303:</strong> Offboard Actuator Set 3</li> 
+
+<li><strong>304:</strong> Offboard Actuator Set 4</li> 
+
+<li><strong>305:</strong> Offboard Actuator Set 5</li> 
+
+<li><strong>306:</strong> Offboard Actuator Set 6</li> 
+
+<li><strong>400:</strong> Landing Gear</li> 
+
+<li><strong>401:</strong> Parachute</li> 
+
+<li><strong>402:</strong> RC Roll</li> 
+
+<li><strong>403:</strong> RC Pitch</li> 
+
+<li><strong>404:</strong> RC Throttle</li> 
+
+<li><strong>405:</strong> RC Yaw</li> 
+
+<li><strong>406:</strong> RC Flaps</li> 
+
+<li><strong>407:</strong> RC AUX 1</li> 
+
+<li><strong>408:</strong> RC AUX 2</li> 
+
+<li><strong>409:</strong> RC AUX 3</li> 
+
+<li><strong>410:</strong> RC AUX 4</li> 
+
+<li><strong>411:</strong> RC AUX 5</li> 
+
+<li><strong>412:</strong> RC AUX 6</li> 
+
+<li><strong>420:</strong> Gimbal Roll</li> 
+
+<li><strong>421:</strong> Gimbal Pitch</li> 
+
+<li><strong>422:</strong> Gimbal Yaw</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_MAX1">UCAN1_ESC_MAX1</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 1 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>8191</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_MAX10">UCAN1_ESC_MAX10</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 10 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>8191</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_MAX11">UCAN1_ESC_MAX11</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 11 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>8191</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_MAX12">UCAN1_ESC_MAX12</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 12 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>8191</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_MAX13">UCAN1_ESC_MAX13</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 13 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>8191</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_MAX14">UCAN1_ESC_MAX14</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 14 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>8191</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_MAX15">UCAN1_ESC_MAX15</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 15 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>8191</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_MAX16">UCAN1_ESC_MAX16</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 16 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>8191</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_MAX2">UCAN1_ESC_MAX2</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 2 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>8191</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_MAX3">UCAN1_ESC_MAX3</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 3 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>8191</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_MAX4">UCAN1_ESC_MAX4</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 4 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>8191</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_MAX5">UCAN1_ESC_MAX5</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 5 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>8191</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_MAX6">UCAN1_ESC_MAX6</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 6 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>8191</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_MAX7">UCAN1_ESC_MAX7</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 7 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>8191</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_MAX8">UCAN1_ESC_MAX8</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 8 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>8191</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_MAX9">UCAN1_ESC_MAX9</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 9 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>8191</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_MIN1">UCAN1_ESC_MIN1</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 1 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_MIN10">UCAN1_ESC_MIN10</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 10 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_MIN11">UCAN1_ESC_MIN11</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 11 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_MIN12">UCAN1_ESC_MIN12</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 12 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_MIN13">UCAN1_ESC_MIN13</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 13 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_MIN14">UCAN1_ESC_MIN14</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 14 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_MIN15">UCAN1_ESC_MIN15</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 15 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_MIN16">UCAN1_ESC_MIN16</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 16 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_MIN2">UCAN1_ESC_MIN2</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 2 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_MIN3">UCAN1_ESC_MIN3</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 3 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_MIN4">UCAN1_ESC_MIN4</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 4 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_MIN5">UCAN1_ESC_MIN5</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 5 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_MIN6">UCAN1_ESC_MIN6</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 6 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_MIN7">UCAN1_ESC_MIN7</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 7 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_MIN8">UCAN1_ESC_MIN8</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 8 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_MIN9">UCAN1_ESC_MIN9</strong> (INT32)</td>
+ <td>UAVCANv1 ESC 9 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>0 > 8191 </td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UCAN1_ESC_REV">UCAN1_ESC_REV</strong> (INT32)</td>
+ <td>Reverse Output Range for UAVCANv1 <p><strong>Comment:</strong> Allows to reverse the output range for each channel. Note: this is only useful for servos.</p>  <strong>Bitmask:</strong><ul>  <li><strong>0:</strong> UAVCANv1 ESC 1</li> 
+  <li><strong>1:</strong> UAVCANv1 ESC 2</li> 
+  <li><strong>2:</strong> UAVCANv1 ESC 3</li> 
+  <li><strong>3:</strong> UAVCANv1 ESC 4</li> 
+  <li><strong>4:</strong> UAVCANv1 ESC 5</li> 
+  <li><strong>5:</strong> UAVCANv1 ESC 6</li> 
+  <li><strong>6:</strong> UAVCANv1 ESC 7</li> 
+  <li><strong>7:</strong> UAVCANv1 ESC 8</li> 
+  <li><strong>8:</strong> UAVCANv1 ESC 9</li> 
+  <li><strong>9:</strong> UAVCANv1 ESC 10</li> 
+  <li><strong>10:</strong> UAVCANv1 ESC 11</li> 
+  <li><strong>11:</strong> UAVCANv1 ESC 12</li> 
+  <li><strong>12:</strong> UAVCANv1 ESC 13</li> 
+  <li><strong>13:</strong> UAVCANv1 ESC 14</li> 
+  <li><strong>14:</strong> UAVCANv1 ESC 15</li> 
+  <li><strong>15:</strong> UAVCANv1 ESC 16</li> 
+</ul>
+ </td>
+ <td>0 > 65535 </td>
+ <td>0</td>
+ <td></td>
+</tr>
+</tbody></table>
+
 ## Airspeed Validator
 
 <table>
@@ -271,9 +9037,14 @@ table {
 </tr>
 <tr>
  <td><strong id="ASPD_DO_CHECKS">ASPD_DO_CHECKS</strong> (INT32)</td>
- <td>Enable checks on airspeed sensors <p><strong>Comment:</strong> If set to true then the data comming from the airspeed sensors is checked for validity. Only applied if ASPD_PRIMARY > 0.</p>   </td>
- <td></td>
- <td>Enabled (1)</td>
+ <td>Enable checks on airspeed sensors <p><strong>Comment:</strong> Controls which checks are run to check airspeed data for validity. Only applied if ASPD_PRIMARY > 0. Note that the data missing check is enabled if any of the options is set.</p>  <strong>Bitmask:</strong><ul>  <li><strong>0:</strong> Only data missing check (triggers if more than 1s no data)</li> 
+  <li><strong>1:</strong> Data stuck (triggers if data is exactly constant for 2s)</li> 
+  <li><strong>2:</strong> Innovation check (see ASPD_FS_INNOV)</li> 
+  <li><strong>3:</strong> Load factor check (triggers if measurement is below stall speed)</li> 
+</ul>
+ </td>
+ <td>0 > 15 </td>
+ <td>7</td>
  <td></td>
 </tr>
 <tr>
@@ -290,17 +9061,17 @@ table {
 </tr>
 <tr>
  <td><strong id="ASPD_FS_INNOV">ASPD_FS_INNOV</strong> (FLOAT)</td>
- <td>Airspeed failsafe consistency threshold <p><strong>Comment:</strong> This specifies the minimum airspeed test ratio required to trigger a failsafe. Larger values make the check less sensitive, smaller values make it more sensitive. Start with a value of 1.0 when tuning. When tas_test_ratio is > 1.0 it indicates the inconsistency between predicted and measured airspeed is large enough to cause the wind EKF to reject airspeed measurements. The time required to detect a fault when the threshold is exceeded depends on the size of the exceedance and is controlled by the ASPD_FS_INTEG parameter.</p>   </td>
- <td>0.5 > 3.0 </td>
- <td>1.0</td>
- <td></td>
+ <td>Airspeed failure innovation threshold <p><strong>Comment:</strong> This specifies the minimum airspeed innovation required to trigger a failsafe. Larger values make the check less sensitive, smaller values make it more sensitive. Large innovations indicate an inconsistency between predicted (groundspeed - windspeeed) and measured airspeed. The time required to detect a fault when the threshold is exceeded depends on the size of the exceedance and is controlled by the ASPD_FS_INTEG parameter.</p>   </td>
+ <td>0.5 > 10.0 </td>
+ <td>5.</td>
+ <td>m/s</td>
 </tr>
 <tr>
  <td><strong id="ASPD_FS_INTEG">ASPD_FS_INTEG</strong> (FLOAT)</td>
- <td>Airspeed failsafe consistency delay <p><strong>Comment:</strong> This sets the time integral of airspeed test ratio exceedance above ASPD_FS_INNOV required to trigger a failsafe. For example if ASPD_FS_INNOV is 1 and estimator_status.tas_test_ratio is 2.0, then the exceedance is 1.0 and the integral will rise at a rate of 1.0/second. A negative value disables the check. Larger positive values make the check less sensitive, smaller positive values make it more sensitive.</p>   </td>
- <td>? > 30.0 </td>
- <td>5.0</td>
- <td>s</td>
+ <td>Airspeed failure innovation integral threshold <p><strong>Comment:</strong> This sets the time integral of airspeed innovation exceedance above ASPD_FS_INNOV required to trigger a failsafe. Larger values make the check less sensitive, smaller positive values make it more sensitive.</p>   </td>
+ <td>0.0 > 50.0 </td>
+ <td>10.</td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="ASPD_FS_T_START">ASPD_FS_T_START</strong> (INT32)</td>
@@ -336,17 +9107,41 @@ table {
  <td></td>
 </tr>
 <tr>
- <td><strong id="ASPD_SCALE">ASPD_SCALE</strong> (FLOAT)</td>
- <td>Airspeed scale (scale from IAS to CAS) <p><strong>Comment:</strong> Scale can either be entered manually, or estimated in-flight by setting ASPD_SCALE_EST to 1.</p>   </td>
- <td>0.5 > 1.5 </td>
+ <td><strong id="ASPD_SCALE_1">ASPD_SCALE_1</strong> (FLOAT)</td>
+ <td>Scale of airspeed sensor 1 <p><strong>Comment:</strong> This is the scale IAS --> CAS of the first airspeed sensor instance</p>   <p><b>Reboot required:</b> true</p>
+</td>
+ <td>0.5 > 2.0 </td>
  <td>1.0</td>
  <td></td>
 </tr>
 <tr>
- <td><strong id="ASPD_SCALE_EST">ASPD_SCALE_EST</strong> (INT32)</td>
- <td>Automatic airspeed scale estimation on <p><strong>Comment:</strong> Turns the automatic airspeed scale (scale from IAS to CAS) on or off. It is recommended to fly level altitude while performing the estimation. Set to 1 to start estimation (best when already flying). Set to 0 to end scale estimation. The estimated scale is then saved using the ASPD_SCALE parameter.</p>   </td>
+ <td><strong id="ASPD_SCALE_2">ASPD_SCALE_2</strong> (FLOAT)</td>
+ <td>Scale of airspeed sensor 2 <p><strong>Comment:</strong> This is the scale IAS --> CAS of the second airspeed sensor instance</p>   <p><b>Reboot required:</b> true</p>
+</td>
+ <td>0.5 > 2.0 </td>
+ <td>1.0</td>
  <td></td>
- <td>Disabled (0)</td>
+</tr>
+<tr>
+ <td><strong id="ASPD_SCALE_3">ASPD_SCALE_3</strong> (FLOAT)</td>
+ <td>Scale of airspeed sensor 3 <p><strong>Comment:</strong> This is the scale IAS --> CAS of the third airspeed sensor instance</p>   <p><b>Reboot required:</b> true</p>
+</td>
+ <td>0.5 > 2.0 </td>
+ <td>1.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="ASPD_SCALE_APPLY">ASPD_SCALE_APPLY</strong> (INT32)</td>
+ <td>Controls when to apply the new estimated airspeed scale(s)  <strong>Values:</strong><ul>
+<li><strong>0:</strong> Do not automatically apply the estimated scale</li> 
+
+<li><strong>1:</strong> Apply the estimated scale after disarm</li> 
+
+<li><strong>2:</strong> Apply the estimated scale in air</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>1</td>
  <td></td>
 </tr>
 <tr>
@@ -604,6 +9399,45 @@ table {
  </thead>
 <tbody>
 <tr>
+ <td><strong id="FW_AT_APPLY">FW_AT_APPLY</strong> (INT32)</td>
+ <td>Controls when to apply the new gains <p><strong>Comment:</strong> After the auto-tuning sequence is completed, a new set of gains is available and can be applied immediately or after landing.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Do not apply the new gains (logging only)</li> 
+
+<li><strong>1:</strong> Apply the new gains after disarm</li> 
+
+<li><strong>2:</strong> Apply the new gains in air</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>2</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="FW_AT_AXES">FW_AT_AXES</strong> (INT32)</td>
+ <td>Tuning axes selection <p><strong>Comment:</strong> Defines which axes will be tuned during the auto-tuning sequence Set bits in the following positions to enable: 0 : Roll 1 : Pitch 2 : Yaw</p>  <strong>Bitmask:</strong><ul>  <li><strong>0:</strong> roll</li> 
+  <li><strong>1:</strong> pitch</li> 
+  <li><strong>2:</strong> yaw</li> 
+</ul>
+ </td>
+ <td>1 > 7 </td>
+ <td>3</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="FW_AT_START">FW_AT_START</strong> (INT32)</td>
+ <td>Start the autotuning sequence <p><strong>Comment:</strong> WARNING: this will inject steps to the rate controller and can be dangerous. Only activate if you know what you are doing, and in a safe environment. Any motion of the remote stick will abord the signal injection and reset this parameter Best is to perform the identification in position or hold mode. Increase the amplitude of the injected signal using FW_AT_SYSID_AMP for more signal/noise ratio</p>   </td>
+ <td></td>
+ <td>Disabled (0)</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="FW_AT_SYSID_AMP">FW_AT_SYSID_AMP</strong> (FLOAT)</td>
+ <td>Amplitude of the injected signal <p><strong>Comment:</strong> This parameter scales the signal sent to the rate controller during system identification.</p>   </td>
+ <td>0.1 > 6.0 </td>
+ <td>1.0</td>
+ <td></td>
+</tr>
+<tr>
  <td><strong id="MC_AT_APPLY">MC_AT_APPLY</strong> (INT32)</td>
  <td>Controls when to apply the new gains <p><strong>Comment:</strong> After the auto-tuning sequence is completed, a new set of gains is available and can be applied immediately or after landing. WARNING Applying the gains in air is dangerous as there is no guarantee that those new gains will be able to stabilize the drone properly.</p> <strong>Values:</strong><ul>
 <li><strong>0:</strong> Do not apply the new gains (logging only)</li> 
@@ -615,6 +9449,13 @@ table {
   </td>
  <td></td>
  <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="MC_AT_EN">MC_AT_EN</strong> (INT32)</td>
+ <td>Multicopter autotune module enable    </td>
+ <td></td>
+ <td>Disabled (0)</td>
  <td></td>
 </tr>
 <tr>
@@ -675,6 +9516,8 @@ table {
 <tr>
  <td><strong id="BAT1_N_CELLS">BAT1_N_CELLS</strong> (INT32)</td>
  <td>Number of cells for battery 1 <p><strong>Comment:</strong> Defines the number of cells the attached battery consists of.</p> <strong>Values:</strong><ul>
+<li><strong>1:</strong> 1S Battery</li> 
+
 <li><strong>2:</strong> 2S Battery</li> 
 
 <li><strong>3:</strong> 3S Battery</li> 
@@ -803,6 +9646,8 @@ table {
 <tr>
  <td><strong id="BAT2_N_CELLS">BAT2_N_CELLS</strong> (INT32)</td>
  <td>Number of cells for battery 2 <p><strong>Comment:</strong> Defines the number of cells the attached battery consists of.</p> <strong>Values:</strong><ul>
+<li><strong>1:</strong> 1S Battery</li> 
+
 <li><strong>2:</strong> 2S Battery</li> 
 
 <li><strong>3:</strong> 3S Battery</li> 
@@ -1351,9 +10196,16 @@ table {
 </tr>
 <tr>
  <td><strong id="COM_ARM_MAG_STR">COM_ARM_MAG_STR</strong> (INT32)</td>
- <td>Enable mag strength preflight check <p><strong>Comment:</strong> Deny arming if the estimator detects a strong magnetic disturbance (check enabled by EKF2_MAG_CHECK)</p>   </td>
+ <td>Enable mag strength preflight check <p><strong>Comment:</strong> Check if the estimator detects a strong magnetic disturbance (check enabled by EKF2_MAG_CHECK)</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Deny arming</li> 
+
+<li><strong>2:</strong> Warning only</li> 
+</ul>
+  </td>
  <td></td>
- <td>Enabled (1)</td>
+ <td>2</td>
  <td></td>
 </tr>
 <tr>
@@ -1687,6 +10539,14 @@ table {
  <td>s</td>
 </tr>
 <tr>
+ <td><strong id="COM_HOME_EN">COM_HOME_EN</strong> (INT32)</td>
+ <td>Home position enabled <p><strong>Comment:</strong> Set home position automatically if possible.</p>   <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>Enabled (1)</td>
+ <td></td>
+</tr>
+<tr>
  <td><strong id="COM_HOME_H_T">COM_HOME_H_T</strong> (FLOAT)</td>
  <td>Home set horizontal threshold <p><strong>Comment:</strong> The home position will be set if the estimated positioning accuracy is below the threshold.</p>   </td>
  <td>2 > 15 (0.5)</td>
@@ -1706,6 +10566,22 @@ table {
  <td>5 > 25 (0.5)</td>
  <td>10.0</td>
  <td>m</td>
+</tr>
+<tr>
+ <td><strong id="COM_IMB_PROP_ACT">COM_IMB_PROP_ACT</strong> (INT32)</td>
+ <td>Imbalanced propeller failsafe mode <p><strong>Comment:</strong> Action the system takes when an imbalanced propeller is detected by the failure detector. See also FD_IMB_PROP_THR to set the failure threshold.</p> <strong>Values:</strong><ul>
+<li><strong>-1:</strong> Disabled</li> 
+
+<li><strong>0:</strong> Warning</li> 
+
+<li><strong>1:</strong> Return</li> 
+
+<li><strong>2:</strong> Land</li> 
+</ul>
+  </td>
+ <td>(1)</td>
+ <td>0</td>
+ <td></td>
 </tr>
 <tr>
  <td><strong id="COM_KILL_DISARM">COM_KILL_DISARM</strong> (FLOAT)</td>
@@ -1810,6 +10686,13 @@ table {
  <td>s</td>
 </tr>
 <tr>
+ <td><strong id="COM_PARACHUTE">COM_PARACHUTE</strong> (INT32)</td>
+ <td>Expect and require a healthy MAVLink parachute system    </td>
+ <td></td>
+ <td>Disabled (0)</td>
+ <td></td>
+</tr>
+<tr>
  <td><strong id="COM_POSCTL_NAVL">COM_POSCTL_NAVL</strong> (INT32)</td>
  <td>Position control navigation loss response <p><strong>Comment:</strong> This sets the flight mode that will be used if navigation accuracy is no longer adequate for position control. Navigation accuracy checks can be disabled using the CBRK_VELPOSERR parameter, but doing so will remove protection for all flight modes.</p> <strong>Values:</strong><ul>
 <li><strong>0:</strong> Altitude/Manual. Assume use of remote control after fallback. Switch to Altitude mode if a height estimate is available, else switch to MANUAL.</li> 
@@ -1906,15 +10789,19 @@ table {
 <tr>
  <td><strong id="COM_RC_IN_MODE">COM_RC_IN_MODE</strong> (INT32)</td>
  <td>RC control input mode <p><strong>Comment:</strong> The default value of 0 requires a valid RC transmitter setup. Setting this to 1 allows joystick control and disables RC input handling and the associated checks. A value of 2 will generate RC control data from manual input received via MAVLink instead of directly forwarding the manual input data.</p> <strong>Values:</strong><ul>
-<li><strong>0:</strong> RC Transmitter</li> 
+<li><strong>0:</strong> RC Transmitter only</li> 
 
-<li><strong>1:</strong> Joystick/No RC Checks</li> 
+<li><strong>1:</strong> Joystick only</li> 
 
-<li><strong>2:</strong> Virtual RC by Joystick</li> 
+<li><strong>2:</strong> RC and Joystick with fallback</li> 
+
+<li><strong>3:</strong> RC or Joystick keep first</li> 
+
+<li><strong>4:</strong> Stick input disabled</li> 
 </ul>
   </td>
- <td>0 > 2 </td>
- <td>0</td>
+ <td>0 > 4 </td>
+ <td>3</td>
  <td></td>
 </tr>
 <tr>
@@ -1926,12 +10813,11 @@ table {
 </tr>
 <tr>
  <td><strong id="COM_RC_OVERRIDE">COM_RC_OVERRIDE</strong> (INT32)</td>
- <td>Enable RC stick override of auto and/or offboard modes <p><strong>Comment:</strong> When RC stick override is enabled, moving the RC sticks more than COM_RC_STICK_OV from their center position immediately gives control back to the pilot by switching to Position mode. Note: Only has an effect on multicopters, and VTOLs in multicopter mode.</p>  <strong>Bitmask:</strong><ul>  <li><strong>0:</strong> Enable override during auto modes (except for in critical battery reaction)</li> 
+ <td>Enable RC stick override of auto and/or offboard modes <p><strong>Comment:</strong> When RC stick override is enabled, moving the RC sticks more than COM_RC_STICK_OV immediately gives control back to the pilot by switching to Position mode and if position is unavailable Altitude mode. Note: Only has an effect on multicopters, and VTOLs in multicopter mode. This parameter is not considered in case of a GPS failure (Descend flight mode), where stick override is always enabled.</p>  <strong>Bitmask:</strong><ul>  <li><strong>0:</strong> Enable override during auto modes (except for in critical battery reaction)</li> 
   <li><strong>1:</strong> Enable override during offboard mode</li> 
-  <li><strong>2:</strong> Ignore throttle stick</li> 
 </ul>
  </td>
- <td>0 > 7 </td>
+ <td>0 > 3 </td>
  <td>1</td>
  <td></td>
 </tr>
@@ -1966,6 +10852,13 @@ table {
  <td>Horizontal velocity error threshold <p><strong>Comment:</strong> This is the horizontal velocity error (EVH) threshold that will trigger a failsafe. The default is appropriate for a multicopter. Can be increased for a fixed-wing.</p>   </td>
  <td></td>
  <td>1</td>
+ <td>m/s</td>
+</tr>
+<tr>
+ <td><strong id="COM_WIND_WARN">COM_WIND_WARN</strong> (FLOAT)</td>
+ <td>Wind speed warning threshold <p><strong>Comment:</strong> A warning is triggered if the currently estimated wind speed is above this value. Warning is sent periodically (every 1min). A negative value disables the feature.</p>   </td>
+ <td>-1 > 30 (0.1)</td>
+ <td>-1.</td>
  <td>m/s</td>
 </tr>
 <tr>
@@ -2004,735 +10897,6 @@ table {
   </td>
  <td>1 > 6 </td>
  <td>2</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="RTL_FLT_TIME">RTL_FLT_TIME</strong> (FLOAT)</td>
- <td>Maximum allowed RTL flight in minutes <p><strong>Comment:</strong> This is used to determine when the vehicle should be switched to RTL due to low battery. Note, particularly for multirotors this should reflect flight time at cruise speed, not while stationary</p>   </td>
- <td></td>
- <td>15</td>
- <td>min</td>
-</tr>
-</tbody></table>
-
-## Control Allocation
-
-<table>
- <colgroup><col style="width: 23%"><col style="width: 46%"><col style="width: 11%"><col style="width: 11%"><col style="width: 9%"></colgroup>
- <thead>
-   <tr><th>Name</th><th>Description</th><th>Min > Max (Incr.)</th><th>Default</th><th>Units</th></tr>
- </thead>
-<tbody>
-<tr>
- <td><strong id="CA_ACT0_MAX">CA_ACT0_MAX</strong> (FLOAT)</td>
- <td>Maximum value for actuator 0    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_ACT0_MIN">CA_ACT0_MIN</strong> (FLOAT)</td>
- <td>Minimum value for actuator 0    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_ACT10_MAX">CA_ACT10_MAX</strong> (FLOAT)</td>
- <td>Maximum value for actuator 10    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_ACT10_MIN">CA_ACT10_MIN</strong> (FLOAT)</td>
- <td>Minimum value for actuator 10    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_ACT11_MAX">CA_ACT11_MAX</strong> (FLOAT)</td>
- <td>Maximum value for actuator 11    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_ACT11_MIN">CA_ACT11_MIN</strong> (FLOAT)</td>
- <td>Minimum value for actuator 11    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_ACT12_MAX">CA_ACT12_MAX</strong> (FLOAT)</td>
- <td>Maximum value for actuator 12    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_ACT12_MIN">CA_ACT12_MIN</strong> (FLOAT)</td>
- <td>Minimum value for actuator 12    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_ACT13_MAX">CA_ACT13_MAX</strong> (FLOAT)</td>
- <td>Maximum value for actuator 13    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_ACT13_MIN">CA_ACT13_MIN</strong> (FLOAT)</td>
- <td>Minimum value for actuator 13    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_ACT14_MAX">CA_ACT14_MAX</strong> (FLOAT)</td>
- <td>Maximum value for actuator 14    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_ACT14_MIN">CA_ACT14_MIN</strong> (FLOAT)</td>
- <td>Minimum value for actuator 14    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_ACT15_MAX">CA_ACT15_MAX</strong> (FLOAT)</td>
- <td>Maximum value for actuator 15    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_ACT15_MIN">CA_ACT15_MIN</strong> (FLOAT)</td>
- <td>Minimum value for actuator 15    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_ACT1_MAX">CA_ACT1_MAX</strong> (FLOAT)</td>
- <td>Maximum value for actuator 1    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_ACT1_MIN">CA_ACT1_MIN</strong> (FLOAT)</td>
- <td>Minimum value for actuator 1    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_ACT2_MAX">CA_ACT2_MAX</strong> (FLOAT)</td>
- <td>Maximum value for actuator 2    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_ACT2_MIN">CA_ACT2_MIN</strong> (FLOAT)</td>
- <td>Minimum value for actuator 2    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_ACT3_MAX">CA_ACT3_MAX</strong> (FLOAT)</td>
- <td>Maximum value for actuator 3    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_ACT3_MIN">CA_ACT3_MIN</strong> (FLOAT)</td>
- <td>Minimum value for actuator 3    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_ACT4_MAX">CA_ACT4_MAX</strong> (FLOAT)</td>
- <td>Maximum value for actuator 4    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_ACT4_MIN">CA_ACT4_MIN</strong> (FLOAT)</td>
- <td>Minimum value for actuator 4    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_ACT5_MAX">CA_ACT5_MAX</strong> (FLOAT)</td>
- <td>Maximum value for actuator 5    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_ACT5_MIN">CA_ACT5_MIN</strong> (FLOAT)</td>
- <td>Minimum value for actuator 5    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_ACT6_MAX">CA_ACT6_MAX</strong> (FLOAT)</td>
- <td>Maximum value for actuator 6    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_ACT6_MIN">CA_ACT6_MIN</strong> (FLOAT)</td>
- <td>Minimum value for actuator 6    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_ACT7_MAX">CA_ACT7_MAX</strong> (FLOAT)</td>
- <td>Maximum value for actuator 7    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_ACT7_MIN">CA_ACT7_MIN</strong> (FLOAT)</td>
- <td>Minimum value for actuator 7    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_ACT8_MAX">CA_ACT8_MAX</strong> (FLOAT)</td>
- <td>Maximum value for actuator 8    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_ACT8_MIN">CA_ACT8_MIN</strong> (FLOAT)</td>
- <td>Minimum value for actuator 8    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_ACT9_MAX">CA_ACT9_MAX</strong> (FLOAT)</td>
- <td>Maximum value for actuator 9    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_ACT9_MIN">CA_ACT9_MIN</strong> (FLOAT)</td>
- <td>Minimum value for actuator 9    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_AIRFRAME">CA_AIRFRAME</strong> (INT32)</td>
- <td>Airframe ID <p><strong>Comment:</strong> This is used to retrieve pre-computed control effectiveness matrix</p> <strong>Values:</strong><ul>
-<li><strong>0:</strong> Multirotor</li> 
-
-<li><strong>1:</strong> Standard VTOL (WIP)</li> 
-
-<li><strong>2:</strong> Tiltrotor VTOL (WIP)</li> 
-</ul>
-  </td>
- <td>0 > 2 </td>
- <td>0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_AIR_SCALE_EN">CA_AIR_SCALE_EN</strong> (INT32)</td>
- <td>Airspeed scaler <p><strong>Comment:</strong> This compensates for the variation of flap effectiveness with airspeed.</p>   </td>
- <td></td>
- <td>Disabled (0)</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_BAT_SCALE_EN">CA_BAT_SCALE_EN</strong> (INT32)</td>
- <td>Battery power level scaler <p><strong>Comment:</strong> This compensates for voltage drop of the battery over time by attempting to normalize performance across the operating range of the battery. The copter should constantly behave as if it was fully charged with reduced max acceleration at lower battery percentages. i.e. if hover is at 0.5 throttle at 100% battery, it will still be 0.5 at 60% battery.</p>   </td>
- <td></td>
- <td>Disabled (0)</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R0_AX">CA_MC_R0_AX</strong> (FLOAT)</td>
- <td>Axis of rotor 0 thrust vector, X body axis component    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R0_AY">CA_MC_R0_AY</strong> (FLOAT)</td>
- <td>Axis of rotor 0 thrust vector, Y body axis component    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R0_AZ">CA_MC_R0_AZ</strong> (FLOAT)</td>
- <td>Axis of rotor 0 thrust vector, Z body axis component    </td>
- <td></td>
- <td>-1.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R0_CT">CA_MC_R0_CT</strong> (FLOAT)</td>
- <td>Thrust coefficient of rotor 0 <p><strong>Comment:</strong> The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between CA_ACT0_MIN and CA_ACT0_MAX) is the output signal sent to the motor controller.</p>   </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R0_KM">CA_MC_R0_KM</strong> (FLOAT)</td>
- <td>Moment coefficient of rotor 0 <p><strong>Comment:</strong> The moment coefficient if defined as Torque = KM * Thrust Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</p>   </td>
- <td></td>
- <td>0.05</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R0_PX">CA_MC_R0_PX</strong> (FLOAT)</td>
- <td>Position of rotor 0 along X body axis    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R0_PY">CA_MC_R0_PY</strong> (FLOAT)</td>
- <td>Position of rotor 0 along Y body axis    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R0_PZ">CA_MC_R0_PZ</strong> (FLOAT)</td>
- <td>Position of rotor 0 along Z body axis    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R1_AX">CA_MC_R1_AX</strong> (FLOAT)</td>
- <td>Axis of rotor 1 thrust vector, X body axis component    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R1_AY">CA_MC_R1_AY</strong> (FLOAT)</td>
- <td>Axis of rotor 1 thrust vector, Y body axis component    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R1_AZ">CA_MC_R1_AZ</strong> (FLOAT)</td>
- <td>Axis of rotor 1 thrust vector, Z body axis component    </td>
- <td></td>
- <td>-1.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R1_CT">CA_MC_R1_CT</strong> (FLOAT)</td>
- <td>Thrust coefficient of rotor 1 <p><strong>Comment:</strong> The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between CA_ACT1_MIN and CA_ACT1_MAX) is the output signal sent to the motor controller.</p>   </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R1_KM">CA_MC_R1_KM</strong> (FLOAT)</td>
- <td>Moment coefficient of rotor 1 <p><strong>Comment:</strong> The moment coefficient if defined as Torque = KM * Thrust, Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</p>   </td>
- <td></td>
- <td>0.05</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R1_PX">CA_MC_R1_PX</strong> (FLOAT)</td>
- <td>Position of rotor 1 along X body axis    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R1_PY">CA_MC_R1_PY</strong> (FLOAT)</td>
- <td>Position of rotor 1 along Y body axis    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R1_PZ">CA_MC_R1_PZ</strong> (FLOAT)</td>
- <td>Position of rotor 1 along Z body axis    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R2_AX">CA_MC_R2_AX</strong> (FLOAT)</td>
- <td>Axis of rotor 2 thrust vector, X body axis component    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R2_AY">CA_MC_R2_AY</strong> (FLOAT)</td>
- <td>Axis of rotor 2 thrust vector, Y body axis component    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R2_AZ">CA_MC_R2_AZ</strong> (FLOAT)</td>
- <td>Axis of rotor 2 thrust vector, Z body axis component    </td>
- <td></td>
- <td>-1.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R2_CT">CA_MC_R2_CT</strong> (FLOAT)</td>
- <td>Thrust coefficient of rotor 2 <p><strong>Comment:</strong> The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between CA_ACT2_MIN and CA_ACT2_MAX) is the output signal sent to the motor controller.</p>   </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R2_KM">CA_MC_R2_KM</strong> (FLOAT)</td>
- <td>Moment coefficient of rotor 2 <p><strong>Comment:</strong> The moment coefficient if defined as Torque = KM * Thrust Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</p>   </td>
- <td></td>
- <td>0.05</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R2_PX">CA_MC_R2_PX</strong> (FLOAT)</td>
- <td>Position of rotor 2 along X body axis    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R2_PY">CA_MC_R2_PY</strong> (FLOAT)</td>
- <td>Position of rotor 2 along Y body axis    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R2_PZ">CA_MC_R2_PZ</strong> (FLOAT)</td>
- <td>Position of rotor 2 along Z body axis    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R3_AX">CA_MC_R3_AX</strong> (FLOAT)</td>
- <td>Axis of rotor 3 thrust vector, X body axis component    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R3_AY">CA_MC_R3_AY</strong> (FLOAT)</td>
- <td>Axis of rotor 3 thrust vector, Y body axis component    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R3_AZ">CA_MC_R3_AZ</strong> (FLOAT)</td>
- <td>Axis of rotor 3 thrust vector, Z body axis component    </td>
- <td></td>
- <td>-1.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R3_CT">CA_MC_R3_CT</strong> (FLOAT)</td>
- <td>Thrust coefficient of rotor 3 <p><strong>Comment:</strong> The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between CA_ACT3_MIN and CA_ACT3_MAX) is the output signal sent to the motor controller.</p>   </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R3_KM">CA_MC_R3_KM</strong> (FLOAT)</td>
- <td>Moment coefficient of rotor 3 <p><strong>Comment:</strong> The moment coefficient if defined as Torque = KM * Thrust Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</p>   </td>
- <td></td>
- <td>0.05</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R3_PX">CA_MC_R3_PX</strong> (FLOAT)</td>
- <td>Position of rotor 3 along X body axis    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R3_PY">CA_MC_R3_PY</strong> (FLOAT)</td>
- <td>Position of rotor 3 along Y body axis    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R3_PZ">CA_MC_R3_PZ</strong> (FLOAT)</td>
- <td>Position of rotor 3 along Z body axis    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R4_AX">CA_MC_R4_AX</strong> (FLOAT)</td>
- <td>Axis of rotor 4 thrust vector, X body axis component    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R4_AY">CA_MC_R4_AY</strong> (FLOAT)</td>
- <td>Axis of rotor 4 thrust vector, Y body axis component    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R4_AZ">CA_MC_R4_AZ</strong> (FLOAT)</td>
- <td>Axis of rotor 4 thrust vector, Z body axis component    </td>
- <td></td>
- <td>-1.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R4_CT">CA_MC_R4_CT</strong> (FLOAT)</td>
- <td>Thrust coefficient of rotor 4 <p><strong>Comment:</strong> The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between CA_ACT4_MIN and CA_ACT4_MAX) is the output signal sent to the motor controller.</p>   </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R4_KM">CA_MC_R4_KM</strong> (FLOAT)</td>
- <td>Moment coefficient of rotor 4 <p><strong>Comment:</strong> The moment coefficient if defined as Torque = KM * Thrust Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</p>   </td>
- <td></td>
- <td>0.05</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R4_PX">CA_MC_R4_PX</strong> (FLOAT)</td>
- <td>Position of rotor 4 along X body axis    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R4_PY">CA_MC_R4_PY</strong> (FLOAT)</td>
- <td>Position of rotor 4 along Y body axis    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R4_PZ">CA_MC_R4_PZ</strong> (FLOAT)</td>
- <td>Position of rotor 4 along Z body axis    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R5_AX">CA_MC_R5_AX</strong> (FLOAT)</td>
- <td>Axis of rotor 5 thrust vector, X body axis component    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R5_AY">CA_MC_R5_AY</strong> (FLOAT)</td>
- <td>Axis of rotor 5 thrust vector, Y body axis component    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R5_AZ">CA_MC_R5_AZ</strong> (FLOAT)</td>
- <td>Axis of rotor 5 thrust vector, Z body axis component    </td>
- <td></td>
- <td>-1.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R5_CT">CA_MC_R5_CT</strong> (FLOAT)</td>
- <td>Thrust coefficient of rotor 5 <p><strong>Comment:</strong> The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between CA_ACT5_MIN and CA_ACT5_MAX) is the output signal sent to the motor controller.</p>   </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R5_KM">CA_MC_R5_KM</strong> (FLOAT)</td>
- <td>Moment coefficient of rotor 5 <p><strong>Comment:</strong> The moment coefficient if defined as Torque = KM * Thrust Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</p>   </td>
- <td></td>
- <td>0.05</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R5_PX">CA_MC_R5_PX</strong> (FLOAT)</td>
- <td>Position of rotor 5 along X body axis    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R5_PY">CA_MC_R5_PY</strong> (FLOAT)</td>
- <td>Position of rotor 5 along Y body axis    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R5_PZ">CA_MC_R5_PZ</strong> (FLOAT)</td>
- <td>Position of rotor 5 along Z body axis    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R6_AX">CA_MC_R6_AX</strong> (FLOAT)</td>
- <td>Axis of rotor 6 thrust vector, X body axis component    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R6_AY">CA_MC_R6_AY</strong> (FLOAT)</td>
- <td>Axis of rotor 6 thrust vector, Y body axis component    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R6_AZ">CA_MC_R6_AZ</strong> (FLOAT)</td>
- <td>Axis of rotor 6 thrust vector, Z body axis component    </td>
- <td></td>
- <td>-1.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R6_CT">CA_MC_R6_CT</strong> (FLOAT)</td>
- <td>Thrust coefficient of rotor 6 <p><strong>Comment:</strong> The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between CA_ACT6_MIN and CA_ACT6_MAX) is the output signal sent to the motor controller.</p>   </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R6_KM">CA_MC_R6_KM</strong> (FLOAT)</td>
- <td>Moment coefficient of rotor 6 <p><strong>Comment:</strong> The moment coefficient if defined as Torque = KM * Thrust Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</p>   </td>
- <td></td>
- <td>0.05</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R6_PX">CA_MC_R6_PX</strong> (FLOAT)</td>
- <td>Position of rotor 6 along X body axis    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R6_PY">CA_MC_R6_PY</strong> (FLOAT)</td>
- <td>Position of rotor 6 along Y body axis    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R6_PZ">CA_MC_R6_PZ</strong> (FLOAT)</td>
- <td>Position of rotor 6 along Z body axis    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R7_AX">CA_MC_R7_AX</strong> (FLOAT)</td>
- <td>Axis of rotor 7 thrust vector, X body axis component    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R7_AY">CA_MC_R7_AY</strong> (FLOAT)</td>
- <td>Axis of rotor 7 thrust vector, Y body axis component    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R7_AZ">CA_MC_R7_AZ</strong> (FLOAT)</td>
- <td>Axis of rotor 7 thrust vector, Z body axis component    </td>
- <td></td>
- <td>-1.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R7_CT">CA_MC_R7_CT</strong> (FLOAT)</td>
- <td>Thrust coefficient of rotor 7 <p><strong>Comment:</strong> The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between CA_ACT7_MIN and CA_ACT7_MAX) is the output signal sent to the motor controller.</p>   </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R7_KM">CA_MC_R7_KM</strong> (FLOAT)</td>
- <td>Moment coefficient of rotor 7 <p><strong>Comment:</strong> The moment coefficient if defined as Torque = KM * Thrust Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</p>   </td>
- <td></td>
- <td>0.05</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R7_PX">CA_MC_R7_PX</strong> (FLOAT)</td>
- <td>Position of rotor 7 along X body axis    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R7_PY">CA_MC_R7_PY</strong> (FLOAT)</td>
- <td>Position of rotor 7 along Y body axis    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_MC_R7_PZ">CA_MC_R7_PZ</strong> (FLOAT)</td>
- <td>Position of rotor 7 along Z body axis    </td>
- <td></td>
- <td>0.0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_METHOD">CA_METHOD</strong> (INT32)</td>
- <td>Control allocation method  <strong>Values:</strong><ul>
-<li><strong>0:</strong> Pseudo-inverse with output clipping (default)</li> 
-
-<li><strong>1:</strong> Pseudo-inverse with sequential desaturation technique</li> 
-</ul>
-  </td>
- <td>0 > 1 </td>
- <td>0</td>
  <td></td>
 </tr>
 </tbody></table>
@@ -3320,7 +11484,7 @@ table {
  <td><strong id="EKF2_MAG_CHECK">EKF2_MAG_CHECK</strong> (INT32)</td>
  <td>Magnetic field strength test selection <p><strong>Comment:</strong> When set, the EKF checks the strength of the magnetic field to decide whether the magnetometer data is valid. If GPS data is received, the magnetic field is compared to a World Magnetic Model (WMM), otherwise an average value is used. This check is useful to reject occasional hard iron disturbance.</p>   </td>
  <td></td>
- <td>Disabled (0)</td>
+ <td>Enabled (1)</td>
  <td></td>
 </tr>
 <tr>
@@ -4227,10 +12391,10 @@ table {
 </tr>
 <tr>
  <td><strong id="FW_L1_PERIOD">FW_L1_PERIOD</strong> (FLOAT)</td>
- <td>L1 period <p><strong>Comment:</strong> This is the L1 distance and defines the tracking point ahead of the aircraft its following. A value of 18-25 meters works for most aircraft. Shorten slowly during tuning until response is sharp without oscillation.</p>   </td>
- <td>12.0 > 50.0 (0.5)</td>
+ <td>L1 period <p><strong>Comment:</strong> Used to determine the L1 gain and controller time constant. This parameter is proportional to the L1 distance (which points ahead of the aircraft on the path it is following). A value of 18-25 seconds works for most aircraft. Shorten slowly during tuning until response is sharp without oscillation.</p>   </td>
+ <td>7.0 > 50.0 (0.5)</td>
  <td>20.0</td>
- <td>m</td>
+ <td>s</td>
 </tr>
 <tr>
  <td><strong id="FW_L1_R_SLEW_MAX">FW_L1_R_SLEW_MAX</strong> (FLOAT)</td>
@@ -4688,6 +12852,13 @@ table {
  <td>0.3</td>
  <td>s</td>
 </tr>
+<tr>
+ <td><strong id="FD_IMB_PROP_THR">FD_IMB_PROP_THR</strong> (INT32)</td>
+ <td>Imbalanced propeller check threshold <p><strong>Comment:</strong> Value at which the imbalanced propeller metric (based on horizontal and vertical acceleration variance) triggers a failure Setting this value to 0 disables the feature.</p>   </td>
+ <td>0 > 1000 (1)</td>
+ <td>30</td>
+ <td></td>
+</tr>
 </tbody></table>
 
 ## Follow target
@@ -4911,10 +13082,16 @@ table {
 </tr>
 <tr>
  <td><strong id="GPS_UBX_MODE">GPS_UBX_MODE</strong> (INT32)</td>
- <td>u-blox GPS Mode <p><strong>Comment:</strong> Select the u-blox configuration setup. Most setups will use the default, including RTK and dual GPS without heading. The Heading mode requires 2 F9P devices to be attached. The main GPS will act as rover and output heading information, whereas the secondary will act as moving base, sending RTCM on UART2 to the rover GPS. RTK is still possible with this setup.</p> <strong>Values:</strong><ul>
+ <td>u-blox GPS Mode <p><strong>Comment:</strong> Select the u-blox configuration setup. Most setups will use the default, including RTK and dual GPS without heading. The Heading mode requires 2 F9P devices to be attached. The main GPS will act as rover and output heading information, whereas the secondary will act as moving base. Modes 1 and 2 require each F9P UART1 to be connected to the Autopilot. In addition, UART2 on the F9P units are connected to each other. Modes 3 and 4 only require UART1 on each F9P connected to the Autopilot or Can Node. UART RX DMA is required. RTK is still possible with this setup.</p> <strong>Values:</strong><ul>
 <li><strong>0:</strong> Default</li> 
 
-<li><strong>1:</strong> Heading</li> 
+<li><strong>1:</strong> Heading (Rover With Moving Base UART1 Connected To Autopilot, UART2 Connected To Moving Base)</li> 
+
+<li><strong>2:</strong> Moving Base (UART1 Connected To Autopilot, UART2 Connected To Rover)</li> 
+
+<li><strong>3:</strong> Heading (Rover With Moving Base UART1 Connected to Autopilot Or Can Node At 921600)</li> 
+
+<li><strong>4:</strong> Moving Base (Moving Base UART1 Connected to Autopilot Or Can Node At 921600)</li> 
 </ul>
   <p><b>Reboot required:</b> true</p>
 </td>
@@ -4924,49 +13101,19 @@ table {
 </tr>
 <tr>
  <td><strong id="GPS_YAW_OFFSET">GPS_YAW_OFFSET</strong> (FLOAT)</td>
- <td>Heading/Yaw offset for dual antenna GPS <p><strong>Comment:</strong> Heading offset angle for dual antenna GPS setups that support heading estimation. (currently only for the Trimble MB-Two). Set this to 0 if the antennas are parallel to the forward-facing direction of the vehicle and the first antenna is in front. The offset angle increases clockwise. Set this to 90 if the first antenna is placed on the right side and the second on the left side of the vehicle.</p>   <p><b>Reboot required:</b> true</p>
+ <td>Heading/Yaw offset for dual antenna GPS <p><strong>Comment:</strong> Heading offset angle for dual antenna GPS setups that support heading estimation. Set this to 0 if the antennas are parallel to the forward-facing direction of the vehicle and the first antenna is in front. The offset angle increases clockwise. Set this to 90 if the first antenna is placed on the right side and the second on the left side of the vehicle.</p>   <p><b>Reboot required:</b> true</p>
 </td>
  <td>0 > 360 </td>
  <td>0.</td>
  <td>deg</td>
 </tr>
-</tbody></table>
-
-## GPS Failure Navigation
-
-<table>
- <colgroup><col style="width: 23%"><col style="width: 46%"><col style="width: 11%"><col style="width: 11%"><col style="width: 9%"></colgroup>
- <thead>
-   <tr><th>Name</th><th>Description</th><th>Min > Max (Incr.)</th><th>Default</th><th>Units</th></tr>
- </thead>
-<tbody>
 <tr>
- <td><strong id="NAV_GPSF_LT">NAV_GPSF_LT</strong> (FLOAT)</td>
- <td>Loiter time <p><strong>Comment:</strong> The time in seconds the system should do open loop loiter and wait for GPS recovery before it goes into flight termination. Set to 0 to disable.</p>   </td>
- <td>0.0 > 3600.0 (1)</td>
- <td>0.0</td>
- <td>s</td>
-</tr>
-<tr>
- <td><strong id="NAV_GPSF_P">NAV_GPSF_P</strong> (FLOAT)</td>
- <td>Fixed pitch angle <p><strong>Comment:</strong> Pitch in degrees during the open loop loiter</p>   </td>
- <td>-30.0 > 30.0 (0.5)</td>
- <td>0.0</td>
- <td>deg</td>
-</tr>
-<tr>
- <td><strong id="NAV_GPSF_R">NAV_GPSF_R</strong> (FLOAT)</td>
- <td>Fixed bank angle <p><strong>Comment:</strong> Roll in degrees during the loiter</p>   </td>
- <td>0.0 > 30.0 (0.5)</td>
- <td>15.0</td>
- <td>deg</td>
-</tr>
-<tr>
- <td><strong id="NAV_GPSF_TR">NAV_GPSF_TR</strong> (FLOAT)</td>
- <td>Thrust <p><strong>Comment:</strong> Thrust value which is set during the open loop loiter</p>   </td>
- <td>0.0 > 1.0 (0.05)</td>
- <td>0.0</td>
- <td>norm</td>
+ <td><strong id="PPS_CAP_ENABLE">PPS_CAP_ENABLE</strong> (INT32)</td>
+ <td>PPS Capture Enable <p><strong>Comment:</strong> Enables the PPS capture module. This switches mode of FMU channel 7 to be the PPS input channel.</p>   <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>Disabled (0)</td>
+ <td></td>
 </tr>
 </tbody></table>
 
@@ -5040,6 +13187,1512 @@ table {
 </ul>
   </td>
  <td>0 > 1 </td>
+ <td>0</td>
+ <td></td>
+</tr>
+</tbody></table>
+
+## Geometry
+
+<table>
+ <colgroup><col style="width: 23%"><col style="width: 46%"><col style="width: 11%"><col style="width: 11%"><col style="width: 9%"></colgroup>
+ <thead>
+   <tr><th>Name</th><th>Description</th><th>Min > Max (Incr.)</th><th>Default</th><th>Units</th></tr>
+ </thead>
+<tbody>
+<tr>
+ <td><strong id="CA_AIRFRAME">CA_AIRFRAME</strong> (INT32)</td>
+ <td>Airframe selection <p><strong>Comment:</strong> Defines which mixer implementation to use. Some are generic, while others are specifically fit to a certain vehicle with a fixed set of actuators. 'Custom' should only be used if noting else can be used.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Multirotor</li> 
+
+<li><strong>1:</strong> Fixed-wing</li> 
+
+<li><strong>2:</strong> Standard VTOL</li> 
+
+<li><strong>3:</strong> Tiltrotor VTOL</li> 
+
+<li><strong>4:</strong> Tailsitter VTOL</li> 
+
+<li><strong>5:</strong> Rover (Ackermann)</li> 
+
+<li><strong>6:</strong> Rover (Differential)</li> 
+
+<li><strong>7:</strong> Motors (6DOF)</li> 
+
+<li><strong>8:</strong> Multirotor with Tilt</li> 
+
+<li><strong>9:</strong> Custom</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_METHOD">CA_METHOD</strong> (INT32)</td>
+ <td>Control allocation method <p><strong>Comment:</strong> Selects the algorithm and desaturation method. If set to Automtic, the selection is based on the airframe (CA_AIRFRAME).</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Pseudo-inverse with output clipping</li> 
+
+<li><strong>1:</strong> Pseudo-inverse with sequential desaturation technique</li> 
+
+<li><strong>2:</strong> Automatic</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>2</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_R0_SLEW">CA_R0_SLEW</strong> (FLOAT)</td>
+ <td>Motor 0 slew rate limit <p><strong>Comment:</strong> Minimum time allowed for the motor input signal to pass through the full output range. A value x means that the motor signal can only go from 0 to 1 in minimum x seconds (in case of reversible motors, the range is -1 to 1). Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>0 > 10 (0.01)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_R1_SLEW">CA_R1_SLEW</strong> (FLOAT)</td>
+ <td>Motor 1 slew rate limit <p><strong>Comment:</strong> Minimum time allowed for the motor input signal to pass through the full output range. A value x means that the motor signal can only go from 0 to 1 in minimum x seconds (in case of reversible motors, the range is -1 to 1). Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>0 > 10 (0.01)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_R2_SLEW">CA_R2_SLEW</strong> (FLOAT)</td>
+ <td>Motor 2 slew rate limit <p><strong>Comment:</strong> Minimum time allowed for the motor input signal to pass through the full output range. A value x means that the motor signal can only go from 0 to 1 in minimum x seconds (in case of reversible motors, the range is -1 to 1). Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>0 > 10 (0.01)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_R3_SLEW">CA_R3_SLEW</strong> (FLOAT)</td>
+ <td>Motor 3 slew rate limit <p><strong>Comment:</strong> Minimum time allowed for the motor input signal to pass through the full output range. A value x means that the motor signal can only go from 0 to 1 in minimum x seconds (in case of reversible motors, the range is -1 to 1). Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>0 > 10 (0.01)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_R4_SLEW">CA_R4_SLEW</strong> (FLOAT)</td>
+ <td>Motor 4 slew rate limit <p><strong>Comment:</strong> Minimum time allowed for the motor input signal to pass through the full output range. A value x means that the motor signal can only go from 0 to 1 in minimum x seconds (in case of reversible motors, the range is -1 to 1). Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>0 > 10 (0.01)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_R5_SLEW">CA_R5_SLEW</strong> (FLOAT)</td>
+ <td>Motor 5 slew rate limit <p><strong>Comment:</strong> Minimum time allowed for the motor input signal to pass through the full output range. A value x means that the motor signal can only go from 0 to 1 in minimum x seconds (in case of reversible motors, the range is -1 to 1). Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>0 > 10 (0.01)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_R6_SLEW">CA_R6_SLEW</strong> (FLOAT)</td>
+ <td>Motor 6 slew rate limit <p><strong>Comment:</strong> Minimum time allowed for the motor input signal to pass through the full output range. A value x means that the motor signal can only go from 0 to 1 in minimum x seconds (in case of reversible motors, the range is -1 to 1). Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>0 > 10 (0.01)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_R7_SLEW">CA_R7_SLEW</strong> (FLOAT)</td>
+ <td>Motor 7 slew rate limit <p><strong>Comment:</strong> Minimum time allowed for the motor input signal to pass through the full output range. A value x means that the motor signal can only go from 0 to 1 in minimum x seconds (in case of reversible motors, the range is -1 to 1). Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>0 > 10 (0.01)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR0_AX">CA_ROTOR0_AX</strong> (FLOAT)</td>
+ <td>Axis of rotor 0 thrust vector, X body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR0_AY">CA_ROTOR0_AY</strong> (FLOAT)</td>
+ <td>Axis of rotor 0 thrust vector, Y body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR0_AZ">CA_ROTOR0_AZ</strong> (FLOAT)</td>
+ <td>Axis of rotor 0 thrust vector, Z body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>-1.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR0_CT">CA_ROTOR0_CT</strong> (FLOAT)</td>
+ <td>Thrust coefficient of rotor 0 <p><strong>Comment:</strong> The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</p>   </td>
+ <td>0 > 100 (1)</td>
+ <td>6.5</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR0_KM">CA_ROTOR0_KM</strong> (FLOAT)</td>
+ <td>Moment coefficient of rotor 0 <p><strong>Comment:</strong> The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</p>   </td>
+ <td>-1 > 1 (0.01)</td>
+ <td>0.05</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR0_PX">CA_ROTOR0_PX</strong> (FLOAT)</td>
+ <td>Position of rotor 0 along X body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR0_PY">CA_ROTOR0_PY</strong> (FLOAT)</td>
+ <td>Position of rotor 0 along Y body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR0_PZ">CA_ROTOR0_PZ</strong> (FLOAT)</td>
+ <td>Position of rotor 0 along Z body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR0_TILT">CA_ROTOR0_TILT</strong> (INT32)</td>
+ <td>Rotor 0 tilt assignment <p><strong>Comment:</strong> If not set to None, this motor is tilted by the configured tilt servo.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> None</li> 
+
+<li><strong>1:</strong> Tilt 1</li> 
+
+<li><strong>2:</strong> Tilt 2</li> 
+
+<li><strong>3:</strong> Tilt 3</li> 
+
+<li><strong>4:</strong> Tilt 4</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR1_AX">CA_ROTOR1_AX</strong> (FLOAT)</td>
+ <td>Axis of rotor 1 thrust vector, X body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR1_AY">CA_ROTOR1_AY</strong> (FLOAT)</td>
+ <td>Axis of rotor 1 thrust vector, Y body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR1_AZ">CA_ROTOR1_AZ</strong> (FLOAT)</td>
+ <td>Axis of rotor 1 thrust vector, Z body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>-1.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR1_CT">CA_ROTOR1_CT</strong> (FLOAT)</td>
+ <td>Thrust coefficient of rotor 1 <p><strong>Comment:</strong> The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</p>   </td>
+ <td>0 > 100 (1)</td>
+ <td>6.5</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR1_KM">CA_ROTOR1_KM</strong> (FLOAT)</td>
+ <td>Moment coefficient of rotor 1 <p><strong>Comment:</strong> The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</p>   </td>
+ <td>-1 > 1 (0.01)</td>
+ <td>0.05</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR1_PX">CA_ROTOR1_PX</strong> (FLOAT)</td>
+ <td>Position of rotor 1 along X body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR1_PY">CA_ROTOR1_PY</strong> (FLOAT)</td>
+ <td>Position of rotor 1 along Y body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR1_PZ">CA_ROTOR1_PZ</strong> (FLOAT)</td>
+ <td>Position of rotor 1 along Z body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR1_TILT">CA_ROTOR1_TILT</strong> (INT32)</td>
+ <td>Rotor 1 tilt assignment <p><strong>Comment:</strong> If not set to None, this motor is tilted by the configured tilt servo.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> None</li> 
+
+<li><strong>1:</strong> Tilt 1</li> 
+
+<li><strong>2:</strong> Tilt 2</li> 
+
+<li><strong>3:</strong> Tilt 3</li> 
+
+<li><strong>4:</strong> Tilt 4</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR2_AX">CA_ROTOR2_AX</strong> (FLOAT)</td>
+ <td>Axis of rotor 2 thrust vector, X body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR2_AY">CA_ROTOR2_AY</strong> (FLOAT)</td>
+ <td>Axis of rotor 2 thrust vector, Y body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR2_AZ">CA_ROTOR2_AZ</strong> (FLOAT)</td>
+ <td>Axis of rotor 2 thrust vector, Z body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>-1.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR2_CT">CA_ROTOR2_CT</strong> (FLOAT)</td>
+ <td>Thrust coefficient of rotor 2 <p><strong>Comment:</strong> The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</p>   </td>
+ <td>0 > 100 (1)</td>
+ <td>6.5</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR2_KM">CA_ROTOR2_KM</strong> (FLOAT)</td>
+ <td>Moment coefficient of rotor 2 <p><strong>Comment:</strong> The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</p>   </td>
+ <td>-1 > 1 (0.01)</td>
+ <td>0.05</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR2_PX">CA_ROTOR2_PX</strong> (FLOAT)</td>
+ <td>Position of rotor 2 along X body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR2_PY">CA_ROTOR2_PY</strong> (FLOAT)</td>
+ <td>Position of rotor 2 along Y body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR2_PZ">CA_ROTOR2_PZ</strong> (FLOAT)</td>
+ <td>Position of rotor 2 along Z body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR2_TILT">CA_ROTOR2_TILT</strong> (INT32)</td>
+ <td>Rotor 2 tilt assignment <p><strong>Comment:</strong> If not set to None, this motor is tilted by the configured tilt servo.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> None</li> 
+
+<li><strong>1:</strong> Tilt 1</li> 
+
+<li><strong>2:</strong> Tilt 2</li> 
+
+<li><strong>3:</strong> Tilt 3</li> 
+
+<li><strong>4:</strong> Tilt 4</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR3_AX">CA_ROTOR3_AX</strong> (FLOAT)</td>
+ <td>Axis of rotor 3 thrust vector, X body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR3_AY">CA_ROTOR3_AY</strong> (FLOAT)</td>
+ <td>Axis of rotor 3 thrust vector, Y body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR3_AZ">CA_ROTOR3_AZ</strong> (FLOAT)</td>
+ <td>Axis of rotor 3 thrust vector, Z body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>-1.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR3_CT">CA_ROTOR3_CT</strong> (FLOAT)</td>
+ <td>Thrust coefficient of rotor 3 <p><strong>Comment:</strong> The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</p>   </td>
+ <td>0 > 100 (1)</td>
+ <td>6.5</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR3_KM">CA_ROTOR3_KM</strong> (FLOAT)</td>
+ <td>Moment coefficient of rotor 3 <p><strong>Comment:</strong> The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</p>   </td>
+ <td>-1 > 1 (0.01)</td>
+ <td>0.05</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR3_PX">CA_ROTOR3_PX</strong> (FLOAT)</td>
+ <td>Position of rotor 3 along X body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR3_PY">CA_ROTOR3_PY</strong> (FLOAT)</td>
+ <td>Position of rotor 3 along Y body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR3_PZ">CA_ROTOR3_PZ</strong> (FLOAT)</td>
+ <td>Position of rotor 3 along Z body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR3_TILT">CA_ROTOR3_TILT</strong> (INT32)</td>
+ <td>Rotor 3 tilt assignment <p><strong>Comment:</strong> If not set to None, this motor is tilted by the configured tilt servo.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> None</li> 
+
+<li><strong>1:</strong> Tilt 1</li> 
+
+<li><strong>2:</strong> Tilt 2</li> 
+
+<li><strong>3:</strong> Tilt 3</li> 
+
+<li><strong>4:</strong> Tilt 4</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR4_AX">CA_ROTOR4_AX</strong> (FLOAT)</td>
+ <td>Axis of rotor 4 thrust vector, X body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR4_AY">CA_ROTOR4_AY</strong> (FLOAT)</td>
+ <td>Axis of rotor 4 thrust vector, Y body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR4_AZ">CA_ROTOR4_AZ</strong> (FLOAT)</td>
+ <td>Axis of rotor 4 thrust vector, Z body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>-1.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR4_CT">CA_ROTOR4_CT</strong> (FLOAT)</td>
+ <td>Thrust coefficient of rotor 4 <p><strong>Comment:</strong> The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</p>   </td>
+ <td>0 > 100 (1)</td>
+ <td>6.5</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR4_KM">CA_ROTOR4_KM</strong> (FLOAT)</td>
+ <td>Moment coefficient of rotor 4 <p><strong>Comment:</strong> The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</p>   </td>
+ <td>-1 > 1 (0.01)</td>
+ <td>0.05</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR4_PX">CA_ROTOR4_PX</strong> (FLOAT)</td>
+ <td>Position of rotor 4 along X body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR4_PY">CA_ROTOR4_PY</strong> (FLOAT)</td>
+ <td>Position of rotor 4 along Y body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR4_PZ">CA_ROTOR4_PZ</strong> (FLOAT)</td>
+ <td>Position of rotor 4 along Z body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR4_TILT">CA_ROTOR4_TILT</strong> (INT32)</td>
+ <td>Rotor 4 tilt assignment <p><strong>Comment:</strong> If not set to None, this motor is tilted by the configured tilt servo.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> None</li> 
+
+<li><strong>1:</strong> Tilt 1</li> 
+
+<li><strong>2:</strong> Tilt 2</li> 
+
+<li><strong>3:</strong> Tilt 3</li> 
+
+<li><strong>4:</strong> Tilt 4</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR5_AX">CA_ROTOR5_AX</strong> (FLOAT)</td>
+ <td>Axis of rotor 5 thrust vector, X body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR5_AY">CA_ROTOR5_AY</strong> (FLOAT)</td>
+ <td>Axis of rotor 5 thrust vector, Y body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR5_AZ">CA_ROTOR5_AZ</strong> (FLOAT)</td>
+ <td>Axis of rotor 5 thrust vector, Z body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>-1.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR5_CT">CA_ROTOR5_CT</strong> (FLOAT)</td>
+ <td>Thrust coefficient of rotor 5 <p><strong>Comment:</strong> The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</p>   </td>
+ <td>0 > 100 (1)</td>
+ <td>6.5</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR5_KM">CA_ROTOR5_KM</strong> (FLOAT)</td>
+ <td>Moment coefficient of rotor 5 <p><strong>Comment:</strong> The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</p>   </td>
+ <td>-1 > 1 (0.01)</td>
+ <td>0.05</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR5_PX">CA_ROTOR5_PX</strong> (FLOAT)</td>
+ <td>Position of rotor 5 along X body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR5_PY">CA_ROTOR5_PY</strong> (FLOAT)</td>
+ <td>Position of rotor 5 along Y body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR5_PZ">CA_ROTOR5_PZ</strong> (FLOAT)</td>
+ <td>Position of rotor 5 along Z body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR5_TILT">CA_ROTOR5_TILT</strong> (INT32)</td>
+ <td>Rotor 5 tilt assignment <p><strong>Comment:</strong> If not set to None, this motor is tilted by the configured tilt servo.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> None</li> 
+
+<li><strong>1:</strong> Tilt 1</li> 
+
+<li><strong>2:</strong> Tilt 2</li> 
+
+<li><strong>3:</strong> Tilt 3</li> 
+
+<li><strong>4:</strong> Tilt 4</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR6_AX">CA_ROTOR6_AX</strong> (FLOAT)</td>
+ <td>Axis of rotor 6 thrust vector, X body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR6_AY">CA_ROTOR6_AY</strong> (FLOAT)</td>
+ <td>Axis of rotor 6 thrust vector, Y body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR6_AZ">CA_ROTOR6_AZ</strong> (FLOAT)</td>
+ <td>Axis of rotor 6 thrust vector, Z body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>-1.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR6_CT">CA_ROTOR6_CT</strong> (FLOAT)</td>
+ <td>Thrust coefficient of rotor 6 <p><strong>Comment:</strong> The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</p>   </td>
+ <td>0 > 100 (1)</td>
+ <td>6.5</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR6_KM">CA_ROTOR6_KM</strong> (FLOAT)</td>
+ <td>Moment coefficient of rotor 6 <p><strong>Comment:</strong> The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</p>   </td>
+ <td>-1 > 1 (0.01)</td>
+ <td>0.05</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR6_PX">CA_ROTOR6_PX</strong> (FLOAT)</td>
+ <td>Position of rotor 6 along X body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR6_PY">CA_ROTOR6_PY</strong> (FLOAT)</td>
+ <td>Position of rotor 6 along Y body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR6_PZ">CA_ROTOR6_PZ</strong> (FLOAT)</td>
+ <td>Position of rotor 6 along Z body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR6_TILT">CA_ROTOR6_TILT</strong> (INT32)</td>
+ <td>Rotor 6 tilt assignment <p><strong>Comment:</strong> If not set to None, this motor is tilted by the configured tilt servo.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> None</li> 
+
+<li><strong>1:</strong> Tilt 1</li> 
+
+<li><strong>2:</strong> Tilt 2</li> 
+
+<li><strong>3:</strong> Tilt 3</li> 
+
+<li><strong>4:</strong> Tilt 4</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR7_AX">CA_ROTOR7_AX</strong> (FLOAT)</td>
+ <td>Axis of rotor 7 thrust vector, X body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR7_AY">CA_ROTOR7_AY</strong> (FLOAT)</td>
+ <td>Axis of rotor 7 thrust vector, Y body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR7_AZ">CA_ROTOR7_AZ</strong> (FLOAT)</td>
+ <td>Axis of rotor 7 thrust vector, Z body axis component <p><strong>Comment:</strong> Only the direction is considered (the vector is normalized).</p>   </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>-1.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR7_CT">CA_ROTOR7_CT</strong> (FLOAT)</td>
+ <td>Thrust coefficient of rotor 7 <p><strong>Comment:</strong> The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</p>   </td>
+ <td>0 > 100 (1)</td>
+ <td>6.5</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR7_KM">CA_ROTOR7_KM</strong> (FLOAT)</td>
+ <td>Moment coefficient of rotor 7 <p><strong>Comment:</strong> The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</p>   </td>
+ <td>-1 > 1 (0.01)</td>
+ <td>0.05</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR7_PX">CA_ROTOR7_PX</strong> (FLOAT)</td>
+ <td>Position of rotor 7 along X body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR7_PY">CA_ROTOR7_PY</strong> (FLOAT)</td>
+ <td>Position of rotor 7 along Y body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR7_PZ">CA_ROTOR7_PZ</strong> (FLOAT)</td>
+ <td>Position of rotor 7 along Z body axis    </td>
+ <td>-100 > 100 (0.1)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR7_TILT">CA_ROTOR7_TILT</strong> (INT32)</td>
+ <td>Rotor 7 tilt assignment <p><strong>Comment:</strong> If not set to None, this motor is tilted by the configured tilt servo.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> None</li> 
+
+<li><strong>1:</strong> Tilt 1</li> 
+
+<li><strong>2:</strong> Tilt 2</li> 
+
+<li><strong>3:</strong> Tilt 3</li> 
+
+<li><strong>4:</strong> Tilt 4</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_ROTOR_COUNT">CA_ROTOR_COUNT</strong> (INT32)</td>
+ <td>Total number of rotors  <strong>Values:</strong><ul>
+<li><strong>0:</strong> 0</li> 
+
+<li><strong>1:</strong> 1</li> 
+
+<li><strong>2:</strong> 2</li> 
+
+<li><strong>3:</strong> 3</li> 
+
+<li><strong>4:</strong> 4</li> 
+
+<li><strong>5:</strong> 5</li> 
+
+<li><strong>6:</strong> 6</li> 
+
+<li><strong>7:</strong> 7</li> 
+
+<li><strong>8:</strong> 8</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_R_REV">CA_R_REV</strong> (INT32)</td>
+ <td>Reversible motors <p><strong>Comment:</strong> Configure motors to be reversible. Note that the output driver needs to support this as well.</p>  <strong>Bitmask:</strong><ul>  <li><strong>0:</strong> Motor 1</li> 
+  <li><strong>1:</strong> Motor 2</li> 
+  <li><strong>2:</strong> Motor 3</li> 
+  <li><strong>3:</strong> Motor 4</li> 
+  <li><strong>4:</strong> Motor 5</li> 
+  <li><strong>5:</strong> Motor 6</li> 
+  <li><strong>6:</strong> Motor 7</li> 
+  <li><strong>7:</strong> Motor 8</li> 
+</ul>
+ </td>
+ <td>0 > 255 </td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_STDVTOL_N_P">CA_STDVTOL_N_P</strong> (INT32)</td>
+ <td>Number of fixed wing (pusher/puller) motors  <strong>Values:</strong><ul>
+<li><strong>1:</strong> 1</li> 
+
+<li><strong>2:</strong> 2</li> 
+
+<li><strong>3:</strong> 3</li> 
+
+<li><strong>4:</strong> 4</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV0_SLEW">CA_SV0_SLEW</strong> (FLOAT)</td>
+ <td>Servo 0 slew rate limit <p><strong>Comment:</strong> Minimum time allowed for the servo input signal to pass through the full output range. A value x means that the servo signal can only go from -1 to 1 in minimum x seconds. Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>0 > 10 (0.05)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV1_SLEW">CA_SV1_SLEW</strong> (FLOAT)</td>
+ <td>Servo 1 slew rate limit <p><strong>Comment:</strong> Minimum time allowed for the servo input signal to pass through the full output range. A value x means that the servo signal can only go from -1 to 1 in minimum x seconds. Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>0 > 10 (0.05)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV2_SLEW">CA_SV2_SLEW</strong> (FLOAT)</td>
+ <td>Servo 2 slew rate limit <p><strong>Comment:</strong> Minimum time allowed for the servo input signal to pass through the full output range. A value x means that the servo signal can only go from -1 to 1 in minimum x seconds. Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>0 > 10 (0.05)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV3_SLEW">CA_SV3_SLEW</strong> (FLOAT)</td>
+ <td>Servo 3 slew rate limit <p><strong>Comment:</strong> Minimum time allowed for the servo input signal to pass through the full output range. A value x means that the servo signal can only go from -1 to 1 in minimum x seconds. Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>0 > 10 (0.05)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV4_SLEW">CA_SV4_SLEW</strong> (FLOAT)</td>
+ <td>Servo 4 slew rate limit <p><strong>Comment:</strong> Minimum time allowed for the servo input signal to pass through the full output range. A value x means that the servo signal can only go from -1 to 1 in minimum x seconds. Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>0 > 10 (0.05)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV5_SLEW">CA_SV5_SLEW</strong> (FLOAT)</td>
+ <td>Servo 5 slew rate limit <p><strong>Comment:</strong> Minimum time allowed for the servo input signal to pass through the full output range. A value x means that the servo signal can only go from -1 to 1 in minimum x seconds. Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>0 > 10 (0.05)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV6_SLEW">CA_SV6_SLEW</strong> (FLOAT)</td>
+ <td>Servo 6 slew rate limit <p><strong>Comment:</strong> Minimum time allowed for the servo input signal to pass through the full output range. A value x means that the servo signal can only go from -1 to 1 in minimum x seconds. Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>0 > 10 (0.05)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV7_SLEW">CA_SV7_SLEW</strong> (FLOAT)</td>
+ <td>Servo 7 slew rate limit <p><strong>Comment:</strong> Minimum time allowed for the servo input signal to pass through the full output range. A value x means that the servo signal can only go from -1 to 1 in minimum x seconds. Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>0 > 10 (0.05)</td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS0_TRIM">CA_SV_CS0_TRIM</strong> (FLOAT)</td>
+ <td>Control Surface 0 trim <p><strong>Comment:</strong> Can be used to add an offset to the servo control.</p>   </td>
+ <td>-1.0 > 1.0 </td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS0_TRQ_P">CA_SV_CS0_TRQ_P</strong> (FLOAT)</td>
+ <td>Control Surface 0 pitch torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS0_TRQ_R">CA_SV_CS0_TRQ_R</strong> (FLOAT)</td>
+ <td>Control Surface 0 roll torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS0_TRQ_Y">CA_SV_CS0_TRQ_Y</strong> (FLOAT)</td>
+ <td>Control Surface 0 yaw torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS0_TYPE">CA_SV_CS0_TYPE</strong> (INT32)</td>
+ <td>Control Surface 0 type  <strong>Values:</strong><ul>
+<li><strong>1:</strong> Left Aileron</li> 
+
+<li><strong>2:</strong> Right Aileron</li> 
+
+<li><strong>3:</strong> Elevator</li> 
+
+<li><strong>4:</strong> Rudder</li> 
+
+<li><strong>5:</strong> Left Elevon</li> 
+
+<li><strong>6:</strong> Right Elevon</li> 
+
+<li><strong>7:</strong> Left V-Tail</li> 
+
+<li><strong>8:</strong> Right V-Tail</li> 
+
+<li><strong>9:</strong> Left Flap</li> 
+
+<li><strong>10:</strong> Right Flap</li> 
+
+<li><strong>11:</strong> Airbrakes</li> 
+
+<li><strong>12:</strong> Custom</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS1_TRIM">CA_SV_CS1_TRIM</strong> (FLOAT)</td>
+ <td>Control Surface 1 trim <p><strong>Comment:</strong> Can be used to add an offset to the servo control.</p>   </td>
+ <td>-1.0 > 1.0 </td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS1_TRQ_P">CA_SV_CS1_TRQ_P</strong> (FLOAT)</td>
+ <td>Control Surface 1 pitch torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS1_TRQ_R">CA_SV_CS1_TRQ_R</strong> (FLOAT)</td>
+ <td>Control Surface 1 roll torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS1_TRQ_Y">CA_SV_CS1_TRQ_Y</strong> (FLOAT)</td>
+ <td>Control Surface 1 yaw torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS1_TYPE">CA_SV_CS1_TYPE</strong> (INT32)</td>
+ <td>Control Surface 1 type  <strong>Values:</strong><ul>
+<li><strong>1:</strong> Left Aileron</li> 
+
+<li><strong>2:</strong> Right Aileron</li> 
+
+<li><strong>3:</strong> Elevator</li> 
+
+<li><strong>4:</strong> Rudder</li> 
+
+<li><strong>5:</strong> Left Elevon</li> 
+
+<li><strong>6:</strong> Right Elevon</li> 
+
+<li><strong>7:</strong> Left V-Tail</li> 
+
+<li><strong>8:</strong> Right V-Tail</li> 
+
+<li><strong>9:</strong> Left Flap</li> 
+
+<li><strong>10:</strong> Right Flap</li> 
+
+<li><strong>11:</strong> Airbrakes</li> 
+
+<li><strong>12:</strong> Custom</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS2_TRIM">CA_SV_CS2_TRIM</strong> (FLOAT)</td>
+ <td>Control Surface 2 trim <p><strong>Comment:</strong> Can be used to add an offset to the servo control.</p>   </td>
+ <td>-1.0 > 1.0 </td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS2_TRQ_P">CA_SV_CS2_TRQ_P</strong> (FLOAT)</td>
+ <td>Control Surface 2 pitch torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS2_TRQ_R">CA_SV_CS2_TRQ_R</strong> (FLOAT)</td>
+ <td>Control Surface 2 roll torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS2_TRQ_Y">CA_SV_CS2_TRQ_Y</strong> (FLOAT)</td>
+ <td>Control Surface 2 yaw torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS2_TYPE">CA_SV_CS2_TYPE</strong> (INT32)</td>
+ <td>Control Surface 2 type  <strong>Values:</strong><ul>
+<li><strong>1:</strong> Left Aileron</li> 
+
+<li><strong>2:</strong> Right Aileron</li> 
+
+<li><strong>3:</strong> Elevator</li> 
+
+<li><strong>4:</strong> Rudder</li> 
+
+<li><strong>5:</strong> Left Elevon</li> 
+
+<li><strong>6:</strong> Right Elevon</li> 
+
+<li><strong>7:</strong> Left V-Tail</li> 
+
+<li><strong>8:</strong> Right V-Tail</li> 
+
+<li><strong>9:</strong> Left Flap</li> 
+
+<li><strong>10:</strong> Right Flap</li> 
+
+<li><strong>11:</strong> Airbrakes</li> 
+
+<li><strong>12:</strong> Custom</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS3_TRIM">CA_SV_CS3_TRIM</strong> (FLOAT)</td>
+ <td>Control Surface 3 trim <p><strong>Comment:</strong> Can be used to add an offset to the servo control.</p>   </td>
+ <td>-1.0 > 1.0 </td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS3_TRQ_P">CA_SV_CS3_TRQ_P</strong> (FLOAT)</td>
+ <td>Control Surface 3 pitch torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS3_TRQ_R">CA_SV_CS3_TRQ_R</strong> (FLOAT)</td>
+ <td>Control Surface 3 roll torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS3_TRQ_Y">CA_SV_CS3_TRQ_Y</strong> (FLOAT)</td>
+ <td>Control Surface 3 yaw torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS3_TYPE">CA_SV_CS3_TYPE</strong> (INT32)</td>
+ <td>Control Surface 3 type  <strong>Values:</strong><ul>
+<li><strong>1:</strong> Left Aileron</li> 
+
+<li><strong>2:</strong> Right Aileron</li> 
+
+<li><strong>3:</strong> Elevator</li> 
+
+<li><strong>4:</strong> Rudder</li> 
+
+<li><strong>5:</strong> Left Elevon</li> 
+
+<li><strong>6:</strong> Right Elevon</li> 
+
+<li><strong>7:</strong> Left V-Tail</li> 
+
+<li><strong>8:</strong> Right V-Tail</li> 
+
+<li><strong>9:</strong> Left Flap</li> 
+
+<li><strong>10:</strong> Right Flap</li> 
+
+<li><strong>11:</strong> Airbrakes</li> 
+
+<li><strong>12:</strong> Custom</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS4_TRIM">CA_SV_CS4_TRIM</strong> (FLOAT)</td>
+ <td>Control Surface 4 trim <p><strong>Comment:</strong> Can be used to add an offset to the servo control.</p>   </td>
+ <td>-1.0 > 1.0 </td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS4_TRQ_P">CA_SV_CS4_TRQ_P</strong> (FLOAT)</td>
+ <td>Control Surface 4 pitch torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS4_TRQ_R">CA_SV_CS4_TRQ_R</strong> (FLOAT)</td>
+ <td>Control Surface 4 roll torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS4_TRQ_Y">CA_SV_CS4_TRQ_Y</strong> (FLOAT)</td>
+ <td>Control Surface 4 yaw torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS4_TYPE">CA_SV_CS4_TYPE</strong> (INT32)</td>
+ <td>Control Surface 4 type  <strong>Values:</strong><ul>
+<li><strong>1:</strong> Left Aileron</li> 
+
+<li><strong>2:</strong> Right Aileron</li> 
+
+<li><strong>3:</strong> Elevator</li> 
+
+<li><strong>4:</strong> Rudder</li> 
+
+<li><strong>5:</strong> Left Elevon</li> 
+
+<li><strong>6:</strong> Right Elevon</li> 
+
+<li><strong>7:</strong> Left V-Tail</li> 
+
+<li><strong>8:</strong> Right V-Tail</li> 
+
+<li><strong>9:</strong> Left Flap</li> 
+
+<li><strong>10:</strong> Right Flap</li> 
+
+<li><strong>11:</strong> Airbrakes</li> 
+
+<li><strong>12:</strong> Custom</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS5_TRIM">CA_SV_CS5_TRIM</strong> (FLOAT)</td>
+ <td>Control Surface 5 trim <p><strong>Comment:</strong> Can be used to add an offset to the servo control.</p>   </td>
+ <td>-1.0 > 1.0 </td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS5_TRQ_P">CA_SV_CS5_TRQ_P</strong> (FLOAT)</td>
+ <td>Control Surface 5 pitch torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS5_TRQ_R">CA_SV_CS5_TRQ_R</strong> (FLOAT)</td>
+ <td>Control Surface 5 roll torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS5_TRQ_Y">CA_SV_CS5_TRQ_Y</strong> (FLOAT)</td>
+ <td>Control Surface 5 yaw torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS5_TYPE">CA_SV_CS5_TYPE</strong> (INT32)</td>
+ <td>Control Surface 5 type  <strong>Values:</strong><ul>
+<li><strong>1:</strong> Left Aileron</li> 
+
+<li><strong>2:</strong> Right Aileron</li> 
+
+<li><strong>3:</strong> Elevator</li> 
+
+<li><strong>4:</strong> Rudder</li> 
+
+<li><strong>5:</strong> Left Elevon</li> 
+
+<li><strong>6:</strong> Right Elevon</li> 
+
+<li><strong>7:</strong> Left V-Tail</li> 
+
+<li><strong>8:</strong> Right V-Tail</li> 
+
+<li><strong>9:</strong> Left Flap</li> 
+
+<li><strong>10:</strong> Right Flap</li> 
+
+<li><strong>11:</strong> Airbrakes</li> 
+
+<li><strong>12:</strong> Custom</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS6_TRIM">CA_SV_CS6_TRIM</strong> (FLOAT)</td>
+ <td>Control Surface 6 trim <p><strong>Comment:</strong> Can be used to add an offset to the servo control.</p>   </td>
+ <td>-1.0 > 1.0 </td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS6_TRQ_P">CA_SV_CS6_TRQ_P</strong> (FLOAT)</td>
+ <td>Control Surface 6 pitch torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS6_TRQ_R">CA_SV_CS6_TRQ_R</strong> (FLOAT)</td>
+ <td>Control Surface 6 roll torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS6_TRQ_Y">CA_SV_CS6_TRQ_Y</strong> (FLOAT)</td>
+ <td>Control Surface 6 yaw torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS6_TYPE">CA_SV_CS6_TYPE</strong> (INT32)</td>
+ <td>Control Surface 6 type  <strong>Values:</strong><ul>
+<li><strong>1:</strong> Left Aileron</li> 
+
+<li><strong>2:</strong> Right Aileron</li> 
+
+<li><strong>3:</strong> Elevator</li> 
+
+<li><strong>4:</strong> Rudder</li> 
+
+<li><strong>5:</strong> Left Elevon</li> 
+
+<li><strong>6:</strong> Right Elevon</li> 
+
+<li><strong>7:</strong> Left V-Tail</li> 
+
+<li><strong>8:</strong> Right V-Tail</li> 
+
+<li><strong>9:</strong> Left Flap</li> 
+
+<li><strong>10:</strong> Right Flap</li> 
+
+<li><strong>11:</strong> Airbrakes</li> 
+
+<li><strong>12:</strong> Custom</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS7_TRIM">CA_SV_CS7_TRIM</strong> (FLOAT)</td>
+ <td>Control Surface 7 trim <p><strong>Comment:</strong> Can be used to add an offset to the servo control.</p>   </td>
+ <td>-1.0 > 1.0 </td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS7_TRQ_P">CA_SV_CS7_TRQ_P</strong> (FLOAT)</td>
+ <td>Control Surface 7 pitch torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS7_TRQ_R">CA_SV_CS7_TRQ_R</strong> (FLOAT)</td>
+ <td>Control Surface 7 roll torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS7_TRQ_Y">CA_SV_CS7_TRQ_Y</strong> (FLOAT)</td>
+ <td>Control Surface 7 yaw torque scaling    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS7_TYPE">CA_SV_CS7_TYPE</strong> (INT32)</td>
+ <td>Control Surface 7 type  <strong>Values:</strong><ul>
+<li><strong>1:</strong> Left Aileron</li> 
+
+<li><strong>2:</strong> Right Aileron</li> 
+
+<li><strong>3:</strong> Elevator</li> 
+
+<li><strong>4:</strong> Rudder</li> 
+
+<li><strong>5:</strong> Left Elevon</li> 
+
+<li><strong>6:</strong> Right Elevon</li> 
+
+<li><strong>7:</strong> Left V-Tail</li> 
+
+<li><strong>8:</strong> Right V-Tail</li> 
+
+<li><strong>9:</strong> Left Flap</li> 
+
+<li><strong>10:</strong> Right Flap</li> 
+
+<li><strong>11:</strong> Airbrakes</li> 
+
+<li><strong>12:</strong> Custom</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_CS_COUNT">CA_SV_CS_COUNT</strong> (INT32)</td>
+ <td>Total number of Control Surfaces  <strong>Values:</strong><ul>
+<li><strong>0:</strong> 0</li> 
+
+<li><strong>1:</strong> 1</li> 
+
+<li><strong>2:</strong> 2</li> 
+
+<li><strong>3:</strong> 3</li> 
+
+<li><strong>4:</strong> 4</li> 
+
+<li><strong>5:</strong> 5</li> 
+
+<li><strong>6:</strong> 6</li> 
+
+<li><strong>7:</strong> 7</li> 
+
+<li><strong>8:</strong> 8</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL0_CT">CA_SV_TL0_CT</strong> (INT32)</td>
+ <td>Tilt 0 is used for control <p><strong>Comment:</strong> Define if this servo is used for additional control.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> None</li> 
+
+<li><strong>1:</strong> Yaw</li> 
+
+<li><strong>2:</strong> Pitch</li> 
+
+<li><strong>3:</strong> Yaw and Pitch</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL0_MAXA">CA_SV_TL0_MAXA</strong> (FLOAT)</td>
+ <td>Tilt Servo 0 Tilt Angle at Maximum <p><strong>Comment:</strong> Defines the tilt angle when the servo is at the maximum. An angle of zero means upwards.</p>   </td>
+ <td>-90.0 > 90.0 </td>
+ <td>90.0</td>
+ <td>deg</td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL0_MINA">CA_SV_TL0_MINA</strong> (FLOAT)</td>
+ <td>Tilt Servo 0 Tilt Angle at Minimum <p><strong>Comment:</strong> Defines the tilt angle when the servo is at the minimum. An angle of zero means upwards.</p>   </td>
+ <td>-90.0 > 90.0 </td>
+ <td>0.0</td>
+ <td>deg</td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL0_TD">CA_SV_TL0_TD</strong> (INT32)</td>
+ <td>Tilt Servo 0 Tilt Direction <p><strong>Comment:</strong> Defines the direction the servo tilts towards when moving towards the maximum tilt angle. For example if the minimum tilt angle is -90, the maximum 90, and the direction 'Towards Front', the motor axis aligns with the XZ-plane, points towards -X at the minimum and +X at the maximum tilt.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Towards Front</li> 
+
+<li><strong>90:</strong> Towards Right</li> 
+</ul>
+  </td>
+ <td>0 > 359 </td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL1_CT">CA_SV_TL1_CT</strong> (INT32)</td>
+ <td>Tilt 1 is used for control <p><strong>Comment:</strong> Define if this servo is used for additional control.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> None</li> 
+
+<li><strong>1:</strong> Yaw</li> 
+
+<li><strong>2:</strong> Pitch</li> 
+
+<li><strong>3:</strong> Yaw and Pitch</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL1_MAXA">CA_SV_TL1_MAXA</strong> (FLOAT)</td>
+ <td>Tilt Servo 1 Tilt Angle at Maximum <p><strong>Comment:</strong> Defines the tilt angle when the servo is at the maximum. An angle of zero means upwards.</p>   </td>
+ <td>-90.0 > 90.0 </td>
+ <td>90.0</td>
+ <td>deg</td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL1_MINA">CA_SV_TL1_MINA</strong> (FLOAT)</td>
+ <td>Tilt Servo 1 Tilt Angle at Minimum <p><strong>Comment:</strong> Defines the tilt angle when the servo is at the minimum. An angle of zero means upwards.</p>   </td>
+ <td>-90.0 > 90.0 </td>
+ <td>0.0</td>
+ <td>deg</td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL1_TD">CA_SV_TL1_TD</strong> (INT32)</td>
+ <td>Tilt Servo 1 Tilt Direction <p><strong>Comment:</strong> Defines the direction the servo tilts towards when moving towards the maximum tilt angle. For example if the minimum tilt angle is -90, the maximum 90, and the direction 'Towards Front', the motor axis aligns with the XZ-plane, points towards -X at the minimum and +X at the maximum tilt.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Towards Front</li> 
+
+<li><strong>90:</strong> Towards Right</li> 
+</ul>
+  </td>
+ <td>0 > 359 </td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL2_CT">CA_SV_TL2_CT</strong> (INT32)</td>
+ <td>Tilt 2 is used for control <p><strong>Comment:</strong> Define if this servo is used for additional control.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> None</li> 
+
+<li><strong>1:</strong> Yaw</li> 
+
+<li><strong>2:</strong> Pitch</li> 
+
+<li><strong>3:</strong> Yaw and Pitch</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL2_MAXA">CA_SV_TL2_MAXA</strong> (FLOAT)</td>
+ <td>Tilt Servo 2 Tilt Angle at Maximum <p><strong>Comment:</strong> Defines the tilt angle when the servo is at the maximum. An angle of zero means upwards.</p>   </td>
+ <td>-90.0 > 90.0 </td>
+ <td>90.0</td>
+ <td>deg</td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL2_MINA">CA_SV_TL2_MINA</strong> (FLOAT)</td>
+ <td>Tilt Servo 2 Tilt Angle at Minimum <p><strong>Comment:</strong> Defines the tilt angle when the servo is at the minimum. An angle of zero means upwards.</p>   </td>
+ <td>-90.0 > 90.0 </td>
+ <td>0.0</td>
+ <td>deg</td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL2_TD">CA_SV_TL2_TD</strong> (INT32)</td>
+ <td>Tilt Servo 2 Tilt Direction <p><strong>Comment:</strong> Defines the direction the servo tilts towards when moving towards the maximum tilt angle. For example if the minimum tilt angle is -90, the maximum 90, and the direction 'Towards Front', the motor axis aligns with the XZ-plane, points towards -X at the minimum and +X at the maximum tilt.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Towards Front</li> 
+
+<li><strong>90:</strong> Towards Right</li> 
+</ul>
+  </td>
+ <td>0 > 359 </td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL3_CT">CA_SV_TL3_CT</strong> (INT32)</td>
+ <td>Tilt 3 is used for control <p><strong>Comment:</strong> Define if this servo is used for additional control.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> None</li> 
+
+<li><strong>1:</strong> Yaw</li> 
+
+<li><strong>2:</strong> Pitch</li> 
+
+<li><strong>3:</strong> Yaw and Pitch</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL3_MAXA">CA_SV_TL3_MAXA</strong> (FLOAT)</td>
+ <td>Tilt Servo 3 Tilt Angle at Maximum <p><strong>Comment:</strong> Defines the tilt angle when the servo is at the maximum. An angle of zero means upwards.</p>   </td>
+ <td>-90.0 > 90.0 </td>
+ <td>90.0</td>
+ <td>deg</td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL3_MINA">CA_SV_TL3_MINA</strong> (FLOAT)</td>
+ <td>Tilt Servo 3 Tilt Angle at Minimum <p><strong>Comment:</strong> Defines the tilt angle when the servo is at the minimum. An angle of zero means upwards.</p>   </td>
+ <td>-90.0 > 90.0 </td>
+ <td>0.0</td>
+ <td>deg</td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL3_TD">CA_SV_TL3_TD</strong> (INT32)</td>
+ <td>Tilt Servo 3 Tilt Direction <p><strong>Comment:</strong> Defines the direction the servo tilts towards when moving towards the maximum tilt angle. For example if the minimum tilt angle is -90, the maximum 90, and the direction 'Towards Front', the motor axis aligns with the XZ-plane, points towards -X at the minimum and +X at the maximum tilt.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Towards Front</li> 
+
+<li><strong>90:</strong> Towards Right</li> 
+</ul>
+  </td>
+ <td>0 > 359 </td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CA_SV_TL_COUNT">CA_SV_TL_COUNT</strong> (INT32)</td>
+ <td>Total number of Tilt Servos  <strong>Values:</strong><ul>
+<li><strong>0:</strong> 0</li> 
+
+<li><strong>1:</strong> 1</li> 
+
+<li><strong>2:</strong> 2</li> 
+
+<li><strong>3:</strong> 3</li> 
+
+<li><strong>4:</strong> 4</li> 
+</ul>
+  </td>
+ <td></td>
  <td>0</td>
  <td></td>
 </tr>
@@ -5164,28 +14817,28 @@ table {
 <tbody>
 <tr>
  <td><strong id="LNDFW_AIRSPD_MAX">LNDFW_AIRSPD_MAX</strong> (FLOAT)</td>
- <td>Airspeed max <p><strong>Comment:</strong> Maximum airspeed allowed in the landed state</p>   </td>
- <td>4 > 20 </td>
+ <td>Fixed-wing land detector: Max airspeed <p><strong>Comment:</strong> Maximum airspeed allowed in the landed state</p>   </td>
+ <td>2 > 20 </td>
  <td>6.00</td>
  <td>m/s</td>
 </tr>
 <tr>
  <td><strong id="LNDFW_VEL_XY_MAX">LNDFW_VEL_XY_MAX</strong> (FLOAT)</td>
- <td>Fixedwing max horizontal velocity <p><strong>Comment:</strong> Maximum horizontal velocity allowed in the landed state</p>   </td>
+ <td>Fixed-wing land detector: Max horizontal velocity threshold <p><strong>Comment:</strong> Maximum horizontal velocity allowed in the landed state. A factor of 0.7 is applied in case of airspeed-less flying (either because no sensor is present or sensor data got invalid in flight).</p>   </td>
  <td>0.5 > 10 </td>
  <td>5.0</td>
  <td>m/s</td>
 </tr>
 <tr>
  <td><strong id="LNDFW_VEL_Z_MAX">LNDFW_VEL_Z_MAX</strong> (FLOAT)</td>
- <td>Fixedwing max climb rate <p><strong>Comment:</strong> Maximum vertical velocity allowed in the landed state</p>   </td>
+ <td>Fixed-wing land detector: Max vertiacal velocity threshold <p><strong>Comment:</strong> Maximum vertical velocity allowed in the landed state. A factor of 0.7 is applied in case of airspeed-less flying (either because no sensor is present or sensor data got invalid in flight).</p>   </td>
  <td>0.1 > 20 </td>
- <td>3.0</td>
+ <td>2.0</td>
  <td>m/s</td>
 </tr>
 <tr>
  <td><strong id="LNDFW_XYACC_MAX">LNDFW_XYACC_MAX</strong> (FLOAT)</td>
- <td>Fixedwing max horizontal acceleration <p><strong>Comment:</strong> Maximum horizontal (x,y body axes) acceleration allowed in the landed state</p>   </td>
+ <td>Fixed-wing land detector: Max horizontal acceleration <p><strong>Comment:</strong> Maximum horizontal (x,y body axes) acceleration allowed in the landed state</p>   </td>
  <td>2 > 15 </td>
  <td>8.0</td>
  <td>m/s^2</td>
@@ -5244,6 +14897,65 @@ table {
  <td>Total flight time in microseconds <p><strong>Comment:</strong> Total flight time of this autopilot. Lower 32 bits of the value. Flight time in microseconds = (LND_FLIGHT_T_HI << 32) | LND_FLIGHT_T_LO.</p>   </td>
  <td>0 > ? </td>
  <td>0</td>
+ <td></td>
+</tr>
+</tbody></table>
+
+## Landing Target Estimator
+
+<table>
+ <colgroup><col style="width: 23%"><col style="width: 46%"><col style="width: 11%"><col style="width: 11%"><col style="width: 9%"></colgroup>
+ <thead>
+   <tr><th>Name</th><th>Description</th><th>Min > Max (Incr.)</th><th>Default</th><th>Units</th></tr>
+ </thead>
+<tbody>
+<tr>
+ <td><strong id="LTEST_SENS_POS_X">LTEST_SENS_POS_X</strong> (FLOAT)</td>
+ <td>X Position of IRLOCK in body frame (forward)    <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="LTEST_SENS_POS_Y">LTEST_SENS_POS_Y</strong> (FLOAT)</td>
+ <td>Y Position of IRLOCK in body frame (right)    <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="LTEST_SENS_POS_Z">LTEST_SENS_POS_Z</strong> (FLOAT)</td>
+ <td>Z Position of IRLOCK in body frame (downward)    <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="LTEST_SENS_ROT">LTEST_SENS_ROT</strong> (INT32)</td>
+ <td>Rotation of IRLOCK sensor relative to airframe <p><strong>Comment:</strong> Default orientation of Yaw 90°</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> No rotation</li> 
+
+<li><strong>1:</strong> Yaw 45°</li> 
+
+<li><strong>2:</strong> Yaw 90°</li> 
+
+<li><strong>3:</strong> Yaw 135°</li> 
+
+<li><strong>4:</strong> Yaw 180°</li> 
+
+<li><strong>5:</strong> Yaw 225°</li> 
+
+<li><strong>6:</strong> Yaw 270°</li> 
+
+<li><strong>7:</strong> Yaw 315°</li> 
+</ul>
+  <p><b>Reboot required:</b> true</p>
+</td>
+ <td>-1 > 40 </td>
+ <td>2</td>
  <td></td>
 </tr>
 </tbody></table>
@@ -5613,20 +15325,6 @@ table {
  </thead>
 <tbody>
 <tr>
- <td><strong id="MAV_0_BROADCAST">MAV_0_BROADCAST</strong> (INT32)</td>
- <td>Broadcast heartbeats on local network for MAVLink instance 0 <p><strong>Comment:</strong> This allows a ground control station to automatically find the drone on the local network.</p> <strong>Values:</strong><ul>
-<li><strong>0:</strong> Never broadcast</li> 
-
-<li><strong>1:</strong> Always broadcast</li> 
-
-<li><strong>2:</strong> Only multicast</li> 
-</ul>
-  </td>
- <td></td>
- <td>1</td>
- <td></td>
-</tr>
-<tr>
  <td><strong id="MAV_0_CONFIG">MAV_0_CONFIG</strong> (INT32)</td>
  <td>Serial Configuration for MAVLink (instance 0) <p><strong>Comment:</strong> Configure on which serial port to run MAVLink.</p> <strong>Values:</strong><ul>
 <li><strong>0:</strong> Disabled</li> 
@@ -5713,36 +15411,6 @@ table {
  <td>0 > ? </td>
  <td>1200</td>
  <td>B/s</td>
-</tr>
-<tr>
- <td><strong id="MAV_0_REMOTE_PRT">MAV_0_REMOTE_PRT</strong> (INT32)</td>
- <td>MAVLink Remote Port for instance 0 <p><strong>Comment:</strong> If ethernet enabled and selected as configuration for MAVLink instance 0, selected remote port will be set and used in MAVLink instance 0.</p>   <p><b>Reboot required:</b> True</p>
-</td>
- <td></td>
- <td>14550</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="MAV_0_UDP_PRT">MAV_0_UDP_PRT</strong> (INT32)</td>
- <td>MAVLink Network Port for instance 0 <p><strong>Comment:</strong> If ethernet enabled and selected as configuration for MAVLink instance 0, selected udp port will be set and used in MAVLink instance 0.</p>   <p><b>Reboot required:</b> True</p>
-</td>
- <td></td>
- <td>14556</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="MAV_1_BROADCAST">MAV_1_BROADCAST</strong> (INT32)</td>
- <td>Broadcast heartbeats on local network for MAVLink instance 1 <p><strong>Comment:</strong> This allows a ground control station to automatically find the drone on the local network.</p> <strong>Values:</strong><ul>
-<li><strong>0:</strong> Never broadcast</li> 
-
-<li><strong>1:</strong> Always broadcast</li> 
-
-<li><strong>2:</strong> Only multicast</li> 
-</ul>
-  </td>
- <td></td>
- <td>0</td>
- <td></td>
 </tr>
 <tr>
  <td><strong id="MAV_1_CONFIG">MAV_1_CONFIG</strong> (INT32)</td>
@@ -5833,36 +15501,6 @@ table {
  <td>B/s</td>
 </tr>
 <tr>
- <td><strong id="MAV_1_REMOTE_PRT">MAV_1_REMOTE_PRT</strong> (INT32)</td>
- <td>MAVLink Remote Port for instance 1 <p><strong>Comment:</strong> If ethernet enabled and selected as configuration for MAVLink instance 1, selected remote port will be set and used in MAVLink instance 1.</p>   <p><b>Reboot required:</b> True</p>
-</td>
- <td></td>
- <td>0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="MAV_1_UDP_PRT">MAV_1_UDP_PRT</strong> (INT32)</td>
- <td>MAVLink Network Port for instance 1 <p><strong>Comment:</strong> If ethernet enabled and selected as configuration for MAVLink instance 1, selected udp port will be set and used in MAVLink instance 1.</p>   <p><b>Reboot required:</b> True</p>
-</td>
- <td></td>
- <td>0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="MAV_2_BROADCAST">MAV_2_BROADCAST</strong> (INT32)</td>
- <td>Broadcast heartbeats on local network for MAVLink instance 2 <p><strong>Comment:</strong> This allows a ground control station to automatically find the drone on the local network.</p> <strong>Values:</strong><ul>
-<li><strong>0:</strong> Never broadcast</li> 
-
-<li><strong>1:</strong> Always broadcast</li> 
-
-<li><strong>2:</strong> Only multicast</li> 
-</ul>
-  </td>
- <td></td>
- <td>0</td>
- <td></td>
-</tr>
-<tr>
  <td><strong id="MAV_2_CONFIG">MAV_2_CONFIG</strong> (INT32)</td>
  <td>Serial Configuration for MAVLink (instance 2) <p><strong>Comment:</strong> Configure on which serial port to run MAVLink.</p> <strong>Values:</strong><ul>
 <li><strong>0:</strong> Disabled</li> 
@@ -5949,22 +15587,6 @@ table {
  <td>0 > ? </td>
  <td>0</td>
  <td>B/s</td>
-</tr>
-<tr>
- <td><strong id="MAV_2_REMOTE_PRT">MAV_2_REMOTE_PRT</strong> (INT32)</td>
- <td>MAVLink Remote Port for instance 2 <p><strong>Comment:</strong> If ethernet enabled and selected as configuration for MAVLink instance 2, selected remote port will be set and used in MAVLink instance 2.</p>   <p><b>Reboot required:</b> True</p>
-</td>
- <td></td>
- <td>0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="MAV_2_UDP_PRT">MAV_2_UDP_PRT</strong> (INT32)</td>
- <td>MAVLink Network Port for instance 2 <p><strong>Comment:</strong> If ethernet enabled and selected as configuration for MAVLink instance 2, selected udp port will be set and used in MAVLink instance 2.</p>   <p><b>Reboot required:</b> True</p>
-</td>
- <td></td>
- <td>0</td>
- <td></td>
 </tr>
 <tr>
  <td><strong id="MAV_COMP_ID">MAV_COMP_ID</strong> (INT32)</td>
@@ -6136,6 +15758,24 @@ table {
 </tr>
 </tbody></table>
 
+## Manual Control
+
+<table>
+ <colgroup><col style="width: 23%"><col style="width: 46%"><col style="width: 11%"><col style="width: 11%"><col style="width: 9%"></colgroup>
+ <thead>
+   <tr><th>Name</th><th>Description</th><th>Min > Max (Incr.)</th><th>Default</th><th>Units</th></tr>
+ </thead>
+<tbody>
+<tr>
+ <td><strong id="MAN_ARM_GESTURE">MAN_ARM_GESTURE</strong> (INT32)</td>
+ <td>Enable arm/disarm stick gesture <p><strong>Comment:</strong> This determines if moving the left stick to the lower right arms and to the lower left disarms the vehicle.</p>   <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>Enabled (1)</td>
+ <td></td>
+</tr>
+</tbody></table>
+
 ## Mission
 
 <table>
@@ -6144,6 +15784,20 @@ table {
    <tr><th>Name</th><th>Description</th><th>Min > Max (Incr.)</th><th>Default</th><th>Units</th></tr>
  </thead>
 <tbody>
+<tr>
+ <td><strong id="FW_GPSF_LT">FW_GPSF_LT</strong> (INT32)</td>
+ <td>GPS failure loiter time <p><strong>Comment:</strong> The time in seconds the system should do open loop loiter and wait for GPS recovery before it starts descending. Set to 0 to disable. Roll angle is set to FW_GPSF_R. Does only apply for fixed-wing vehicles or VTOLs with NAV_FORCE_VT set to 0.</p>   </td>
+ <td>0 > 3600 </td>
+ <td>30</td>
+ <td>s</td>
+</tr>
+<tr>
+ <td><strong id="FW_GPSF_R">FW_GPSF_R</strong> (FLOAT)</td>
+ <td>GPS failure fixed roll angle <p><strong>Comment:</strong> Roll in degrees during the loiter after the vehicle has lost GPS in an auto mode (e.g. mission or loiter). Does only apply for fixed-wing vehicles or VTOLs with NAV_FORCE_VT set to 0.</p>   </td>
+ <td>0.0 > 30.0 (0.5)</td>
+ <td>15.0</td>
+ <td>deg</td>
+</tr>
 <tr>
  <td><strong id="MIS_DIST_1WP">MIS_DIST_1WP</strong> (FLOAT)</td>
  <td>Maximal horizontal distance from home to first waypoint <p><strong>Comment:</strong> Failsafe check to prevent running mission stored from previous flight at a new takeoff location. Set a value of zero or less to disable. The mission will not be started if the current waypoint is more distant than MIS_DIST_1WP from the home position.</p>   </td>
@@ -6511,14 +16165,14 @@ table {
  <td><strong id="MNT_RANGE_PITCH">MNT_RANGE_PITCH</strong> (FLOAT)</td>
  <td>Range of pitch channel output in degrees (only in AUX output mode)    </td>
  <td>1.0 > 720.0 </td>
- <td>360.0</td>
+ <td>90.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="MNT_RANGE_ROLL">MNT_RANGE_ROLL</strong> (FLOAT)</td>
  <td>Range of roll channel output in degrees (only in AUX output mode)    </td>
  <td>1.0 > 720.0 </td>
- <td>360.0</td>
+ <td>90.0</td>
  <td></td>
 </tr>
 <tr>
@@ -6540,6 +16194,18 @@ table {
  <td>Angular yaw rate for manual input in degrees/second <p><strong>Comment:</strong> Full stick input [-1..1] translats to [-yaw rate..yaw rate].</p>   </td>
  <td>1.0 > 90.0 </td>
  <td>30.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="MNT_RC_IN_MODE">MNT_RC_IN_MODE</strong> (INT32)</td>
+ <td>Input mode for RC gimbal input  <strong>Values:</strong><ul>
+<li><strong>0:</strong> Angle</li> 
+
+<li><strong>1:</strong> Angular rate</li> 
+</ul>
+  </td>
+ <td>0 > 1 </td>
+ <td>1</td>
  <td></td>
 </tr>
 </tbody></table>
@@ -6891,7 +16557,7 @@ table {
 </tr>
 <tr>
  <td><strong id="MPC_XY_CRUISE">MPC_XY_CRUISE</strong> (FLOAT)</td>
- <td>Maximum horizontal velocity in mission <p><strong>Comment:</strong> Horizontal velocity used when flying autonomously in e.g. Missions, RTL, Goto.</p>   </td>
+ <td>Default horizontal velocity in mission <p><strong>Comment:</strong> Horizontal velocity used when flying autonomously in e.g. Missions, RTL, Goto.</p>   </td>
  <td>3.0 > 20.0 (1)</td>
  <td>5.0</td>
  <td>m/s</td>
@@ -7279,128 +16945,16 @@ table {
 <tbody>
 <tr>
  <td><strong id="MOT_SLEW_MAX">MOT_SLEW_MAX</strong> (FLOAT)</td>
- <td>Minimum motor rise time (slew rate limit) <p><strong>Comment:</strong> Minimum time allowed for the motor input signal to pass through a range of 1000 PWM units. A value x means that the motor signal can only go from 1000 to 2000 PWM in maximum x seconds. Zero means that slew rate limiting is disabled.</p>   </td>
+ <td>Minimum motor rise time (slew rate limit) <p><strong>Comment:</strong> Minimum time allowed for the motor input signal to pass through a range of 1000 PWM units. A value x means that the motor signal can only go from 1000 to 2000 PWM in minimum x seconds. Zero means that slew rate limiting is disabled.</p>   </td>
  <td>0.0 > ? </td>
  <td>0.0</td>
  <td>s/(1000*PWM)</td>
-</tr>
-<tr>
- <td><strong id="PWM_AUX_DIS1">PWM_AUX_DIS1</strong> (INT32)</td>
- <td>PWM aux 1 disarmed value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if not armed. When set to -1 the value for PWM_AUX_DISARM will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_AUX_DIS2">PWM_AUX_DIS2</strong> (INT32)</td>
- <td>PWM aux 2 disarmed value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if not armed. When set to -1 the value for PWM_AUX_DISARM will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_AUX_DIS3">PWM_AUX_DIS3</strong> (INT32)</td>
- <td>PWM aux 3 disarmed value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if not armed. When set to -1 the value for PWM_AUX_DISARM will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_AUX_DIS4">PWM_AUX_DIS4</strong> (INT32)</td>
- <td>PWM aux 4 disarmed value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if not armed. When set to -1 the value for PWM_AUX_DISARM will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_AUX_DIS5">PWM_AUX_DIS5</strong> (INT32)</td>
- <td>PWM aux 5 disarmed value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if not armed. When set to -1 the value for PWM_AUX_DISARM will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_AUX_DIS6">PWM_AUX_DIS6</strong> (INT32)</td>
- <td>PWM aux 6 disarmed value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if not armed. When set to -1 the value for PWM_AUX_DISARM will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_AUX_DIS7">PWM_AUX_DIS7</strong> (INT32)</td>
- <td>PWM aux 7 disarmed value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if not armed. When set to -1 the value for PWM_AUX_DISARM will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_AUX_DIS8">PWM_AUX_DIS8</strong> (INT32)</td>
- <td>PWM aux 8 disarmed value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if not armed. When set to -1 the value for PWM_AUX_DISARM will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
 </tr>
 <tr>
  <td><strong id="PWM_AUX_DISARM">PWM_AUX_DISARM</strong> (INT32)</td>
  <td>PWM aux disarmed value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if not armed. The main use of this parameter is to silence ESCs when they are disarmed.</p>   </td>
  <td>0 > 2200 </td>
  <td>1500</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_AUX_FAIL1">PWM_AUX_FAIL1</strong> (INT32)</td>
- <td>PWM aux 1 failsafe value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if in failsafe mode. When set to -1 the value is set automatically depending if the actuator is a motor (900us) or a servo (1500us)</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_AUX_FAIL2">PWM_AUX_FAIL2</strong> (INT32)</td>
- <td>PWM aux 2 failsafe value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if in failsafe mode. When set to -1 the value is set automatically depending if the actuator is a motor (900us) or a servo (1500us)</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_AUX_FAIL3">PWM_AUX_FAIL3</strong> (INT32)</td>
- <td>PWM aux 3 failsafe value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if in failsafe mode. When set to -1 the value is set automatically depending if the actuator is a motor (900us) or a servo (1500us)</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_AUX_FAIL4">PWM_AUX_FAIL4</strong> (INT32)</td>
- <td>PWM aux 4 failsafe value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if in failsafe mode. When set to -1 the value is set automatically depending if the actuator is a motor (900us) or a servo (1500us)</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_AUX_FAIL5">PWM_AUX_FAIL5</strong> (INT32)</td>
- <td>PWM aux 5 failsafe value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if in failsafe mode. When set to -1 the value is set automatically depending if the actuator is a motor (900us) or a servo (1500us)</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_AUX_FAIL6">PWM_AUX_FAIL6</strong> (INT32)</td>
- <td>PWM aux 6 failsafe value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if in failsafe mode. When set to -1 the value is set automatically depending if the actuator is a motor (900us) or a servo (1500us)</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_AUX_FAIL7">PWM_AUX_FAIL7</strong> (INT32)</td>
- <td>PWM aux 7 failsafe value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if in failsafe mode. When set to -1 the value is set automatically depending if the actuator is a motor (900us) or a servo (1500us)</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_AUX_FAIL8">PWM_AUX_FAIL8</strong> (INT32)</td>
- <td>PWM aux 8 failsafe value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if in failsafe mode. When set to -1 the value is set automatically depending if the actuator is a motor (900us) or a servo (1500us)</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
  <td>us</td>
 </tr>
 <tr>
@@ -7411,122 +16965,10 @@ table {
  <td>us</td>
 </tr>
 <tr>
- <td><strong id="PWM_AUX_MAX1">PWM_AUX_MAX1</strong> (INT32)</td>
- <td>PWM aux 1 maximum value <p><strong>Comment:</strong> This is the maximum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_AUX_MAX will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_AUX_MAX2">PWM_AUX_MAX2</strong> (INT32)</td>
- <td>PWM aux 2 maximum value <p><strong>Comment:</strong> This is the maximum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_AUX_MAX will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_AUX_MAX3">PWM_AUX_MAX3</strong> (INT32)</td>
- <td>PWM aux 3 maximum value <p><strong>Comment:</strong> This is the maximum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_AUX_MAX will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_AUX_MAX4">PWM_AUX_MAX4</strong> (INT32)</td>
- <td>PWM aux 4 maximum value <p><strong>Comment:</strong> This is the maximum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_AUX_MAX will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_AUX_MAX5">PWM_AUX_MAX5</strong> (INT32)</td>
- <td>PWM aux 5 maximum value <p><strong>Comment:</strong> This is the maximum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_AUX_MAX will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_AUX_MAX6">PWM_AUX_MAX6</strong> (INT32)</td>
- <td>PWM aux 6 maximum value <p><strong>Comment:</strong> This is the maximum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_AUX_MAX will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_AUX_MAX7">PWM_AUX_MAX7</strong> (INT32)</td>
- <td>PWM aux 7 maximum value <p><strong>Comment:</strong> This is the maximum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_AUX_MAX will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_AUX_MAX8">PWM_AUX_MAX8</strong> (INT32)</td>
- <td>PWM aux 8 maximum value <p><strong>Comment:</strong> This is the maximum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_AUX_MAX will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
  <td><strong id="PWM_AUX_MIN">PWM_AUX_MIN</strong> (INT32)</td>
  <td>PWM aux minimum value <p><strong>Comment:</strong> Set to 1000 for industry default or 900 to increase servo travel.</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_AUX_MIN1">PWM_AUX_MIN1</strong> (INT32)</td>
- <td>PWM aux 1 minimum value <p><strong>Comment:</strong> This is the minimum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_AUX_MIN will be used</p>   </td>
- <td>-1 > 1600 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_AUX_MIN2">PWM_AUX_MIN2</strong> (INT32)</td>
- <td>PWM aux 2 minimum value <p><strong>Comment:</strong> This is the minimum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_AUX_MIN will be used</p>   </td>
- <td>-1 > 1600 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_AUX_MIN3">PWM_AUX_MIN3</strong> (INT32)</td>
- <td>PWM aux 3 minimum value <p><strong>Comment:</strong> This is the minimum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_AUX_MIN will be used</p>   </td>
- <td>-1 > 1600 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_AUX_MIN4">PWM_AUX_MIN4</strong> (INT32)</td>
- <td>PWM aux 4 minimum value <p><strong>Comment:</strong> This is the minimum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_AUX_MIN will be used</p>   </td>
- <td>-1 > 1600 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_AUX_MIN5">PWM_AUX_MIN5</strong> (INT32)</td>
- <td>PWM aux 5 minimum value <p><strong>Comment:</strong> This is the minimum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_AUX_MIN will be used</p>   </td>
- <td>-1 > 1600 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_AUX_MIN6">PWM_AUX_MIN6</strong> (INT32)</td>
- <td>PWM aux 6 minimum value <p><strong>Comment:</strong> This is the minimum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_AUX_MIN will be used</p>   </td>
- <td>-1 > 1600 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_AUX_MIN7">PWM_AUX_MIN7</strong> (INT32)</td>
- <td>PWM aux 7 minimum value <p><strong>Comment:</strong> This is the minimum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_AUX_MIN will be used</p>   </td>
- <td>-1 > 1600 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_AUX_MIN8">PWM_AUX_MIN8</strong> (INT32)</td>
- <td>PWM aux 8 minimum value <p><strong>Comment:</strong> This is the minimum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_AUX_MIN will be used</p>   </td>
- <td>-1 > 1600 </td>
- <td>-1</td>
  <td>us</td>
 </tr>
 <tr>
@@ -8034,206 +17476,10 @@ table {
  <td></td>
 </tr>
 <tr>
- <td><strong id="PWM_MAIN_DIS1">PWM_MAIN_DIS1</strong> (INT32)</td>
- <td>PWM main 1 disarmed value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if not armed. When set to -1 the value for PWM_MAIN_DISARM will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_DIS10">PWM_MAIN_DIS10</strong> (INT32)</td>
- <td>PWM main 10 disarmed value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if not armed. When set to -1 the value for PWM_MAIN_DISARM will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_DIS11">PWM_MAIN_DIS11</strong> (INT32)</td>
- <td>PWM main 11 disarmed value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if not armed. When set to -1 the value for PWM_MAIN_DISARM will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_DIS12">PWM_MAIN_DIS12</strong> (INT32)</td>
- <td>PWM main 12 disarmed value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if not armed. When set to -1 the value for PWM_MAIN_DISARM will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_DIS13">PWM_MAIN_DIS13</strong> (INT32)</td>
- <td>PWM main 13 disarmed value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if not armed. When set to -1 the value for PWM_MAIN_DISARM will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_DIS14">PWM_MAIN_DIS14</strong> (INT32)</td>
- <td>PWM main 14 disarmed value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if not armed. When set to -1 the value for PWM_MAIN_DISARM will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_DIS2">PWM_MAIN_DIS2</strong> (INT32)</td>
- <td>PWM main 2 disarmed value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if not armed. When set to -1 the value for PWM_MAIN_DISARM will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_DIS3">PWM_MAIN_DIS3</strong> (INT32)</td>
- <td>PWM main 3 disarmed value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if not armed. When set to -1 the value for PWM_MAIN_DISARM will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_DIS4">PWM_MAIN_DIS4</strong> (INT32)</td>
- <td>PWM main 4 disarmed value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if not armed. When set to -1 the value for PWM_MAIN_DISARM will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_DIS5">PWM_MAIN_DIS5</strong> (INT32)</td>
- <td>PWM main 5 disarmed value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if not armed. When set to -1 the value for PWM_MAIN_DISARM will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_DIS6">PWM_MAIN_DIS6</strong> (INT32)</td>
- <td>PWM main 6 disarmed value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if not armed. When set to -1 the value for PWM_MAIN_DISARM will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_DIS7">PWM_MAIN_DIS7</strong> (INT32)</td>
- <td>PWM main 7 disarmed value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if not armed. When set to -1 the value for PWM_MAIN_DISARM will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_DIS8">PWM_MAIN_DIS8</strong> (INT32)</td>
- <td>PWM main 8 disarmed value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if not armed. When set to -1 the value for PWM_MAIN_DISARM will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_DIS9">PWM_MAIN_DIS9</strong> (INT32)</td>
- <td>PWM main 9 disarmed value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if not armed. When set to -1 the value for PWM_MAIN_DISARM will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
  <td><strong id="PWM_MAIN_DISARM">PWM_MAIN_DISARM</strong> (INT32)</td>
  <td>PWM main disarmed value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if not armed. The main use of this parameter is to silence ESCs when they are disarmed.</p>   </td>
  <td>0 > 2200 </td>
  <td>900</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_FAIL1">PWM_MAIN_FAIL1</strong> (INT32)</td>
- <td>PWM main 1 failsafe value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if in failsafe mode. When set to -1 the value is set automatically depending if the actuator is a motor (900us) or a servo (1500us)</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_FAIL10">PWM_MAIN_FAIL10</strong> (INT32)</td>
- <td>PWM main 10 failsafe value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if in failsafe mode. When set to -1 the value is set automatically depending if the actuator is a motor (900us) or a servo (1500us)</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_FAIL11">PWM_MAIN_FAIL11</strong> (INT32)</td>
- <td>PWM main 11 failsafe value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if in failsafe mode. When set to -1 the value is set automatically depending if the actuator is a motor (900us) or a servo (1500us)</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_FAIL12">PWM_MAIN_FAIL12</strong> (INT32)</td>
- <td>PWM main 12 failsafe value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if in failsafe mode. When set to -1 the value is set automatically depending if the actuator is a motor (900us) or a servo (1500us)</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_FAIL13">PWM_MAIN_FAIL13</strong> (INT32)</td>
- <td>PWM main 13 failsafe value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if in failsafe mode. When set to -1 the value is set automatically depending if the actuator is a motor (900us) or a servo (1500us)</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_FAIL14">PWM_MAIN_FAIL14</strong> (INT32)</td>
- <td>PWM main 14 failsafe value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if in failsafe mode. When set to -1 the value is set automatically depending if the actuator is a motor (900us) or a servo (1500us)</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_FAIL2">PWM_MAIN_FAIL2</strong> (INT32)</td>
- <td>PWM main 2 failsafe value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if in failsafe mode. When set to -1 the value is set automatically depending if the actuator is a motor (900us) or a servo (1500us)</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_FAIL3">PWM_MAIN_FAIL3</strong> (INT32)</td>
- <td>PWM main 3 failsafe value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if in failsafe mode. When set to -1 the value is set automatically depending if the actuator is a motor (900us) or a servo (1500us)</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_FAIL4">PWM_MAIN_FAIL4</strong> (INT32)</td>
- <td>PWM main 4 failsafe value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if in failsafe mode. When set to -1 the value is set automatically depending if the actuator is a motor (900us) or a servo (1500us)</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_FAIL5">PWM_MAIN_FAIL5</strong> (INT32)</td>
- <td>PWM main 5 failsafe value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if in failsafe mode. When set to -1 the value is set automatically depending if the actuator is a motor (900us) or a servo (1500us)</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_FAIL6">PWM_MAIN_FAIL6</strong> (INT32)</td>
- <td>PWM main 6 failsafe value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if in failsafe mode. When set to -1 the value is set automatically depending if the actuator is a motor (900us) or a servo (1500us)</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_FAIL7">PWM_MAIN_FAIL7</strong> (INT32)</td>
- <td>PWM main 7 failsafe value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if in failsafe mode. When set to -1 the value is set automatically depending if the actuator is a motor (900us) or a servo (1500us)</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_FAIL8">PWM_MAIN_FAIL8</strong> (INT32)</td>
- <td>PWM main 8 failsafe value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if in failsafe mode. When set to -1 the value is set automatically depending if the actuator is a motor (900us) or a servo (1500us)</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_FAIL9">PWM_MAIN_FAIL9</strong> (INT32)</td>
- <td>PWM main 9 failsafe value <p><strong>Comment:</strong> This is the PWM pulse the autopilot is outputting if in failsafe mode. When set to -1 the value is set automatically depending if the actuator is a motor (900us) or a servo (1500us)</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
  <td>us</td>
 </tr>
 <tr>
@@ -8244,206 +17490,10 @@ table {
  <td>us</td>
 </tr>
 <tr>
- <td><strong id="PWM_MAIN_MAX1">PWM_MAIN_MAX1</strong> (INT32)</td>
- <td>PWM main 1 maximum value <p><strong>Comment:</strong> This is the maximum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_MAIN_MAX will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_MAX10">PWM_MAIN_MAX10</strong> (INT32)</td>
- <td>PWM main 10 maximum value <p><strong>Comment:</strong> This is the maximum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_MAIN_MAX will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_MAX11">PWM_MAIN_MAX11</strong> (INT32)</td>
- <td>PWM main 11 maximum value <p><strong>Comment:</strong> This is the maximum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_MAIN_MAX will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_MAX12">PWM_MAIN_MAX12</strong> (INT32)</td>
- <td>PWM main 12 maximum value <p><strong>Comment:</strong> This is the maximum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_MAIN_MAX will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_MAX13">PWM_MAIN_MAX13</strong> (INT32)</td>
- <td>PWM main 13 maximum value <p><strong>Comment:</strong> This is the maximum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_MAIN_MAX will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_MAX14">PWM_MAIN_MAX14</strong> (INT32)</td>
- <td>PWM main 14 maximum value <p><strong>Comment:</strong> This is the maximum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_MAIN_MAX will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_MAX2">PWM_MAIN_MAX2</strong> (INT32)</td>
- <td>PWM main 2 maximum value <p><strong>Comment:</strong> This is the maximum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_MAIN_MAX will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_MAX3">PWM_MAIN_MAX3</strong> (INT32)</td>
- <td>PWM main 3 maximum value <p><strong>Comment:</strong> This is the maximum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_MAIN_MAX will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_MAX4">PWM_MAIN_MAX4</strong> (INT32)</td>
- <td>PWM main 4 maximum value <p><strong>Comment:</strong> This is the maximum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_MAIN_MAX will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_MAX5">PWM_MAIN_MAX5</strong> (INT32)</td>
- <td>PWM main 5 maximum value <p><strong>Comment:</strong> This is the maximum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_MAIN_MAX will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_MAX6">PWM_MAIN_MAX6</strong> (INT32)</td>
- <td>PWM main 6 maximum value <p><strong>Comment:</strong> This is the maximum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_MAIN_MAX will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_MAX7">PWM_MAIN_MAX7</strong> (INT32)</td>
- <td>PWM main 7 maximum value <p><strong>Comment:</strong> This is the maximum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_MAIN_MAX will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_MAX8">PWM_MAIN_MAX8</strong> (INT32)</td>
- <td>PWM main 8 maximum value <p><strong>Comment:</strong> This is the maximum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_MAIN_MAX will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_MAX9">PWM_MAIN_MAX9</strong> (INT32)</td>
- <td>PWM main 9 maximum value <p><strong>Comment:</strong> This is the maximum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_MAIN_MAX will be used</p>   </td>
- <td>-1 > 2150 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
  <td><strong id="PWM_MAIN_MIN">PWM_MAIN_MIN</strong> (INT32)</td>
  <td>PWM main minimum value <p><strong>Comment:</strong> Set to 1000 for industry default or 900 to increase servo travel.</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_MIN1">PWM_MAIN_MIN1</strong> (INT32)</td>
- <td>PWM main 1 minimum value <p><strong>Comment:</strong> This is the minimum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_MAIN_MIN will be used</p>   </td>
- <td>-1 > 1600 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_MIN10">PWM_MAIN_MIN10</strong> (INT32)</td>
- <td>PWM main 10 minimum value <p><strong>Comment:</strong> This is the minimum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_MAIN_MIN will be used</p>   </td>
- <td>-1 > 1600 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_MIN11">PWM_MAIN_MIN11</strong> (INT32)</td>
- <td>PWM main 11 minimum value <p><strong>Comment:</strong> This is the minimum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_MAIN_MIN will be used</p>   </td>
- <td>-1 > 1600 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_MIN12">PWM_MAIN_MIN12</strong> (INT32)</td>
- <td>PWM main 12 minimum value <p><strong>Comment:</strong> This is the minimum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_MAIN_MIN will be used</p>   </td>
- <td>-1 > 1600 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_MIN13">PWM_MAIN_MIN13</strong> (INT32)</td>
- <td>PWM main 13 minimum value <p><strong>Comment:</strong> This is the minimum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_MAIN_MIN will be used</p>   </td>
- <td>-1 > 1600 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_MIN14">PWM_MAIN_MIN14</strong> (INT32)</td>
- <td>PWM main 14 minimum value <p><strong>Comment:</strong> This is the minimum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_MAIN_MIN will be used</p>   </td>
- <td>-1 > 1600 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_MIN2">PWM_MAIN_MIN2</strong> (INT32)</td>
- <td>PWM main 2 minimum value <p><strong>Comment:</strong> This is the minimum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_MAIN_MIN will be used</p>   </td>
- <td>-1 > 1600 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_MIN3">PWM_MAIN_MIN3</strong> (INT32)</td>
- <td>PWM main 3 minimum value <p><strong>Comment:</strong> This is the minimum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_MAIN_MIN will be used</p>   </td>
- <td>-1 > 1600 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_MIN4">PWM_MAIN_MIN4</strong> (INT32)</td>
- <td>PWM main 4 minimum value <p><strong>Comment:</strong> This is the minimum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_MAIN_MIN will be used</p>   </td>
- <td>-1 > 1600 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_MIN5">PWM_MAIN_MIN5</strong> (INT32)</td>
- <td>PWM main 5 minimum value <p><strong>Comment:</strong> This is the minimum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_MAIN_MIN will be used</p>   </td>
- <td>-1 > 1600 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_MIN6">PWM_MAIN_MIN6</strong> (INT32)</td>
- <td>PWM main 6 minimum value <p><strong>Comment:</strong> This is the minimum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_MAIN_MIN will be used</p>   </td>
- <td>-1 > 1600 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_MIN7">PWM_MAIN_MIN7</strong> (INT32)</td>
- <td>PWM main 7 minimum value <p><strong>Comment:</strong> This is the minimum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_MAIN_MIN will be used</p>   </td>
- <td>-1 > 1600 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_MIN8">PWM_MAIN_MIN8</strong> (INT32)</td>
- <td>PWM main 8 minimum value <p><strong>Comment:</strong> This is the minimum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_MAIN_MIN will be used</p>   </td>
- <td>-1 > 1600 </td>
- <td>-1</td>
- <td>us</td>
-</tr>
-<tr>
- <td><strong id="PWM_MAIN_MIN9">PWM_MAIN_MIN9</strong> (INT32)</td>
- <td>PWM main 9 minimum value <p><strong>Comment:</strong> This is the minimum PWM pulse the autopilot is allowed to output. When set to -1 the value for PWM_MAIN_MIN will be used</p>   </td>
- <td>-1 > 1600 </td>
- <td>-1</td>
  <td>us</td>
 </tr>
 <tr>
@@ -8673,7 +17723,7 @@ table {
 <tr>
  <td><strong id="THR_MDL_FAC">THR_MDL_FAC</strong> (FLOAT)</td>
  <td>Thrust to motor control signal model parameter <p><strong>Comment:</strong> Parameter used to model the nonlinear relationship between motor control signal (e.g. PWM) and static thrust. The model is: rel_thrust = factor * rel_signal^2 + (1-factor) * rel_signal, where rel_thrust is the normalized thrust between 0 and 1, and rel_signal is the relative motor control signal between 0 and 1.</p>   </td>
- <td>0.0 > 1.0 </td>
+ <td>0.0 > 1.0 (0.1)</td>
  <td>0.0</td>
  <td></td>
 </tr>
@@ -11087,6 +20137,20 @@ table {
  <td>m</td>
 </tr>
 <tr>
+ <td><strong id="RTL_HDG_MD">RTL_HDG_MD</strong> (INT32)</td>
+ <td>RTL heading mode <p><strong>Comment:</strong> Defines the heading behavior during RTL</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Towards next waypoint.</li> 
+
+<li><strong>1:</strong> Heading matches destination.</li> 
+
+<li><strong>2:</strong> Use current heading.</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
  <td><strong id="RTL_LAND_DELAY">RTL_LAND_DELAY</strong> (FLOAT)</td>
  <td>Return mode delay <p><strong>Comment:</strong> Delay before landing (after initial descent) in Return mode. If set to -1 the system will not land but loiter at RTL_DESCEND_ALT.</p>   </td>
  <td>-1 > 300 (0.5)</td>
@@ -11108,6 +20172,20 @@ table {
  <td>m</td>
 </tr>
 <tr>
+ <td><strong id="RTL_PLD_MD">RTL_PLD_MD</strong> (INT32)</td>
+ <td>RTL precision land mode <p><strong>Comment:</strong> Use precision landing when doing an RTL landing phase.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> No precision landing</li> 
+
+<li><strong>1:</strong> Opportunistic precision landing</li> 
+
+<li><strong>2:</strong> Required precision landing</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
  <td><strong id="RTL_RETURN_ALT">RTL_RETURN_ALT</strong> (FLOAT)</td>
  <td>Return mode return altitude <p><strong>Comment:</strong> Default minimum altitude above destination (e.g. home, safe point, landing pattern) for return flight. This is affected by RTL_MIN_DIST and RTL_CONE_ANG.</p>   </td>
  <td>0 > 150 (0.5)</td>
@@ -11119,7 +20197,7 @@ table {
  <td>Return type <p><strong>Comment:</strong> Return mode destination and flight path (home location, rally point, mission landing pattern, reverse mission)</p> <strong>Values:</strong><ul>
 <li><strong>0:</strong> Return to closest safe point (home or rally point) via direct path.</li> 
 
-<li><strong>1:</strong> Return to closest safe point other than home (mission landing pattern or rally point), via direct path. If no mission landing or rally points are defined return home via direct path.</li> 
+<li><strong>1:</strong> Return to closest safe point other than home (mission landing pattern or rally point), via direct path. If no mission landing or rally points are defined return home via direct path. Always chose closest safe landing point if vehicle is a VTOL in hover mode.</li> 
 
 <li><strong>2:</strong> Return to a planned mission landing, if available, using the mission path, else return to home via the reverse mission path. Do not consider rally points.</li> 
 
@@ -11141,18 +20219,18 @@ table {
  </thead>
 <tbody>
 <tr>
- <td><strong id="RTL_PLD_MD">RTL_PLD_MD</strong> (INT32)</td>
- <td>RTL precision land mode <p><strong>Comment:</strong> Use precision landing when doing an RTL landing phase.</p> <strong>Values:</strong><ul>
-<li><strong>0:</strong> No precision landing</li> 
-
-<li><strong>1:</strong> Opportunistic precision landing</li> 
-
-<li><strong>2:</strong> Required precision landing</li> 
-</ul>
-  </td>
+ <td><strong id="RTL_TIME_FACTOR">RTL_TIME_FACTOR</strong> (FLOAT)</td>
+ <td>RTL time estimate safety margin factor <p><strong>Comment:</strong> Safety factor that is used to scale the actual RTL time estiamte. Time with margin = RTL_TIME_FACTOR * time + RTL_TIME_MARGIN</p>   </td>
+ <td>1.0 > 2.0 (0.1)</td>
+ <td>1.1</td>
  <td></td>
- <td>0</td>
- <td></td>
+</tr>
+<tr>
+ <td><strong id="RTL_TIME_MARGIN">RTL_TIME_MARGIN</strong> (INT32)</td>
+ <td>RTL time estimate safety margin offset <p><strong>Comment:</strong> Margin that is added to the time estimate, after it has already been scaled Time with margin = RTL_TIME_FACTOR * time + RTL_TIME_MARGIN</p>   </td>
+ <td>0 > 3600 (1)</td>
+ <td>100</td>
+ <td>s</td>
 </tr>
 </tbody></table>
 
@@ -13968,7 +23046,14 @@ table {
  <td>Hz</td>
 </tr>
 <tr>
- <td><strong id="IMU_GYRO_DYN_NF">IMU_GYRO_DYN_NF</strong> (INT32)</td>
+ <td><strong id="IMU_GYRO_DNF_BW">IMU_GYRO_DNF_BW</strong> (FLOAT)</td>
+ <td>IMU gyro ESC notch filter bandwidth <p><strong>Comment:</strong> Bandwidth per notch filter when using dynamic notch filtering with ESC RPM.</p>   </td>
+ <td>5 > 30 </td>
+ <td>15.</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="IMU_GYRO_DNF_EN">IMU_GYRO_DNF_EN</strong> (INT32)</td>
  <td>IMU gyro dynamic notch filtering <p><strong>Comment:</strong> Enable bank of dynamically updating notch filters. Requires ESC RPM feedback or onboard FFT (IMU_GYRO_FFT_EN).</p>  <strong>Bitmask:</strong><ul>  <li><strong>0:</strong> ESC RPM</li> 
   <li><strong>1:</strong> FFT</li> 
 </ul>
@@ -14007,7 +23092,7 @@ table {
  <td>IMU gyro FFT maximum frequency    <p><b>Reboot required:</b> true</p>
 </td>
  <td>1 > 1000 </td>
- <td>192.</td>
+ <td>150.</td>
  <td>Hz</td>
 </tr>
 <tr>
@@ -14015,8 +23100,15 @@ table {
  <td>IMU gyro FFT minimum frequency    <p><b>Reboot required:</b> true</p>
 </td>
  <td>1 > 1000 </td>
- <td>32.</td>
+ <td>30.</td>
  <td>Hz</td>
+</tr>
+<tr>
+ <td><strong id="IMU_GYRO_FFT_SNR">IMU_GYRO_FFT_SNR</strong> (FLOAT)</td>
+ <td>IMU gyro FFT SNR    </td>
+ <td>1 > 30 </td>
+ <td>10.</td>
+ <td></td>
 </tr>
 <tr>
  <td><strong id="IMU_GYRO_NF_BW">IMU_GYRO_NF_BW</strong> (FLOAT)</td>
@@ -14504,6 +23596,12 @@ table {
 <li><strong>4:</strong> SF10/c</li> 
 
 <li><strong>5:</strong> SF11/c</li> 
+
+<li><strong>6:</strong> SF30/b</li> 
+
+<li><strong>7:</strong> SF30/c</li> 
+
+<li><strong>8:</strong> LW20/c</li> 
 </ul>
   <p><b>Reboot required:</b> true</p>
 </td>
@@ -14722,6 +23820,13 @@ table {
 </td>
  <td></td>
  <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="SENS_MAG_AUTOCAL">SENS_MAG_AUTOCAL</strong> (INT32)</td>
+ <td>Magnetometer auto calibration <p><strong>Comment:</strong> Automatically initialize magnetometer calibration from bias estimate if available.</p>   </td>
+ <td></td>
+ <td>Disabled (0)</td>
  <td></td>
 </tr>
 <tr>
@@ -16448,6 +25553,58 @@ table {
 </tr>
 </tbody></table>
 
+## Simulator
+
+<table>
+ <colgroup><col style="width: 23%"><col style="width: 46%"><col style="width: 11%"><col style="width: 11%"><col style="width: 9%"></colgroup>
+ <thead>
+   <tr><th>Name</th><th>Description</th><th>Min > Max (Incr.)</th><th>Default</th><th>Units</th></tr>
+ </thead>
+<tbody>
+<tr>
+ <td><strong id="SIM_BARO_OFF_P">SIM_BARO_OFF_P</strong> (FLOAT)</td>
+ <td>simulated barometer pressure offset    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="SIM_BARO_OFF_T">SIM_BARO_OFF_T</strong> (FLOAT)</td>
+ <td>simulated barometer temperature offset    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="SIM_GPS_USED">SIM_GPS_USED</strong> (INT32)</td>
+ <td>simulated GPS number of satellites used    </td>
+ <td>0 > 50 </td>
+ <td>10</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="SIM_MAG_OFFSET_X">SIM_MAG_OFFSET_X</strong> (FLOAT)</td>
+ <td>simulated magnetometer X offset    </td>
+ <td></td>
+ <td>0.0</td>
+ <td>gauss</td>
+</tr>
+<tr>
+ <td><strong id="SIM_MAG_OFFSET_Y">SIM_MAG_OFFSET_Y</strong> (FLOAT)</td>
+ <td>simulated magnetometer Y offset    </td>
+ <td></td>
+ <td>0.0</td>
+ <td>gauss</td>
+</tr>
+<tr>
+ <td><strong id="SIM_MAG_OFFSET_Z">SIM_MAG_OFFSET_Z</strong> (FLOAT)</td>
+ <td>simulated magnetometer Z offset    </td>
+ <td></td>
+ <td>0.0</td>
+ <td>gauss</td>
+</tr>
+</tbody></table>
+
 ## System
 
 <table>
@@ -16525,6 +25682,29 @@ table {
  <td></td>
  <td>5</td>
  <td>celcius</td>
+</tr>
+<tr>
+ <td><strong id="SYS_CTRL_ALLOC">SYS_CTRL_ALLOC</strong> (INT32)</td>
+ <td>Enable Dynamic Control Allocation <p><strong>Comment:</strong> If disabled, the existing mixing implementation is used. If enabled, dynamic control allocation with runtime configuration of the mixing and output functions is used. Note: this is work-in-progress and not all vehicle types are supported yet.</p>   <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>Disabled (0)</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="SYS_DM_BACKEND">SYS_DM_BACKEND</strong> (INT32)</td>
+ <td>Dataman storage backend  <strong>Values:</strong><ul>
+<li><strong>-1:</strong> Disabled</li> 
+
+<li><strong>0:</strong> default (SD card)</li> 
+
+<li><strong>1:</strong> RAM (not persistent)</li> 
+</ul>
+  <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>Disabled (0)</td>
+ <td></td>
 </tr>
 <tr>
  <td><strong id="SYS_FAC_CAL_MODE">SYS_FAC_CAL_MODE</strong> (INT32)</td>
@@ -18071,6 +27251,31 @@ table {
  <td></td>
 </tr>
 <tr>
+ <td><strong id="CANNODE_FLOW_ROT">CANNODE_FLOW_ROT</strong> (INT32)</td>
+ <td>Cannode flow board rotation <p><strong>Comment:</strong> This parameter defines the yaw rotation of the Cannode flow board relative to the vehicle body frame. Zero rotation is defined as X on flow board pointing towards front of vehicle.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> No rotation</li> 
+
+<li><strong>1:</strong> Yaw 45°</li> 
+
+<li><strong>2:</strong> Yaw 90°</li> 
+
+<li><strong>3:</strong> Yaw 135°</li> 
+
+<li><strong>4:</strong> Yaw 180°</li> 
+
+<li><strong>5:</strong> Yaw 225°</li> 
+
+<li><strong>6:</strong> Yaw 270°</li> 
+
+<li><strong>7:</strong> Yaw 315°</li> 
+</ul>
+  <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
  <td><strong id="CANNODE_NODE_ID">CANNODE_NODE_ID</strong> (INT32)</td>
  <td>UAVCAN Node ID <p><strong>Comment:</strong> Read the specs at http://uavcan.org to learn more about Node ID.</p>   </td>
  <td>1 > 125 </td>
@@ -18078,16 +27283,10 @@ table {
  <td></td>
 </tr>
 <tr>
- <td><strong id="UAVCAN_BAT_MON">UAVCAN_BAT_MON</strong> (INT32)</td>
- <td>UAVCAN BATTERY_MONITOR battery monitor selection <p><strong>Comment:</strong> This parameter defines that the system will select the battery monitor under the following conditions 0 - default battery monitor 1 - CUAV battery monitor</p> <strong>Values:</strong><ul>
-<li><strong>0:</strong> default battery monitor</li> 
-
-<li><strong>1:</strong> CUAV battery monitor</li> 
-</ul>
-  <p><b>Reboot required:</b> true</p>
-</td>
- <td>0 > 1 </td>
- <td>0</td>
+ <td><strong id="CANNODE_TERM">CANNODE_TERM</strong> (INT32)</td>
+ <td>CAN built-in bus termination    </td>
+ <td>? > 1 </td>
+ <td>Disabled (0)</td>
  <td></td>
 </tr>
 <tr>
@@ -18213,6 +27412,101 @@ table {
  <td>0.3</td>
  <td>m</td>
 </tr>
+<tr>
+ <td><strong id="UAVCAN_SUB_ASPD">UAVCAN_SUB_ASPD</strong> (INT32)</td>
+ <td>subscription airspeed <p><strong>Comment:</strong> Enable UAVCAN airspeed subscriptions. uavcan::equipment::air_data::IndicatedAirspeed uavcan::equipment::air_data::TrueAirspeed uavcan::equipment::air_data::StaticTemperature</p>   <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>Disabled (0)</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SUB_BARO">UAVCAN_SUB_BARO</strong> (INT32)</td>
+ <td>subscription barometer <p><strong>Comment:</strong> Enable UAVCAN barometer subscription. uavcan::equipment::air_data::StaticPressure uavcan::equipment::air_data::StaticTemperature</p>   <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>Disabled (0)</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SUB_BAT">UAVCAN_SUB_BAT</strong> (INT32)</td>
+ <td>subscription battery <p><strong>Comment:</strong> Enable UAVCAN battery subscription. 1) uavcan::equipment::power::BatteryInfo 2) cuav::equipment::power::CBAT</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> disabled</li> 
+
+<li><strong>1:</strong> default</li> 
+
+<li><strong>2:</strong> CUAV battery monitor</li> 
+</ul>
+  <p><b>Reboot required:</b> true</p>
+</td>
+ <td>0 > 2 </td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SUB_DPRES">UAVCAN_SUB_DPRES</strong> (INT32)</td>
+ <td>subscription differential pressure <p><strong>Comment:</strong> Enable UAVCAN differential pressure subscription. uavcan::equipment::air_data::RawAirData</p>   <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>Disabled (0)</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SUB_FLOW">UAVCAN_SUB_FLOW</strong> (INT32)</td>
+ <td>subscription flow <p><strong>Comment:</strong> Enable UAVCAN optical flow subscription.</p>   <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>Disabled (0)</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SUB_GPS">UAVCAN_SUB_GPS</strong> (INT32)</td>
+ <td>subscription GPS <p><strong>Comment:</strong> Enable UAVCAN GPS subscriptions. uavcan::equipment::gnss::Fix uavcan::equipment::gnss::Fix2 uavcan::equipment::gnss::Auxiliary</p>   <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>Enabled (1)</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SUB_HYGRO">UAVCAN_SUB_HYGRO</strong> (INT32)</td>
+ <td>subscription hygrometer <p><strong>Comment:</strong> Enable UAVCAN hygrometer subscriptions. dronecan::sensors::hygrometer::Hygrometer</p>   <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>Disabled (0)</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SUB_ICE">UAVCAN_SUB_ICE</strong> (INT32)</td>
+ <td>subscription ICE <p><strong>Comment:</strong> Enable UAVCAN internal combusion engine (ICE) subscription. uavcan::equipment::ice::reciprocating::Status</p>   <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>Disabled (0)</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SUB_IMU">UAVCAN_SUB_IMU</strong> (INT32)</td>
+ <td>subscription IMU <p><strong>Comment:</strong> Enable UAVCAN IMU subscription. uavcan::equipment::ahrs::RawIMU</p>   <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>Disabled (0)</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SUB_MAG">UAVCAN_SUB_MAG</strong> (INT32)</td>
+ <td>subscription magnetometer <p><strong>Comment:</strong> Enable UAVCAN GPS subscription. uavcan::equipment::ahrs::MagneticFieldStrength uavcan::equipment::ahrs::MagneticFieldStrength2</p>   <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>Enabled (1)</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SUB_RNG">UAVCAN_SUB_RNG</strong> (INT32)</td>
+ <td>subscription range finder <p><strong>Comment:</strong> Enable UAVCAN GPS subscription. uavcan::equipment::range_sensor::Measurement</p>   <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>Disabled (0)</td>
+ <td></td>
+</tr>
 </tbody></table>
 
 ## UAVCAN v1
@@ -18323,6 +27617,13 @@ table {
  <td>-1</td>
  <td></td>
 </tr>
+<tr>
+ <td><strong id="UCAN1_UORB_GPS_P">UCAN1_UORB_GPS_P</strong> (INT32)</td>
+ <td>sensor_gps uORB over UAVCAN v1 publication port ID    </td>
+ <td>-1 > 6143 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
 </tbody></table>
 
 ## UAVCANv1
@@ -18337,7 +27638,7 @@ table {
  <td><strong id="UAVCAN_V1_ID">UAVCAN_V1_ID</strong> (INT32)</td>
  <td>UAVCAN v1 Node ID <p><strong>Comment:</strong> Read the specs at http://uavcan.org to learn more about Node ID.</p>   <p><b>Reboot required:</b> true</p>
 </td>
- <td>1 > 125 </td>
+ <td>-1 > 125 </td>
  <td>1</td>
  <td></td>
 </tr>
@@ -18524,8 +27825,8 @@ table {
 <tr>
  <td><strong id="VT_B_DEC_FF">VT_B_DEC_FF</strong> (FLOAT)</td>
  <td>Backtransition deceleration setpoint to pitch feedforward gain    </td>
- <td>0 > 0.2 (0.05)</td>
- <td>0.12</td>
+ <td>0 > 0.2 (0.01)</td>
+ <td>0.</td>
  <td>rad s^2/m</td>
 </tr>
 <tr>
@@ -18578,22 +27879,15 @@ table {
  <td></td>
 </tr>
 <tr>
- <td><strong id="VT_DWN_PITCH_MAX">VT_DWN_PITCH_MAX</strong> (FLOAT)</td>
- <td>Maximum allowed angle the vehicle is allowed to pitch down to generate forward force <p><strong>Comment:</strong> When fixed-wing forward actuation is active (see VT_FW_TRHUST_EN). If demanded down pitch exceeds this limmit, the fixed-wing forward actuators are used instead.</p>   </td>
- <td>0.0 > 45.0 </td>
- <td>5.0</td>
- <td></td>
-</tr>
-<tr>
  <td><strong id="VT_ELEV_MC_LOCK">VT_ELEV_MC_LOCK</strong> (INT32)</td>
- <td>Lock elevons in multicopter mode <p><strong>Comment:</strong> If set to 1 the elevons are locked in multicopter mode</p>   </td>
+ <td>Lock control surfaces in hover <p><strong>Comment:</strong> If set to 1 the control surfaces are locked at the disarmed value in multicopter mode.</p>   </td>
  <td></td>
  <td>Enabled (1)</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="VT_FWD_THRUST_EN">VT_FWD_THRUST_EN</strong> (INT32)</td>
- <td>Enable/disable usage of fixed-wing actuators in hover to generate forward force (instead of pitching down) <p><strong>Comment:</strong> This technique can be used to avoid the plane having to pitch down in order to move forward. This prevents large, negative lift values being created when facing strong winds. Fixed-wing forward actuators refers to puller/pusher (standard VTOL), or forward-tilt (tiltrotor VTOL). Only active if demaded down pitch is above VT_DWN_PITCH_MAX, and uses VT_FWD_THRUST_SC to get from demanded down pitch to fixed-wing actuation.</p> <strong>Values:</strong><ul>
+ <td>Enable/disable usage of fixed-wing actuators in hover to generate forward force (instead of pitching down) <p><strong>Comment:</strong> This technique can be used to avoid the plane having to pitch down in order to move forward. This prevents large, negative lift values being created when facing strong winds. Fixed-wing forward actuators refers to puller/pusher (standard VTOL), or forward-tilt (tiltrotor VTOL). Only active if demaded down pitch is below VT_PITCH_MIN, and uses VT_FWD_THRUST_SC to get from demanded down pitch to fixed-wing actuation.</p> <strong>Values:</strong><ul>
 <li><strong>0:</strong> Disable FW forward actuation in hover.</li> 
 
 <li><strong>1:</strong> Enable FW forward actuation in hover in altitude, position and auto modes (except LANDING).</li> 
@@ -18615,7 +27909,7 @@ table {
 </tr>
 <tr>
  <td><strong id="VT_FWD_THRUST_SC">VT_FWD_THRUST_SC</strong> (FLOAT)</td>
- <td>Fixed-wing actuator thrust scale for hover forward flight <p><strong>Comment:</strong> Scale applied to the demanded down-pitch to get the fixed-wing forward actuation in hover mode. Only active if demaded down pitch is above VT_DWN_PITCH_MAX. Enabled via VT_FWD_THRUST_EN.</p>   </td>
+ <td>Fixed-wing actuator thrust scale for hover forward flight <p><strong>Comment:</strong> Scale applied to the demanded down-pitch to get the fixed-wing forward actuation in hover mode. Only active if demaded down pitch is below VT_PITCH_MIN. Enabled via VT_FWD_THRUST_EN.</p>   </td>
  <td>0.0 > 2.0 </td>
  <td>0.7</td>
  <td></td>
@@ -18705,6 +27999,13 @@ table {
  <td>us</td>
 </tr>
 <tr>
+ <td><strong id="VT_LND_PTCH_MIN">VT_LND_PTCH_MIN</strong> (FLOAT)</td>
+ <td>Minimum pitch angle during hover landing <p><strong>Comment:</strong> Overrides  VT_PTCH_MIN when the vehicle is in LAND mode (hovering). During landing it can be beneficial to allow lower minimum pitch angles as it can avoid the wings generating too much lift and preventing the vehicle from sinking at the desired rate.</p>   </td>
+ <td>-10.0 > 45.0 </td>
+ <td>-5.0</td>
+ <td></td>
+</tr>
+<tr>
  <td><strong id="VT_MC_ON_FMU">VT_MC_ON_FMU</strong> (INT32)</td>
  <td>Enable the usage of AUX outputs for hover motors <p><strong>Comment:</strong> Set this parameter to true if the vehicle's hover motors are connected to the FMU (AUX) port. Not required for boards that only have a FMU, and no IO. Only applies for standard VTOL and tiltrotor.</p>   </td>
  <td></td>
@@ -18723,6 +28024,13 @@ table {
  <td>Pusher throttle ramp up window <p><strong>Comment:</strong> Defines the time window during which the pusher throttle will be ramped up linearly to VT_F_TRANS_THR during a transition to fixed wing mode. Zero or negative values will produce an instant throttle rise to VT_F_TRANS_THR.</p>   </td>
  <td>? > 20 (0.01)</td>
  <td>3.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="VT_PTCH_MIN">VT_PTCH_MIN</strong> (FLOAT)</td>
+ <td>Minimum pitch angle during hover <p><strong>Comment:</strong> Minimum pitch angle during hover flight. If the desired pitch angle is is lower than this value then the fixed-wing forward actuation can be used to compensate for the missing thrust in forward direction (see VT_FW_TRHUST_EN)</p>   </td>
+ <td>-10.0 > 45.0 </td>
+ <td>-5.0</td>
  <td></td>
 </tr>
 <tr>

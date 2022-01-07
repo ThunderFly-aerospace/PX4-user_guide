@@ -1,50 +1,60 @@
 # Microhard 직렬 라디오
 
-[Microhard Pico Serial](http://microhardcorp.com/P900.php) 무전기는 차량 무전기와 GCS 간의 MAVLink 통신이 가능합니다. Microhard Pico 직렬 라디오는 포인트 투 포인트, 포인트 투 멀티 포인트와 메시 모드를 지원하는 최대 1W 출력의 라디오입니다. Microhard Pico 라디오는 AES-256 암호화로 주문할 수도 있습니다.
+[Microhard Pico Serial Radios](http://microhardcorp.com/P900.php) integrate the [Microhard Pico Serial](http://microhardcorp.com/P900.php) P900 RF module.
 
-기본 설정을 사용시, 출력이 1W로 설정의 대략적인 범위는 8km (5 마일)입니다. 단일 지상국 라디오를 사용하여 지점 대 다중 지점 또는 메시를 사용하여 여러 기체와 통신 가능합니다. 기체의 MAVLINK ID는 각기 달라야 합니다.
+기본 설정을 사용시, 출력이 1W로 설정의 대략적인 범위는 8km (5 마일)입니다. 단일 지상국 라디오를 사용하여 지점 대 다중 지점 또는 메시를 사용하여 여러 기체와 통신 가능합니다. Radios can also be ordered that support secure/encrypted channels, although this is subject to export restriction.
 
-![Microhard 라디오](../../assets/hardware/telemetry/ark_microhard_serial.jpg)
+Manufacturers typically default-configure the radios in peer-to-peer mode and match the baud rate expected by PX4 and *QGroundControl* (57600 baud). This allows plug and play telemetry when the radios are connected to the usual telemetry ports on a Pixhawk flight controllers (`TELEM1` or `TELEM2`) along with auto-detection of the connection in *QGroundControl*.
 
-## 구매:
+Several manufacturers provide solutions based on these radios:
+* [ARK Electron Microhard Serial Telemetry Radio](../telemetry/ark_microhard_serial.md)
+* [Holybro Microhard P900 Telemetry Radio](../telemetry/holybro_microhard_p900_radio.md)
 
-* [1W 900MHz 직렬 텔레메트리 라디오](https://arkelectron.com/product/1w-900mhz-serial-telemetry-air-radio/) (기체)
-* [1W 900MHz 직렬 텔레메트리 라디오](https://arkelectron.com/product/1w-900mhz-serial-telemetry-ground-radio/) (지상국)
-* [1W 2.4GHz 직렬 텔레메트리 라디오](https://arkelectron.com/product/1w-2400mhz-serial-telemetry-radio/) (기체)
-* [1W 2.4GHz 직렬 텔레메트리 라디오](https://arkelectron.com/product/1w-2400mhz-usb-serial-telemetry-radio/) (지상국)
+## Range Tradeoffs
 
-## 연결
+The radio range depends on a number of factors, including: baud rate, power output, mode, whether forward error connection is enabled, whether encryption is enabled, antenna used etc.
 
-### 기체 라디오
-차량 라디오를 비행 콘트롤러 `TELEM1` 포트에 연결합니다 (모든 무료 직렬 포트를 사용할 수 있음). 이를 위하여 Pixhawk 표준 6핀 JST GH 텔레메트리 케이블이 제공됩니다.
+The selection of these parameters is a tradeoff:
+- increasing baud rate decreases radio range.
+- increasing radio power increases range, but decreases flight time.
+- point to multipoint means you can have a single ground station talking to multiple vehicles, but increases the bandwidth on the channel.
+- mesh configurations provide similar convenience and cost.
 
-라디오의 출력 전력이 100mW 미만으로 설정된 경우에는 텔레메트리 케이블로 전원을 공급할 수 있습니다. 더 높은 출력의 라디오는 2 핀 Molex Nano-Fit (즉, 배터리에서)를 통하여 별도로 전원을 공급하여야 합니다.
+The maximum range quoted in specifications is around 60km. ARK Electron suggest an approximate range of 8km with output power set to 1W is 8km and using default settings.
 
-![기체의 Microhard 라디오](../../assets/hardware/telemetry/microhard_serial_on_vehicle.jpg)
+## Configuration
 
-### 지상국 라디오
+For convenience, radios are usually default-configured so that they can be used with PX4 and *QGroundControl* out of the box.
 
-USB C를 통하여 지상 라디오를 지상국에 연결합니다. USB PD를 사용하는 경우에는 라디오에 별도로 전원을 공급할 필요가 없습니다 (1W 전원 공급 가능).
+Developers can modify the configuration. The only "requirement" is that the: ground radio, air radio, PX4, and *QGroundControl* must all be set to use the **same** baud rate (and of course each MAVLink system must have a unique System ID).
 
+### PX4 Configuration
 
-## 설정
+PX4 is configured to use `TELEM1` for telemetry radios, with a default baud rate of 57600. You can configure PX4 to use any other free serial port a different baud rate, by following the instructions in [MAVLink Peripherals](../peripherals/mavlink_peripherals.md).
 
-지상 라디오, 에어 라디오, PX4와 QGroundControl은 모두 동일한 전송 속도로 설정되어야합니다.
+### QGroundControl Configuration
 
-PX4는 텔레메트리 라디오에 `TELEM1`을 사용하도록 설정되며, 기본전송속도는 57600 (권장)입니다. 이 포트 및 전송 속도를 사용하는 경우에는 추가로 PX4 설정할 필요는 없습니다.
+QGroundControl autodetects a serial telemetry connection with the baud rate 57600.
 
-:::note
-[MAVLink 주변기기](../peripherals/mavlink_peripherals.md) 지침에 따라 다른 직렬 포트로 설정하거나 전송속도를 변경할 수 있습니다.
-:::
+For any other rate you will need to add a serial comms link that sets the rate that was used. See [Application Settings > Comms Links](https://docs.qgroundcontrol.com/master/en/SettingsView/SettingsView.html).
 
-라디오는 [Pico Config](https://arkelectron.com/wp-content/uploads/2021/04/PicoConfig-1.7.zip)를 사용하여 설정합니다 (Windows 에만 해당).
+### Radio Configuration
 
-![Pico Config](../../assets/hardware/telemetry/pico_configurator.png)
+Microhard serial radios are configured using the *PicoConfig* application (Windows only). This can be downloaded here: [PicoConfig-1.7.zip](https://arkelectron.com/wp-content/uploads/2021/04/PicoConfig-1.7.zip) (ARK Electron) or [picoconfig-1-8](http://www.holybro.com/download/picoconfig-1-8/) (Holybro).
 
-차량 라디오 설정에는 라디오의 3핀 JST-GH Config 포트와 *Pico Config*를 실행하는 Windows PC 간에 FTDI 어댑터를 연결하여합니다 (라디오에 전원이 공급되어야 하며 배터리 또는 비행 콘트롤러의 `TELEM1` 포트에 대한 데이터 연결). *Pico Config*는 자동으로 라디오를 감지합니다. 전송속도를 PX4 (및 지상국 라디오)와 일치하도록 설정합니다.
+In point-to-point operating modes, there must be a master to provide network synchronization for the system, so one radio should be configured to PP master and another should be configured to PP remote.
 
-![Ark Microhard Serial - 포트](../../assets/hardware/telemetry/ark_microhard_serial_ports.jpg)
+The screen shots below show the default radio configuration settings for connecting to PX4 and *QGroundControl*.
 
-지상국 라디오 USB C 연결은 라디오 설정(및 원격 측정 데이터)에 사용할 수 있습니다. *Pico Config*는 설정 포트를 자동으로 감지하고 연결합니다. 전송속도가 PX4와 일치하도록 설정하십시오.
+<img src="../../assets/hardware/telemetry/holybro_pico_config.png" width="400px" title="Holybro Pico Config" />
+<img src="../../assets/hardware/telemetry/holybro_pico_config1.png" width="400px" title="Holybro Pico Config" />
 
-라디오와 PX4가 동일한 전송속도로 설정되면, 라디오로 QGroundControl을 기체에 연결할 수 있습니다. *QGroundControl*은 라디오를 자동으로 감지하지 않으므로 먼저 [응용 프로그램 설정 > 통신 링크에서 새 "직렬 연결"을 만듭니다.](https://docs.qgroundcontrol.com/master/en/SettingsView/SettingsView.html) (PX4/라디오에서 사용하는 것과 동일한 전송속도 설정).
+The [Pico Series P900.Operating Manual.v1.8.7](https://github.com/PX4/PX4-user_guide/raw/master/assets/hardware/telemetry/Pico-Series-P900.Operating-Manual.v1.8.7.pdf) has additional information on radio configuration (including mesh and multipoint modes).
+
+### Mesh and Multipoint Modes
+
+Mesh and point to multi-point modes are supported, but all vehicles must have a unique Mavlink ID.
+
+Anecdotally:
+- At the highest link rate, with no FEC, we can have 201 drones in one mesh system transmitting 80 bytes once a second.
+- You can have multiple networks working together at the same time without mutual interference using "co-located systems". For example, to deploy more than 500 vehicles you would need to deploy three P900 mesh coordinators, each serving up to 201 drones in their respective local networks.

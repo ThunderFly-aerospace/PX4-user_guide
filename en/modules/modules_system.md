@@ -103,7 +103,7 @@ commander <command> [arguments...]
    pair
 
    lockdown
-     [off]       Turn lockdown off
+     on|off      Turn lockdown on or off
 
    set_ekf_origin
      lat, lon, alt Origin Latitude, Longitude, Altitude
@@ -149,10 +149,6 @@ dataman <command> [arguments...]
 
  The options -f and -r are mutually exclusive. If nothing is specified, a file
  'dataman' is used
-
-   poweronrestart Restart dataman (on power on)
-
-   inflightrestart Restart dataman (in flight)
 
    stop
 
@@ -405,6 +401,25 @@ mag_bias_estimator <command> [arguments...]
 
    status        print status info
 ```
+## manual_control
+Source: [modules/manual_control](https://github.com/PX4/PX4-Autopilot/tree/master/src/modules/manual_control)
+
+
+### Description
+Module consuming manual_control_inputs publishing one manual_control_setpoint.
+
+
+<a id="manual_control_usage"></a>
+### Usage
+```
+manual_control <command> [arguments...]
+ Commands:
+   start
+
+   stop
+
+   status        print status info
+```
 ## netman
 Source: [systemcmds/netman](https://github.com/PX4/PX4-Autopilot/tree/master/src/systemcmds/netman)
 
@@ -466,7 +481,7 @@ Source: [modules/rc_update](https://github.com/PX4/PX4-Autopilot/tree/master/src
 ### Description
 The rc_update module handles RC channel mapping: read the raw input channels (`input_rc`),
 then apply the calibration, map the RC channels to the configured channels & mode switches
-and then publish as `rc_channels` and `manual_control_setpoint`.
+and then publish as `rc_channels` and `manual_control_input`.
 
 ### Implementation
 To reduce control latency, the module is scheduled on input_rc publications.
@@ -535,6 +550,63 @@ The tasks can be started via CLI or uORB topics (vehicle_command from MAVLink, e
 send_event <command> [arguments...]
  Commands:
    start         Start the background task
+
+   stop
+
+   status        print status info
+```
+## sensor_baro_sim
+Source: [modules/simulator/sensor_baro_sim](https://github.com/PX4/PX4-Autopilot/tree/master/src/modules/simulator/sensor_baro_sim)
+
+
+### Description
+
+
+
+<a id="sensor_baro_sim_usage"></a>
+### Usage
+```
+sensor_baro_sim <command> [arguments...]
+ Commands:
+   start
+
+   stop
+
+   status        print status info
+```
+## sensor_gps_sim
+Source: [modules/simulator/sensor_gps_sim](https://github.com/PX4/PX4-Autopilot/tree/master/src/modules/simulator/sensor_gps_sim)
+
+
+### Description
+
+
+
+<a id="sensor_gps_sim_usage"></a>
+### Usage
+```
+sensor_gps_sim <command> [arguments...]
+ Commands:
+   start
+
+   stop
+
+   status        print status info
+```
+## sensor_mag_sim
+Source: [modules/simulator/sensor_mag_sim](https://github.com/PX4/PX4-Autopilot/tree/master/src/modules/simulator/sensor_mag_sim)
+
+
+### Description
+
+
+
+<a id="sensor_mag_sim_usage"></a>
+### Usage
+```
+sensor_mag_sim <command> [arguments...]
+ Commands:
+   start
 
    stop
 

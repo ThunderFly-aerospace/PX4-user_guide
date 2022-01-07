@@ -71,8 +71,7 @@ atxxxx <command> [arguments...]
      [-S]        External SPI bus(es)
      [-b <val>]  board-specific bus (default=all) (external SPI: n-th bus
                  (default=1))
-     [-c <val>]  chip-select index (for external SPI)
-                 default: 1
+     [-c <val>]  chip-select pin (for internal SPI) or index (for external SPI)
      [-m <val>]  SPI mode
      [-f <val>]  bus frequency in kHz
      [-q]        quiet startup (no message if no device found)
@@ -526,8 +525,7 @@ lsm303agr <command> [arguments...]
      [-S]        External SPI bus(es)
      [-b <val>]  board-specific bus (default=all) (external SPI: n-th bus
                  (default=1))
-     [-c <val>]  chip-select index (for external SPI)
-                 default: 1
+     [-c <val>]  chip-select pin (for internal SPI) or index (for external SPI)
      [-m <val>]  SPI mode
      [-f <val>]  bus frequency in kHz
      [-q]        quiet startup (no message if no device found)
@@ -576,8 +574,7 @@ paw3902 <command> [arguments...]
      [-S]        External SPI bus(es)
      [-b <val>]  board-specific bus (default=all) (external SPI: n-th bus
                  (default=1))
-     [-c <val>]  chip-select index (for external SPI)
-                 default: 1
+     [-c <val>]  chip-select pin (for internal SPI) or index (for external SPI)
      [-m <val>]  SPI mode
      [-f <val>]  bus frequency in kHz
      [-q]        quiet startup (no message if no device found)
@@ -690,13 +687,31 @@ pmw3901 <command> [arguments...]
      [-S]        External SPI bus(es)
      [-b <val>]  board-specific bus (default=all) (external SPI: n-th bus
                  (default=1))
-     [-c <val>]  chip-select index (for external SPI)
-                 default: 1
+     [-c <val>]  chip-select pin (for internal SPI) or index (for external SPI)
      [-m <val>]  SPI mode
      [-f <val>]  bus frequency in kHz
      [-q]        quiet startup (no message if no device found)
      [-R <val>]  Rotation
                  default: 0
+
+   stop
+
+   status        print status info
+```
+## pps_capture
+Source: [drivers/pps_capture](https://github.com/PX4/PX4-Autopilot/tree/master/src/drivers/pps_capture)
+
+
+### Description
+This implements capturing PPS information from the GNSS module and calculates the drift between PPS and Real-time clock.
+
+<a id="pps_capture_usage"></a>
+
+### Usage
+```
+pps_capture <command> [arguments...]
+ Commands:
+   start
 
    stop
 
@@ -723,15 +738,6 @@ By default the module runs on a work queue with a callback on the uORB actuator_
 pwm_out <command> [arguments...]
  Commands:
    start
-
-   sensor_reset  Do a sensor reset (SPI bus)
-     [<ms>]      Delay time in ms between reset and re-enabling
-
-   peripheral_reset Reset board peripherals
-     [<ms>]      Delay time in ms between reset and re-enabling
-
-   i2c           Configure I2C clock rate
-     <bus_id> <rate> Specify the bus id (>=0) and rate in Hz
 
    test          Test outputs
 

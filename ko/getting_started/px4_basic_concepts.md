@@ -11,10 +11,10 @@
 드론은 [개인, 산업체, 공공기관 및 국방 분야](https://px4.io/ecosystem/commercial-systems/)등의 다양한 분야에서 사용되고 있습니다. 또한, 항공 사진/영상, 화물 운송, 경주, 수색 및 탐사 등의 분야에서 사용됩니다.
 
 :::tip
-항공용, 지상용, 해양 및 수중 드론이 있습니다. 드론의 공식 용어에는 Unmanned Aerial Vehicles (UAV), Unmanned Aerial Systems (UAS), Unmanned Ground Vehicles (UGV), Unmanned Surface Vehicles (USV)와 Unmanned Underwater Vehicles (UUV) 등이 있습니다.
+항공용, 지상용, 해양 및 수중 드론이 있습니다. 드론의 공식 용어에는 UAV(Unmanned Aerial Vehicles), UAS(Unmanned Aerial Systems, UGV(Unmanned Ground Vehicles), USV(Unmanned Surface Vehicles)와 UUV(Unmanned Underwater Vehicles) 등이 있습니다.
 :::
 
-드론의 두뇌에 해당하는 장치를 자동비행장치(오토파일럿)라고 합니다. 자동비행장치는 여러가지 비행 모듈들로 구성됩니다.
+자동비행장치(오토파일럿)는 드론의 두뇌에 해당하는 장치입니다. 자동비행장치는 여러 가지 비행 모듈들로 구성됩니다.
 
 <a id="autopilot"></a>
 
@@ -132,11 +132,9 @@ RC 선택 방법은 [RC 선택](../getting_started/rc_transmitter_receiver.md)�
 
 ![MicroNav와 지상국에서 조이스틱을 사용하는 그림](../../assets/peripherals/joystick/micronav.jpg)
 
-<a id="safety_switch"></a>
-
 ## 안전 스위치
 
-기체의 *안전 스위치*를 킨 다음에 기체에 [시동](#arming)을 걸 수 있습니다. 기체에 시동이 걸리면 모터와 프로펠러가 동작합니다. 보통 안전 스위치는 GPS 장치에 장착되어 있으나, 별도 부품으로 제공되는 제품도 있습니다.
+기체의 *안전 스위치*를 킨 다음에 기체에 [시동](#arming)을 걸 수 있습니다. 기체에 시동이 걸리면 모터와 프로펠러가 작동하게 됩니다. 보통 안전 스위치는 GPS 장치에 장착되어 있으나, 별도의 부품으로 제공되는 제품도 있습니다.
 
 :::warning
 시동이 걸린 기체는 안전 사고의 위험성이 항상 존재합니다. 안전 스위치는 예기치 않은 시동으로 인하여 발생할 수 있는 사고를 방치하는 것이 목적입니다.
@@ -183,7 +181,7 @@ SD 카드는 선택 사항입니다. SD 카드가 없는 비행 콘트롤어는 
 
 - 비행중이 아닐 때는 PX4의 *시동을 해제*하거나 전원을 차단하고, 이륙 전에만 *시동*을 켜는 것이 좋습니다.
 - 기체가 정해진 시간 안에 이륙하지 않으면, 착륙후에는 기체의 시동은 자동으로 해제됩니다. 시동 해제 시간은 매개변수로 설정합니다.
-- 일부 기체에는 시동전에 조작하는 [안전 스위치](#safety_switch)(보통 GPS 수신기의 일부임)가 장착되어 있습니다.
+- 일부 기체에는 시동전에 조작하는 [안전 스위치](#safety-switch)(보통 GPS 수신기의 일부임)가 장착되어 있습니다.
 - 기체는 정상 상태가 아니면, 시동은 걸리지 않습니다.
 - 수직이착륙기는 고정익 모드에서는 시동이 걸리지 않습니다([기본 설정](../advanced_config/parameter_reference.md#CBRK_VTOLARMING)).
 
@@ -226,13 +224,13 @@ PX4는 시스템 사고시에 기체을 보호하고 복구할 수 있는 안전
 - 미션 안전장치(재 이륙 시 이전 미션이 실행되는 것을 방지합니다)
 - 트래픽 회피(예: ADSB 응답기에 의해 작동됩니다)
 
-더 자세한 내용은 [ 안전](../config/safety.md)편을 참고하십시오.
+더 자세한 내용은 [안전](../config/safety.md)편을 참고하십시오.
 
 ## 전진 방향 
 
 차량, 보트 및 항공기에는 전진 방향이 정해져 있습니다.
 
-![프레임 방향](../../assets/concepts/frame_heading.png)
+![Frame Heading](../../assets/concepts/frame_heading.png)
 
 :::note VTOL
 테일 시터의 방향은 멀티콥터 설정(즉, 이륙, 호버링, 착륙 중 차량 포즈)에 의하여 결정됩니다.
@@ -240,7 +238,7 @@ PX4는 시스템 사고시에 기체을 보호하고 복구할 수 있는 안전
 
 차량의 전진 방향을 알아야만 차량의 이동 벡터와 정렬할 수 있습니다. 멀티콥터는 모든 방향에서 대칭인 경우에도 전진 방향이 정의됩니다. 제조사에서는 일반적으로 프로펠러나 팔(프레임)에 색깔을 사용하여 차량의 전진 방향을 표시합니다.
 
-![프레임 방향 평면도](../../assets/concepts/frame_heading_top.png)
+![Frame Heading TOP](../../assets/concepts/frame_heading_top.png)
 
 위 그림에서 전진 방향은 멀티콥터의 프로펠러에 빨간색으로 표시되어 있습니다.
 
