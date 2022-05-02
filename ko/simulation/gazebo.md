@@ -186,7 +186,7 @@ To simulate wind speed, add this plugin to your world file and set `windVelocity
 ```
 Wind direction is passed as a direction vector (standard ENU convention), which will be normalized in the gazebo plugin. Additionally you can state wind velocity variance in (m/s)² and direction variance based on a normal distribution to add some random factor into the simulation. Gust is internally handled in the same way as wind, with the slight difference that you can state start time and duration with the following two parameters `windGustStart` and `windGustDuration`.
 
-조이스틱과 썸 조이스틱 지원은 *QGroundControl*에서 지원됩니다([설정 방법](../simulation/README.md#joystick-gamepad-integration) 참고).
+You can see how this is done in [PX4/PX4-SITL_gazebo/worlds/windy.world](https://github.com/PX4/PX4-SITL_gazebo/blob/master/worlds/windy.world#L15-L31).
 
 ### 조이스틱 사용법
 
@@ -226,7 +226,7 @@ GPS noise is enabled if the target vehicle's SDF file contains a value for the `
    </plugin>
    ```
    * GPS가 있으면, GPS가 활성화된 것입니다. `<gpsNoise>true</gpsNoise>` 줄을 삭제하여 비활성화 됩니다.
-   * 사전 설정되어 있지 않으면, GPS가 비활성화됩니다. 위의 그림과 같이, `gps_plugin` 섹션에 `gpsNoise` 요소를 추가하여 활성화할 수 있습니다.
+   * If it is not present, GPS is disabled. 위의 그림과 같이, `gps_plugin` 섹션에 `gpsNoise` 요소를 추가하여 활성화할 수 있습니다.
 
 PX4는 [PX4/sitl_gazebo/worlds](https://github.com/PX4/sitl_gazebo/tree/master/worlds)에 저장된 다수의 [Gazebo Worlds](../simulation/gazebo_worlds.md)를 지원합니다. 기본적으로 Gazebo는 [empty.world](https://github.com/PX4/sitl_gazebo/blob/master/worlds/empty.world)에 정의된 것처럼 평평한 특징 없는 평면을 표시합니다.
 

@@ -18,7 +18,7 @@ This autopilot is [supported](../flight_controller/autopilot_pixhawk_standard.md
 
 Inside the Pixhawk® 5X, you can find an STMicroelectronics® based STM32F7, paired with sensor technology from Bosch®, InvenSense®, giving you flexibility and reliability for controlling any autonomous vehicle, suitable for both academic and commercial applications. The Pixhawk® 5X’s F7 microcontroller has 2MB flash memory and 512KB RAM. The PX4 Autopilot takes advantage of the increased power and RAM. Thanks to the updated processing power, developers can be more productive and efficient with their development work, allowing for complex algorithms and models.
 
-The FMUv5X open standard includes high-performance, low-noise IMUs on board, designed for better stabilization. Triple redundant IMU & double redundant barometer on separate buses. hen the PX4 Autopilot detects a sensor failure, the system seamlessly switches to another to maintain flight control reliability.
+The FMUv5X open standard includes high-performance, low-noise IMUs on board, designed for better stabilization. Triple redundant IMU & double redundant barometer on separate buses. When the PX4 Autopilot detects a sensor failure, the system seamlessly switches to another to maintain flight control reliability.
 
 An independent LDO powers every sensor set with independent power control. A newly designed vibration isolations to filter out high-frequency vibration and reduce noise to ensure accurate readings, allowing vehicles to reach better overall flight performances. External sensor bus (SPI5) has two chip select lines and data-ready signals for additional sensors and payload with SPI-interface, and with an integrated Microchip Ethernet PHY (LAN8742AI-CZ-TR), high-speed communication with mission computers via ethernet is now supported. Two smart battery monitoring ports (SMBus), support for INA226 SMBus Power module.
 
@@ -120,11 +120,14 @@ The [Pixhawk 5X Wiring Quick Start](../assembly/quick_start_pixhawk5x.md) provid
 
 ![Pixhawk 5X Pinout](../../assets/flight_controller/pixhawk5x/pixhawk5x_pinout.png)
 
-You can also download *Pixhawk 5X* pinouts from [here](../../assets/flight_controller/pixhawk5x/pixhawk5x_pinout.pdf) or [here](http://www.holybro.com/manual/Holybro_Pixhawk5X_Pinout.pdf).
-
 :::note
 Connector pin assignments are left to right (i.e. Pin 1 is the left-most pin).
 :::
+
+Notes:
+- The [camera capture pin](../peripherals/camera.md#camera-capture) (`PI0`) is pin 2 on the AD&IO port, marked above as `FMU_CAP1`.
+- *Pixhawk 5X* pinouts can be downloaded in PDF from from [here](../../assets/flight_controller/pixhawk5x/pixhawk5x_pinout.pdf) or [here](http://www.holybro.com/manual/Holybro_Pixhawk5X_Pinout.pdf).
+
 
 ## Serial Port Mapping
 
@@ -160,6 +163,14 @@ Under these conditions the system will not draw any power (will not be operation
 1. **USB** input (operational range 4.1V to 5.7V, 0V to 6V undamaged)
 1. Servo input: VDD_SERVO pin of **FMU PWM OUT** and **I/O PWM OUT** (0V to 42V undamaged)
 
+**Voltage monitoring**
+
+Digital I2C battery monitoring is enabled by default (see [Quickstart > Power](../assembly/quick_start_pixhawk5x.md#power)).
+
+:::note
+Analog battery monitoring via an ADC is not supported on this particular board, but may be supported in variations of this flight controller with a different baseboard.
+:::
+
 ## Building Firmware
 
 :::tip
@@ -175,10 +186,26 @@ make px4_fmu-v5x_default
 
 ## Debug Port
 
-The [PX4 System Console](../debug/system_console.md) and [SWD interface](../debug/swd_debug.md) run on the **FMU Debug** port, while the I/O console and SWD interface can be accessed via **I/O Debug** port.
+The [PX4 System Console](../debug/system_console.md) and [SWD interface](../debug/swd_debug.md) run on the **FMU Debug** port.
 
-The pinout uses the standard [Pixhawk debug connector pinout](https://pixhawk.org/pixhawk-connector-standard/#dronecode_debug). For wiring information see:
-- [System Console > Pixhawk Debug Port](../debug/system_console.md#pixhawk_debug_port)
+The pinouts and connector comply with the [Pixhawk Debug Full](../debug/swd_debug.md,d#pixhawk-debug-full-10-pin-sh-debug-port) interface defined in the [Pixhawk Connector Standard](https://pixhawk.org/pixhawk-connector-standard/#dronecode_debug) interface (JST SM10B connector).
+
+| Pin      | Signal           | Volt  |
+| -------- | ---------------- | ----- |
+| 1 (red)  | `Vtref`          | +3.3V |
+| 2 (blk)  | Console TX (OUT) | +3.3V |
+| 3 (blk)  | Console RX (IN)  | +3.3V |
+| 4 (blk)  | `SWDIO`          | +3.3V |
+| 5 (blk)  | `SWCLK`          | +3.3V |
+| 6 (blk)  | `SWO`            | +3.3V |
+| 7 (blk)  | NFC GPIO         | +3.3V |
+| 8 (blk)  | PH11             | +3.3V |
+| 9 (blk)  | nRST             | +3.3V |
+| 10 (blk) | `GND`            | GND   |
+
+For information about wiring and using this port see:
+- [PX4 System Console](../debug/system_console.md#pixhawk_debug_port) (Note, the FMU console maps to USART3).
+- [SWD (JTAG) Hardware Debugging Interface](../debug/swd_debug.md)
 
 
 ## Peripherals

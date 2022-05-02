@@ -22,7 +22,7 @@ Information about available simulators and how to set them up are provided in th
 | [JSBSim](../simulation/jsbsim.md)                                       | <p>A simulator that provides advanced flight dynamics models. This can be used to model realistic flight dynamics based on wind tunnel data.</p> <p><strong>Supported Vehicles:</strong> Plane, Quad, Hex</p>                                                                                                      |
 | [jMAVSim](../simulation/jmavsim.md)                                     | A simple multirotor simulator that allows you to fly *copter* type vehicles around a simulated world. <p>它易设置，可以用来测试您的工具是否可以起飞、飞行、降落、并对各种故障条件 (例如 gps 故障) 做出适当的反应。 它也可用于 [多机仿真 ](../simulation/multi_vehicle_jmavsim.md)。</p><p><strong>支持机型： </strong>四旋翼</p> |
 | [AirSim](../simulation/airsim.md)                                       | <p>A cross platform simulator that provides physically and visually realistic simulations. 这个模拟器需要大量的资源，需要一台比这里描述的其他仿真器更强大的计算机。</p><p><strong>支持机型: </0 >Iris （多转子模型和 x 配置中 px4 quadrotor 的配置）。</p>                                                                                                     |
-| [Simulation-In-Hardware](../simulation/simulation-in-hardware.md) (SIH) | <p>An alternative to HITL that offers a hard real-time simulation directly on the hardware autopilot. This simulator is implemented in C++ as a PX4 module directly in the Firmware [code](https://github.com/PX4/PX4-Autopilot/tree/master/src/modules/sih). </p><p><strong>支持机型： </strong>四旋翼</p>                                                                                                    |
+| [Simulation-In-Hardware](../simulation/simulation-in-hardware.md) (SIH) | <p>An alternative to HITL that offers a hard real-time simulation directly on the hardware autopilot. This simulator is implemented in C++ as a PX4 module directly in the Firmware [code](https://github.com/PX4/PX4-Autopilot/tree/master/src/modules/sih). </p><p><strong>Supported Vehicles:</strong> Plane, Quad, Tailsitter</p>                                                                                                    |
 | [Ignition Gazebo](../simulation/ignition_gazebo.md)                     | <p>Ignition Gazebo is derived from the popular robotics simulator [Gazebo](./gazebo.md), featuring more advanced rendering, physics and sensor models.</p><p><strong>Supported Vehicles:</strong> Quad</p>                                                                                                    |
 
 Instructions for how to setup and use the simulators are in the topics linked above.
@@ -137,7 +137,8 @@ make px4_sitl jmavsim
 ```
 
 :::note
-At some point IO or CPU will limit the speed that is possible on your machine and it will be slowed down "automatically". Powerful desktop machines can usually run the simulation at around 6-10x, for notebooks the achieved rates can be around 3-4x.
+At some point IO or CPU will limit the speed that is possible on your machine and it will be slowed down "automatically".
+Powerful desktop machines can usually run the simulation at around 6-10x, for notebooks the achieved rates can be around 3-4x.
 :::
 
 :::note
@@ -163,9 +164,9 @@ The system starts with a "freewheeling" period where the simulation sends sensor
 
 The lockstep simulation can be disabled if, for example, SITL is to be used with a simulator that does not support this feature. In this case the simulator and PX4 use the host system time and do not wait on each other.
 
-To disable lockstep in PX4, run `px4_sitl_default boardconfig` and set the `BOARD_NOLOCKSTEP` "Force disable lockstep" symbol which is located under toolchain.
+To disable lockstep in PX4, run `make px4_sitl_default boardconfig` and set the `BOARD_NOLOCKSTEP` "Force disable lockstep" symbol which is located under toolchain.
 
-有关设置信息，请参阅 *QGroundControl 用户指南 *：
+To disable lockstep in Gazebo, edit [the model SDF file](https://github.com/PX4/sitl_gazebo/blob/3062d287c322fabf1b41b8e33518eb449d4ac6ed/models/plane/plane.sdf#L449) and set `<enable_lockstep>false</enable_lockstep>`.
 
 To disable lockstep in jMAVSim, remove `-l` in [jmavsim_run.sh](https://github.com/PX4/PX4-Autopilot/blob/77097b6adc70afbe7e5d8ff9797ed3413e96dbf6/Tools/sitl_run.sh#L75), or make sure otherwise that the java binary is started without the `-lockstep` flag.
 
@@ -207,7 +208,7 @@ The simulated camera is a gazebo plugin that implements the [MAVLink Camera Prot
    ```
    mavlink start -u 14558 -o 14530 -r 4000 -f -m camera
    ```
-:::note
+   :::note
 More than just the camera MAVLink messages will be forwarded, but the camera will ignore those that it doesn't consider relevant.
 :::
 

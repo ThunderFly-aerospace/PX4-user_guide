@@ -3,6 +3,8 @@
 <img style="float:right; width: 200px ; padding: 10px;" src="../../assets/uavcan/uavcan_logo_transparent.png" alt="UAVCAN Logo" /> [UAVCAN](http://uavcan.org) is an onboard network which allows the autopilot to connect to avionics/peripherals.
 It uses rugged, differential signalling, and supports firmware upgrades over the bus and status feedback from peripherals.
 
+The [videos section](#videos) contains additional information and guides.
+
 :::note
 PX4 requires an SD card for UAVCAN node allocation and firmware upgrade.
 It is not used during flight by UAVCAN.
@@ -20,6 +22,9 @@ It supports hardware like:
   - [ARK RTK GPS](../uavcan/ark_rtk_gps.md)
   - [CubePilot Here3](https://www.cubepilot.org/#/here/here3)
   - [Zubax GNSS](https://zubax.com/products/gnss_2)
+  - [CUAV NEO v2 Pro GNSS](https://doc.cuav.net/gps/neo-series-gnss/en/neo-v2-pro.html)
+  - [CUAV NEO 3 Pro GNSS](https://doc.cuav.net/gps/neo-series-gnss/en/neo-v2-pro.html)
+  - [CUAV C-RTK2 PPK/RTK GNSS](../gps_compass/rtk_gps_cuav_c-rtk2.md)
 - Power monitors
   - [Pomegranate Systems Power Module](../uavcan/pomegranate_systems_pm.md)
   - [CUAV CAN PMU Power Module](../uavcan/cuav_can_pmu.md)
@@ -94,6 +99,28 @@ Check that there is a (working) SD card present and reboot.
 
 If the PX4 Firmware arms but the motors do not start to rotate, check that parameter `UAVCAN_ENABLE=3` to use UAVCAN ESCs.
 If the motors do not start spinning before thrust is increased, check `UAVCAN_ESC_IDLT=1`.
+
+## Videos
+
+Intro to UAVCAN and Practical Example with Setup in QGroundControl!
+
+@[youtube](https://youtu.be/IZMTq9fTiOM)
+
+----
+UAVCAN for drones — PX4 Developer Summit Virtual 2020
+
+@[youtube](https://youtu.be/6Bvtn_g8liU)
+
+----
+
+Getting started using UAVCAN v1 with PX4 on the NXP UAVCAN Board — PX4 Developer Summit Virtual 2020
+@[youtube](https://youtu.be/MwdHwjaXYKs)
+
+----
+UAVCAN: a highly dependable publish-subscribe protocol for hard real-time intravehicular networking  — PX4 Developer Summit Virtual 2019
+
+@[youtube](https://youtu.be/MBtROivYPik)
+
 
 ## Developer Information
 

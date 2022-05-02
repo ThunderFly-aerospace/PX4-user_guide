@@ -4,8 +4,9 @@
 - [Source: [drivers/distance_sensor/pga460](https://github.com/PX4/Firmware/tree/master/src/drivers/distance_sensor/pga460)](modules_driver_distance_sensor.md)
 - [Airspeed Sensor](modules_driver_airspeed_sensor.md)
 - [Baro](modules_driver_baro.md)
-- [光流](modules_driver_optical_flow.md)
-- [磁力计](modules_driver_magnetometer.md)
+- [Rpm Sensor](modules_driver_rpm_sensor.md)
+- [Optical Flow](modules_driver_optical_flow.md)
+- [Magnetometer](modules_driver_magnetometer.md)
 
 ## adc
 Source: [drivers/adc/board_adc](https://github.com/PX4/PX4-Autopilot/tree/master/src/drivers/adc/board_adc)
@@ -280,33 +281,64 @@ fake_magnetometer <command> [arguments...]
 
    status        print status info
 ```
+## gimbal
+Source: [modules/gimbal](https://github.com/PX4/PX4-Autopilot/tree/master/src/modules/gimbal)
+
+
+### 描述
+Mount/gimbal Gimbal control driver. It maps several different input methods (eg. RC or MAVLink) to a configured output (eg. AUX channels or MAVLink).
+
+Documentation how to use it is on the [gimbal_control](https://docs.px4.io/master/en/advanced/gimbal_control.html) page.
+
+### Examples
+Test the output by setting a angles (all omitted axes are set to 0):
+```
+gimbal test pitch -45 yaw 30
+```
+
+<a id="gimbal_usage"></a>
+
+### Usage
+```
+gimbal <command> [arguments...]
+ Commands:
+   start
+
+   test          Test the output: set a fixed angle for one or multiple axes
+                 (gimbal must be running)
+     roll|pitch|yaw <angle> Specify an axis and an angle in degrees
+
+   stop
+
+   status        print status info
+```
 ## gps
 Source: [drivers/gps](https://github.com/PX4/PX4-Autopilot/tree/master/src/drivers/gps)
 
 
-### 描述
+### Description
 GPS driver module that handles the communication with the device and publishes the position via uORB. It supports multiple protocols (device vendors) and by default automatically selects the correct one.
 
 The module supports a secondary GPS device, specified via `-e` parameter. The position will be published on the second uORB topic instance, but it's currently not used by the rest of the system (however the data will be logged, so that it can be used for comparisons).
 
-### 描述
+### Implementation
 There is a thread for each device polling for data. The GPS protocol classes are implemented with callbacks so that they can be used in other projects as well (eg. QGroundControl uses them too).
 
-### 用法
+### Examples
 
-By default the module runs on the work queue, to reduce RAM usage. It can also be run in its own thread, specified via start flag -t, to reduce latency. When running on the work queue, it schedules at a fixed frequency.
+Starting 2 GPS devices (the main GPS on /dev/ttyS3 and the secondary on /dev/ttyS4):
 ```
 gps start -d /dev/ttyS3 -e /dev/ttyS4
 ```
 
-Source: [drivers/distance_sensor/sf1xx](https://github.com/PX4/Firmware/tree/master/src/drivers/distance_sensor/sf1xx)
+Initiate warm restart of GPS device
 ```
 gps reset warm
 ```
 
 <a id="gps_usage"></a>
 
-### 用法
+### Usage
 ```
 gps <command> [arguments...]
  Commands:
@@ -319,7 +351,6 @@ gps <command> [arguments...]
                  values: <file:dev>
      [-g <val>]  Baudrate (secondary GPS, can also be p:<param_name>)
                  default: 0
-     [-s]        Enable publication of satellite info
      [-i <val>]  GPS interface
                  values: spi|uart, default: uart
      [-j <val>]  secondary GPS interface
@@ -338,10 +369,10 @@ gps <command> [arguments...]
 Source: [drivers/power_monitor/ina226](https://github.com/PX4/PX4-Autopilot/tree/master/src/drivers/power_monitor/ina226)
 
 
-### 使用
+### Description
 Driver for the INA226 power monitor.
 
-Attempt to start driver on any bus (start on bus where first sensor found).
+Multiple instances of this driver can run simultaneously, if each instance has a separate bus OR I2C address.
 
 For example, one instance can run on Bus 2, address 0x41, and one can run on Bus 2, address 0x43.
 
@@ -349,7 +380,7 @@ If the INA226 module is not powered, then by default, initialization of the driv
 
 <a id="ina226_usage"></a>
 
-### 描述
+### Usage
 ```
 ina226 <command> [arguments...]
  Commands:
@@ -370,14 +401,14 @@ ina226 <command> [arguments...]
 
    status        print status info
 ```
-## fmu mode_pwm3cap1
-This module controls the TAP_ESC hardware via UART. It listens on the actuator_controls topics, does the mixing and writes the PWM outputs.
+## ina228
+Source: [drivers/power_monitor/ina228](https://github.com/PX4/PX4-Autopilot/tree/master/src/drivers/power_monitor/ina228)
 
 
-### 描述
-Currently the module is implementd as a threaded version only, meaning that it runs in its own thread instead of on the work queue.
+### Description
+Driver for the INA228 power monitor.
 
-The module is typically started with: tap_esc start -d /dev/ttyS2 -n
+Multiple instances of this driver can run simultaneously, if each instance has a separate bus OR I2C address.
 
 For example, one instance can run on Bus 2, address 0x45, and one can run on Bus 2, address 0x45.
 
@@ -385,7 +416,7 @@ If the INA228 module is not powered, then by default, initialization of the driv
 
 <a id="ina228_usage"></a>
 
-### 实现
+### Usage
 ```
 ina228 <command> [arguments...]
  Commands:
@@ -406,11 +437,11 @@ ina228 <command> [arguments...]
 
    status        print status info
 ```
-## pga460
-通常使用如下命令：
+## ina238
+Source: [drivers/power_monitor/ina238](https://github.com/PX4/PX4-Autopilot/tree/master/src/drivers/power_monitor/ina238)
 
 
-### 示例
+### Description
 Driver for the INA238 power monitor.
 
 Multiple instances of this driver can run simultaneously, if each instance has a separate bus OR I2C address.
@@ -421,7 +452,7 @@ If the INA238 module is not powered, then by default, initialization of the driv
 
 <a id="ina238_usage"></a>
 
-### 使用
+### 描述
 ```
 ina238 <command> [arguments...]
  Commands:
@@ -446,14 +477,14 @@ ina238 <command> [arguments...]
 Source: [drivers/telemetry/iridiumsbd](https://github.com/PX4/PX4-Autopilot/tree/master/src/drivers/telemetry/iridiumsbd)
 
 
-### 使用
+### 实现
 IridiumSBD driver.
 
 Creates a virtual serial port that another module can use for communication (e.g. mavlink).
 
 <a id="iridiumsbd_usage"></a>
 
-### 使用
+### 示例
 ```
 iridiumsbd <command> [arguments...]
  Commands:
@@ -470,11 +501,11 @@ iridiumsbd <command> [arguments...]
    status        print status info
 ```
 ## irlock
-By default the module runs on the work queue, to reduce RAM usage. It can also be run in its own thread, specified via start flag -t, to reduce latency. When running on the work queue, it schedules at a fixed frequency, and the pwm rate limits the update rate of the actuator_controls topics. In case of running in its own thread, the module polls on the actuator_controls topic. Additionally the pwm rate defines the lower-level IO timer rates.
+Source: [drivers/irlock](https://github.com/PX4/PX4-Autopilot/tree/master/src/drivers/irlock)
 
 <a id="irlock_usage"></a>
 
-### 描述
+### 使用
 ```
 irlock <command> [arguments...]
  Commands:
@@ -496,12 +527,12 @@ irlock <command> [arguments...]
 Source: [drivers/linux_pwm_out](https://github.com/PX4/PX4-Autopilot/tree/master/src/drivers/linux_pwm_out)
 
 
-### 实现
+### 描述
 Linux PWM output driver with board-specific backend implementation.
 
 <a id="linux_pwm_out_usage"></a>
 
-### 示例
+### Usage
 ```
 linux_pwm_out <command> [arguments...]
  Commands:
@@ -540,11 +571,11 @@ lsm303agr <command> [arguments...]
 Source: [drivers/lights/neopixel](https://github.com/PX4/PX4-Autopilot/tree/master/src/drivers/lights/neopixel)
 
 
-### 描述
+### Description
 This module is responsible for driving interfasing to the Neopixel Serial LED
 
-### 使用
-源码：[drivers/pwm_out_sim](https://github.com/PX4/Firmware/tree/master/src/drivers/pwm_out_sim)
+### Examples
+It is typically started with:
 ```
 neopixel -n 8
 ```
@@ -552,7 +583,7 @@ To drive all available leds.
 
 <a id="newpixel_usage"></a>
 
-### 使用
+### Usage
 ```
 newpixel <command> [arguments...]
  Commands:
@@ -560,12 +591,37 @@ newpixel <command> [arguments...]
 
    status        print status info
 ```
-## pwm_out_sim
+## paa3905
+Source: [drivers/optical_flow/paa3905](https://github.com/PX4/PX4-Autopilot/tree/master/src/drivers/optical_flow/paa3905)
+
+<a id="paa3905_usage"></a>
+
+### Usage
+```
+paa3905 <command> [arguments...]
+ Commands:
+   start
+     [-s]        Internal SPI bus(es)
+     [-S]        External SPI bus(es)
+     [-b <val>]  board-specific bus (default=all) (external SPI: n-th bus
+                 (default=1))
+     [-c <val>]  chip-select pin (for internal SPI) or index (for external SPI)
+     [-m <val>]  SPI mode
+     [-f <val>]  bus frequency in kHz
+     [-q]        quiet startup (no message if no device found)
+     [-Y <val>]  custom yaw rotation (degrees)
+                 default: 0
+
+   stop
+
+   status        print status info
+```
+## paw3902
 Source: [drivers/optical_flow/paw3902](https://github.com/PX4/PX4-Autopilot/tree/master/src/drivers/optical_flow/paw3902)
 
 <a id="paw3902_usage"></a>
 
-### 描述
+### Usage
 ```
 paw3902 <command> [arguments...]
  Commands:
@@ -590,7 +646,7 @@ Source: [drivers/pca9685](https://github.com/PX4/PX4-Autopilot/tree/master/src/d
 
 <a id="pca9685_usage"></a>
 
-### 使用
+### Usage
 ```
 pca9685 <command> [arguments...]
  Commands:
@@ -612,19 +668,19 @@ pca9685 <command> [arguments...]
 
    status        print status info
 ```
-## rc_input
+## pca9685_pwm_out
 Source: [drivers/pca9685_pwm_out](https://github.com/PX4/PX4-Autopilot/tree/master/src/drivers/pca9685_pwm_out)
 
 
-### 使用
-源码：[drivers/rc_input](https://github.com/PX4/Firmware/tree/master/src/drivers/rc_input)
+### Description
+This module is responsible for generate pwm pulse with PCA9685 chip.
 
 It listens on the actuator_controls topics, does the mixing and writes the PWM outputs.
 
-### 描述
+### Implementation
 This module depends on ModuleBase and OutputModuleInterface. IIC communication is based on CDev::I2C
 
-### 实现
+### Examples
 It is typically started with:
 ```
 pca9685_pwm_out start -a 64 -b 1
@@ -634,7 +690,7 @@ Use the `mixer` command to load mixer files. `mixer load /dev/pwm_outputX etc/mi
 
 <a id="pca9685_pwm_out_usage"></a>
 
-### 示例
+### Usage
 ```
 pca9685_pwm_out <command> [arguments...]
  Commands:
@@ -645,29 +701,6 @@ pca9685_pwm_out <command> [arguments...]
                  default: 1
      [-r <val>]  schedule rate limit
                  default: 400
-
-   stop
-
-   status        print status info
-```
-## pcf8583
-Source: [drivers/rpm/pcf8583](https://github.com/PX4/PX4-Autopilot/tree/master/src/drivers/rpm/pcf8583)
-
-<a id="pcf8583_usage"></a>
-
-### Usage
-```
-pcf8583 <command> [arguments...]
- Commands:
-   start
-     [-I]        Internal I2C bus(es)
-     [-X]        External I2C bus(es)
-     [-b <val>]  board-specific bus (default=all) (external SPI: n-th bus
-                 (default=1))
-     [-f <val>]  bus frequency in kHz
-     [-q]        quiet startup (no message if no device found)
-     [-a <val>]  I2C address
-                 default: 80
 
    stop
 
@@ -739,8 +772,6 @@ pwm_out <command> [arguments...]
  Commands:
    start
 
-   test          Test outputs
-
    stop
 
    status        print status info
@@ -810,8 +841,6 @@ px4io <command> [arguments...]
  Commands:
    start
 
-   detect        Try to detect the presence of an IO
-
    checkcrc      Check CRC for a firmware file against current code on IO
      <filename>  Firmware file
 
@@ -825,13 +854,8 @@ px4io <command> [arguments...]
    debug         set IO debug level
      <debug_level> 0=disabled, 9=max verbosity
 
-   monitor       continuously monitor status
-
    bind          DSM bind
      dsm2|dsmx|dsmx8 protocol
-
-   lockdown      enable (or disable) lockdown
-     [disable]   disable lockdown
 
    sbus1_out     enable sbus1 out
 
@@ -963,6 +987,60 @@ safety_button <command> [arguments...]
 
    status        print status info
 ```
+## sht3x
+Source: [drivers/hygrometer/sht3x](https://github.com/PX4/PX4-Autopilot/tree/master/src/drivers/hygrometer/sht3x)
+
+
+### Description
+SHT3x Temperature and Humidity Sensor Driver by Senserion.
+
+### Examples
+CLI usage example:
+```
+sht3x start -X
+```
+  Start the sensor driver on the external bus
+
+```
+sht3x status
+```
+  Print driver status
+
+```
+sht3x values
+```
+  Print last measured values
+
+```
+sht3x reset
+```
+  Reinitialize senzor, reset flags
+
+<a id="sht3x_usage"></a>
+
+### Usage
+```
+sht3x <command> [arguments...]
+ Commands:
+   start
+     [-I]        Internal I2C bus(es)
+     [-X]        External I2C bus(es)
+     [-b <val>]  board-specific bus (default=all) (external SPI: n-th bus
+                 (default=1))
+     [-f <val>]  bus frequency in kHz
+     [-q]        quiet startup (no message if no device found)
+     [-a <val>]  I2C address
+                 default: 68
+     [-k]        if initialization (probing) fails, keep retrying periodically
+
+   stop
+
+   status        print status info
+
+   values        Print actual data
+
+   reset         Reinitialize sensor
+```
 ## tap_esc
 Source: [drivers/tap_esc](https://github.com/PX4/PX4-Autopilot/tree/master/src/drivers/tap_esc)
 
@@ -1007,40 +1085,39 @@ tone_alarm <command> [arguments...]
 
    status        print status info
 ```
-## vmount
-Source: [modules/vmount](https://github.com/PX4/PX4-Autopilot/tree/master/src/modules/vmount)
+## uwb
+Source: [drivers/uwb/uwb_sr150](https://github.com/PX4/PX4-Autopilot/tree/master/src/drivers/uwb/uwb_sr150)
 
 
 ### Description
-Mount (Gimbal) control driver. It maps several different input methods (eg. RC or MAVLink) to a configured output (eg. AUX channels or MAVLink).
 
-Documentation how to use it is on the [gimbal_control](https://dev.px4.io/master/en/advanced/gimbal_control.html) page.
+Driver for NXP UWB_SR150 UWB positioning system. This driver publishes a `uwb_distance` message whenever the UWB_SR150 has a position measurement available.
 
-### Implementation
-Each method is implemented in its own class, and there is a common base class for inputs and outputs. They are connected via an API, defined by the `ControlData` data structure. This makes sure that each input method can be used with each output method and new inputs/outputs can be added with minimal effort.
+### Example
 
-### Examples
-Test the output by setting a fixed yaw angle (and the other axes to 0):
+Start the driver with a given device:
+
 ```
-vmount stop
-vmount test yaw 30
+uwb start -d /dev/ttyS2
 ```
 
-<a id="vmount_usage"></a>
+<a id="uwb_usage"></a>
 
 ### Usage
 ```
-vmount <command> [arguments...]
+uwb <command> [arguments...]
  Commands:
    start
-
-   test          Test the output: set a fixed angle for one axis (vmount must
-                 not be running)
-     roll|pitch|yaw <angle> Specify an axis and an angle in degrees
+     -d <val>    Name of device for serial communication with UWB
+                 values: <file:dev>
+     -b <val>    Baudrate for serial communication
+                 values: <int>
+     -p <val>    Position Debug: displays errors in Multilateration
+                 values: <int>
 
    stop
 
-   status        print status info
+   status
 ```
 ## voxlpm
 Source: [drivers/power_monitor/voxlpm](https://github.com/PX4/PX4-Autopilot/tree/master/src/drivers/power_monitor/voxlpm)

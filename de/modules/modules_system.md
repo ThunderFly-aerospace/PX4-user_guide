@@ -78,7 +78,7 @@ commander <command> [arguments...]
      [-h]        Enable HIL mode
 
    calibrate     Run sensor calibration
-     mag|accel|gyro|level|esc|airspeed Calibration type
+     mag|baro|accel|gyro|level|esc|airspeed Calibration type
      quick       Quick calibration (accel only, not recommended)
 
    check         Run preflight checks
@@ -108,6 +108,8 @@ commander <command> [arguments...]
      lat, lon, alt Origin Latitude, Longitude, Altitude
 
    lat|lon|alt   Origin latitude longitude altitude
+
+   poweroff      Power off board (if supported)
 
    stop
 
@@ -354,6 +356,8 @@ logger <command> [arguments...]
      [-p <val>]  Poll on a topic instead of running with fixed rate (Log rate
                  and topic intervals are ignored if this is set)
                  values: <topic_name>
+     [-c <val>]  Log rate factor (higher is faster)
+                 default: 1.0
 
    on            start logging now, override arming (logger must be running)
 
@@ -396,6 +400,43 @@ Module consuming manual_control_inputs publishing one manual_control_setpoint.
 manual_control <command> [arguments...]
  Commands:
    start
+
+   stop
+
+   status        print status info
+```
+## microdds_client
+Source: [modules/microdds_client](https://github.com/PX4/PX4-Autopilot/tree/master/src/modules/microdds_client)
+
+
+### Description
+MicroDDS Client used to communicate uORB topics with an Agent over serial or UDP.
+
+### Examples
+```
+microdds_client start -t serial -d /dev/ttyS3 -b 921600
+microdds_client start -t udp -h 127.0.0.1 -p 15555
+```
+
+<a id="microdds_client_usage"></a>
+
+### Usage
+```
+microdds_client <command> [arguments...]
+ Commands:
+   start
+     [-t <val>]  Transport protocol
+                 values: serial|udp, default: udp
+     [-d <val>]  serial device
+                 values: <file:dev>
+     [-b <val>]  Baudrate (can also be p:<param_name>)
+                 default: 0
+     [-h <val>]  Host IP
+                 values: <IP>, default: 127.0.0.1
+     [-p <val>]  Remote Port
+                 default: 15555
+     [-l]        Restrict to localhost (use in combination with
+                 ROS_LOCALHOST_ONLY=1)
 
    stop
 

@@ -1921,226 +1921,250 @@ table {
 </tr>
 <tr>
  <td><strong id="PCA9685_MAX1">PCA9685_MAX1</strong> (INT32)</td>
- <td>PCA9685 Output Channel 1 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PCA9685 Output Channel 1 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PCA9685_MAX10">PCA9685_MAX10</strong> (INT32)</td>
- <td>PCA9685 Output Channel 10 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PCA9685 Output Channel 10 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PCA9685_MAX11">PCA9685_MAX11</strong> (INT32)</td>
- <td>PCA9685 Output Channel 11 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PCA9685 Output Channel 11 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PCA9685_MAX12">PCA9685_MAX12</strong> (INT32)</td>
- <td>PCA9685 Output Channel 12 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PCA9685 Output Channel 12 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PCA9685_MAX13">PCA9685_MAX13</strong> (INT32)</td>
- <td>PCA9685 Output Channel 13 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PCA9685 Output Channel 13 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PCA9685_MAX14">PCA9685_MAX14</strong> (INT32)</td>
- <td>PCA9685 Output Channel 14 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PCA9685 Output Channel 14 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PCA9685_MAX15">PCA9685_MAX15</strong> (INT32)</td>
- <td>PCA9685 Output Channel 15 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PCA9685 Output Channel 15 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PCA9685_MAX16">PCA9685_MAX16</strong> (INT32)</td>
- <td>PCA9685 Output Channel 16 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PCA9685 Output Channel 16 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PCA9685_MAX2">PCA9685_MAX2</strong> (INT32)</td>
- <td>PCA9685 Output Channel 2 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PCA9685 Output Channel 2 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PCA9685_MAX3">PCA9685_MAX3</strong> (INT32)</td>
- <td>PCA9685 Output Channel 3 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PCA9685 Output Channel 3 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PCA9685_MAX4">PCA9685_MAX4</strong> (INT32)</td>
- <td>PCA9685 Output Channel 4 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PCA9685 Output Channel 4 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PCA9685_MAX5">PCA9685_MAX5</strong> (INT32)</td>
- <td>PCA9685 Output Channel 5 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PCA9685 Output Channel 5 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PCA9685_MAX6">PCA9685_MAX6</strong> (INT32)</td>
- <td>PCA9685 Output Channel 6 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PCA9685 Output Channel 6 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PCA9685_MAX7">PCA9685_MAX7</strong> (INT32)</td>
- <td>PCA9685 Output Channel 7 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PCA9685 Output Channel 7 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PCA9685_MAX8">PCA9685_MAX8</strong> (INT32)</td>
- <td>PCA9685 Output Channel 8 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PCA9685 Output Channel 8 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PCA9685_MAX9">PCA9685_MAX9</strong> (INT32)</td>
- <td>PCA9685 Output Channel 9 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PCA9685 Output Channel 9 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PCA9685_MIN1">PCA9685_MIN1</strong> (INT32)</td>
- <td>PCA9685 Output Channel 1 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PCA9685 Output Channel 1 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PCA9685_MIN10">PCA9685_MIN10</strong> (INT32)</td>
- <td>PCA9685 Output Channel 10 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PCA9685 Output Channel 10 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PCA9685_MIN11">PCA9685_MIN11</strong> (INT32)</td>
- <td>PCA9685 Output Channel 11 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PCA9685 Output Channel 11 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PCA9685_MIN12">PCA9685_MIN12</strong> (INT32)</td>
- <td>PCA9685 Output Channel 12 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PCA9685 Output Channel 12 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PCA9685_MIN13">PCA9685_MIN13</strong> (INT32)</td>
- <td>PCA9685 Output Channel 13 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PCA9685 Output Channel 13 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PCA9685_MIN14">PCA9685_MIN14</strong> (INT32)</td>
- <td>PCA9685 Output Channel 14 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PCA9685 Output Channel 14 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PCA9685_MIN15">PCA9685_MIN15</strong> (INT32)</td>
- <td>PCA9685 Output Channel 15 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PCA9685 Output Channel 15 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PCA9685_MIN16">PCA9685_MIN16</strong> (INT32)</td>
- <td>PCA9685 Output Channel 16 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PCA9685 Output Channel 16 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PCA9685_MIN2">PCA9685_MIN2</strong> (INT32)</td>
- <td>PCA9685 Output Channel 2 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PCA9685 Output Channel 2 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PCA9685_MIN3">PCA9685_MIN3</strong> (INT32)</td>
- <td>PCA9685 Output Channel 3 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PCA9685 Output Channel 3 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PCA9685_MIN4">PCA9685_MIN4</strong> (INT32)</td>
- <td>PCA9685 Output Channel 4 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PCA9685 Output Channel 4 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PCA9685_MIN5">PCA9685_MIN5</strong> (INT32)</td>
- <td>PCA9685 Output Channel 5 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PCA9685 Output Channel 5 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PCA9685_MIN6">PCA9685_MIN6</strong> (INT32)</td>
- <td>PCA9685 Output Channel 6 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PCA9685 Output Channel 6 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PCA9685_MIN7">PCA9685_MIN7</strong> (INT32)</td>
- <td>PCA9685 Output Channel 7 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PCA9685 Output Channel 7 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PCA9685_MIN8">PCA9685_MIN8</strong> (INT32)</td>
- <td>PCA9685 Output Channel 8 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PCA9685 Output Channel 8 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PCA9685_MIN9">PCA9685_MIN9</strong> (INT32)</td>
- <td>PCA9685 Output Channel 9 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PCA9685 Output Channel 9 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="PCA9685_REV">PCA9685_REV</strong> (INT32)</td>
+ <td>Reverse Output Range for PCA9685 Output <p><strong>Comment:</strong> Allows to reverse the output range for each channel. Note: this is only useful for servos.</p>  <strong>Bitmask:</strong><ul>  <li><strong>0:</strong> PCA9685 Output Channel 1</li> 
+  <li><strong>1:</strong> PCA9685 Output Channel 2</li> 
+  <li><strong>2:</strong> PCA9685 Output Channel 3</li> 
+  <li><strong>3:</strong> PCA9685 Output Channel 4</li> 
+  <li><strong>4:</strong> PCA9685 Output Channel 5</li> 
+  <li><strong>5:</strong> PCA9685 Output Channel 6</li> 
+  <li><strong>6:</strong> PCA9685 Output Channel 7</li> 
+  <li><strong>7:</strong> PCA9685 Output Channel 8</li> 
+  <li><strong>8:</strong> PCA9685 Output Channel 9</li> 
+  <li><strong>9:</strong> PCA9685 Output Channel 10</li> 
+  <li><strong>10:</strong> PCA9685 Output Channel 11</li> 
+  <li><strong>11:</strong> PCA9685 Output Channel 12</li> 
+  <li><strong>12:</strong> PCA9685 Output Channel 13</li> 
+  <li><strong>13:</strong> PCA9685 Output Channel 14</li> 
+  <li><strong>14:</strong> PCA9685 Output Channel 15</li> 
+  <li><strong>15:</strong> PCA9685 Output Channel 16</li> 
+</ul>
+ </td>
+ <td>0 > 65535 </td>
+ <td>0</td>
  <td></td>
 </tr>
 <tr>
@@ -3355,154 +3379,154 @@ table {
 </tr>
 <tr>
  <td><strong id="PWM_AUX_MAX1">PWM_AUX_MAX1</strong> (INT32)</td>
- <td>PWM Aux 1 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PWM Aux 1 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_AUX_MAX10">PWM_AUX_MAX10</strong> (INT32)</td>
- <td>PWM Capture 2 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PWM Capture 2 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_AUX_MAX11">PWM_AUX_MAX11</strong> (INT32)</td>
- <td>PWM Capture 3 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PWM Capture 3 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_AUX_MAX2">PWM_AUX_MAX2</strong> (INT32)</td>
- <td>PWM Aux 2 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PWM Aux 2 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_AUX_MAX3">PWM_AUX_MAX3</strong> (INT32)</td>
- <td>PWM Aux 3 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PWM Aux 3 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_AUX_MAX4">PWM_AUX_MAX4</strong> (INT32)</td>
- <td>PWM Aux 4 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PWM Aux 4 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_AUX_MAX5">PWM_AUX_MAX5</strong> (INT32)</td>
- <td>PWM Aux 5 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PWM Aux 5 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_AUX_MAX6">PWM_AUX_MAX6</strong> (INT32)</td>
- <td>PWM Aux 6 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PWM Aux 6 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_AUX_MAX7">PWM_AUX_MAX7</strong> (INT32)</td>
- <td>PWM Aux 7 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PWM Aux 7 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_AUX_MAX8">PWM_AUX_MAX8</strong> (INT32)</td>
- <td>PWM Aux 8 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PWM Aux 8 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_AUX_MAX9">PWM_AUX_MAX9</strong> (INT32)</td>
- <td>PWM Capture 1 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PWM Capture 1 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_AUX_MIN1">PWM_AUX_MIN1</strong> (INT32)</td>
- <td>PWM Aux 1 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PWM Aux 1 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_AUX_MIN10">PWM_AUX_MIN10</strong> (INT32)</td>
- <td>PWM Capture 2 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PWM Capture 2 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_AUX_MIN11">PWM_AUX_MIN11</strong> (INT32)</td>
- <td>PWM Capture 3 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PWM Capture 3 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_AUX_MIN2">PWM_AUX_MIN2</strong> (INT32)</td>
- <td>PWM Aux 2 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PWM Aux 2 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_AUX_MIN3">PWM_AUX_MIN3</strong> (INT32)</td>
- <td>PWM Aux 3 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PWM Aux 3 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_AUX_MIN4">PWM_AUX_MIN4</strong> (INT32)</td>
- <td>PWM Aux 4 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PWM Aux 4 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_AUX_MIN5">PWM_AUX_MIN5</strong> (INT32)</td>
- <td>PWM Aux 5 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PWM Aux 5 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_AUX_MIN6">PWM_AUX_MIN6</strong> (INT32)</td>
- <td>PWM Aux 6 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PWM Aux 6 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_AUX_MIN7">PWM_AUX_MIN7</strong> (INT32)</td>
- <td>PWM Aux 7 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PWM Aux 7 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_AUX_MIN8">PWM_AUX_MIN8</strong> (INT32)</td>
- <td>PWM Aux 8 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PWM Aux 8 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_AUX_MIN9">PWM_AUX_MIN9</strong> (INT32)</td>
- <td>PWM Capture 1 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>PWM Capture 1 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
@@ -4444,112 +4468,112 @@ table {
 </tr>
 <tr>
  <td><strong id="PWM_MAIN_MAX1">PWM_MAIN_MAX1</strong> (INT32)</td>
- <td>MAIN 1 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>MAIN 1 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_MAIN_MAX2">PWM_MAIN_MAX2</strong> (INT32)</td>
- <td>MAIN 2 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>MAIN 2 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_MAIN_MAX3">PWM_MAIN_MAX3</strong> (INT32)</td>
- <td>MAIN 3 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>MAIN 3 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_MAIN_MAX4">PWM_MAIN_MAX4</strong> (INT32)</td>
- <td>MAIN 4 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>MAIN 4 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_MAIN_MAX5">PWM_MAIN_MAX5</strong> (INT32)</td>
- <td>MAIN 5 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>MAIN 5 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_MAIN_MAX6">PWM_MAIN_MAX6</strong> (INT32)</td>
- <td>MAIN 6 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>MAIN 6 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_MAIN_MAX7">PWM_MAIN_MAX7</strong> (INT32)</td>
- <td>MAIN 7 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>MAIN 7 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_MAIN_MAX8">PWM_MAIN_MAX8</strong> (INT32)</td>
- <td>MAIN 8 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>MAIN 8 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>1600 > 2200 </td>
  <td>2000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_MAIN_MIN1">PWM_MAIN_MIN1</strong> (INT32)</td>
- <td>MAIN 1 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>MAIN 1 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_MAIN_MIN2">PWM_MAIN_MIN2</strong> (INT32)</td>
- <td>MAIN 2 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>MAIN 2 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_MAIN_MIN3">PWM_MAIN_MIN3</strong> (INT32)</td>
- <td>MAIN 3 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>MAIN 3 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_MAIN_MIN4">PWM_MAIN_MIN4</strong> (INT32)</td>
- <td>MAIN 4 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>MAIN 4 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_MAIN_MIN5">PWM_MAIN_MIN5</strong> (INT32)</td>
- <td>MAIN 5 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>MAIN 5 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_MAIN_MIN6">PWM_MAIN_MIN6</strong> (INT32)</td>
- <td>MAIN 6 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>MAIN 6 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_MAIN_MIN7">PWM_MAIN_MIN7</strong> (INT32)</td>
- <td>MAIN 7 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>MAIN 7 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="PWM_MAIN_MIN8">PWM_MAIN_MIN8</strong> (INT32)</td>
- <td>MAIN 8 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>MAIN 8 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>800 > 1400 </td>
  <td>1000</td>
  <td></td>
@@ -5348,6 +5372,22 @@ table {
  <td></td>
 </tr>
 <tr>
+ <td><strong id="TAP_ESC_REV">TAP_ESC_REV</strong> (INT32)</td>
+ <td>Reverse Output Range for TAP ESC Output <p><strong>Comment:</strong> Allows to reverse the output range for each channel. Note: this is only useful for servos.</p>  <strong>Bitmask:</strong><ul>  <li><strong>0:</strong> TAP ESC Output ESC 1</li> 
+  <li><strong>1:</strong> TAP ESC Output ESC 2</li> 
+  <li><strong>2:</strong> TAP ESC Output ESC 3</li> 
+  <li><strong>3:</strong> TAP ESC Output ESC 4</li> 
+  <li><strong>4:</strong> TAP ESC Output ESC 5</li> 
+  <li><strong>5:</strong> TAP ESC Output ESC 6</li> 
+  <li><strong>6:</strong> TAP ESC Output ESC 7</li> 
+  <li><strong>7:</strong> TAP ESC Output ESC 8</li> 
+</ul>
+ </td>
+ <td>0 > 255 </td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
  <td><strong id="UAVCAN_EC_FAIL1">UAVCAN_EC_FAIL1</strong> (INT32)</td>
  <td>UAVCAN ESC 1 Failsafe Value <p><strong>Comment:</strong> This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see UAVCAN_EC_FUNC1).</p>   </td>
  <td>-1 > 8191 </td>
@@ -6125,112 +6165,112 @@ table {
 </tr>
 <tr>
  <td><strong id="UAVCAN_EC_MAX1">UAVCAN_EC_MAX1</strong> (INT32)</td>
- <td>UAVCAN ESC 1 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCAN ESC 1 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>8191</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UAVCAN_EC_MAX2">UAVCAN_EC_MAX2</strong> (INT32)</td>
- <td>UAVCAN ESC 2 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCAN ESC 2 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>8191</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UAVCAN_EC_MAX3">UAVCAN_EC_MAX3</strong> (INT32)</td>
- <td>UAVCAN ESC 3 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCAN ESC 3 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>8191</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UAVCAN_EC_MAX4">UAVCAN_EC_MAX4</strong> (INT32)</td>
- <td>UAVCAN ESC 4 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCAN ESC 4 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>8191</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UAVCAN_EC_MAX5">UAVCAN_EC_MAX5</strong> (INT32)</td>
- <td>UAVCAN ESC 5 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCAN ESC 5 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>8191</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UAVCAN_EC_MAX6">UAVCAN_EC_MAX6</strong> (INT32)</td>
- <td>UAVCAN ESC 6 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCAN ESC 6 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>8191</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UAVCAN_EC_MAX7">UAVCAN_EC_MAX7</strong> (INT32)</td>
- <td>UAVCAN ESC 7 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCAN ESC 7 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>8191</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UAVCAN_EC_MAX8">UAVCAN_EC_MAX8</strong> (INT32)</td>
- <td>UAVCAN ESC 8 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCAN ESC 8 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>8191</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UAVCAN_EC_MIN1">UAVCAN_EC_MIN1</strong> (INT32)</td>
- <td>UAVCAN ESC 1 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCAN ESC 1 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>1</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UAVCAN_EC_MIN2">UAVCAN_EC_MIN2</strong> (INT32)</td>
- <td>UAVCAN ESC 2 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCAN ESC 2 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>1</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UAVCAN_EC_MIN3">UAVCAN_EC_MIN3</strong> (INT32)</td>
- <td>UAVCAN ESC 3 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCAN ESC 3 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>1</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UAVCAN_EC_MIN4">UAVCAN_EC_MIN4</strong> (INT32)</td>
- <td>UAVCAN ESC 4 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCAN ESC 4 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>1</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UAVCAN_EC_MIN5">UAVCAN_EC_MIN5</strong> (INT32)</td>
- <td>UAVCAN ESC 5 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCAN ESC 5 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>1</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UAVCAN_EC_MIN6">UAVCAN_EC_MIN6</strong> (INT32)</td>
- <td>UAVCAN ESC 6 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCAN ESC 6 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>1</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UAVCAN_EC_MIN7">UAVCAN_EC_MIN7</strong> (INT32)</td>
- <td>UAVCAN ESC 7 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCAN ESC 7 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>1</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UAVCAN_EC_MIN8">UAVCAN_EC_MIN8</strong> (INT32)</td>
- <td>UAVCAN ESC 8 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCAN ESC 8 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>1</td>
  <td></td>
@@ -7085,112 +7125,112 @@ table {
 </tr>
 <tr>
  <td><strong id="UAVCAN_SV_MAX1">UAVCAN_SV_MAX1</strong> (INT32)</td>
- <td>UAVCAN Servo 1 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCAN Servo 1 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>0 > 1000 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UAVCAN_SV_MAX2">UAVCAN_SV_MAX2</strong> (INT32)</td>
- <td>UAVCAN Servo 2 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCAN Servo 2 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>0 > 1000 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UAVCAN_SV_MAX3">UAVCAN_SV_MAX3</strong> (INT32)</td>
- <td>UAVCAN Servo 3 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCAN Servo 3 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>0 > 1000 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UAVCAN_SV_MAX4">UAVCAN_SV_MAX4</strong> (INT32)</td>
- <td>UAVCAN Servo 4 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCAN Servo 4 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>0 > 1000 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UAVCAN_SV_MAX5">UAVCAN_SV_MAX5</strong> (INT32)</td>
- <td>UAVCAN Servo 5 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCAN Servo 5 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>0 > 1000 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UAVCAN_SV_MAX6">UAVCAN_SV_MAX6</strong> (INT32)</td>
- <td>UAVCAN Servo 6 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCAN Servo 6 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>0 > 1000 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UAVCAN_SV_MAX7">UAVCAN_SV_MAX7</strong> (INT32)</td>
- <td>UAVCAN Servo 7 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCAN Servo 7 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>0 > 1000 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UAVCAN_SV_MAX8">UAVCAN_SV_MAX8</strong> (INT32)</td>
- <td>UAVCAN Servo 8 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCAN Servo 8 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>0 > 1000 </td>
  <td>1000</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UAVCAN_SV_MIN1">UAVCAN_SV_MIN1</strong> (INT32)</td>
- <td>UAVCAN Servo 1 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCAN Servo 1 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>0 > 1000 </td>
  <td>0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UAVCAN_SV_MIN2">UAVCAN_SV_MIN2</strong> (INT32)</td>
- <td>UAVCAN Servo 2 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCAN Servo 2 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>0 > 1000 </td>
  <td>0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UAVCAN_SV_MIN3">UAVCAN_SV_MIN3</strong> (INT32)</td>
- <td>UAVCAN Servo 3 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCAN Servo 3 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>0 > 1000 </td>
  <td>0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UAVCAN_SV_MIN4">UAVCAN_SV_MIN4</strong> (INT32)</td>
- <td>UAVCAN Servo 4 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCAN Servo 4 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>0 > 1000 </td>
  <td>0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UAVCAN_SV_MIN5">UAVCAN_SV_MIN5</strong> (INT32)</td>
- <td>UAVCAN Servo 5 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCAN Servo 5 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>0 > 1000 </td>
  <td>0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UAVCAN_SV_MIN6">UAVCAN_SV_MIN6</strong> (INT32)</td>
- <td>UAVCAN Servo 6 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCAN Servo 6 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>0 > 1000 </td>
  <td>0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UAVCAN_SV_MIN7">UAVCAN_SV_MIN7</strong> (INT32)</td>
- <td>UAVCAN Servo 7 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCAN Servo 7 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>0 > 1000 </td>
  <td>0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UAVCAN_SV_MIN8">UAVCAN_SV_MIN8</strong> (INT32)</td>
- <td>UAVCAN Servo 8 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCAN Servo 8 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>0 > 1000 </td>
  <td>0</td>
  <td></td>
@@ -8765,224 +8805,224 @@ table {
 </tr>
 <tr>
  <td><strong id="UCAN1_ESC_MAX1">UCAN1_ESC_MAX1</strong> (INT32)</td>
- <td>UAVCANv1 ESC 1 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCANv1 ESC 1 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>8191</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UCAN1_ESC_MAX10">UCAN1_ESC_MAX10</strong> (INT32)</td>
- <td>UAVCANv1 ESC 10 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCANv1 ESC 10 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>8191</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UCAN1_ESC_MAX11">UCAN1_ESC_MAX11</strong> (INT32)</td>
- <td>UAVCANv1 ESC 11 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCANv1 ESC 11 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>8191</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UCAN1_ESC_MAX12">UCAN1_ESC_MAX12</strong> (INT32)</td>
- <td>UAVCANv1 ESC 12 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCANv1 ESC 12 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>8191</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UCAN1_ESC_MAX13">UCAN1_ESC_MAX13</strong> (INT32)</td>
- <td>UAVCANv1 ESC 13 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCANv1 ESC 13 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>8191</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UCAN1_ESC_MAX14">UCAN1_ESC_MAX14</strong> (INT32)</td>
- <td>UAVCANv1 ESC 14 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCANv1 ESC 14 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>8191</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UCAN1_ESC_MAX15">UCAN1_ESC_MAX15</strong> (INT32)</td>
- <td>UAVCANv1 ESC 15 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCANv1 ESC 15 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>8191</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UCAN1_ESC_MAX16">UCAN1_ESC_MAX16</strong> (INT32)</td>
- <td>UAVCANv1 ESC 16 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCANv1 ESC 16 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>8191</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UCAN1_ESC_MAX2">UCAN1_ESC_MAX2</strong> (INT32)</td>
- <td>UAVCANv1 ESC 2 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCANv1 ESC 2 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>8191</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UCAN1_ESC_MAX3">UCAN1_ESC_MAX3</strong> (INT32)</td>
- <td>UAVCANv1 ESC 3 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCANv1 ESC 3 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>8191</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UCAN1_ESC_MAX4">UCAN1_ESC_MAX4</strong> (INT32)</td>
- <td>UAVCANv1 ESC 4 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCANv1 ESC 4 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>8191</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UCAN1_ESC_MAX5">UCAN1_ESC_MAX5</strong> (INT32)</td>
- <td>UAVCANv1 ESC 5 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCANv1 ESC 5 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>8191</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UCAN1_ESC_MAX6">UCAN1_ESC_MAX6</strong> (INT32)</td>
- <td>UAVCANv1 ESC 6 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCANv1 ESC 6 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>8191</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UCAN1_ESC_MAX7">UCAN1_ESC_MAX7</strong> (INT32)</td>
- <td>UAVCANv1 ESC 7 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCANv1 ESC 7 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>8191</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UCAN1_ESC_MAX8">UCAN1_ESC_MAX8</strong> (INT32)</td>
- <td>UAVCANv1 ESC 8 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCANv1 ESC 8 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>8191</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UCAN1_ESC_MAX9">UCAN1_ESC_MAX9</strong> (INT32)</td>
- <td>UAVCANv1 ESC 9 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCANv1 ESC 9 Maximum Value <p><strong>Comment:</strong> Maxmimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>8191</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UCAN1_ESC_MIN1">UCAN1_ESC_MIN1</strong> (INT32)</td>
- <td>UAVCANv1 ESC 1 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCANv1 ESC 1 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>1</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UCAN1_ESC_MIN10">UCAN1_ESC_MIN10</strong> (INT32)</td>
- <td>UAVCANv1 ESC 10 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCANv1 ESC 10 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>1</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UCAN1_ESC_MIN11">UCAN1_ESC_MIN11</strong> (INT32)</td>
- <td>UAVCANv1 ESC 11 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCANv1 ESC 11 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>1</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UCAN1_ESC_MIN12">UCAN1_ESC_MIN12</strong> (INT32)</td>
- <td>UAVCANv1 ESC 12 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCANv1 ESC 12 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>1</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UCAN1_ESC_MIN13">UCAN1_ESC_MIN13</strong> (INT32)</td>
- <td>UAVCANv1 ESC 13 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCANv1 ESC 13 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>1</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UCAN1_ESC_MIN14">UCAN1_ESC_MIN14</strong> (INT32)</td>
- <td>UAVCANv1 ESC 14 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCANv1 ESC 14 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>1</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UCAN1_ESC_MIN15">UCAN1_ESC_MIN15</strong> (INT32)</td>
- <td>UAVCANv1 ESC 15 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCANv1 ESC 15 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>1</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UCAN1_ESC_MIN16">UCAN1_ESC_MIN16</strong> (INT32)</td>
- <td>UAVCANv1 ESC 16 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCANv1 ESC 16 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>1</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UCAN1_ESC_MIN2">UCAN1_ESC_MIN2</strong> (INT32)</td>
- <td>UAVCANv1 ESC 2 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCANv1 ESC 2 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>1</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UCAN1_ESC_MIN3">UCAN1_ESC_MIN3</strong> (INT32)</td>
- <td>UAVCANv1 ESC 3 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCANv1 ESC 3 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>1</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UCAN1_ESC_MIN4">UCAN1_ESC_MIN4</strong> (INT32)</td>
- <td>UAVCANv1 ESC 4 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCANv1 ESC 4 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>1</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UCAN1_ESC_MIN5">UCAN1_ESC_MIN5</strong> (INT32)</td>
- <td>UAVCANv1 ESC 5 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCANv1 ESC 5 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>1</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UCAN1_ESC_MIN6">UCAN1_ESC_MIN6</strong> (INT32)</td>
- <td>UAVCANv1 ESC 6 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCANv1 ESC 6 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>1</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UCAN1_ESC_MIN7">UCAN1_ESC_MIN7</strong> (INT32)</td>
- <td>UAVCANv1 ESC 7 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCANv1 ESC 7 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>1</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UCAN1_ESC_MIN8">UCAN1_ESC_MIN8</strong> (INT32)</td>
- <td>UAVCANv1 ESC 8 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCANv1 ESC 8 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>1</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="UCAN1_ESC_MIN9">UCAN1_ESC_MIN9</strong> (INT32)</td>
- <td>UAVCANv1 ESC 9 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed). The output range can be reversed by setting Min > Max.</p>   </td>
+ <td>UAVCANv1 ESC 9 Minimum Value <p><strong>Comment:</strong> Minimum output value (when not disarmed).</p>   </td>
  <td>0 > 8191 </td>
  <td>1</td>
  <td></td>
@@ -9757,6 +9797,13 @@ table {
  <td></td>
 </tr>
 <tr>
+ <td><strong id="BAT_AVRG_CURRENT">BAT_AVRG_CURRENT</strong> (FLOAT)</td>
+ <td>Expected battery current in flight <p><strong>Comment:</strong> This value is used to initialize the in-flight average current estimation, which in turn is used for estimating remaining flight time and RTL triggering.</p>   </td>
+ <td>0 > 500 (0.1)</td>
+ <td>15.0</td>
+ <td>A</td>
+</tr>
+<tr>
  <td><strong id="BAT_CRIT_THR">BAT_CRIT_THR</strong> (FLOAT)</td>
  <td>Critical threshold <p><strong>Comment:</strong> Sets the threshold when the battery will be reported as critically low. This has to be lower than the low threshold. This threshold commonly will trigger RTL.</p>   </td>
  <td>0.05 > 0.25 (0.01)</td>
@@ -10249,6 +10296,13 @@ table {
  <td></td>
 </tr>
 <tr>
+ <td><strong id="COM_BAT_ACT_T">COM_BAT_ACT_T</strong> (FLOAT)</td>
+ <td>Delay between battery state change and failsafe reaction <p><strong>Comment:</strong> Battery state requires action -> wait COM_BAT_ACT_T seconds in Hold mode for the user to realize and take a custom action -> React with failsafe action COM_LOW_BAT_ACT A zero value disables the delay.</p>   </td>
+ <td>0.0 > 25.0 </td>
+ <td>10.0</td>
+ <td>s</td>
+</tr>
+<tr>
  <td><strong id="COM_CPU_MAX">COM_CPU_MAX</strong> (FLOAT)</td>
  <td>Maximum allowed CPU load to still arm <p><strong>Comment:</strong> A negative value disables the check.</p>   </td>
  <td>-1 > 100 (1)</td>
@@ -10332,6 +10386,8 @@ table {
 <li><strong>11:</strong> Land</li> 
 
 <li><strong>12:</strong> Follow Me</li> 
+
+<li><strong>13:</strong> Precision Land</li> 
 </ul>
   </td>
  <td></td>
@@ -10366,6 +10422,8 @@ table {
 <li><strong>11:</strong> Land</li> 
 
 <li><strong>12:</strong> Follow Me</li> 
+
+<li><strong>13:</strong> Precision Land</li> 
 </ul>
   </td>
  <td></td>
@@ -10400,6 +10458,8 @@ table {
 <li><strong>11:</strong> Land</li> 
 
 <li><strong>12:</strong> Follow Me</li> 
+
+<li><strong>13:</strong> Precision Land</li> 
 </ul>
   </td>
  <td></td>
@@ -10434,6 +10494,8 @@ table {
 <li><strong>11:</strong> Land</li> 
 
 <li><strong>12:</strong> Follow Me</li> 
+
+<li><strong>13:</strong> Precision Land</li> 
 </ul>
   </td>
  <td></td>
@@ -10468,6 +10530,8 @@ table {
 <li><strong>11:</strong> Land</li> 
 
 <li><strong>12:</strong> Follow Me</li> 
+
+<li><strong>13:</strong> Precision Land</li> 
 </ul>
   </td>
  <td></td>
@@ -10502,6 +10566,8 @@ table {
 <li><strong>11:</strong> Land</li> 
 
 <li><strong>12:</strong> Follow Me</li> 
+
+<li><strong>13:</strong> Precision Land</li> 
 </ul>
   </td>
  <td></td>
@@ -10522,6 +10588,13 @@ table {
   </td>
  <td></td>
  <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="COM_FORCE_SAFETY">COM_FORCE_SAFETY</strong> (INT32)</td>
+ <td>Enable force safety <p><strong>Comment:</strong> Force safety when the vehicle disarms. Not supported when safety button used over PX4IO board.</p>   </td>
+ <td></td>
+ <td>Disabled (0)</td>
  <td></td>
 </tr>
 <tr>
@@ -10547,25 +10620,11 @@ table {
  <td></td>
 </tr>
 <tr>
- <td><strong id="COM_HOME_H_T">COM_HOME_H_T</strong> (FLOAT)</td>
- <td>Home set horizontal threshold <p><strong>Comment:</strong> The home position will be set if the estimated positioning accuracy is below the threshold.</p>   </td>
- <td>2 > 15 (0.5)</td>
- <td>5.0</td>
- <td>m</td>
-</tr>
-<tr>
  <td><strong id="COM_HOME_IN_AIR">COM_HOME_IN_AIR</strong> (INT32)</td>
  <td>Allows setting the home position after takeoff <p><strong>Comment:</strong> If set to true, the autopilot is allowed to set its home position after takeoff The true home position is back-computed if a local position is estimate if available. If no local position is available, home is set to the current position.</p>   </td>
  <td></td>
  <td>Disabled (0)</td>
  <td></td>
-</tr>
-<tr>
- <td><strong id="COM_HOME_V_T">COM_HOME_V_T</strong> (FLOAT)</td>
- <td>Home set vertical threshold <p><strong>Comment:</strong> The home position will be set if the estimated positioning accuracy is below the threshold.</p>   </td>
- <td>5 > 25 (0.5)</td>
- <td>10.0</td>
- <td>m</td>
 </tr>
 <tr>
  <td><strong id="COM_IMB_PROP_ACT">COM_IMB_PROP_ACT</strong> (INT32)</td>
@@ -10726,21 +10785,6 @@ table {
  <td>m</td>
 </tr>
 <tr>
- <td><strong id="COM_POS_FS_GAIN">COM_POS_FS_GAIN</strong> (INT32)</td>
- <td>Loss of position probation gain factor <p><strong>Comment:</strong> This sets the rate that the loss of position probation time grows when position checks are failing. The default value has been optimised for rotary wing applications. For fixed wing applications a value of 0 should be used.</p>   <p><b>Reboot required:</b> true</p>
-</td>
- <td></td>
- <td>10</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="COM_POS_FS_PROB">COM_POS_FS_PROB</strong> (INT32)</td>
- <td>Loss of position probation delay at takeoff <p><strong>Comment:</strong> The probation delay is the number of seconds that the EKF innovation checks need to pass for the position to be declared good after it has been declared bad. The probation delay will be reset to this parameter value when takeoff is detected. After takeoff, if position checks are passing, the probation delay will reduce by one second for every lapsed second of valid position down to a minimum of 1 second. If position checks are failing, the probation delay will increase by COM_POS_FS_GAIN seconds for every lapsed second up to a maximum of 100 seconds. The default value has been optimised for rotary wing applications. For fixed wing applications, a value of 1 should be used.</p>   </td>
- <td>1 > 100 </td>
- <td>30</td>
- <td>s</td>
-</tr>
-<tr>
  <td><strong id="COM_POWER_COUNT">COM_POWER_COUNT</strong> (INT32)</td>
  <td>Required number of redundant power modules <p><strong>Comment:</strong> This configures a check to verify the expected number of 5V rail power supplies are present. By default only one is expected. Note: CBRK_SUPPLY_CHK disables all power checks including this one.</p>   </td>
  <td>0 > 4 </td>
@@ -10762,8 +10806,24 @@ table {
  <td></td>
 </tr>
 <tr>
+ <td><strong id="COM_QC_ACT">COM_QC_ACT</strong> (INT32)</td>
+ <td>Set command after a quadchute  <strong>Values:</strong><ul>
+<li><strong>-1:</strong> No action: stay in current flight mode</li> 
+
+<li><strong>0:</strong> Return mode</li> 
+
+<li><strong>1:</strong> Land mode</li> 
+
+<li><strong>2:</strong> Hold mode</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
  <td><strong id="COM_RCL_ACT_T">COM_RCL_ACT_T</strong> (FLOAT)</td>
- <td>Delay between RC loss and configured reaction <p><strong>Comment:</strong> RC signal not updated -> still use data for COM_RC_LOSS_T seconds Consider RC signal lost -> wait COM_RCL_ACT_T seconds on the spot waiting to regain signal React with failsafe action NAV_RCL_ACT A zero value disables the delay.</p>   </td>
+ <td>Delay between RC loss and configured reaction <p><strong>Comment:</strong> RC signal not updated -> still use data for COM_RC_LOSS_T seconds Consider RC signal lost -> wait COM_RCL_ACT_T seconds in Hold mode to regain signal React with failsafe action NAV_RCL_ACT A zero value disables the delay.</p>   </td>
  <td>0.0 > 25.0 </td>
  <td>15.0</td>
  <td>s</td>
@@ -10827,13 +10887,6 @@ table {
  <td>5 > 80 (0.05)</td>
  <td>30.0</td>
  <td>%</td>
-</tr>
-<tr>
- <td><strong id="COM_REARM_GRACE">COM_REARM_GRACE</strong> (INT32)</td>
- <td>Rearming grace period <p><strong>Comment:</strong> Re-arming grace allows to rearm the drone with manual command without running prearmcheck during 5 s after disarming.</p>   </td>
- <td></td>
- <td>Enabled (1)</td>
- <td></td>
 </tr>
 <tr>
  <td><strong id="COM_TAKEOFF_ACT">COM_TAKEOFF_ACT</strong> (INT32)</td>
@@ -11321,7 +11374,7 @@ table {
 </tr>
 <tr>
  <td><strong id="EKF2_GPS_CHECK">EKF2_GPS_CHECK</strong> (INT32)</td>
- <td>Integer bitmask controlling GPS checks <p><strong>Comment:</strong> Set bits to 1 to enable checks. Checks enabled by the following bit positions 0 : Minimum required sat count set by EKF2_REQ_NSATS 1 : Maximum allowed PDOP set by EKF2_REQ_PDOP 2 : Maximum allowed horizontal position error set by EKF2_REQ_EPH 3 : Maximum allowed vertical position error set by EKF2_REQ_EPV 4 : Maximum allowed speed error set by EKF2_REQ_SACC 5 : Maximum allowed horizontal position rate set by EKF2_REQ_HDRIFT. This check will only run when the vehicle is on ground and stationary. Detecton of the stationary condition is controlled by the EKF2_MOVE_TEST parameter. 6 : Maximum allowed vertical position rate set by EKF2_REQ_VDRIFT. This check will only run when the vehicle is on ground and stationary. Detecton of the stationary condition is controlled by the EKF2_MOVE_TEST parameter. 7 : Maximum allowed horizontal speed set by EKF2_REQ_HDRIFT. This check will only run when the vehicle is on ground and stationary. Detecton of the stationary condition is controlled by the EKF2_MOVE_TEST parameter. 8 : Maximum allowed vertical velocity discrepancy set by EKF2_REQ_VDRIFT</p>  <strong>Bitmask:</strong><ul>  <li><strong>0:</strong> Min sat count (EKF2_REQ_NSATS)</li> 
+ <td>Integer bitmask controlling GPS checks <p><strong>Comment:</strong> Set bits to 1 to enable checks. Checks enabled by the following bit positions 0 : Minimum required sat count set by EKF2_REQ_NSATS 1 : Maximum allowed PDOP set by EKF2_REQ_PDOP 2 : Maximum allowed horizontal position error set by EKF2_REQ_EPH 3 : Maximum allowed vertical position error set by EKF2_REQ_EPV 4 : Maximum allowed speed error set by EKF2_REQ_SACC 5 : Maximum allowed horizontal position rate set by EKF2_REQ_HDRIFT. This check will only run when the vehicle is on ground and stationary. 6 : Maximum allowed vertical position rate set by EKF2_REQ_VDRIFT. This check will only run when the vehicle is on ground and stationary. 7 : Maximum allowed horizontal speed set by EKF2_REQ_HDRIFT. This check will only run when the vehicle is on ground and stationary. 8 : Maximum allowed vertical velocity discrepancy set by EKF2_REQ_VDRIFT</p>  <strong>Bitmask:</strong><ul>  <li><strong>0:</strong> Min sat count (EKF2_REQ_NSATS)</li> 
   <li><strong>1:</strong> Max PDOP (EKF2_REQ_PDOP)</li> 
   <li><strong>2:</strong> Max horizontal position error (EKF2_REQ_EPH)</li> 
   <li><strong>3:</strong> Max vertical position error (EKF2_REQ_EPV)</li> 
@@ -11525,7 +11578,7 @@ table {
 </tr>
 <tr>
  <td><strong id="EKF2_MAG_TYPE">EKF2_MAG_TYPE</strong> (INT32)</td>
- <td>Type of magnetometer fusion <p><strong>Comment:</strong> Integer controlling the type of magnetometer fusion used - magnetic heading or 3-component vector. The fuson of magnetomer data as a three component vector enables vehicle body fixed hard iron errors to be learned, but requires a stable earth field. If set to 'Automatic' magnetic heading fusion is used when on-ground and 3-axis magnetic field fusion in-flight with fallback to magnetic heading fusion if there is insufficient motion to make yaw or magnetic field states observable. If set to 'Magnetic heading' magnetic heading fusion is used at all times If set to '3-axis' 3-axis field fusion is used at all times. If set to 'VTOL custom' the behaviour is the same as 'Automatic', but if fusing airspeed, magnetometer fusion is only allowed to modify the magnetic field states. This can be used by VTOL platforms with large magnetic field disturbances to prevent incorrect bias states being learned during forward flight operation which can adversely affect estimation accuracy after transition to hovering flight. If set to 'MC custom' the behaviour is the same as 'Automatic, but if there are no earth frame position or velocity observations being used, the magnetometer will not be used. This enables vehicles to operate with no GPS in environments where the magnetic field cannot be used to provide a heading reference. Prior to flight, the yaw angle is assumed to be constant if movement tests controlled by the EKF2_MOVE_TEST parameter indicate that the vehicle is static. This allows the vehicle to be placed on the ground to learn the yaw gyro bias prior to flight. If set to 'None' the magnetometer will not be used under any circumstance. If no external source of yaw is available, it is possible to use post-takeoff horizontal movement combined with GPS velocity measurements to align the yaw angle with the timer required (depending on the amount of movement and GPS data quality). Other external sources of yaw may be used if selected via the EKF2_AID_MASK parameter.</p> <strong>Values:</strong><ul>
+ <td>Type of magnetometer fusion <p><strong>Comment:</strong> Integer controlling the type of magnetometer fusion used - magnetic heading or 3-component vector. The fuson of magnetomer data as a three component vector enables vehicle body fixed hard iron errors to be learned, but requires a stable earth field. If set to 'Automatic' magnetic heading fusion is used when on-ground and 3-axis magnetic field fusion in-flight with fallback to magnetic heading fusion if there is insufficient motion to make yaw or magnetic field states observable. If set to 'Magnetic heading' magnetic heading fusion is used at all times If set to '3-axis' 3-axis field fusion is used at all times. If set to 'VTOL custom' the behaviour is the same as 'Automatic', but if fusing airspeed, magnetometer fusion is only allowed to modify the magnetic field states. This can be used by VTOL platforms with large magnetic field disturbances to prevent incorrect bias states being learned during forward flight operation which can adversely affect estimation accuracy after transition to hovering flight. If set to 'MC custom' the behaviour is the same as 'Automatic, but if there are no earth frame position or velocity observations being used, the magnetometer will not be used. This enables vehicles to operate with no GPS in environments where the magnetic field cannot be used to provide a heading reference. Prior to flight, the yaw angle is assumed to be constant if movement tests indicate that the vehicle is static. This allows the vehicle to be placed on the ground to learn the yaw gyro bias prior to flight. If set to 'None' the magnetometer will not be used under any circumstance. If no external source of yaw is available, it is possible to use post-takeoff horizontal movement combined with GPS velocity measurements to align the yaw angle with the timer required (depending on the amount of movement and GPS data quality). Other external sources of yaw may be used if selected via the EKF2_AID_MASK parameter.</p> <strong>Values:</strong><ul>
 <li><strong>0:</strong> Automatic</li> 
 
 <li><strong>1:</strong> Magnetic heading</li> 
@@ -11559,26 +11612,11 @@ table {
  <td>1/s</td>
 </tr>
 <tr>
- <td><strong id="EKF2_MIN_OBS_DT">EKF2_MIN_OBS_DT</strong> (INT32)</td>
- <td>Minimum time of arrival delta between non-IMU observations before data is downsampled <p><strong>Comment:</strong> Baro and Magnetometer data will be averaged before downsampling, other data will be point sampled resulting in loss of information.</p>   <p><b>Reboot required:</b> true</p>
-</td>
- <td>10 > 50 </td>
- <td>20</td>
- <td>ms</td>
-</tr>
-<tr>
  <td><strong id="EKF2_MIN_RNG">EKF2_MIN_RNG</strong> (FLOAT)</td>
- <td>Expected range finder reading when on ground <p><strong>Comment:</strong> If the vehicle is on ground, is not moving as determined by the motion test controlled by EKF2_MOVE_TEST and the range finder is returning invalid or no data, then an assumed range value of EKF2_MIN_RNG will be used by the terrain estimator so that a terrain height estimate is avilable at the start of flight in situations where the range finder may be inside its minimum measurements distance when on ground.</p>   </td>
+ <td>Expected range finder reading when on ground <p><strong>Comment:</strong> If the vehicle is on ground, is not moving as determined by the motion test and the range finder is returning invalid or no data, then an assumed range value of EKF2_MIN_RNG will be used by the terrain estimator so that a terrain height estimate is avilable at the start of flight in situations where the range finder may be inside its minimum measurements distance when on ground.</p>   </td>
  <td>0.01 > ? </td>
  <td>0.1</td>
  <td>m</td>
-</tr>
-<tr>
- <td><strong id="EKF2_MOVE_TEST">EKF2_MOVE_TEST</strong> (FLOAT)</td>
- <td>Vehicle movement test threshold <p><strong>Comment:</strong> Scales the threshold tests applied to IMU data used to determine if the vehicle is static or moving. See parameter descriptions for EKF2_GPS_CHECK and EKF2_MAG_TYPE for further information on the functionality affected by this parameter.</p>   </td>
- <td>0.1 > 10.0 </td>
- <td>1.0</td>
- <td></td>
 </tr>
 <tr>
  <td><strong id="EKF2_MULTI_IMU">EKF2_MULTI_IMU</strong> (INT32)</td>
@@ -11703,6 +11741,13 @@ table {
  <td></td>
 </tr>
 <tr>
+ <td><strong id="EKF2_PREDICT_US">EKF2_PREDICT_US</strong> (INT32)</td>
+ <td>EKF prediction period <p><strong>Comment:</strong> EKF prediction period in microseconds. This should ideally be an integer multiple of the IMU time delta. Actual filter update will be an integer multiple of IMU update.</p>   </td>
+ <td>1000 > 20000 </td>
+ <td>10000</td>
+ <td>us</td>
+</tr>
+<tr>
  <td><strong id="EKF2_REQ_EPH">EKF2_REQ_EPH</strong> (FLOAT)</td>
  <td>Required EPH to use GPS    </td>
  <td>2 > 100 </td>
@@ -11805,6 +11850,13 @@ table {
  <td>Gate size for range finder fusion <p><strong>Comment:</strong> Sets the number of standard deviations used by the innovation consistency test.</p>   </td>
  <td>1.0 > ? </td>
  <td>5.0</td>
+ <td>SD</td>
+</tr>
+<tr>
+ <td><strong id="EKF2_RNG_K_GATE">EKF2_RNG_K_GATE</strong> (FLOAT)</td>
+ <td>Gate size used for range finder kinematic consistency check <p><strong>Comment:</strong> To be used, the time derivative of the distance sensor measurements projected on the vertical axis needs to be statistically consistent with the estimated vertical velocity of the drone. Decrease this value to make the filter more robust against range finder faulty data (stuck, reflections, ...). Note: tune the range finder noise parameters (EKF2_RNG_NOISE and EKF2_RNG_SFE) before tuning this gate.</p>   </td>
+ <td>0.1 > 5.0 </td>
+ <td>1.0</td>
  <td>SD</td>
 </tr>
 <tr>
@@ -12150,7 +12202,7 @@ table {
 </tr>
 <tr>
  <td><strong id="FW_MAN_P_MAX">FW_MAN_P_MAX</strong> (FLOAT)</td>
- <td>Max manual pitch <p><strong>Comment:</strong> Max pitch for manual control in attitude stabilized mode</p>   </td>
+ <td>Maximum manual pitch angle <p><strong>Comment:</strong> Maximum manual pitch angle setpoint (positive & negative) in manual attitude-only stabilized mode</p>   </td>
  <td>0.0 > 90.0 (0.5)</td>
  <td>45.0</td>
  <td>deg</td>
@@ -12164,7 +12216,7 @@ table {
 </tr>
 <tr>
  <td><strong id="FW_MAN_R_MAX">FW_MAN_R_MAX</strong> (FLOAT)</td>
- <td>Max manual roll <p><strong>Comment:</strong> Max roll for manual control in attitude stabilized mode</p>   </td>
+ <td>Maximum manual roll angle <p><strong>Comment:</strong> Maximum manual roll angle setpoint (positive & negative) in manual attitude-only stabilized mode</p>   </td>
  <td>0.0 > 90.0 (0.5)</td>
  <td>45.0</td>
  <td>deg</td>
@@ -12481,34 +12533,32 @@ table {
  <td></td>
 </tr>
 <tr>
- <td><strong id="FW_POSCTL_INV_ST">FW_POSCTL_INV_ST</strong> (INT32)</td>
- <td>RC stick mapping fixed-wing <p><strong>Comment:</strong> Set RC/joystick configuration for fixed-wing position and altitude controlled flight.</p> <strong>Values:</strong><ul>
-<li><strong>0:</strong> Normal stick configuration (airspeed on throttle stick, altitude on pitch stick)</li> 
-
-<li><strong>1:</strong> Alternative stick configuration (altitude on throttle stick, airspeed on pitch stick)</li> 
+ <td><strong id="FW_POS_STK_CONF">FW_POS_STK_CONF</strong> (INT32)</td>
+ <td>RC stick configuraton fixed-wing <p><strong>Comment:</strong> Set RC/joystick configuration for fixed-wing manual position and altitude controlled flight.</p>  <strong>Bitmask:</strong><ul>  <li><strong>0:</strong> Alternative stick configuration (height rate on throttle stick, airspeed on pitch stick)</li> 
+  <li><strong>1:</strong> Enable airspeed setpoint via sticks in altitude and position flight mode</li> 
 </ul>
-  </td>
- <td>0 > 1 </td>
- <td>0</td>
+ </td>
+ <td>0 > 3 </td>
+ <td>2</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="FW_P_LIM_MAX">FW_P_LIM_MAX</strong> (FLOAT)</td>
- <td>Positive pitch limit <p><strong>Comment:</strong> The maximum positive pitch the controller will output.</p>   </td>
+ <td>Maximum pitch angle <p><strong>Comment:</strong> The maximum pitch angle setpoint for autonomous modes including altitude and position control.</p>   </td>
  <td>0.0 > 60.0 (0.5)</td>
  <td>45.0</td>
  <td>deg</td>
 </tr>
 <tr>
  <td><strong id="FW_P_LIM_MIN">FW_P_LIM_MIN</strong> (FLOAT)</td>
- <td>Negative pitch limit <p><strong>Comment:</strong> The minimum negative pitch the controller will output.</p>   </td>
+ <td>Minimum pitch angle <p><strong>Comment:</strong> The minimum pitch angle setpoint for autonomous modes including altitude and position control.</p>   </td>
  <td>-60.0 > 0.0 (0.5)</td>
  <td>-45.0</td>
  <td>deg</td>
 </tr>
 <tr>
  <td><strong id="FW_R_LIM">FW_R_LIM</strong> (FLOAT)</td>
- <td>Controller roll limit <p><strong>Comment:</strong> The maximum roll the controller will output.</p>   </td>
+ <td>Maximum roll angle <p><strong>Comment:</strong> The maximum roll angle setpoint for autonomous modes including altitude and position control.</p>   </td>
  <td>35.0 > 65.0 (0.5)</td>
  <td>50.0</td>
  <td>deg</td>
@@ -12613,6 +12663,100 @@ table {
  <td>0.0 > 5.0 (0.05)</td>
  <td>0.05</td>
  <td>s</td>
+</tr>
+</tbody></table>
+
+## FW NPFG Control
+
+<table>
+ <colgroup><col style="width: 23%"><col style="width: 46%"><col style="width: 11%"><col style="width: 11%"><col style="width: 9%"></colgroup>
+ <thead>
+   <tr><th>Name</th><th>Description</th><th>Min > Max (Incr.)</th><th>Default</th><th>Units</th></tr>
+ </thead>
+<tbody>
+<tr>
+ <td><strong id="FW_USE_NPFG">FW_USE_NPFG</strong> (INT32)</td>
+ <td>Use NPFG as lateral-directional guidance law for fixed-wing vehicles <p><strong>Comment:</strong> Replaces L1.</p>   </td>
+ <td></td>
+ <td>Disabled (0)</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="NPFG_DAMPING">NPFG_DAMPING</strong> (FLOAT)</td>
+ <td>NPFG damping ratio <p><strong>Comment:</strong> Damping ratio of the NPFG control law.</p>   </td>
+ <td>0.10 > 1.00 (0.01)</td>
+ <td>0.7</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="NPFG_EN_MIN_GSP">NPFG_EN_MIN_GSP</strong> (INT32)</td>
+ <td>Enable minimum forward ground speed maintaining excess wind handling logic    </td>
+ <td></td>
+ <td>Enabled (1)</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="NPFG_GSP_MAX_TK">NPFG_GSP_MAX_TK</strong> (FLOAT)</td>
+ <td>Maximum, minimum forward ground speed for track keeping in excess wind <p><strong>Comment:</strong> The maximum value of the minimum forward ground speed that may be commanded by the track keeping excess wind handling logic. Commanded in full at the normalized track error fraction of the track error boundary and reduced to zero on track.</p>   </td>
+ <td>0.0 > 10.0 (0.5)</td>
+ <td>5.0</td>
+ <td>m/s</td>
+</tr>
+<tr>
+ <td><strong id="NPFG_LB_PERIOD">NPFG_LB_PERIOD</strong> (INT32)</td>
+ <td>Enable automatic lower bound on the NPFG period <p><strong>Comment:</strong> Avoids limit cycling from a too aggressively tuned period/damping combination. If set to false, also disables the upper bound NPFG_PERIOD_UB.</p>   </td>
+ <td></td>
+ <td>Enabled (1)</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="NPFG_PERIOD">NPFG_PERIOD</strong> (FLOAT)</td>
+ <td>NPFG period <p><strong>Comment:</strong> Period of the NPFG control law.</p>   </td>
+ <td>1.0 > 100.0 (0.1)</td>
+ <td>10.0</td>
+ <td>s</td>
+</tr>
+<tr>
+ <td><strong id="NPFG_PERIOD_SF">NPFG_PERIOD_SF</strong> (FLOAT)</td>
+ <td>Period safety factor <p><strong>Comment:</strong> Multiplied by period for conservative minimum period bounding (when period lower bounding is enabled). 1.0 bounds at marginal stability.</p>   </td>
+ <td>1.0 > 10.0 (0.1)</td>
+ <td>1.5</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="NPFG_ROLL_TC">NPFG_ROLL_TC</strong> (FLOAT)</td>
+ <td>Roll time constant <p><strong>Comment:</strong> Time constant of roll controller command / response, modeled as first order delay. Used to determine lower period bound. Setting zero disables automatic period bounding.</p>   </td>
+ <td>0.00 > 2.00 (0.05)</td>
+ <td>0.5</td>
+ <td>s</td>
+</tr>
+<tr>
+ <td><strong id="NPFG_SW_DST_MLT">NPFG_SW_DST_MLT</strong> (FLOAT)</td>
+ <td>NPFG switch distance multiplier <p><strong>Comment:</strong> Multiplied by the track error boundary to determine when the aircraft switches to the next waypoint and/or path segment. Should be less than 1. 1/pi (0.32) sets the switch distance equivalent to that of the L1 controller.</p>   </td>
+ <td>0.1 > 1.0 (0.01)</td>
+ <td>0.32</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="NPFG_TRACK_KEEP">NPFG_TRACK_KEEP</strong> (INT32)</td>
+ <td>Enable track keeping excess wind handling logic    </td>
+ <td></td>
+ <td>Enabled (1)</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="NPFG_UB_PERIOD">NPFG_UB_PERIOD</strong> (INT32)</td>
+ <td>Enable automatic upper bound on the NPFG period <p><strong>Comment:</strong> Adapts period to maintain track keeping in variable winds and path curvature.</p>   </td>
+ <td></td>
+ <td>Enabled (1)</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="NPFG_WIND_REG">NPFG_WIND_REG</strong> (INT32)</td>
+ <td>Enable wind excess regulation <p><strong>Comment:</strong> Disabling this parameter further disables all other airspeed incrementation options.</p>   </td>
+ <td></td>
+ <td>Enabled (1)</td>
+ <td></td>
 </tr>
 </tbody></table>
 
@@ -13062,6 +13206,14 @@ table {
  <td></td>
 </tr>
 <tr>
+ <td><strong id="GPS_SAT_INFO">GPS_SAT_INFO</strong> (INT32)</td>
+ <td>Enable sat info (if available) <p><strong>Comment:</strong> Enable publication of satellite info (ORB_ID(satellite_info)) if possible. Not available on MTK.</p>   <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>Disabled (0)</td>
+ <td></td>
+</tr>
+<tr>
  <td><strong id="GPS_UBX_DYNMODEL">GPS_UBX_DYNMODEL</strong> (INT32)</td>
  <td>u-blox GPS dynamic platform model <p><strong>Comment:</strong> u-blox receivers support different dynamic platform models to adjust the navigation engine to the expected application environment.</p> <strong>Values:</strong><ul>
 <li><strong>2:</strong> stationary</li> 
@@ -13101,7 +13253,7 @@ table {
 </tr>
 <tr>
  <td><strong id="GPS_YAW_OFFSET">GPS_YAW_OFFSET</strong> (FLOAT)</td>
- <td>Heading/Yaw offset for dual antenna GPS <p><strong>Comment:</strong> Heading offset angle for dual antenna GPS setups that support heading estimation. Set this to 0 if the antennas are parallel to the forward-facing direction of the vehicle and the first antenna is in front. The offset angle increases clockwise. Set this to 90 if the first antenna is placed on the right side and the second on the left side of the vehicle.</p>   <p><b>Reboot required:</b> true</p>
+ <td>Heading/Yaw offset for dual antenna GPS <p><strong>Comment:</strong> Heading offset angle for dual antenna GPS setups that support heading estimation. Set this to 0 if the antennas are parallel to the forward-facing direction of the vehicle and the rover antenna is in front. The offset angle increases clockwise. Set this to 90 if the rover antenna is placed on the right side of the vehicle and the moving base antenna is on the left side.</p>   <p><b>Reboot required:</b> true</p>
 </td>
  <td>0 > 360 </td>
  <td>0.</td>
@@ -13177,6 +13329,13 @@ table {
  <td>0 > 10000 (1)</td>
  <td>0</td>
  <td>m</td>
+</tr>
+<tr>
+ <td><strong id="GF_PREDICT">GF_PREDICT</strong> (INT32)</td>
+ <td>Use Pre-emptive geofence triggering <p><strong>Comment:</strong> Predict the motion of the vehicle and trigger the breach if it is determined that the current trajectory would result in a breach happening before the vehicle can make evasive maneuvers. The vehicle is then re-routed to a safe hold position (stop for multirotor, loiter for fixed wing).</p>   </td>
+ <td></td>
+ <td>Enabled (1)</td>
+ <td></td>
 </tr>
 <tr>
  <td><strong id="GF_SOURCE">GF_SOURCE</strong> (INT32)</td>
@@ -13918,7 +14077,7 @@ table {
 </tr>
 <tr>
  <td><strong id="CA_R_REV">CA_R_REV</strong> (INT32)</td>
- <td>Reversible motors <p><strong>Comment:</strong> Configure motors to be reversible. Note that the output driver needs to support this as well.</p>  <strong>Bitmask:</strong><ul>  <li><strong>0:</strong> Motor 1</li> 
+ <td>Bidirectional/Reversible motors <p><strong>Comment:</strong> Configure motors to be bidirectional/reversible. Note that the output driver needs to support this as well.</p>  <strong>Bitmask:</strong><ul>  <li><strong>0:</strong> Motor 1</li> 
   <li><strong>1:</strong> Motor 2</li> 
   <li><strong>2:</strong> Motor 3</li> 
   <li><strong>3:</strong> Motor 4</li> 
@@ -13930,22 +14089,6 @@ table {
  </td>
  <td>0 > 255 </td>
  <td>0</td>
- <td></td>
-</tr>
-<tr>
- <td><strong id="CA_STDVTOL_N_P">CA_STDVTOL_N_P</strong> (INT32)</td>
- <td>Number of fixed wing (pusher/puller) motors  <strong>Values:</strong><ul>
-<li><strong>1:</strong> 1</li> 
-
-<li><strong>2:</strong> 2</li> 
-
-<li><strong>3:</strong> 3</li> 
-
-<li><strong>4:</strong> 4</li> 
-</ul>
-  </td>
- <td></td>
- <td>1</td>
  <td></td>
 </tr>
 <tr>
@@ -14728,6 +14871,13 @@ table {
  <td>normalized_thrust/s</td>
 </tr>
 <tr>
+ <td><strong id="HTE_THR_RANGE">HTE_THR_RANGE</strong> (FLOAT)</td>
+ <td>Max deviation from MPC_THR_HOVER <p><strong>Comment:</strong> Defines the range of the hover thrust estimate around MPC_THR_HOVER. A value of 0.2 with MPC_THR_HOVER at 0.5 results in a range of [0.3, 0.7]. Set to a large value if the vehicle operates in varying physical conditions that affect the required hover thrust strongly (e.g. differently sized payloads).</p>   </td>
+ <td>0.01 > 0.4 </td>
+ <td>0.2</td>
+ <td>normalized_thrust</td>
+</tr>
+<tr>
  <td><strong id="HTE_VXY_THR">HTE_VXY_THR</strong> (FLOAT)</td>
  <td>Horizontal velocity threshold for sensitivity reduction <p><strong>Comment:</strong> Above this speed, the measurement noise is linearly increased to reduce the sensitivity of the estimator from biased measurement. Set to a low value on vehicles with large lifting surfaces.</p>   </td>
  <td>1.0 > 20.0 </td>
@@ -14847,7 +14997,7 @@ table {
  <td><strong id="LNDMC_ALT_GND">LNDMC_ALT_GND</strong> (FLOAT)</td>
  <td>Ground effect altitude for multicopters <p><strong>Comment:</strong> The height above ground below which ground effect creates barometric altitude errors. A negative value indicates no ground effect.</p>   </td>
  <td>-1 > ? </td>
- <td>-1.0</td>
+ <td>2.</td>
  <td>m</td>
 </tr>
 <tr>
@@ -15325,6 +15475,20 @@ table {
  </thead>
 <tbody>
 <tr>
+ <td><strong id="MAV_0_BROADCAST">MAV_0_BROADCAST</strong> (INT32)</td>
+ <td>Broadcast heartbeats on local network for MAVLink instance 0 <p><strong>Comment:</strong> This allows a ground control station to automatically find the drone on the local network.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Never broadcast</li> 
+
+<li><strong>1:</strong> Always broadcast</li> 
+
+<li><strong>2:</strong> Only multicast</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>1</td>
+ <td></td>
+</tr>
+<tr>
  <td><strong id="MAV_0_CONFIG">MAV_0_CONFIG</strong> (INT32)</td>
  <td>Serial Configuration for MAVLink (instance 0) <p><strong>Comment:</strong> Configure on which serial port to run MAVLink.</p> <strong>Values:</strong><ul>
 <li><strong>0:</strong> Disabled</li> 
@@ -15357,6 +15521,20 @@ table {
 </td>
  <td></td>
  <td>101</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="MAV_0_FLOW_CTRL">MAV_0_FLOW_CTRL</strong> (INT32)</td>
+ <td>Enable serial flow control for instance 0 <p><strong>Comment:</strong> This is used to force flow control on or off for the the mavlink instance. By default it is auto detected. Use when auto detction fails.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Force off</li> 
+
+<li><strong>1:</strong> Force on</li> 
+
+<li><strong>2:</strong> Auto-detected</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>2</td>
  <td></td>
 </tr>
 <tr>
@@ -15413,6 +15591,36 @@ table {
  <td>B/s</td>
 </tr>
 <tr>
+ <td><strong id="MAV_0_REMOTE_PRT">MAV_0_REMOTE_PRT</strong> (INT32)</td>
+ <td>MAVLink Remote Port for instance 0 <p><strong>Comment:</strong> If ethernet enabled and selected as configuration for MAVLink instance 0, selected remote port will be set and used in MAVLink instance 0.</p>   <p><b>Reboot required:</b> True</p>
+</td>
+ <td></td>
+ <td>14550</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="MAV_0_UDP_PRT">MAV_0_UDP_PRT</strong> (INT32)</td>
+ <td>MAVLink Network Port for instance 0 <p><strong>Comment:</strong> If ethernet enabled and selected as configuration for MAVLink instance 0, selected udp port will be set and used in MAVLink instance 0.</p>   <p><b>Reboot required:</b> True</p>
+</td>
+ <td></td>
+ <td>14556</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="MAV_1_BROADCAST">MAV_1_BROADCAST</strong> (INT32)</td>
+ <td>Broadcast heartbeats on local network for MAVLink instance 1 <p><strong>Comment:</strong> This allows a ground control station to automatically find the drone on the local network.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Never broadcast</li> 
+
+<li><strong>1:</strong> Always broadcast</li> 
+
+<li><strong>2:</strong> Only multicast</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
  <td><strong id="MAV_1_CONFIG">MAV_1_CONFIG</strong> (INT32)</td>
  <td>Serial Configuration for MAVLink (instance 1) <p><strong>Comment:</strong> Configure on which serial port to run MAVLink.</p> <strong>Values:</strong><ul>
 <li><strong>0:</strong> Disabled</li> 
@@ -15445,6 +15653,20 @@ table {
 </td>
  <td></td>
  <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="MAV_1_FLOW_CTRL">MAV_1_FLOW_CTRL</strong> (INT32)</td>
+ <td>Enable serial flow control for instance 1 <p><strong>Comment:</strong> This is used to force flow control on or off for the the mavlink instance. By default it is auto detected. Use when auto detction fails.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Force off</li> 
+
+<li><strong>1:</strong> Force on</li> 
+
+<li><strong>2:</strong> Auto-detected</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>2</td>
  <td></td>
 </tr>
 <tr>
@@ -15501,6 +15723,36 @@ table {
  <td>B/s</td>
 </tr>
 <tr>
+ <td><strong id="MAV_1_REMOTE_PRT">MAV_1_REMOTE_PRT</strong> (INT32)</td>
+ <td>MAVLink Remote Port for instance 1 <p><strong>Comment:</strong> If ethernet enabled and selected as configuration for MAVLink instance 1, selected remote port will be set and used in MAVLink instance 1.</p>   <p><b>Reboot required:</b> True</p>
+</td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="MAV_1_UDP_PRT">MAV_1_UDP_PRT</strong> (INT32)</td>
+ <td>MAVLink Network Port for instance 1 <p><strong>Comment:</strong> If ethernet enabled and selected as configuration for MAVLink instance 1, selected udp port will be set and used in MAVLink instance 1.</p>   <p><b>Reboot required:</b> True</p>
+</td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="MAV_2_BROADCAST">MAV_2_BROADCAST</strong> (INT32)</td>
+ <td>Broadcast heartbeats on local network for MAVLink instance 2 <p><strong>Comment:</strong> This allows a ground control station to automatically find the drone on the local network.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Never broadcast</li> 
+
+<li><strong>1:</strong> Always broadcast</li> 
+
+<li><strong>2:</strong> Only multicast</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
  <td><strong id="MAV_2_CONFIG">MAV_2_CONFIG</strong> (INT32)</td>
  <td>Serial Configuration for MAVLink (instance 2) <p><strong>Comment:</strong> Configure on which serial port to run MAVLink.</p> <strong>Values:</strong><ul>
 <li><strong>0:</strong> Disabled</li> 
@@ -15533,6 +15785,20 @@ table {
 </td>
  <td></td>
  <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="MAV_2_FLOW_CTRL">MAV_2_FLOW_CTRL</strong> (INT32)</td>
+ <td>Enable serial flow control for instance 2 <p><strong>Comment:</strong> This is used to force flow control on or off for the the mavlink instance. By default it is auto detected. Use when auto detction fails.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Force off</li> 
+
+<li><strong>1:</strong> Force on</li> 
+
+<li><strong>2:</strong> Auto-detected</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>2</td>
  <td></td>
 </tr>
 <tr>
@@ -15587,6 +15853,22 @@ table {
  <td>0 > ? </td>
  <td>0</td>
  <td>B/s</td>
+</tr>
+<tr>
+ <td><strong id="MAV_2_REMOTE_PRT">MAV_2_REMOTE_PRT</strong> (INT32)</td>
+ <td>MAVLink Remote Port for instance 2 <p><strong>Comment:</strong> If ethernet enabled and selected as configuration for MAVLink instance 2, selected remote port will be set and used in MAVLink instance 2.</p>   <p><b>Reboot required:</b> True</p>
+</td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="MAV_2_UDP_PRT">MAV_2_UDP_PRT</strong> (INT32)</td>
+ <td>MAVLink Network Port for instance 2 <p><strong>Comment:</strong> If ethernet enabled and selected as configuration for MAVLink instance 2, selected udp port will be set and used in MAVLink instance 2.</p>   <p><b>Reboot required:</b> True</p>
+</td>
+ <td></td>
+ <td>0</td>
+ <td></td>
 </tr>
 <tr>
  <td><strong id="MAV_COMP_ID">MAV_COMP_ID</strong> (INT32)</td>
@@ -15673,15 +15955,9 @@ table {
 
 <li><strong>4:</strong> Normal helicopter with tail rotor</li> 
 
-<li><strong>5:</strong> Ground installation</li> 
-
-<li><strong>6:</strong> Operator control unit / ground control station</li> 
-
 <li><strong>7:</strong> Airship, controlled</li> 
 
 <li><strong>8:</strong> Free balloon, uncontrolled</li> 
-
-<li><strong>9:</strong> Rocket</li> 
 
 <li><strong>10:</strong> Ground rover</li> 
 
@@ -15695,33 +15971,19 @@ table {
 
 <li><strong>15:</strong> Tricopter</li> 
 
-<li><strong>16:</strong> Flapping wing</li> 
+<li><strong>19:</strong> VTOL Two-rotor Tailsitter</li> 
 
-<li><strong>17:</strong> Kite</li> 
+<li><strong>20:</strong> VTOL Quad-rotor Tailsitter</li> 
 
-<li><strong>18:</strong> Onboard companion controller</li> 
+<li><strong>21:</strong> VTOL Tiltrotor</li> 
 
-<li><strong>19:</strong> Two-rotor VTOL using control surfaces in vertical operation in addition. Tailsitter.</li> 
+<li><strong>22:</strong> VTOL Standard (separate fixed rotors for hover and cruise flight)</li> 
 
-<li><strong>20:</strong> Quad-rotor VTOL using a V-shaped quad config in vertical operation. Tailsitter.</li> 
-
-<li><strong>21:</strong> Tiltrotor VTOL</li> 
-
-<li><strong>22:</strong> VTOL reserved 2</li> 
-
-<li><strong>23:</strong> VTOL reserved 3</li> 
-
-<li><strong>24:</strong> VTOL reserved 4</li> 
-
-<li><strong>25:</strong> VTOL reserved 5</li> 
-
-<li><strong>26:</strong> Onboard gimbal</li> 
-
-<li><strong>27:</strong> Onboard ADSB peripheral</li> 
+<li><strong>23:</strong> VTOL Tailsitter</li> 
 </ul>
   </td>
- <td>1 > 27 </td>
- <td>2</td>
+ <td>0 > 22 </td>
+ <td>0</td>
  <td></td>
 </tr>
 <tr>
@@ -15909,7 +16171,7 @@ table {
  <td><strong id="NAV_LOITER_RAD">NAV_LOITER_RAD</strong> (FLOAT)</td>
  <td>Loiter radius (FW only) <p><strong>Comment:</strong> Default value of loiter radius for missions, Hold mode, Return mode, etc. (fixedwing only).</p>   </td>
  <td>25 > 1000 (0.5)</td>
- <td>50.0</td>
+ <td>80.0</td>
  <td>m</td>
 </tr>
 <tr>
@@ -16012,6 +16274,20 @@ table {
  <td></td>
 </tr>
 <tr>
+ <td><strong id="MNT_LND_P_MAX">MNT_LND_P_MAX</strong> (FLOAT)</td>
+ <td>Pitch maximum when landed    </td>
+ <td>-90.0 > 90.0 </td>
+ <td>90.0</td>
+ <td>deg</td>
+</tr>
+<tr>
+ <td><strong id="MNT_LND_P_MIN">MNT_LND_P_MIN</strong> (FLOAT)</td>
+ <td>Pitch minimum when landed    </td>
+ <td>-90.0 > 90.0 </td>
+ <td>-90.0</td>
+ <td>deg</td>
+</tr>
+<tr>
  <td><strong id="MNT_MAN_PITCH">MNT_MAN_PITCH</strong> (INT32)</td>
  <td>Auxiliary channel to control pitch (in AUX input or manual mode)  <strong>Values:</strong><ul>
 <li><strong>0:</strong> Disable</li> 
@@ -16093,16 +16369,16 @@ table {
 </tr>
 <tr>
  <td><strong id="MNT_MODE_IN">MNT_MODE_IN</strong> (INT32)</td>
- <td>Mount input mode <p><strong>Comment:</strong> RC uses the AUX input channels (see MNT_MAN_* parameters), MAVLINK_ROI uses the MAV_CMD_DO_SET_ROI Mavlink message, and MAVLINK_DO_MOUNT the MAV_CMD_DO_MOUNT_CONFIGURE and MAV_CMD_DO_MOUNT_CONTROL messages to control a mount.</p> <strong>Values:</strong><ul>
+ <td>Mount input mode <p><strong>Comment:</strong> This is the protocol used between the ground station and the autopilot. Recommended is Auto, RC only or MAVLink gimbal protocol v2. The rest will be deprecated.</p> <strong>Values:</strong><ul>
 <li><strong>-1:</strong> DISABLED</li> 
 
-<li><strong>0:</strong> AUTO</li> 
+<li><strong>0:</strong> Auto (RC and MAVLink gimbal protocol v2)</li> 
 
 <li><strong>1:</strong> RC</li> 
 
-<li><strong>2:</strong> MAVLINK_ROI (protocol v1)</li> 
+<li><strong>2:</strong> MAVLINK_ROI (protocol v1, to be deprecated)</li> 
 
-<li><strong>3:</strong> MAVLINK_DO_MOUNT (protocol v1)</li> 
+<li><strong>3:</strong> MAVLINK_DO_MOUNT (protocol v1, to be deprecated)</li> 
 
 <li><strong>4:</strong> MAVlink gimbal protocol v2</li> 
 </ul>
@@ -16114,14 +16390,15 @@ table {
 </tr>
 <tr>
  <td><strong id="MNT_MODE_OUT">MNT_MODE_OUT</strong> (INT32)</td>
- <td>Mount output mode <p><strong>Comment:</strong> AUX uses the mixer output Control Group #2. MAVLINK uses the MAV_CMD_DO_MOUNT_CONFIGURE and MAV_CMD_DO_MOUNT_CONTROL MavLink messages to control a mount (set MNT_MAV_SYSID & MNT_MAV_COMPID)</p> <strong>Values:</strong><ul>
+ <td>Mount output mode <p><strong>Comment:</strong> This is the protocol used between the autopilot and a connected gimbal. Recommended is the MAVLink gimbal protocol v2 if the gimbal supports it.</p> <strong>Values:</strong><ul>
 <li><strong>0:</strong> AUX</li> 
 
 <li><strong>1:</strong> MAVLink gimbal protocol v1</li> 
 
 <li><strong>2:</strong> MAVLink gimbal protocol v2</li> 
 </ul>
-  </td>
+  <p><b>Reboot required:</b> true</p>
+</td>
  <td>0 > 2 </td>
  <td>0</td>
  <td></td>
@@ -16145,56 +16422,56 @@ table {
  <td>Offset for pitch channel output in degrees    </td>
  <td>-360.0 > 360.0 </td>
  <td>0.0</td>
- <td></td>
+ <td>deg</td>
 </tr>
 <tr>
  <td><strong id="MNT_OFF_ROLL">MNT_OFF_ROLL</strong> (FLOAT)</td>
  <td>Offset for roll channel output in degrees    </td>
  <td>-360.0 > 360.0 </td>
  <td>0.0</td>
- <td></td>
+ <td>deg</td>
 </tr>
 <tr>
  <td><strong id="MNT_OFF_YAW">MNT_OFF_YAW</strong> (FLOAT)</td>
  <td>Offset for yaw channel output in degrees    </td>
  <td>-360.0 > 360.0 </td>
  <td>0.0</td>
- <td></td>
+ <td>deg</td>
 </tr>
 <tr>
  <td><strong id="MNT_RANGE_PITCH">MNT_RANGE_PITCH</strong> (FLOAT)</td>
  <td>Range of pitch channel output in degrees (only in AUX output mode)    </td>
  <td>1.0 > 720.0 </td>
  <td>90.0</td>
- <td></td>
+ <td>deg</td>
 </tr>
 <tr>
  <td><strong id="MNT_RANGE_ROLL">MNT_RANGE_ROLL</strong> (FLOAT)</td>
  <td>Range of roll channel output in degrees (only in AUX output mode)    </td>
  <td>1.0 > 720.0 </td>
  <td>90.0</td>
- <td></td>
+ <td>deg</td>
 </tr>
 <tr>
  <td><strong id="MNT_RANGE_YAW">MNT_RANGE_YAW</strong> (FLOAT)</td>
  <td>Range of yaw channel output in degrees (only in AUX output mode)    </td>
  <td>1.0 > 720.0 </td>
  <td>360.0</td>
- <td></td>
+ <td>deg</td>
 </tr>
 <tr>
  <td><strong id="MNT_RATE_PITCH">MNT_RATE_PITCH</strong> (FLOAT)</td>
  <td>Angular pitch rate for manual input in degrees/second <p><strong>Comment:</strong> Full stick input [-1..1] translats to [-pitch rate..pitch rate].</p>   </td>
  <td>1.0 > 90.0 </td>
  <td>30.0</td>
- <td></td>
+ <td>deg/s</td>
 </tr>
 <tr>
  <td><strong id="MNT_RATE_YAW">MNT_RATE_YAW</strong> (FLOAT)</td>
  <td>Angular yaw rate for manual input in degrees/second <p><strong>Comment:</strong> Full stick input [-1..1] translats to [-yaw rate..yaw rate].</p>   </td>
  <td>1.0 > 90.0 </td>
  <td>30.0</td>
- <td></td>
+ <td>deg/s</td>
 </tr>
 <tr>
  <td><strong id="MNT_RC_IN_MODE">MNT_RC_IN_MODE</strong> (INT32)</td>
@@ -16398,17 +16675,31 @@ table {
 </tr>
 <tr>
  <td><strong id="MPC_LAND_ALT1">MPC_LAND_ALT1</strong> (FLOAT)</td>
- <td>Altitude for 1. step of slow landing (descend) <p><strong>Comment:</strong> Below this altitude descending velocity gets limited to a value between "MPC_Z_VEL_MAX_DN" and "MPC_LAND_SPEED" Value needs to be higher than "MPC_LAND_ALT2"</p>   </td>
+ <td>Altitude for 1. step of slow landing (descend) <p><strong>Comment:</strong> Below this altitude descending velocity gets limited to a value between "MPC_Z_VEL_MAX_DN" (or "MPC_Z_V_AUTO_DN") and "MPC_LAND_SPEED" Value needs to be higher than "MPC_LAND_ALT2"</p>   </td>
  <td>0 > 122 </td>
  <td>10.0</td>
  <td>m</td>
 </tr>
 <tr>
  <td><strong id="MPC_LAND_ALT2">MPC_LAND_ALT2</strong> (FLOAT)</td>
- <td>Altitude for 2. step of slow landing (landing) <p><strong>Comment:</strong> Below this altitude descending velocity gets limited to "MPC_LAND_SPEED". Value needs to be lower than "MPC_LAND_ALT1"</p>   </td>
+ <td>Altitude for 2. step of slow landing (landing) <p><strong>Comment:</strong> Below this altitude descending velocity gets limited to "MPC_LAND_SPEED" Value needs to be lower than "MPC_LAND_ALT1"</p>   </td>
  <td>0 > 122 </td>
  <td>5.0</td>
  <td>m</td>
+</tr>
+<tr>
+ <td><strong id="MPC_LAND_ALT3">MPC_LAND_ALT3</strong> (FLOAT)</td>
+ <td>Altitude for 3. step of slow landing <p><strong>Comment:</strong> Below this altitude descending velocity gets limited to "MPC_LAND_CRWL", if LIDAR available. No effect if LIDAR not available</p>   </td>
+ <td>0 > 122 </td>
+ <td>1.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="MPC_LAND_CRWL">MPC_LAND_CRWL</strong> (FLOAT)</td>
+ <td>Land crawl descend rate. Used below    </td>
+ <td>0.3 > ? </td>
+ <td>0.3</td>
+ <td>m/s</td>
 </tr>
 <tr>
  <td><strong id="MPC_LAND_SPEED">MPC_LAND_SPEED</strong> (FLOAT)</td>
@@ -16669,16 +16960,16 @@ table {
 </tr>
 <tr>
  <td><strong id="MPC_Z_VEL_MAX_DN">MPC_Z_VEL_MAX_DN</strong> (FLOAT)</td>
- <td>Maximum vertical descent velocity <p><strong>Comment:</strong> Maximum vertical velocity in AUTO mode and endpoint for stabilized modes (ALTCTRL, POSCTRL).</p>   </td>
- <td>0.5 > 4.0 </td>
- <td>1.0</td>
+ <td>Maximum descent velocity <p><strong>Comment:</strong> Descent velocity in manual modes and offboard. For auto modes, see MPC_Z_V_AUTO_DN</p>   </td>
+ <td>0.5 > 4.0 (0.1)</td>
+ <td>1.</td>
  <td>m/s</td>
 </tr>
 <tr>
  <td><strong id="MPC_Z_VEL_MAX_UP">MPC_Z_VEL_MAX_UP</strong> (FLOAT)</td>
- <td>Maximum vertical ascent velocity <p><strong>Comment:</strong> Maximum vertical velocity in AUTO mode and endpoint for stabilized modes (ALTCTRL, POSCTRL).</p>   </td>
- <td>0.5 > 8.0 </td>
- <td>3.0</td>
+ <td>Maximum ascent velocity <p><strong>Comment:</strong> Ascent velocity in manual modes and offboard. For auto modes, see MPC_Z_V_AUTO_UP</p>   </td>
+ <td>0.5 > 8.0 (0.1)</td>
+ <td>3.</td>
  <td>m/s</td>
 </tr>
 <tr>
@@ -16687,6 +16978,20 @@ table {
  <td>2.0 > 15.0 </td>
  <td>4.0</td>
  <td></td>
+</tr>
+<tr>
+ <td><strong id="MPC_Z_V_AUTO_DN">MPC_Z_V_AUTO_DN</strong> (FLOAT)</td>
+ <td>Automatic descent velocity <p><strong>Comment:</strong> Descent velocity in auto modes. For manual modes and offboard, see MPC_Z_VEL_MAX_DN</p>   </td>
+ <td>0.5 > 4.0 (0.1)</td>
+ <td>1.</td>
+ <td>m/s</td>
+</tr>
+<tr>
+ <td><strong id="MPC_Z_V_AUTO_UP">MPC_Z_V_AUTO_UP</strong> (FLOAT)</td>
+ <td>Automatic ascent velocity <p><strong>Comment:</strong> Ascent velocity in auto modes. For manual modes and offboard, see MPC_Z_VEL_MAX_UP</p>   </td>
+ <td>0.5 > 8.0 (0.1)</td>
+ <td>3.</td>
+ <td>m/s</td>
 </tr>
 <tr>
  <td><strong id="SYS_VEHICLE_RESP">SYS_VEHICLE_RESP</strong> (FLOAT)</td>
@@ -17781,6 +18086,42 @@ table {
 </tr>
 </tbody></table>
 
+## RC Input
+
+<table>
+ <colgroup><col style="width: 23%"><col style="width: 46%"><col style="width: 11%"><col style="width: 11%"><col style="width: 9%"></colgroup>
+ <thead>
+   <tr><th>Name</th><th>Description</th><th>Min > Max (Incr.)</th><th>Default</th><th>Units</th></tr>
+ </thead>
+<tbody>
+<tr>
+ <td><strong id="RC_INPUT_PROTO">RC_INPUT_PROTO</strong> (INT32)</td>
+ <td>RC input protocol <p><strong>Comment:</strong> Select your RC input protocol or auto to scan.</p> <strong>Values:</strong><ul>
+<li><strong>-1:</strong> Auto</li> 
+
+<li><strong>0:</strong> None</li> 
+
+<li><strong>1:</strong> PPM</li> 
+
+<li><strong>2:</strong> SBUS</li> 
+
+<li><strong>3:</strong> DSM</li> 
+
+<li><strong>4:</strong> ST24</li> 
+
+<li><strong>5:</strong> SUMD</li> 
+
+<li><strong>6:</strong> CRSF</li> 
+
+<li><strong>7:</strong> GHST</li> 
+</ul>
+  </td>
+ <td>-1 > 7 </td>
+ <td>-1</td>
+ <td></td>
+</tr>
+</tbody></table>
+
 ## RTPS
 
 <table>
@@ -17854,6 +18195,14 @@ table {
  <td></td>
  <td>0</td>
  <td></td>
+</tr>
+<tr>
+ <td><strong id="RTPS_RATE">RTPS_RATE</strong> (INT32)</td>
+ <td>Maximum RTPS data rate <p><strong>Comment:</strong> Configure the maximum sending rate for the RTPS streams in Bytes/sec. If the configured streams exceed the maximum rate, the sending rate of each stream is automatically decreased. 0 is unlimited. Note this can cause reliability issues if enough RTPS topics are selected that exceed the serial bus limit.</p>   <p><b>Reboot required:</b> True</p>
+</td>
+ <td>0 > ? </td>
+ <td>0</td>
+ <td>B/s</td>
 </tr>
 </tbody></table>
 
@@ -20161,7 +20510,7 @@ table {
  <td><strong id="RTL_LOITER_RAD">RTL_LOITER_RAD</strong> (FLOAT)</td>
  <td>Loiter radius for rtl descend <p><strong>Comment:</strong> Set the radius for loitering to a safe altitude for VTOL transition.</p>   </td>
  <td>25 > 1000 (0.5)</td>
- <td>50.0</td>
+ <td>80.0</td>
  <td>m</td>
 </tr>
 <tr>
@@ -20656,7 +21005,7 @@ table {
 </tr>
 <tr>
  <td><strong id="SDLOG_PROFILE">SDLOG_PROFILE</strong> (INT32)</td>
- <td>Logging topic profile (integer bitmask) <p><strong>Comment:</strong> This integer bitmask controls the set and rates of logged topics. The default allows for general log analysis while keeping the log file size reasonably small. Enabling multiple sets leads to higher bandwidth requirements and larger log files. Set bits true to enable: 0 : Default set (used for general log analysis) 1 : Full rate estimator (EKF2) replay topics 2 : Topics for thermal calibration (high rate raw IMU and Baro sensor data) 3 : Topics for system identification (high rate actuator control and IMU data) 4 : Full rates for analysis of fast maneuvers (RC, attitude, rates and actuators) 5 : Debugging topics (debug_*.msg topics, for custom code) 6 : Topics for sensor comparison (low rate raw IMU, Baro and Magnetomer data) 7 : Topics for computer vision and collision avoidance 8 : Raw FIFO high-rate IMU (Gyro) 9 : Raw FIFO high-rate IMU (Accel)</p>  <strong>Bitmask:</strong><ul>  <li><strong>0:</strong> Default set (general log analysis)</li> 
+ <td>Logging topic profile (integer bitmask) <p><strong>Comment:</strong> This integer bitmask controls the set and rates of logged topics. The default allows for general log analysis while keeping the log file size reasonably small. Enabling multiple sets leads to higher bandwidth requirements and larger log files. Set bits true to enable: 0 : Default set (used for general log analysis) 1 : Full rate estimator (EKF2) replay topics 2 : Topics for thermal calibration (high rate raw IMU and Baro sensor data) 3 : Topics for system identification (high rate actuator control and IMU data) 4 : Full rates for analysis of fast maneuvers (RC, attitude, rates and actuators) 5 : Debugging topics (debug_*.msg topics, for custom code) 6 : Topics for sensor comparison (low rate raw IMU, Baro and Magnetomer data) 7 : Topics for computer vision and collision avoidance 8 : Raw FIFO high-rate IMU (Gyro) 9 : Raw FIFO high-rate IMU (Accel) 10: Logging of mavlink tunnel message (useful for payload communication debugging)</p>  <strong>Bitmask:</strong><ul>  <li><strong>0:</strong> Default set (general log analysis)</li> 
   <li><strong>1:</strong> Estimator replay (EKF2)</li> 
   <li><strong>2:</strong> Thermal calibration</li> 
   <li><strong>3:</strong> System identification</li> 
@@ -20666,10 +21015,11 @@ table {
   <li><strong>7:</strong> Computer Vision and Avoidance</li> 
   <li><strong>8:</strong> Raw FIFO high-rate IMU (Gyro)</li> 
   <li><strong>9:</strong> Raw FIFO high-rate IMU (Accel)</li> 
+  <li><strong>10:</strong> Mavlink tunnel message logging</li> 
 </ul>
  <p><b>Reboot required:</b> true</p>
 </td>
- <td>0 > 1023 </td>
+ <td>0 > 2047 </td>
  <td>1</td>
  <td></td>
 </tr>
@@ -20723,7 +21073,7 @@ table {
 <tbody>
 <tr>
  <td><strong id="CAL_ACC0_ID">CAL_ACC0_ID</strong> (INT32)</td>
- <td>ID of the Accelerometer that the calibration is for    </td>
+ <td>Accelerometer 0 calibration device ID <p><strong>Comment:</strong> Device ID of the accelerometer this calibration applies to.</p>   </td>
  <td></td>
  <td>0</td>
  <td></td>
@@ -20731,17 +21081,17 @@ table {
 <tr>
  <td><strong id="CAL_ACC0_PRIO">CAL_ACC0_PRIO</strong> (INT32)</td>
  <td>Accelerometer 0 priority  <strong>Values:</strong><ul>
-<li><strong>-1:</strong>  Uninitialized</li> 
+<li><strong>-1:</strong> Uninitialized</li> 
 
-<li><strong>0:</strong>   Disabled</li> 
+<li><strong>0:</strong> Disabled</li> 
 
-<li><strong>1:</strong>   Min</li> 
+<li><strong>1:</strong> Min</li> 
 
-<li><strong>25:</strong>  Low</li> 
+<li><strong>25:</strong> Low</li> 
 
-<li><strong>50:</strong>  Medium (Default)</li> 
+<li><strong>50:</strong> Medium (Default)</li> 
 
-<li><strong>75:</strong>  High</li> 
+<li><strong>75:</strong> High</li> 
 
 <li><strong>100:</strong> Max</li> 
 </ul>
@@ -20752,7 +21102,7 @@ table {
 </tr>
 <tr>
  <td><strong id="CAL_ACC0_ROT">CAL_ACC0_ROT</strong> (INT32)</td>
- <td>Rotation of accelerometer 0 relative to airframe <p><strong>Comment:</strong> An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</p> <strong>Values:</strong><ul>
+ <td>Accelerometer 0 rotation relative to airframe <p><strong>Comment:</strong> An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</p> <strong>Values:</strong><ul>
 <li><strong>-1:</strong> Internal</li> 
 
 <li><strong>0:</strong> No rotation</li> 
@@ -20837,64 +21187,56 @@ table {
 
 <li><strong>40:</strong> Roll 90°, Pitch 315°</li> 
 </ul>
-  <p><b>Reboot required:</b> true</p>
-</td>
+  </td>
  <td>-1 > 40 </td>
  <td>-1</td>
  <td></td>
 </tr>
 <tr>
- <td><strong id="CAL_ACC0_TEMP">CAL_ACC0_TEMP</strong> (FLOAT)</td>
- <td>Accelerometer calibration temperature <p><strong>Comment:</strong> Temperature during last calibration.</p>   </td>
- <td></td>
- <td>-1000.</td>
- <td>celcius</td>
-</tr>
-<tr>
  <td><strong id="CAL_ACC0_XOFF">CAL_ACC0_XOFF</strong> (FLOAT)</td>
- <td>Accelerometer X-axis offset    </td>
+ <td>Accelerometer 0 X-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_ACC0_XSCALE">CAL_ACC0_XSCALE</strong> (FLOAT)</td>
- <td>Accelerometer X-axis scaling factor    </td>
- <td></td>
+ <td>Accelerometer 0 X-axis scaling factor    </td>
+ <td>0.1 > 3.0 </td>
  <td>1.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_ACC0_YOFF">CAL_ACC0_YOFF</strong> (FLOAT)</td>
- <td>Accelerometer Y-axis offset    </td>
+ <td>Accelerometer 0 Y-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_ACC0_YSCALE">CAL_ACC0_YSCALE</strong> (FLOAT)</td>
- <td>Accelerometer Y-axis scaling factor    </td>
- <td></td>
+ <td>Accelerometer 0 Y-axis scaling factor    </td>
+ <td>0.1 > 3.0 </td>
  <td>1.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_ACC0_ZOFF">CAL_ACC0_ZOFF</strong> (FLOAT)</td>
- <td>Accelerometer Z-axis offset    </td>
+ <td>Accelerometer 0 Z-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_ACC0_ZSCALE">CAL_ACC0_ZSCALE</strong> (FLOAT)</td>
- <td>Accelerometer Z-axis scaling factor    </td>
- <td></td>
+ <td>Accelerometer 0 Z-axis scaling factor    </td>
+ <td>0.1 > 3.0 </td>
  <td>1.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_ACC1_ID">CAL_ACC1_ID</strong> (INT32)</td>
- <td>ID of the Accelerometer that the calibration is for    </td>
+ <td>Accelerometer 1 calibration device ID <p><strong>Comment:</strong> Device ID of the accelerometer this calibration applies to.</p>   </td>
  <td></td>
  <td>0</td>
  <td></td>
@@ -20902,17 +21244,17 @@ table {
 <tr>
  <td><strong id="CAL_ACC1_PRIO">CAL_ACC1_PRIO</strong> (INT32)</td>
  <td>Accelerometer 1 priority  <strong>Values:</strong><ul>
-<li><strong>-1:</strong>  Uninitialized</li> 
+<li><strong>-1:</strong> Uninitialized</li> 
 
-<li><strong>0:</strong>   Disabled</li> 
+<li><strong>0:</strong> Disabled</li> 
 
-<li><strong>1:</strong>   Min</li> 
+<li><strong>1:</strong> Min</li> 
 
-<li><strong>25:</strong>  Low</li> 
+<li><strong>25:</strong> Low</li> 
 
-<li><strong>50:</strong>  Medium (Default)</li> 
+<li><strong>50:</strong> Medium (Default)</li> 
 
-<li><strong>75:</strong>  High</li> 
+<li><strong>75:</strong> High</li> 
 
 <li><strong>100:</strong> Max</li> 
 </ul>
@@ -20923,7 +21265,7 @@ table {
 </tr>
 <tr>
  <td><strong id="CAL_ACC1_ROT">CAL_ACC1_ROT</strong> (INT32)</td>
- <td>Rotation of accelerometer 1 relative to airframe <p><strong>Comment:</strong> An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</p> <strong>Values:</strong><ul>
+ <td>Accelerometer 1 rotation relative to airframe <p><strong>Comment:</strong> An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</p> <strong>Values:</strong><ul>
 <li><strong>-1:</strong> Internal</li> 
 
 <li><strong>0:</strong> No rotation</li> 
@@ -21008,64 +21350,56 @@ table {
 
 <li><strong>40:</strong> Roll 90°, Pitch 315°</li> 
 </ul>
-  <p><b>Reboot required:</b> true</p>
-</td>
+  </td>
  <td>-1 > 40 </td>
  <td>-1</td>
  <td></td>
 </tr>
 <tr>
- <td><strong id="CAL_ACC1_TEMP">CAL_ACC1_TEMP</strong> (FLOAT)</td>
- <td>Accelerometer calibration temperature <p><strong>Comment:</strong> Temperature during last calibration.</p>   </td>
- <td></td>
- <td>-1000.</td>
- <td>celcius</td>
-</tr>
-<tr>
  <td><strong id="CAL_ACC1_XOFF">CAL_ACC1_XOFF</strong> (FLOAT)</td>
- <td>Accelerometer X-axis offset    </td>
+ <td>Accelerometer 1 X-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_ACC1_XSCALE">CAL_ACC1_XSCALE</strong> (FLOAT)</td>
- <td>Accelerometer X-axis scaling factor    </td>
- <td></td>
+ <td>Accelerometer 1 X-axis scaling factor    </td>
+ <td>0.1 > 3.0 </td>
  <td>1.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_ACC1_YOFF">CAL_ACC1_YOFF</strong> (FLOAT)</td>
- <td>Accelerometer Y-axis offset    </td>
+ <td>Accelerometer 1 Y-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_ACC1_YSCALE">CAL_ACC1_YSCALE</strong> (FLOAT)</td>
- <td>Accelerometer Y-axis scaling factor    </td>
- <td></td>
+ <td>Accelerometer 1 Y-axis scaling factor    </td>
+ <td>0.1 > 3.0 </td>
  <td>1.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_ACC1_ZOFF">CAL_ACC1_ZOFF</strong> (FLOAT)</td>
- <td>Accelerometer Z-axis offset    </td>
+ <td>Accelerometer 1 Z-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_ACC1_ZSCALE">CAL_ACC1_ZSCALE</strong> (FLOAT)</td>
- <td>Accelerometer Z-axis scaling factor    </td>
- <td></td>
+ <td>Accelerometer 1 Z-axis scaling factor    </td>
+ <td>0.1 > 3.0 </td>
  <td>1.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_ACC2_ID">CAL_ACC2_ID</strong> (INT32)</td>
- <td>ID of the Accelerometer that the calibration is for    </td>
+ <td>Accelerometer 2 calibration device ID <p><strong>Comment:</strong> Device ID of the accelerometer this calibration applies to.</p>   </td>
  <td></td>
  <td>0</td>
  <td></td>
@@ -21073,17 +21407,17 @@ table {
 <tr>
  <td><strong id="CAL_ACC2_PRIO">CAL_ACC2_PRIO</strong> (INT32)</td>
  <td>Accelerometer 2 priority  <strong>Values:</strong><ul>
-<li><strong>-1:</strong>  Uninitialized</li> 
+<li><strong>-1:</strong> Uninitialized</li> 
 
-<li><strong>0:</strong>   Disabled</li> 
+<li><strong>0:</strong> Disabled</li> 
 
-<li><strong>1:</strong>   Min</li> 
+<li><strong>1:</strong> Min</li> 
 
-<li><strong>25:</strong>  Low</li> 
+<li><strong>25:</strong> Low</li> 
 
-<li><strong>50:</strong>  Medium (Default)</li> 
+<li><strong>50:</strong> Medium (Default)</li> 
 
-<li><strong>75:</strong>  High</li> 
+<li><strong>75:</strong> High</li> 
 
 <li><strong>100:</strong> Max</li> 
 </ul>
@@ -21094,7 +21428,7 @@ table {
 </tr>
 <tr>
  <td><strong id="CAL_ACC2_ROT">CAL_ACC2_ROT</strong> (INT32)</td>
- <td>Rotation of accelerometer 2 relative to airframe <p><strong>Comment:</strong> An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</p> <strong>Values:</strong><ul>
+ <td>Accelerometer 2 rotation relative to airframe <p><strong>Comment:</strong> An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</p> <strong>Values:</strong><ul>
 <li><strong>-1:</strong> Internal</li> 
 
 <li><strong>0:</strong> No rotation</li> 
@@ -21179,64 +21513,56 @@ table {
 
 <li><strong>40:</strong> Roll 90°, Pitch 315°</li> 
 </ul>
-  <p><b>Reboot required:</b> true</p>
-</td>
+  </td>
  <td>-1 > 40 </td>
  <td>-1</td>
  <td></td>
 </tr>
 <tr>
- <td><strong id="CAL_ACC2_TEMP">CAL_ACC2_TEMP</strong> (FLOAT)</td>
- <td>Accelerometer calibration temperature <p><strong>Comment:</strong> Temperature during last calibration.</p>   </td>
- <td></td>
- <td>-1000.</td>
- <td>celcius</td>
-</tr>
-<tr>
  <td><strong id="CAL_ACC2_XOFF">CAL_ACC2_XOFF</strong> (FLOAT)</td>
- <td>Accelerometer X-axis offset    </td>
+ <td>Accelerometer 2 X-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_ACC2_XSCALE">CAL_ACC2_XSCALE</strong> (FLOAT)</td>
- <td>Accelerometer X-axis scaling factor    </td>
- <td></td>
+ <td>Accelerometer 2 X-axis scaling factor    </td>
+ <td>0.1 > 3.0 </td>
  <td>1.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_ACC2_YOFF">CAL_ACC2_YOFF</strong> (FLOAT)</td>
- <td>Accelerometer Y-axis offset    </td>
+ <td>Accelerometer 2 Y-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_ACC2_YSCALE">CAL_ACC2_YSCALE</strong> (FLOAT)</td>
- <td>Accelerometer Y-axis scaling factor    </td>
- <td></td>
+ <td>Accelerometer 2 Y-axis scaling factor    </td>
+ <td>0.1 > 3.0 </td>
  <td>1.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_ACC2_ZOFF">CAL_ACC2_ZOFF</strong> (FLOAT)</td>
- <td>Accelerometer Z-axis offset    </td>
+ <td>Accelerometer 2 Z-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_ACC2_ZSCALE">CAL_ACC2_ZSCALE</strong> (FLOAT)</td>
- <td>Accelerometer Z-axis scaling factor    </td>
- <td></td>
+ <td>Accelerometer 2 Z-axis scaling factor    </td>
+ <td>0.1 > 3.0 </td>
  <td>1.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_ACC3_ID">CAL_ACC3_ID</strong> (INT32)</td>
- <td>ID of the Accelerometer that the calibration is for    </td>
+ <td>Accelerometer 3 calibration device ID <p><strong>Comment:</strong> Device ID of the accelerometer this calibration applies to.</p>   </td>
  <td></td>
  <td>0</td>
  <td></td>
@@ -21244,17 +21570,17 @@ table {
 <tr>
  <td><strong id="CAL_ACC3_PRIO">CAL_ACC3_PRIO</strong> (INT32)</td>
  <td>Accelerometer 3 priority  <strong>Values:</strong><ul>
-<li><strong>-1:</strong>  Uninitialized</li> 
+<li><strong>-1:</strong> Uninitialized</li> 
 
-<li><strong>0:</strong>   Disabled</li> 
+<li><strong>0:</strong> Disabled</li> 
 
-<li><strong>1:</strong>   Min</li> 
+<li><strong>1:</strong> Min</li> 
 
-<li><strong>25:</strong>  Low</li> 
+<li><strong>25:</strong> Low</li> 
 
-<li><strong>50:</strong>  Medium (Default)</li> 
+<li><strong>50:</strong> Medium (Default)</li> 
 
-<li><strong>75:</strong>  High</li> 
+<li><strong>75:</strong> High</li> 
 
 <li><strong>100:</strong> Max</li> 
 </ul>
@@ -21265,7 +21591,7 @@ table {
 </tr>
 <tr>
  <td><strong id="CAL_ACC3_ROT">CAL_ACC3_ROT</strong> (INT32)</td>
- <td>Rotation of accelerometer 3 relative to airframe <p><strong>Comment:</strong> An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</p> <strong>Values:</strong><ul>
+ <td>Accelerometer 3 rotation relative to airframe <p><strong>Comment:</strong> An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</p> <strong>Values:</strong><ul>
 <li><strong>-1:</strong> Internal</li> 
 
 <li><strong>0:</strong> No rotation</li> 
@@ -21350,82 +21676,218 @@ table {
 
 <li><strong>40:</strong> Roll 90°, Pitch 315°</li> 
 </ul>
-  <p><b>Reboot required:</b> true</p>
-</td>
+  </td>
  <td>-1 > 40 </td>
  <td>-1</td>
  <td></td>
 </tr>
 <tr>
- <td><strong id="CAL_ACC3_TEMP">CAL_ACC3_TEMP</strong> (FLOAT)</td>
- <td>Accelerometer calibration temperature <p><strong>Comment:</strong> Temperature during last calibration.</p>   </td>
- <td></td>
- <td>-1000.</td>
- <td>celcius</td>
-</tr>
-<tr>
  <td><strong id="CAL_ACC3_XOFF">CAL_ACC3_XOFF</strong> (FLOAT)</td>
- <td>Accelerometer X-axis offset    </td>
+ <td>Accelerometer 3 X-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_ACC3_XSCALE">CAL_ACC3_XSCALE</strong> (FLOAT)</td>
- <td>Accelerometer X-axis scaling factor    </td>
- <td></td>
+ <td>Accelerometer 3 X-axis scaling factor    </td>
+ <td>0.1 > 3.0 </td>
  <td>1.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_ACC3_YOFF">CAL_ACC3_YOFF</strong> (FLOAT)</td>
- <td>Accelerometer Y-axis offset    </td>
+ <td>Accelerometer 3 Y-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_ACC3_YSCALE">CAL_ACC3_YSCALE</strong> (FLOAT)</td>
- <td>Accelerometer Y-axis scaling factor    </td>
- <td></td>
+ <td>Accelerometer 3 Y-axis scaling factor    </td>
+ <td>0.1 > 3.0 </td>
  <td>1.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_ACC3_ZOFF">CAL_ACC3_ZOFF</strong> (FLOAT)</td>
- <td>Accelerometer Z-axis offset    </td>
+ <td>Accelerometer 3 Z-axis offset    </td>
+ <td></td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="CAL_ACC3_ZSCALE">CAL_ACC3_ZSCALE</strong> (FLOAT)</td>
+ <td>Accelerometer 3 Z-axis scaling factor    </td>
+ <td>0.1 > 3.0 </td>
+ <td>1.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CAL_BARO0_ID">CAL_BARO0_ID</strong> (INT32)</td>
+ <td>Barometer 0 calibration device ID <p><strong>Comment:</strong> Device ID of the barometer this calibration applies to.</p>   </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CAL_BARO0_OFF">CAL_BARO0_OFF</strong> (FLOAT)</td>
+ <td>Barometer 0 offset    </td>
  <td></td>
  <td>0.0</td>
  <td></td>
 </tr>
 <tr>
- <td><strong id="CAL_ACC3_ZSCALE">CAL_ACC3_ZSCALE</strong> (FLOAT)</td>
- <td>Accelerometer Z-axis scaling factor    </td>
+ <td><strong id="CAL_BARO0_PRIO">CAL_BARO0_PRIO</strong> (INT32)</td>
+ <td>Barometer 0 priority  <strong>Values:</strong><ul>
+<li><strong>-1:</strong> Uninitialized</li> 
+
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Min</li> 
+
+<li><strong>25:</strong> Low</li> 
+
+<li><strong>50:</strong> Medium (Default)</li> 
+
+<li><strong>75:</strong> High</li> 
+
+<li><strong>100:</strong> Max</li> 
+</ul>
+  </td>
  <td></td>
- <td>1.0</td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CAL_BARO1_ID">CAL_BARO1_ID</strong> (INT32)</td>
+ <td>Barometer 1 calibration device ID <p><strong>Comment:</strong> Device ID of the barometer this calibration applies to.</p>   </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CAL_BARO1_OFF">CAL_BARO1_OFF</strong> (FLOAT)</td>
+ <td>Barometer 1 offset    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CAL_BARO1_PRIO">CAL_BARO1_PRIO</strong> (INT32)</td>
+ <td>Barometer 1 priority  <strong>Values:</strong><ul>
+<li><strong>-1:</strong> Uninitialized</li> 
+
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Min</li> 
+
+<li><strong>25:</strong> Low</li> 
+
+<li><strong>50:</strong> Medium (Default)</li> 
+
+<li><strong>75:</strong> High</li> 
+
+<li><strong>100:</strong> Max</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CAL_BARO2_ID">CAL_BARO2_ID</strong> (INT32)</td>
+ <td>Barometer 2 calibration device ID <p><strong>Comment:</strong> Device ID of the barometer this calibration applies to.</p>   </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CAL_BARO2_OFF">CAL_BARO2_OFF</strong> (FLOAT)</td>
+ <td>Barometer 2 offset    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CAL_BARO2_PRIO">CAL_BARO2_PRIO</strong> (INT32)</td>
+ <td>Barometer 2 priority  <strong>Values:</strong><ul>
+<li><strong>-1:</strong> Uninitialized</li> 
+
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Min</li> 
+
+<li><strong>25:</strong> Low</li> 
+
+<li><strong>50:</strong> Medium (Default)</li> 
+
+<li><strong>75:</strong> High</li> 
+
+<li><strong>100:</strong> Max</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>-1</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CAL_BARO3_ID">CAL_BARO3_ID</strong> (INT32)</td>
+ <td>Barometer 3 calibration device ID <p><strong>Comment:</strong> Device ID of the barometer this calibration applies to.</p>   </td>
+ <td></td>
+ <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CAL_BARO3_OFF">CAL_BARO3_OFF</strong> (FLOAT)</td>
+ <td>Barometer 3 offset    </td>
+ <td></td>
+ <td>0.0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="CAL_BARO3_PRIO">CAL_BARO3_PRIO</strong> (INT32)</td>
+ <td>Barometer 3 priority  <strong>Values:</strong><ul>
+<li><strong>-1:</strong> Uninitialized</li> 
+
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Min</li> 
+
+<li><strong>25:</strong> Low</li> 
+
+<li><strong>50:</strong> Medium (Default)</li> 
+
+<li><strong>75:</strong> High</li> 
+
+<li><strong>100:</strong> Max</li> 
+</ul>
+  </td>
+ <td></td>
+ <td>-1</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_GYRO0_ID">CAL_GYRO0_ID</strong> (INT32)</td>
- <td>ID of the Gyro that the calibration is for    </td>
+ <td>Gyroscope 0 calibration device ID <p><strong>Comment:</strong> Device ID of the gyroscope this calibration applies to.</p>   </td>
  <td></td>
  <td>0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_GYRO0_PRIO">CAL_GYRO0_PRIO</strong> (INT32)</td>
- <td>Gyro 0 priority  <strong>Values:</strong><ul>
-<li><strong>-1:</strong>  Uninitialized</li> 
+ <td>Gyroscope 0 priority  <strong>Values:</strong><ul>
+<li><strong>-1:</strong> Uninitialized</li> 
 
-<li><strong>0:</strong>   Disabled</li> 
+<li><strong>0:</strong> Disabled</li> 
 
-<li><strong>1:</strong>   Min</li> 
+<li><strong>1:</strong> Min</li> 
 
-<li><strong>25:</strong>  Low</li> 
+<li><strong>25:</strong> Low</li> 
 
-<li><strong>50:</strong>  Medium (Default)</li> 
+<li><strong>50:</strong> Medium (Default)</li> 
 
-<li><strong>75:</strong>  High</li> 
+<li><strong>75:</strong> High</li> 
 
 <li><strong>100:</strong> Max</li> 
 </ul>
@@ -21436,7 +21898,7 @@ table {
 </tr>
 <tr>
  <td><strong id="CAL_GYRO0_ROT">CAL_GYRO0_ROT</strong> (INT32)</td>
- <td>Rotation of gyro 0 relative to airframe <p><strong>Comment:</strong> An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</p> <strong>Values:</strong><ul>
+ <td>Gyroscope 0 rotation relative to airframe <p><strong>Comment:</strong> An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</p> <strong>Values:</strong><ul>
 <li><strong>-1:</strong> Internal</li> 
 
 <li><strong>0:</strong> No rotation</li> 
@@ -21521,61 +21983,53 @@ table {
 
 <li><strong>40:</strong> Roll 90°, Pitch 315°</li> 
 </ul>
-  <p><b>Reboot required:</b> true</p>
-</td>
+  </td>
  <td>-1 > 40 </td>
  <td>-1</td>
  <td></td>
 </tr>
 <tr>
- <td><strong id="CAL_GYRO0_TEMP">CAL_GYRO0_TEMP</strong> (FLOAT)</td>
- <td>Gyroscope calibration temperature <p><strong>Comment:</strong> Temperature during last calibration.</p>   </td>
- <td></td>
- <td>-1000.</td>
- <td>celcius</td>
-</tr>
-<tr>
  <td><strong id="CAL_GYRO0_XOFF">CAL_GYRO0_XOFF</strong> (FLOAT)</td>
- <td>Gyro X-axis offset    </td>
+ <td>Gyroscope 0 X-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_GYRO0_YOFF">CAL_GYRO0_YOFF</strong> (FLOAT)</td>
- <td>Gyro Y-axis offset    </td>
+ <td>Gyroscope 0 Y-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_GYRO0_ZOFF">CAL_GYRO0_ZOFF</strong> (FLOAT)</td>
- <td>Gyro Z-axis offset    </td>
+ <td>Gyroscope 0 Z-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_GYRO1_ID">CAL_GYRO1_ID</strong> (INT32)</td>
- <td>ID of the Gyro that the calibration is for    </td>
+ <td>Gyroscope 1 calibration device ID <p><strong>Comment:</strong> Device ID of the gyroscope this calibration applies to.</p>   </td>
  <td></td>
  <td>0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_GYRO1_PRIO">CAL_GYRO1_PRIO</strong> (INT32)</td>
- <td>Gyro 1 priority  <strong>Values:</strong><ul>
-<li><strong>-1:</strong>  Uninitialized</li> 
+ <td>Gyroscope 1 priority  <strong>Values:</strong><ul>
+<li><strong>-1:</strong> Uninitialized</li> 
 
-<li><strong>0:</strong>   Disabled</li> 
+<li><strong>0:</strong> Disabled</li> 
 
-<li><strong>1:</strong>   Min</li> 
+<li><strong>1:</strong> Min</li> 
 
-<li><strong>25:</strong>  Low</li> 
+<li><strong>25:</strong> Low</li> 
 
-<li><strong>50:</strong>  Medium (Default)</li> 
+<li><strong>50:</strong> Medium (Default)</li> 
 
-<li><strong>75:</strong>  High</li> 
+<li><strong>75:</strong> High</li> 
 
 <li><strong>100:</strong> Max</li> 
 </ul>
@@ -21586,7 +22040,7 @@ table {
 </tr>
 <tr>
  <td><strong id="CAL_GYRO1_ROT">CAL_GYRO1_ROT</strong> (INT32)</td>
- <td>Rotation of gyro 1 relative to airframe <p><strong>Comment:</strong> An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</p> <strong>Values:</strong><ul>
+ <td>Gyroscope 1 rotation relative to airframe <p><strong>Comment:</strong> An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</p> <strong>Values:</strong><ul>
 <li><strong>-1:</strong> Internal</li> 
 
 <li><strong>0:</strong> No rotation</li> 
@@ -21671,61 +22125,53 @@ table {
 
 <li><strong>40:</strong> Roll 90°, Pitch 315°</li> 
 </ul>
-  <p><b>Reboot required:</b> true</p>
-</td>
+  </td>
  <td>-1 > 40 </td>
  <td>-1</td>
  <td></td>
 </tr>
 <tr>
- <td><strong id="CAL_GYRO1_TEMP">CAL_GYRO1_TEMP</strong> (FLOAT)</td>
- <td>Gyroscope calibration temperature <p><strong>Comment:</strong> Temperature during last calibration.</p>   </td>
- <td></td>
- <td>-1000.</td>
- <td>celcius</td>
-</tr>
-<tr>
  <td><strong id="CAL_GYRO1_XOFF">CAL_GYRO1_XOFF</strong> (FLOAT)</td>
- <td>Gyro X-axis offset    </td>
+ <td>Gyroscope 1 X-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_GYRO1_YOFF">CAL_GYRO1_YOFF</strong> (FLOAT)</td>
- <td>Gyro Y-axis offset    </td>
+ <td>Gyroscope 1 Y-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_GYRO1_ZOFF">CAL_GYRO1_ZOFF</strong> (FLOAT)</td>
- <td>Gyro Z-axis offset    </td>
+ <td>Gyroscope 1 Z-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_GYRO2_ID">CAL_GYRO2_ID</strong> (INT32)</td>
- <td>ID of the Gyro that the calibration is for    </td>
+ <td>Gyroscope 2 calibration device ID <p><strong>Comment:</strong> Device ID of the gyroscope this calibration applies to.</p>   </td>
  <td></td>
  <td>0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_GYRO2_PRIO">CAL_GYRO2_PRIO</strong> (INT32)</td>
- <td>Gyro 2 priority  <strong>Values:</strong><ul>
-<li><strong>-1:</strong>  Uninitialized</li> 
+ <td>Gyroscope 2 priority  <strong>Values:</strong><ul>
+<li><strong>-1:</strong> Uninitialized</li> 
 
-<li><strong>0:</strong>   Disabled</li> 
+<li><strong>0:</strong> Disabled</li> 
 
-<li><strong>1:</strong>   Min</li> 
+<li><strong>1:</strong> Min</li> 
 
-<li><strong>25:</strong>  Low</li> 
+<li><strong>25:</strong> Low</li> 
 
-<li><strong>50:</strong>  Medium (Default)</li> 
+<li><strong>50:</strong> Medium (Default)</li> 
 
-<li><strong>75:</strong>  High</li> 
+<li><strong>75:</strong> High</li> 
 
 <li><strong>100:</strong> Max</li> 
 </ul>
@@ -21736,7 +22182,7 @@ table {
 </tr>
 <tr>
  <td><strong id="CAL_GYRO2_ROT">CAL_GYRO2_ROT</strong> (INT32)</td>
- <td>Rotation of gyro 2 relative to airframe <p><strong>Comment:</strong> An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</p> <strong>Values:</strong><ul>
+ <td>Gyroscope 2 rotation relative to airframe <p><strong>Comment:</strong> An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</p> <strong>Values:</strong><ul>
 <li><strong>-1:</strong> Internal</li> 
 
 <li><strong>0:</strong> No rotation</li> 
@@ -21821,61 +22267,53 @@ table {
 
 <li><strong>40:</strong> Roll 90°, Pitch 315°</li> 
 </ul>
-  <p><b>Reboot required:</b> true</p>
-</td>
+  </td>
  <td>-1 > 40 </td>
  <td>-1</td>
  <td></td>
 </tr>
 <tr>
- <td><strong id="CAL_GYRO2_TEMP">CAL_GYRO2_TEMP</strong> (FLOAT)</td>
- <td>Gyroscope calibration temperature <p><strong>Comment:</strong> Temperature during last calibration.</p>   </td>
- <td></td>
- <td>-1000.</td>
- <td>celcius</td>
-</tr>
-<tr>
  <td><strong id="CAL_GYRO2_XOFF">CAL_GYRO2_XOFF</strong> (FLOAT)</td>
- <td>Gyro X-axis offset    </td>
+ <td>Gyroscope 2 X-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_GYRO2_YOFF">CAL_GYRO2_YOFF</strong> (FLOAT)</td>
- <td>Gyro Y-axis offset    </td>
+ <td>Gyroscope 2 Y-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_GYRO2_ZOFF">CAL_GYRO2_ZOFF</strong> (FLOAT)</td>
- <td>Gyro Z-axis offset    </td>
+ <td>Gyroscope 2 Z-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_GYRO3_ID">CAL_GYRO3_ID</strong> (INT32)</td>
- <td>ID of the Gyro that the calibration is for    </td>
+ <td>Gyroscope 3 calibration device ID <p><strong>Comment:</strong> Device ID of the gyroscope this calibration applies to.</p>   </td>
  <td></td>
  <td>0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_GYRO3_PRIO">CAL_GYRO3_PRIO</strong> (INT32)</td>
- <td>Gyro 3 priority  <strong>Values:</strong><ul>
-<li><strong>-1:</strong>  Uninitialized</li> 
+ <td>Gyroscope 3 priority  <strong>Values:</strong><ul>
+<li><strong>-1:</strong> Uninitialized</li> 
 
-<li><strong>0:</strong>   Disabled</li> 
+<li><strong>0:</strong> Disabled</li> 
 
-<li><strong>1:</strong>   Min</li> 
+<li><strong>1:</strong> Min</li> 
 
-<li><strong>25:</strong>  Low</li> 
+<li><strong>25:</strong> Low</li> 
 
-<li><strong>50:</strong>  Medium (Default)</li> 
+<li><strong>50:</strong> Medium (Default)</li> 
 
-<li><strong>75:</strong>  High</li> 
+<li><strong>75:</strong> High</li> 
 
 <li><strong>100:</strong> Max</li> 
 </ul>
@@ -21886,7 +22324,7 @@ table {
 </tr>
 <tr>
  <td><strong id="CAL_GYRO3_ROT">CAL_GYRO3_ROT</strong> (INT32)</td>
- <td>Rotation of gyro 3 relative to airframe <p><strong>Comment:</strong> An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</p> <strong>Values:</strong><ul>
+ <td>Gyroscope 3 rotation relative to airframe <p><strong>Comment:</strong> An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</p> <strong>Values:</strong><ul>
 <li><strong>-1:</strong> Internal</li> 
 
 <li><strong>0:</strong> No rotation</li> 
@@ -21971,61 +22409,53 @@ table {
 
 <li><strong>40:</strong> Roll 90°, Pitch 315°</li> 
 </ul>
-  <p><b>Reboot required:</b> true</p>
-</td>
+  </td>
  <td>-1 > 40 </td>
  <td>-1</td>
  <td></td>
 </tr>
 <tr>
- <td><strong id="CAL_GYRO3_TEMP">CAL_GYRO3_TEMP</strong> (FLOAT)</td>
- <td>Gyroscope calibration temperature <p><strong>Comment:</strong> Temperature during last calibration.</p>   </td>
- <td></td>
- <td>-1000.</td>
- <td>celcius</td>
-</tr>
-<tr>
  <td><strong id="CAL_GYRO3_XOFF">CAL_GYRO3_XOFF</strong> (FLOAT)</td>
- <td>Gyro X-axis offset    </td>
+ <td>Gyroscope 3 X-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_GYRO3_YOFF">CAL_GYRO3_YOFF</strong> (FLOAT)</td>
- <td>Gyro Y-axis offset    </td>
+ <td>Gyroscope 3 Y-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_GYRO3_ZOFF">CAL_GYRO3_ZOFF</strong> (FLOAT)</td>
- <td>Gyro Z-axis offset    </td>
+ <td>Gyroscope 3 Z-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG0_ID">CAL_MAG0_ID</strong> (INT32)</td>
- <td>ID of Magnetometer the calibration is for    </td>
+ <td>Magnetometer 0 calibration device ID <p><strong>Comment:</strong> Device ID of the magnetometer this calibration applies to.</p>   </td>
  <td></td>
  <td>0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG0_PRIO">CAL_MAG0_PRIO</strong> (INT32)</td>
- <td>Mag 0 priority  <strong>Values:</strong><ul>
-<li><strong>-1:</strong>  Uninitialized</li> 
+ <td>Magnetometer 0 priority  <strong>Values:</strong><ul>
+<li><strong>-1:</strong> Uninitialized</li> 
 
-<li><strong>0:</strong>   Disabled</li> 
+<li><strong>0:</strong> Disabled</li> 
 
-<li><strong>1:</strong>   Min</li> 
+<li><strong>1:</strong> Min</li> 
 
-<li><strong>25:</strong>  Low</li> 
+<li><strong>25:</strong> Low</li> 
 
-<li><strong>50:</strong>  Medium (Default)</li> 
+<li><strong>50:</strong> Medium (Default)</li> 
 
-<li><strong>75:</strong>  High</li> 
+<li><strong>75:</strong> High</li> 
 
 <li><strong>100:</strong> Max</li> 
 </ul>
@@ -22036,7 +22466,7 @@ table {
 </tr>
 <tr>
  <td><strong id="CAL_MAG0_ROT">CAL_MAG0_ROT</strong> (INT32)</td>
- <td>Rotation of magnetometer 0 relative to airframe <p><strong>Comment:</strong> An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</p> <strong>Values:</strong><ul>
+ <td>Magnetometer 0 rotation relative to airframe <p><strong>Comment:</strong> An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</p> <strong>Values:</strong><ul>
 <li><strong>-1:</strong> Internal</li> 
 
 <li><strong>0:</strong> No rotation</li> 
@@ -22121,124 +22551,116 @@ table {
 
 <li><strong>40:</strong> Roll 90°, Pitch 315°</li> 
 </ul>
-  <p><b>Reboot required:</b> true</p>
-</td>
+  </td>
  <td>-1 > 40 </td>
  <td>-1</td>
  <td></td>
 </tr>
 <tr>
- <td><strong id="CAL_MAG0_TEMP">CAL_MAG0_TEMP</strong> (FLOAT)</td>
- <td>Magnetometer calibration temperature <p><strong>Comment:</strong> Temperature during last calibration.</p>   </td>
- <td></td>
- <td>-1000.</td>
- <td>celcius</td>
-</tr>
-<tr>
  <td><strong id="CAL_MAG0_XCOMP">CAL_MAG0_XCOMP</strong> (FLOAT)</td>
- <td>X Axis throttle compensation for Mag 0 <p><strong>Comment:</strong> Coefficient describing linear relationship between X component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</p>   </td>
+ <td>Magnetometer 0 X Axis throttle compensation <p><strong>Comment:</strong> Coefficient describing linear relationship between X component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</p>   </td>
  <td></td>
  <td>0.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG0_XODIAG">CAL_MAG0_XODIAG</strong> (FLOAT)</td>
- <td>Magnetometer X-axis off diagonal factor    </td>
+ <td>Magnetometer 0 X-axis off diagonal scale factor    </td>
  <td></td>
  <td>0.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG0_XOFF">CAL_MAG0_XOFF</strong> (FLOAT)</td>
- <td>Magnetometer X-axis offset    </td>
+ <td>Magnetometer 0 X-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG0_XSCALE">CAL_MAG0_XSCALE</strong> (FLOAT)</td>
- <td>Magnetometer X-axis scaling factor    </td>
- <td></td>
+ <td>Magnetometer 0 X-axis scaling factor    </td>
+ <td>0.1 > 3.0 </td>
  <td>1.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG0_YCOMP">CAL_MAG0_YCOMP</strong> (FLOAT)</td>
- <td>Y Axis throttle compensation for Mag 0 <p><strong>Comment:</strong> Coefficient describing linear relationship between Y component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</p>   </td>
+ <td>Magnetometer 0 Y Axis throttle compensation <p><strong>Comment:</strong> Coefficient describing linear relationship between Y component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</p>   </td>
  <td></td>
  <td>0.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG0_YODIAG">CAL_MAG0_YODIAG</strong> (FLOAT)</td>
- <td>Magnetometer Y-axis off diagonal factor    </td>
+ <td>Magnetometer 0 Y-axis off diagonal scale factor    </td>
  <td></td>
  <td>0.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG0_YOFF">CAL_MAG0_YOFF</strong> (FLOAT)</td>
- <td>Magnetometer Y-axis offset    </td>
+ <td>Magnetometer 0 Y-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG0_YSCALE">CAL_MAG0_YSCALE</strong> (FLOAT)</td>
- <td>Magnetometer Y-axis scaling factor    </td>
- <td></td>
+ <td>Magnetometer 0 Y-axis scaling factor    </td>
+ <td>0.1 > 3.0 </td>
  <td>1.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG0_ZCOMP">CAL_MAG0_ZCOMP</strong> (FLOAT)</td>
- <td>Z Axis throttle compensation for Mag 0 <p><strong>Comment:</strong> Coefficient describing linear relationship between Z component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</p>   </td>
+ <td>Magnetometer 0 Z Axis throttle compensation <p><strong>Comment:</strong> Coefficient describing linear relationship between Z component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</p>   </td>
  <td></td>
  <td>0.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG0_ZODIAG">CAL_MAG0_ZODIAG</strong> (FLOAT)</td>
- <td>Magnetometer Z-axis off diagonal factor    </td>
+ <td>Magnetometer 0 Z-axis off diagonal scale factor    </td>
  <td></td>
  <td>0.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG0_ZOFF">CAL_MAG0_ZOFF</strong> (FLOAT)</td>
- <td>Magnetometer Z-axis offset    </td>
+ <td>Magnetometer 0 Z-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG0_ZSCALE">CAL_MAG0_ZSCALE</strong> (FLOAT)</td>
- <td>Magnetometer Z-axis scaling factor    </td>
- <td></td>
+ <td>Magnetometer 0 Z-axis scaling factor    </td>
+ <td>0.1 > 3.0 </td>
  <td>1.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG1_ID">CAL_MAG1_ID</strong> (INT32)</td>
- <td>ID of Magnetometer the calibration is for    </td>
+ <td>Magnetometer 1 calibration device ID <p><strong>Comment:</strong> Device ID of the magnetometer this calibration applies to.</p>   </td>
  <td></td>
  <td>0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG1_PRIO">CAL_MAG1_PRIO</strong> (INT32)</td>
- <td>Mag 1 priority  <strong>Values:</strong><ul>
-<li><strong>-1:</strong>  Uninitialized</li> 
+ <td>Magnetometer 1 priority  <strong>Values:</strong><ul>
+<li><strong>-1:</strong> Uninitialized</li> 
 
-<li><strong>0:</strong>   Disabled</li> 
+<li><strong>0:</strong> Disabled</li> 
 
-<li><strong>1:</strong>   Min</li> 
+<li><strong>1:</strong> Min</li> 
 
-<li><strong>25:</strong>  Low</li> 
+<li><strong>25:</strong> Low</li> 
 
-<li><strong>50:</strong>  Medium (Default)</li> 
+<li><strong>50:</strong> Medium (Default)</li> 
 
-<li><strong>75:</strong>  High</li> 
+<li><strong>75:</strong> High</li> 
 
 <li><strong>100:</strong> Max</li> 
 </ul>
@@ -22249,7 +22671,7 @@ table {
 </tr>
 <tr>
  <td><strong id="CAL_MAG1_ROT">CAL_MAG1_ROT</strong> (INT32)</td>
- <td>Rotation of magnetometer 1 relative to airframe <p><strong>Comment:</strong> An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</p> <strong>Values:</strong><ul>
+ <td>Magnetometer 1 rotation relative to airframe <p><strong>Comment:</strong> An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</p> <strong>Values:</strong><ul>
 <li><strong>-1:</strong> Internal</li> 
 
 <li><strong>0:</strong> No rotation</li> 
@@ -22334,124 +22756,116 @@ table {
 
 <li><strong>40:</strong> Roll 90°, Pitch 315°</li> 
 </ul>
-  <p><b>Reboot required:</b> true</p>
-</td>
+  </td>
  <td>-1 > 40 </td>
  <td>-1</td>
  <td></td>
 </tr>
 <tr>
- <td><strong id="CAL_MAG1_TEMP">CAL_MAG1_TEMP</strong> (FLOAT)</td>
- <td>Magnetometer calibration temperature <p><strong>Comment:</strong> Temperature during last calibration.</p>   </td>
- <td></td>
- <td>-1000.</td>
- <td>celcius</td>
-</tr>
-<tr>
  <td><strong id="CAL_MAG1_XCOMP">CAL_MAG1_XCOMP</strong> (FLOAT)</td>
- <td>X Axis throttle compensation for Mag 1 <p><strong>Comment:</strong> Coefficient describing linear relationship between X component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</p>   </td>
+ <td>Magnetometer 1 X Axis throttle compensation <p><strong>Comment:</strong> Coefficient describing linear relationship between X component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</p>   </td>
  <td></td>
  <td>0.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG1_XODIAG">CAL_MAG1_XODIAG</strong> (FLOAT)</td>
- <td>Magnetometer X-axis off diagonal factor    </td>
+ <td>Magnetometer 1 X-axis off diagonal scale factor    </td>
  <td></td>
  <td>0.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG1_XOFF">CAL_MAG1_XOFF</strong> (FLOAT)</td>
- <td>Magnetometer X-axis offset    </td>
+ <td>Magnetometer 1 X-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG1_XSCALE">CAL_MAG1_XSCALE</strong> (FLOAT)</td>
- <td>Magnetometer X-axis scaling factor    </td>
- <td></td>
+ <td>Magnetometer 1 X-axis scaling factor    </td>
+ <td>0.1 > 3.0 </td>
  <td>1.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG1_YCOMP">CAL_MAG1_YCOMP</strong> (FLOAT)</td>
- <td>Y Axis throttle compensation for Mag 1 <p><strong>Comment:</strong> Coefficient describing linear relationship between Y component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</p>   </td>
+ <td>Magnetometer 1 Y Axis throttle compensation <p><strong>Comment:</strong> Coefficient describing linear relationship between Y component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</p>   </td>
  <td></td>
  <td>0.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG1_YODIAG">CAL_MAG1_YODIAG</strong> (FLOAT)</td>
- <td>Magnetometer Y-axis off diagonal factor    </td>
+ <td>Magnetometer 1 Y-axis off diagonal scale factor    </td>
  <td></td>
  <td>0.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG1_YOFF">CAL_MAG1_YOFF</strong> (FLOAT)</td>
- <td>Magnetometer Y-axis offset    </td>
+ <td>Magnetometer 1 Y-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG1_YSCALE">CAL_MAG1_YSCALE</strong> (FLOAT)</td>
- <td>Magnetometer Y-axis scaling factor    </td>
- <td></td>
+ <td>Magnetometer 1 Y-axis scaling factor    </td>
+ <td>0.1 > 3.0 </td>
  <td>1.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG1_ZCOMP">CAL_MAG1_ZCOMP</strong> (FLOAT)</td>
- <td>Z Axis throttle compensation for Mag 1 <p><strong>Comment:</strong> Coefficient describing linear relationship between Z component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</p>   </td>
+ <td>Magnetometer 1 Z Axis throttle compensation <p><strong>Comment:</strong> Coefficient describing linear relationship between Z component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</p>   </td>
  <td></td>
  <td>0.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG1_ZODIAG">CAL_MAG1_ZODIAG</strong> (FLOAT)</td>
- <td>Magnetometer Z-axis off diagonal factor    </td>
+ <td>Magnetometer 1 Z-axis off diagonal scale factor    </td>
  <td></td>
  <td>0.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG1_ZOFF">CAL_MAG1_ZOFF</strong> (FLOAT)</td>
- <td>Magnetometer Z-axis offset    </td>
+ <td>Magnetometer 1 Z-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG1_ZSCALE">CAL_MAG1_ZSCALE</strong> (FLOAT)</td>
- <td>Magnetometer Z-axis scaling factor    </td>
- <td></td>
+ <td>Magnetometer 1 Z-axis scaling factor    </td>
+ <td>0.1 > 3.0 </td>
  <td>1.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG2_ID">CAL_MAG2_ID</strong> (INT32)</td>
- <td>ID of Magnetometer the calibration is for    </td>
+ <td>Magnetometer 2 calibration device ID <p><strong>Comment:</strong> Device ID of the magnetometer this calibration applies to.</p>   </td>
  <td></td>
  <td>0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG2_PRIO">CAL_MAG2_PRIO</strong> (INT32)</td>
- <td>Mag 2 priority  <strong>Values:</strong><ul>
-<li><strong>-1:</strong>  Uninitialized</li> 
+ <td>Magnetometer 2 priority  <strong>Values:</strong><ul>
+<li><strong>-1:</strong> Uninitialized</li> 
 
-<li><strong>0:</strong>   Disabled</li> 
+<li><strong>0:</strong> Disabled</li> 
 
-<li><strong>1:</strong>   Min</li> 
+<li><strong>1:</strong> Min</li> 
 
-<li><strong>25:</strong>  Low</li> 
+<li><strong>25:</strong> Low</li> 
 
-<li><strong>50:</strong>  Medium (Default)</li> 
+<li><strong>50:</strong> Medium (Default)</li> 
 
-<li><strong>75:</strong>  High</li> 
+<li><strong>75:</strong> High</li> 
 
 <li><strong>100:</strong> Max</li> 
 </ul>
@@ -22462,7 +22876,7 @@ table {
 </tr>
 <tr>
  <td><strong id="CAL_MAG2_ROT">CAL_MAG2_ROT</strong> (INT32)</td>
- <td>Rotation of magnetometer 2 relative to airframe <p><strong>Comment:</strong> An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</p> <strong>Values:</strong><ul>
+ <td>Magnetometer 2 rotation relative to airframe <p><strong>Comment:</strong> An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</p> <strong>Values:</strong><ul>
 <li><strong>-1:</strong> Internal</li> 
 
 <li><strong>0:</strong> No rotation</li> 
@@ -22547,124 +22961,116 @@ table {
 
 <li><strong>40:</strong> Roll 90°, Pitch 315°</li> 
 </ul>
-  <p><b>Reboot required:</b> true</p>
-</td>
+  </td>
  <td>-1 > 40 </td>
  <td>-1</td>
  <td></td>
 </tr>
 <tr>
- <td><strong id="CAL_MAG2_TEMP">CAL_MAG2_TEMP</strong> (FLOAT)</td>
- <td>Magnetometer calibration temperature <p><strong>Comment:</strong> Temperature during last calibration.</p>   </td>
- <td></td>
- <td>-1000.</td>
- <td>celcius</td>
-</tr>
-<tr>
  <td><strong id="CAL_MAG2_XCOMP">CAL_MAG2_XCOMP</strong> (FLOAT)</td>
- <td>X Axis throttle compensation for Mag 2 <p><strong>Comment:</strong> Coefficient describing linear relationship between X component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</p>   </td>
+ <td>Magnetometer 2 X Axis throttle compensation <p><strong>Comment:</strong> Coefficient describing linear relationship between X component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</p>   </td>
  <td></td>
  <td>0.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG2_XODIAG">CAL_MAG2_XODIAG</strong> (FLOAT)</td>
- <td>Magnetometer X-axis off diagonal factor    </td>
+ <td>Magnetometer 2 X-axis off diagonal scale factor    </td>
  <td></td>
  <td>0.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG2_XOFF">CAL_MAG2_XOFF</strong> (FLOAT)</td>
- <td>Magnetometer X-axis offset    </td>
+ <td>Magnetometer 2 X-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG2_XSCALE">CAL_MAG2_XSCALE</strong> (FLOAT)</td>
- <td>Magnetometer X-axis scaling factor    </td>
- <td></td>
+ <td>Magnetometer 2 X-axis scaling factor    </td>
+ <td>0.1 > 3.0 </td>
  <td>1.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG2_YCOMP">CAL_MAG2_YCOMP</strong> (FLOAT)</td>
- <td>Y Axis throttle compensation for Mag 2 <p><strong>Comment:</strong> Coefficient describing linear relationship between Y component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</p>   </td>
+ <td>Magnetometer 2 Y Axis throttle compensation <p><strong>Comment:</strong> Coefficient describing linear relationship between Y component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</p>   </td>
  <td></td>
  <td>0.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG2_YODIAG">CAL_MAG2_YODIAG</strong> (FLOAT)</td>
- <td>Magnetometer Y-axis off diagonal factor    </td>
+ <td>Magnetometer 2 Y-axis off diagonal scale factor    </td>
  <td></td>
  <td>0.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG2_YOFF">CAL_MAG2_YOFF</strong> (FLOAT)</td>
- <td>Magnetometer Y-axis offset    </td>
+ <td>Magnetometer 2 Y-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG2_YSCALE">CAL_MAG2_YSCALE</strong> (FLOAT)</td>
- <td>Magnetometer Y-axis scaling factor    </td>
- <td></td>
+ <td>Magnetometer 2 Y-axis scaling factor    </td>
+ <td>0.1 > 3.0 </td>
  <td>1.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG2_ZCOMP">CAL_MAG2_ZCOMP</strong> (FLOAT)</td>
- <td>Z Axis throttle compensation for Mag 2 <p><strong>Comment:</strong> Coefficient describing linear relationship between Z component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</p>   </td>
+ <td>Magnetometer 2 Z Axis throttle compensation <p><strong>Comment:</strong> Coefficient describing linear relationship between Z component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</p>   </td>
  <td></td>
  <td>0.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG2_ZODIAG">CAL_MAG2_ZODIAG</strong> (FLOAT)</td>
- <td>Magnetometer Z-axis off diagonal factor    </td>
+ <td>Magnetometer 2 Z-axis off diagonal scale factor    </td>
  <td></td>
  <td>0.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG2_ZOFF">CAL_MAG2_ZOFF</strong> (FLOAT)</td>
- <td>Magnetometer Z-axis offset    </td>
+ <td>Magnetometer 2 Z-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG2_ZSCALE">CAL_MAG2_ZSCALE</strong> (FLOAT)</td>
- <td>Magnetometer Z-axis scaling factor    </td>
- <td></td>
+ <td>Magnetometer 2 Z-axis scaling factor    </td>
+ <td>0.1 > 3.0 </td>
  <td>1.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG3_ID">CAL_MAG3_ID</strong> (INT32)</td>
- <td>ID of Magnetometer the calibration is for    </td>
+ <td>Magnetometer 3 calibration device ID <p><strong>Comment:</strong> Device ID of the magnetometer this calibration applies to.</p>   </td>
  <td></td>
  <td>0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG3_PRIO">CAL_MAG3_PRIO</strong> (INT32)</td>
- <td>Mag 3 priority  <strong>Values:</strong><ul>
-<li><strong>-1:</strong>  Uninitialized</li> 
+ <td>Magnetometer 3 priority  <strong>Values:</strong><ul>
+<li><strong>-1:</strong> Uninitialized</li> 
 
-<li><strong>0:</strong>   Disabled</li> 
+<li><strong>0:</strong> Disabled</li> 
 
-<li><strong>1:</strong>   Min</li> 
+<li><strong>1:</strong> Min</li> 
 
-<li><strong>25:</strong>  Low</li> 
+<li><strong>25:</strong> Low</li> 
 
-<li><strong>50:</strong>  Medium (Default)</li> 
+<li><strong>50:</strong> Medium (Default)</li> 
 
-<li><strong>75:</strong>  High</li> 
+<li><strong>75:</strong> High</li> 
 
 <li><strong>100:</strong> Max</li> 
 </ul>
@@ -22675,7 +23081,7 @@ table {
 </tr>
 <tr>
  <td><strong id="CAL_MAG3_ROT">CAL_MAG3_ROT</strong> (INT32)</td>
- <td>Rotation of magnetometer 3 relative to airframe <p><strong>Comment:</strong> An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</p> <strong>Values:</strong><ul>
+ <td>Magnetometer 3 rotation relative to airframe <p><strong>Comment:</strong> An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</p> <strong>Values:</strong><ul>
 <li><strong>-1:</strong> Internal</li> 
 
 <li><strong>0:</strong> No rotation</li> 
@@ -22760,100 +23166,92 @@ table {
 
 <li><strong>40:</strong> Roll 90°, Pitch 315°</li> 
 </ul>
-  <p><b>Reboot required:</b> true</p>
-</td>
+  </td>
  <td>-1 > 40 </td>
  <td>-1</td>
  <td></td>
 </tr>
 <tr>
- <td><strong id="CAL_MAG3_TEMP">CAL_MAG3_TEMP</strong> (FLOAT)</td>
- <td>Magnetometer calibration temperature <p><strong>Comment:</strong> Temperature during last calibration.</p>   </td>
- <td></td>
- <td>-1000.</td>
- <td>celcius</td>
-</tr>
-<tr>
  <td><strong id="CAL_MAG3_XCOMP">CAL_MAG3_XCOMP</strong> (FLOAT)</td>
- <td>X Axis throttle compensation for Mag 3 <p><strong>Comment:</strong> Coefficient describing linear relationship between X component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</p>   </td>
+ <td>Magnetometer 3 X Axis throttle compensation <p><strong>Comment:</strong> Coefficient describing linear relationship between X component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</p>   </td>
  <td></td>
  <td>0.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG3_XODIAG">CAL_MAG3_XODIAG</strong> (FLOAT)</td>
- <td>Magnetometer X-axis off diagonal factor    </td>
+ <td>Magnetometer 3 X-axis off diagonal scale factor    </td>
  <td></td>
  <td>0.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG3_XOFF">CAL_MAG3_XOFF</strong> (FLOAT)</td>
- <td>Magnetometer X-axis offset    </td>
+ <td>Magnetometer 3 X-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG3_XSCALE">CAL_MAG3_XSCALE</strong> (FLOAT)</td>
- <td>Magnetometer X-axis scaling factor    </td>
- <td></td>
+ <td>Magnetometer 3 X-axis scaling factor    </td>
+ <td>0.1 > 3.0 </td>
  <td>1.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG3_YCOMP">CAL_MAG3_YCOMP</strong> (FLOAT)</td>
- <td>Y Axis throttle compensation for Mag 3 <p><strong>Comment:</strong> Coefficient describing linear relationship between Y component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</p>   </td>
+ <td>Magnetometer 3 Y Axis throttle compensation <p><strong>Comment:</strong> Coefficient describing linear relationship between Y component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</p>   </td>
  <td></td>
  <td>0.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG3_YODIAG">CAL_MAG3_YODIAG</strong> (FLOAT)</td>
- <td>Magnetometer Y-axis off diagonal factor    </td>
+ <td>Magnetometer 3 Y-axis off diagonal scale factor    </td>
  <td></td>
  <td>0.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG3_YOFF">CAL_MAG3_YOFF</strong> (FLOAT)</td>
- <td>Magnetometer Y-axis offset    </td>
+ <td>Magnetometer 3 Y-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG3_YSCALE">CAL_MAG3_YSCALE</strong> (FLOAT)</td>
- <td>Magnetometer Y-axis scaling factor    </td>
- <td></td>
+ <td>Magnetometer 3 Y-axis scaling factor    </td>
+ <td>0.1 > 3.0 </td>
  <td>1.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG3_ZCOMP">CAL_MAG3_ZCOMP</strong> (FLOAT)</td>
- <td>Z Axis throttle compensation for Mag 3 <p><strong>Comment:</strong> Coefficient describing linear relationship between Z component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</p>   </td>
+ <td>Magnetometer 3 Z Axis throttle compensation <p><strong>Comment:</strong> Coefficient describing linear relationship between Z component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</p>   </td>
  <td></td>
  <td>0.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG3_ZODIAG">CAL_MAG3_ZODIAG</strong> (FLOAT)</td>
- <td>Magnetometer Z-axis off diagonal factor    </td>
+ <td>Magnetometer 3 Z-axis off diagonal scale factor    </td>
  <td></td>
  <td>0.0</td>
  <td></td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG3_ZOFF">CAL_MAG3_ZOFF</strong> (FLOAT)</td>
- <td>Magnetometer Z-axis offset    </td>
+ <td>Magnetometer 3 Z-axis offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>m</td>
 </tr>
 <tr>
  <td><strong id="CAL_MAG3_ZSCALE">CAL_MAG3_ZSCALE</strong> (FLOAT)</td>
- <td>Magnetometer Z-axis scaling factor    </td>
- <td></td>
+ <td>Magnetometer 3 Z-axis scaling factor    </td>
+ <td>0.1 > 3.0 </td>
  <td>1.0</td>
  <td></td>
 </tr>
@@ -22918,6 +23316,14 @@ table {
    <tr><th>Name</th><th>Description</th><th>Min > Max (Incr.)</th><th>Default</th><th>Units</th></tr>
  </thead>
 <tbody>
+<tr>
+ <td><strong id="ADC_ADS1115_EN">ADC_ADS1115_EN</strong> (INT32)</td>
+ <td>Enable external ADS1115 ADC <p><strong>Comment:</strong> If enabled, the internal ADC is not used.</p>   <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>Disabled (0)</td>
+ <td></td>
+</tr>
 <tr>
  <td><strong id="BAT1_C_MULT">BAT1_C_MULT</strong> (FLOAT)</td>
  <td>Capacity/current multiplier for high-current capable SMBUS battery    <p><b>Reboot required:</b> true</p>
@@ -23063,6 +23469,13 @@ table {
  <td></td>
 </tr>
 <tr>
+ <td><strong id="IMU_GYRO_DNF_HMC">IMU_GYRO_DNF_HMC</strong> (INT32)</td>
+ <td>IMU gyro dynamic notch filter harmonics <p><strong>Comment:</strong> ESC RPM number of harmonics (multiples of RPM) for ESC RPM dynamic notch filtering.</p>   </td>
+ <td>1 > 7 </td>
+ <td>3</td>
+ <td></td>
+</tr>
+<tr>
  <td><strong id="IMU_GYRO_FFT_EN">IMU_GYRO_FFT_EN</strong> (INT32)</td>
  <td>IMU gyro FFT enable    <p><b>Reboot required:</b> true</p>
 </td>
@@ -23111,16 +23524,32 @@ table {
  <td></td>
 </tr>
 <tr>
- <td><strong id="IMU_GYRO_NF_BW">IMU_GYRO_NF_BW</strong> (FLOAT)</td>
- <td>Notch filter bandwidth for gyro <p><strong>Comment:</strong> The frequency width of the stop band for the 2nd order notch filter on the primary gyro. See "IMU_GYRO_NF_FREQ" to activate the filter and to set the notch frequency. Applies to both angular velocity and angular acceleration sent to the controllers.</p>   <p><b>Reboot required:</b> true</p>
+ <td><strong id="IMU_GYRO_NF0_BW">IMU_GYRO_NF0_BW</strong> (FLOAT)</td>
+ <td>Notch filter bandwidth for gyro <p><strong>Comment:</strong> The frequency width of the stop band for the 2nd order notch filter on the primary gyro. See "IMU_GYRO_NF0_FRQ" to activate the filter and to set the notch frequency. Applies to both angular velocity and angular acceleration sent to the controllers.</p>   <p><b>Reboot required:</b> true</p>
 </td>
  <td>0 > 100 </td>
  <td>20.0</td>
  <td>Hz</td>
 </tr>
 <tr>
- <td><strong id="IMU_GYRO_NF_FREQ">IMU_GYRO_NF_FREQ</strong> (FLOAT)</td>
- <td>Notch filter frequency for gyro <p><strong>Comment:</strong> The center frequency for the 2nd order notch filter on the primary gyro. This filter can be enabled to avoid feedback amplification of structural resonances at a specific frequency. This only affects the signal sent to the controllers, not the estimators. Applies to both angular velocity and angular acceleration sent to the controllers. See "IMU_GYRO_NF_BW" to set the bandwidth of the filter. A value of 0 disables the filter.</p>   <p><b>Reboot required:</b> true</p>
+ <td><strong id="IMU_GYRO_NF0_FRQ">IMU_GYRO_NF0_FRQ</strong> (FLOAT)</td>
+ <td>Notch filter frequency for gyro <p><strong>Comment:</strong> The center frequency for the 2nd order notch filter on the primary gyro. This filter can be enabled to avoid feedback amplification of structural resonances at a specific frequency. This only affects the signal sent to the controllers, not the estimators. Applies to both angular velocity and angular acceleration sent to the controllers. See "IMU_GYRO_NF0_BW" to set the bandwidth of the filter. A value of 0 disables the filter.</p>   <p><b>Reboot required:</b> true</p>
+</td>
+ <td>0 > 1000 </td>
+ <td>0.0</td>
+ <td>Hz</td>
+</tr>
+<tr>
+ <td><strong id="IMU_GYRO_NF1_BW">IMU_GYRO_NF1_BW</strong> (FLOAT)</td>
+ <td>Notch filter 1 bandwidth for gyro <p><strong>Comment:</strong> The frequency width of the stop band for the 2nd order notch filter on the primary gyro. See "IMU_GYRO_NF1_FRQ" to activate the filter and to set the notch frequency. Applies to both angular velocity and angular acceleration sent to the controllers.</p>   <p><b>Reboot required:</b> true</p>
+</td>
+ <td>0 > 100 </td>
+ <td>20.0</td>
+ <td>Hz</td>
+</tr>
+<tr>
+ <td><strong id="IMU_GYRO_NF1_FRQ">IMU_GYRO_NF1_FRQ</strong> (FLOAT)</td>
+ <td>Notch filter 2 frequency for gyro <p><strong>Comment:</strong> The center frequency for the 2nd order notch filter on the primary gyro. This filter can be enabled to avoid feedback amplification of structural resonances at a specific frequency. This only affects the signal sent to the controllers, not the estimators. Applies to both angular velocity and angular acceleration sent to the controllers. See "IMU_GYRO_NF1_BW" to set the bandwidth of the filter. A value of 0 disables the filter.</p>   <p><b>Reboot required:</b> true</p>
 </td>
  <td>0 > 1000 </td>
  <td>0.0</td>
@@ -23221,19 +23650,6 @@ table {
  <td></td>
 </tr>
 <tr>
- <td><strong id="PCF8583_ADDR">PCF8583_ADDR</strong> (INT32)</td>
- <td>PCF8583 rotorfreq (i2c) i2c address  <strong>Values:</strong><ul>
-<li><strong>80:</strong> Address 0x50 (80)</li> 
-
-<li><strong>81:</strong> Address 0x51 (81)</li> 
-</ul>
-  <p><b>Reboot required:</b> true</p>
-</td>
- <td></td>
- <td>80</td>
- <td></td>
-</tr>
-<tr>
  <td><strong id="PCF8583_MAGNET">PCF8583_MAGNET</strong> (INT32)</td>
  <td>PCF8583 rotorfreq (i2c) pulse count <p><strong>Comment:</strong> Nmumber of signals per rotation of actuator</p>   <p><b>Reboot required:</b> true</p>
 </td>
@@ -23259,16 +23675,14 @@ table {
 </tr>
 <tr>
  <td><strong id="SENS_BARO_QNH">SENS_BARO_QNH</strong> (FLOAT)</td>
- <td>QNH for barometer    <p><b>Reboot required:</b> true</p>
-</td>
+ <td>QNH for barometer    </td>
  <td>500 > 1500 </td>
  <td>1013.25</td>
  <td>hPa</td>
 </tr>
 <tr>
  <td><strong id="SENS_BARO_RATE">SENS_BARO_RATE</strong> (FLOAT)</td>
- <td>Baro max rate <p><strong>Comment:</strong> Barometric air data maximum publication rate. This is an upper bound, actual barometric data rate is still dependant on the sensor.</p>   <p><b>Reboot required:</b> true</p>
-</td>
+ <td>Baro max rate <p><strong>Comment:</strong> Barometric air data maximum publication rate. This is an upper bound, actual barometric data rate is still dependant on the sensor.</p>   </td>
  <td>1 > 200 </td>
  <td>20.0</td>
  <td>Hz</td>
@@ -23493,6 +23907,14 @@ table {
  <td></td>
 </tr>
 <tr>
+ <td><strong id="SENS_EN_IRLOCK">SENS_EN_IRLOCK</strong> (INT32)</td>
+ <td>IR-LOCK Sensor (external I2C)    <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>Disabled (0)</td>
+ <td></td>
+</tr>
+<tr>
  <td><strong id="SENS_EN_LL40LS">SENS_EN_LL40LS</strong> (INT32)</td>
  <td>Lidar-Lite (LL40LS)  <strong>Values:</strong><ul>
 <li><strong>0:</strong> Disabled</li> 
@@ -23529,16 +23951,32 @@ table {
  <td></td>
 </tr>
 <tr>
- <td><strong id="SENS_EN_MS4525">SENS_EN_MS4525</strong> (INT32)</td>
- <td>TE MS4525 differential pressure sensor (external I2C)    <p><b>Reboot required:</b> true</p>
+ <td><strong id="SENS_EN_MS4515">SENS_EN_MS4515</strong> (INT32)</td>
+ <td>TE MS4515 differential pressure sensor (external I2C)    <p><b>Reboot required:</b> true</p>
 </td>
  <td></td>
  <td>Disabled (0)</td>
  <td></td>
 </tr>
 <tr>
- <td><strong id="SENS_EN_MS5525">SENS_EN_MS5525</strong> (INT32)</td>
- <td>TE MS5525 differential pressure sensor (external I2C)    <p><b>Reboot required:</b> true</p>
+ <td><strong id="SENS_EN_MS4525DO">SENS_EN_MS4525DO</strong> (INT32)</td>
+ <td>TE MS4525DO differential pressure sensor (external I2C)    <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>Disabled (0)</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="SENS_EN_MS5525DS">SENS_EN_MS5525DS</strong> (INT32)</td>
+ <td>TE MS5525DSO differential pressure sensor (external I2C)    <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>Disabled (0)</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="SENS_EN_PAA3905">SENS_EN_PAA3905</strong> (INT32)</td>
+ <td>paa3905 Optical Flow    <p><b>Reboot required:</b> true</p>
 </td>
  <td></td>
  <td>Disabled (0)</td>
@@ -23550,6 +23988,19 @@ table {
 </td>
  <td></td>
  <td>Disabled (0)</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="SENS_EN_PCF8583">SENS_EN_PCF8583</strong> (INT32)</td>
+ <td>PCF8583 eneable driver <p><strong>Comment:</strong> Run PCF8583 driver automatically</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>1:</strong> Eneabled</li> 
+</ul>
+  <p><b>Reboot required:</b> true</p>
+</td>
+ <td>0 > 1 </td>
+ <td>0</td>
  <td></td>
 </tr>
 <tr>
@@ -23630,6 +24081,22 @@ table {
 </td>
  <td>0 > 6 </td>
  <td>0</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="SENS_EN_SHT3X">SENS_EN_SHT3X</strong> (INT32)</td>
+ <td>SHT3x temperature and hygrometer    <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>Disabled (0)</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="SENS_EN_SPL06">SENS_EN_SPL06</strong> (INT32)</td>
+ <td>Goertek SPL06 Barometer (external I2C)    <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>Disabled (0)</td>
  <td></td>
 </tr>
 <tr>
@@ -23741,6 +24208,13 @@ table {
  <td>s</td>
 </tr>
 <tr>
+ <td><strong id="SENS_IMU_AUTOCAL">SENS_IMU_AUTOCAL</strong> (INT32)</td>
+ <td>IMU auto calibration <p><strong>Comment:</strong> Automatically initialize IMU (accel/gyro) calibration from bias estimates if available.</p>   </td>
+ <td></td>
+ <td>Enabled (1)</td>
+ <td></td>
+</tr>
+<tr>
  <td><strong id="SENS_IMU_MODE">SENS_IMU_MODE</strong> (INT32)</td>
  <td>Sensors hub IMU mode  <strong>Values:</strong><ul>
 <li><strong>0:</strong> Disabled</li> 
@@ -23847,7 +24321,7 @@ table {
  <td>Magnetometer max rate <p><strong>Comment:</strong> Magnetometer data maximum publication rate. This is an upper bound, actual magnetometer data rate is still dependant on the sensor.</p>   <p><b>Reboot required:</b> true</p>
 </td>
  <td>1 > 200 </td>
- <td>50.0</td>
+ <td>15.0</td>
  <td>Hz</td>
 </tr>
 <tr>
@@ -25541,9 +26015,11 @@ table {
 <tr>
  <td><strong id="SIH_VEHICLE_TYPE">SIH_VEHICLE_TYPE</strong> (INT32)</td>
  <td>Vehicle type  <strong>Values:</strong><ul>
-<li><strong>0:</strong> MC</li> 
+<li><strong>0:</strong> Multicopter</li> 
 
-<li><strong>1:</strong> FW</li> 
+<li><strong>1:</strong> Fixed-Wing</li> 
+
+<li><strong>2:</strong> Tailsitter</li> 
 </ul>
   <p><b>Reboot required:</b> true</p>
 </td>
@@ -25573,7 +26049,7 @@ table {
  <td>simulated barometer temperature offset    </td>
  <td></td>
  <td>0.0</td>
- <td></td>
+ <td>celcius</td>
 </tr>
 <tr>
  <td><strong id="SIM_GPS_USED">SIM_GPS_USED</strong> (INT32)</td>
@@ -25742,6 +26218,14 @@ table {
 </td>
  <td></td>
  <td>Enabled (1)</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="SYS_HAS_NUM_DIST">SYS_HAS_NUM_DIST</strong> (INT32)</td>
+ <td>Control the number of distance sensors on the vehicle <p><strong>Comment:</strong> If set to the number of distance sensors, the preflight check will check for their presence and valid data publication. Disable with 0 if no distance sensor present or to disbale the preflight check.</p>   <p><b>Reboot required:</b> true</p>
+</td>
+ <td>0 > 4 </td>
+ <td>0</td>
  <td></td>
 </tr>
 <tr>
@@ -27276,6 +27760,13 @@ table {
  <td></td>
 </tr>
 <tr>
+ <td><strong id="CANNODE_GPS_RTCM">CANNODE_GPS_RTCM</strong> (INT32)</td>
+ <td>Enable RTCM pub/sub    </td>
+ <td>? > 1 </td>
+ <td>Disabled (0)</td>
+ <td></td>
+</tr>
+<tr>
  <td><strong id="CANNODE_NODE_ID">CANNODE_NODE_ID</strong> (INT32)</td>
  <td>UAVCAN Node ID <p><strong>Comment:</strong> Read the specs at http://uavcan.org to learn more about Node ID.</p>   </td>
  <td>1 > 125 </td>
@@ -27430,17 +27921,18 @@ table {
 </tr>
 <tr>
  <td><strong id="UAVCAN_SUB_BAT">UAVCAN_SUB_BAT</strong> (INT32)</td>
- <td>subscription battery <p><strong>Comment:</strong> Enable UAVCAN battery subscription. 1) uavcan::equipment::power::BatteryInfo 2) cuav::equipment::power::CBAT</p> <strong>Values:</strong><ul>
-<li><strong>0:</strong> disabled</li> 
-
-<li><strong>1:</strong> default</li> 
-
-<li><strong>2:</strong> CUAV battery monitor</li> 
-</ul>
-  <p><b>Reboot required:</b> true</p>
+ <td>subscription battery <p><strong>Comment:</strong> Enable UAVCAN battery subscription. uavcan::equipment::power::BatteryInfo ardupilot::equipment::power::BatteryInfoAux</p>   <p><b>Reboot required:</b> true</p>
 </td>
- <td>0 > 2 </td>
- <td>0</td>
+ <td></td>
+ <td>Disabled (0)</td>
+ <td></td>
+</tr>
+<tr>
+ <td><strong id="UAVCAN_SUB_BTN">UAVCAN_SUB_BTN</strong> (INT32)</td>
+ <td>subscription button <p><strong>Comment:</strong> Enable UAVCAN button subscription. ardupilot::indication::Button</p>   <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>Disabled (0)</td>
  <td></td>
 </tr>
 <tr>
@@ -27493,7 +27985,7 @@ table {
 </tr>
 <tr>
  <td><strong id="UAVCAN_SUB_MAG">UAVCAN_SUB_MAG</strong> (INT32)</td>
- <td>subscription magnetometer <p><strong>Comment:</strong> Enable UAVCAN GPS subscription. uavcan::equipment::ahrs::MagneticFieldStrength uavcan::equipment::ahrs::MagneticFieldStrength2</p>   <p><b>Reboot required:</b> true</p>
+ <td>subscription magnetometer <p><strong>Comment:</strong> Enable UAVCAN mag subscription. uavcan::equipment::ahrs::MagneticFieldStrength uavcan::equipment::ahrs::MagneticFieldStrength2</p>   <p><b>Reboot required:</b> true</p>
 </td>
  <td></td>
  <td>Enabled (1)</td>
@@ -27501,7 +27993,7 @@ table {
 </tr>
 <tr>
  <td><strong id="UAVCAN_SUB_RNG">UAVCAN_SUB_RNG</strong> (INT32)</td>
- <td>subscription range finder <p><strong>Comment:</strong> Enable UAVCAN GPS subscription. uavcan::equipment::range_sensor::Measurement</p>   <p><b>Reboot required:</b> true</p>
+ <td>subscription range finder <p><strong>Comment:</strong> Enable UAVCAN range finder subscription. uavcan::equipment::range_sensor::Measurement</p>   <p><b>Reboot required:</b> true</p>
 </td>
  <td></td>
  <td>Disabled (0)</td>
@@ -27796,6 +28288,77 @@ table {
   </td>
  <td></td>
  <td>1</td>
+ <td></td>
+</tr>
+</tbody></table>
+
+## UWB
+
+<table>
+ <colgroup><col style="width: 23%"><col style="width: 46%"><col style="width: 11%"><col style="width: 11%"><col style="width: 9%"></colgroup>
+ <thead>
+   <tr><th>Name</th><th>Description</th><th>Min > Max (Incr.)</th><th>Default</th><th>Units</th></tr>
+ </thead>
+<tbody>
+<tr>
+ <td><strong id="UWB_INIT_OFF_X">UWB_INIT_OFF_X</strong> (FLOAT)</td>
+ <td>UWB sensor X offset in body frame <p><strong>Comment:</strong> UWB sensor positioning in relation to Drone in NED. X offset. A Positiv offset results in a Position o</p>   </td>
+ <td>(0.01)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="UWB_INIT_OFF_Y">UWB_INIT_OFF_Y</strong> (FLOAT)</td>
+ <td>UWB sensor Y offset in body frame <p><strong>Comment:</strong> UWB sensor positioning in relation to Drone in NED. Y offset.</p>   </td>
+ <td>(0.01)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="UWB_INIT_OFF_YAW">UWB_INIT_OFF_YAW</strong> (FLOAT)</td>
+ <td>UWB sensor YAW offset in body frame <p><strong>Comment:</strong> UWB sensor positioning in relation to Drone in NED. Yaw rotation in relation to direction of FMU.</p>   </td>
+ <td>(0.1)</td>
+ <td>0.0</td>
+ <td>deg</td>
+</tr>
+<tr>
+ <td><strong id="UWB_INIT_OFF_Z">UWB_INIT_OFF_Z</strong> (FLOAT)</td>
+ <td>UWB sensor Y offset in body frame <p><strong>Comment:</strong> UWB sensor positioning in relation to Drone in NED. Z offset.</p>   </td>
+ <td>(0.01)</td>
+ <td>0.0</td>
+ <td>m</td>
+</tr>
+<tr>
+ <td><strong id="UWB_PORT_CFG">UWB_PORT_CFG</strong> (INT32)</td>
+ <td>Serial Configuration for Ultrawideband position sensor driver <p><strong>Comment:</strong> Configure on which serial port to run Ultrawideband position sensor driver.</p> <strong>Values:</strong><ul>
+<li><strong>0:</strong> Disabled</li> 
+
+<li><strong>6:</strong> UART 6</li> 
+
+<li><strong>101:</strong> TELEM 1</li> 
+
+<li><strong>102:</strong> TELEM 2</li> 
+
+<li><strong>103:</strong> TELEM 3</li> 
+
+<li><strong>104:</strong> TELEM/SERIAL 4</li> 
+
+<li><strong>201:</strong> GPS 1</li> 
+
+<li><strong>202:</strong> GPS 2</li> 
+
+<li><strong>203:</strong> GPS 3</li> 
+
+<li><strong>300:</strong> Radio Controller</li> 
+
+<li><strong>301:</strong> Wifi Port</li> 
+
+<li><strong>401:</strong> Pixhawk Payload Bus</li> 
+</ul>
+  <p><b>Reboot required:</b> true</p>
+</td>
+ <td></td>
+ <td>0</td>
  <td></td>
 </tr>
 </tbody></table>
@@ -28103,6 +28666,23 @@ table {
  <td>0.0 > 3.0 (0.01)</td>
  <td>1.0</td>
  <td>Hz</td>
+</tr>
+</tbody></table>
+
+## VTOL Takeoff
+
+<table>
+ <colgroup><col style="width: 23%"><col style="width: 46%"><col style="width: 11%"><col style="width: 11%"><col style="width: 9%"></colgroup>
+ <thead>
+   <tr><th>Name</th><th>Description</th><th>Min > Max (Incr.)</th><th>Default</th><th>Units</th></tr>
+ </thead>
+<tbody>
+<tr>
+ <td><strong id="VTO_LOITER_ALT">VTO_LOITER_ALT</strong> (FLOAT)</td>
+ <td>VTOL Takeoff relative loiter altitude <p><strong>Comment:</strong> Altitude relative to home at which vehicle will loiter after front transition.</p>   </td>
+ <td>20 > 300 (1)</td>
+ <td>80</td>
+ <td>m</td>
 </tr>
 </tbody></table>
 

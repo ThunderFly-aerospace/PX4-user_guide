@@ -1,8 +1,12 @@
 # 电机检查
 
-在机架设置并配置完毕后，您应该检查电机分配和旋转方向以及servo响应。 这些可以在QGroundControl中完成，其选项是Vehicle Setup > Motors tab.
+:::note
+This section is being replaced by an [Actuators](../config/actuators.md) configuration screen.
+:::
 
-注意这些PX4特有的操作：
+After the airframe is setup and configured you should validate the motor assignment and spin direction, and the servo response. This can be done in *QGroundControl*, under the [Vehicle Setup > Motors](https://docs.qgroundcontrol.com/en/SetupView/Motors.html) tab.
+
+Note the following PX4-specific behaviour:
 - 如果使用了安全按钮，在允许电机测试之前必须按下，保证其开启。
 - 急停开关仍然可以立即停止电机。
 - 使用参数 [COM_MOT_TEST_EN](../advanced_config/parameter_reference.md#COM_MOT_TEST_EN) ，可以禁用电机测试。
@@ -11,7 +15,8 @@
 
 If one or more of the motors do not turn in the correct direction according to the configured [airframe](../airframes/airframe_reference.md), they must be reversed. There are several options:
 - If using ESCs that support [DShot](../peripherals/dshot.md) you can reverse the direction via [DShot commands](../peripherals/dshot.md#commands).
-- Swap 2 of the 3 motor cables (it does not matter which ones). :::note If motors are not connected via bullet-connectors, re-soldering is required (this is a reason, among others, to prefer DShot ESCs).
+- Swap 2 of the 3 motor cables (it does not matter which ones). :::note
+If motors are not connected via bullet-connectors, re-soldering is required (this is a reason, among others, to prefer DShot ESCs).
 :::
 
 The following additional checks should be performed to validate that the vehicle is setup correctly:

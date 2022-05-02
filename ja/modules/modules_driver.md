@@ -4,6 +4,7 @@ Subcategories:
 - [Distance Sensor](modules_driver_distance_sensor.md)
 - [Airspeed Sensor](modules_driver_airspeed_sensor.md)
 - [Baro](modules_driver_baro.md)
+- [Rpm Sensor](modules_driver_rpm_sensor.md)
 - [Optical Flow](modules_driver_optical_flow.md)
 - [Magnetometer](modules_driver_magnetometer.md)
 
@@ -316,6 +317,37 @@ fake_magnetometer <command> [arguments...]
 
    status        print status info
 ```
+## gimbal
+Source: [modules/gimbal](https://github.com/PX4/PX4-Autopilot/tree/master/src/modules/gimbal)
+
+
+### Description
+Mount/gimbal Gimbal control driver. It maps several different input methods (eg. RC or MAVLink) to a configured output (eg. AUX channels or MAVLink).
+
+Documentation how to use it is on the [gimbal_control](https://docs.px4.io/master/en/advanced/gimbal_control.html) page.
+
+### Examples
+Test the output by setting a angles (all omitted axes are set to 0):
+```
+gimbal test pitch -45 yaw 30
+```
+
+<a id="gimbal_usage"></a>
+
+### Usage
+```
+gimbal <command> [arguments...]
+ Commands:
+   start
+
+   test          Test the output: set a fixed angle for one or multiple axes
+                 (gimbal must be running)
+     roll|pitch|yaw <angle> Specify an axis and an angle in degrees
+
+   stop
+
+   status        print status info
+```
 ## gps
 Source: [drivers/gps](https://github.com/PX4/PX4-Autopilot/tree/master/src/drivers/gps)
 
@@ -355,7 +387,6 @@ gps <command> [arguments...]
                  values: <file:dev>
      [-g <val>]  Baudrate (secondary GPS, can also be p:<param_name>)
                  default: 0
-     [-s]        Enable publication of satellite info
      [-i <val>]  GPS interface
                  values: spi|uart, default: uart
      [-j <val>]  secondary GPS interface
@@ -596,6 +627,31 @@ newpixel <command> [arguments...]
 
    status        print status info
 ```
+## paa3905
+Source: [drivers/optical_flow/paa3905](https://github.com/PX4/PX4-Autopilot/tree/master/src/drivers/optical_flow/paa3905)
+
+<a id="paa3905_usage"></a>
+
+### Usage
+```
+paa3905 <command> [arguments...]
+ Commands:
+   start
+     [-s]        Internal SPI bus(es)
+     [-S]        External SPI bus(es)
+     [-b <val>]  board-specific bus (default=all) (external SPI: n-th bus
+                 (default=1))
+     [-c <val>]  chip-select pin (for internal SPI) or index (for external SPI)
+     [-m <val>]  SPI mode
+     [-f <val>]  bus frequency in kHz
+     [-q]        quiet startup (no message if no device found)
+     [-Y <val>]  custom yaw rotation (degrees)
+                 default: 0
+
+   stop
+
+   status        print status info
+```
 ## paw3902
 Source: [drivers/optical_flow/paw3902](https://github.com/PX4/PX4-Autopilot/tree/master/src/drivers/optical_flow/paw3902)
 
@@ -686,29 +742,6 @@ pca9685_pwm_out <command> [arguments...]
 
    status        print status info
 ```
-## pcf8583
-Source: [drivers/rpm/pcf8583](https://github.com/PX4/PX4-Autopilot/tree/master/src/drivers/rpm/pcf8583)
-
-<a id="pcf8583_usage"></a>
-
-### Usage
-```
-pcf8583 <command> [arguments...]
- Commands:
-   start
-     [-I]        Internal I2C bus(es)
-     [-X]        External I2C bus(es)
-     [-b <val>]  board-specific bus (default=all) (external SPI: n-th bus
-                 (default=1))
-     [-f <val>]  bus frequency in kHz
-     [-q]        quiet startup (no message if no device found)
-     [-a <val>]  I2C address
-                 default: 80
-
-   stop
-
-   status        print status info
-```
 ## pmw3901
 Source: [drivers/optical_flow/pmw3901](https://github.com/PX4/PX4-Autopilot/tree/master/src/drivers/optical_flow/pmw3901)
 
@@ -774,8 +807,6 @@ By default the module runs on a work queue with a callback on the uORB actuator_
 pwm_out <command> [arguments...]
  Commands:
    start
-
-   test          Test outputs
 
    stop
 
@@ -846,8 +877,6 @@ px4io <command> [arguments...]
  Commands:
    start
 
-   detect        Try to detect the presence of an IO
-
    checkcrc      Check CRC for a firmware file against current code on IO
      <filename>  Firmware file
 
@@ -861,13 +890,8 @@ px4io <command> [arguments...]
    debug         set IO debug level
      <debug_level> 0=disabled, 9=max verbosity
 
-   monitor       continuously monitor status
-
    bind          DSM bind
      dsm2|dsmx|dsmx8 protocol
-
-   lockdown      enable (or disable) lockdown
-     [disable]   disable lockdown
 
    sbus1_out     enable sbus1 out
 
@@ -999,6 +1023,60 @@ safety_button <command> [arguments...]
 
    status        print status info
 ```
+## sht3x
+Source: [drivers/hygrometer/sht3x](https://github.com/PX4/PX4-Autopilot/tree/master/src/drivers/hygrometer/sht3x)
+
+
+### Description
+SHT3x Temperature and Humidity Sensor Driver by Senserion.
+
+### Examples
+CLI usage example:
+```
+sht3x start -X
+```
+  Start the sensor driver on the external bus
+
+```
+sht3x status
+```
+  Print driver status
+
+```
+sht3x values
+```
+  Print last measured values
+
+```
+sht3x reset
+```
+  Reinitialize senzor, reset flags
+
+<a id="sht3x_usage"></a>
+
+### Usage
+```
+sht3x <command> [arguments...]
+ Commands:
+   start
+     [-I]        Internal I2C bus(es)
+     [-X]        External I2C bus(es)
+     [-b <val>]  board-specific bus (default=all) (external SPI: n-th bus
+                 (default=1))
+     [-f <val>]  bus frequency in kHz
+     [-q]        quiet startup (no message if no device found)
+     [-a <val>]  I2C address
+                 default: 68
+     [-k]        if initialization (probing) fails, keep retrying periodically
+
+   stop
+
+   status        print status info
+
+   values        Print actual data
+
+   reset         Reinitialize sensor
+```
 ## tap_esc
 Source: [drivers/tap_esc](https://github.com/PX4/PX4-Autopilot/tree/master/src/drivers/tap_esc)
 
@@ -1043,40 +1121,39 @@ tone_alarm <command> [arguments...]
 
    status        print status info
 ```
-## vmount
-Source: [modules/vmount](https://github.com/PX4/PX4-Autopilot/tree/master/src/modules/vmount)
+## uwb
+Source: [drivers/uwb/uwb_sr150](https://github.com/PX4/PX4-Autopilot/tree/master/src/drivers/uwb/uwb_sr150)
 
 
 ### Description
-Mount (Gimbal) control driver. It maps several different input methods (eg. RC or MAVLink) to a configured output (eg. AUX channels or MAVLink).
 
-Documentation how to use it is on the [gimbal_control](https://dev.px4.io/master/en/advanced/gimbal_control.html) page.
+Driver for NXP UWB_SR150 UWB positioning system. This driver publishes a `uwb_distance` message whenever the UWB_SR150 has a position measurement available.
 
-### Implementation
-Each method is implemented in its own class, and there is a common base class for inputs and outputs. They are connected via an API, defined by the `ControlData` data structure. This makes sure that each input method can be used with each output method and new inputs/outputs can be added with minimal effort.
+### Example
 
-### Examples
-Test the output by setting a fixed yaw angle (and the other axes to 0):
+Start the driver with a given device:
+
 ```
-vmount stop
-vmount test yaw 30
+uwb start -d /dev/ttyS2
 ```
 
-<a id="vmount_usage"></a>
+<a id="uwb_usage"></a>
 
 ### Usage
 ```
-vmount <command> [arguments...]
+uwb <command> [arguments...]
  Commands:
    start
-
-   test          Test the output: set a fixed angle for one axis (vmount must
-                 not be running)
-     roll|pitch|yaw <angle> Specify an axis and an angle in degrees
+     -d <val>    Name of device for serial communication with UWB
+                 values: <file:dev>
+     -b <val>    Baudrate for serial communication
+                 values: <int>
+     -p <val>    Position Debug: displays errors in Multilateration
+                 values: <int>
 
    stop
 
-   status        print status info
+   status
 ```
 ## voxlpm
 Source: [drivers/power_monitor/voxlpm](https://github.com/PX4/PX4-Autopilot/tree/master/src/drivers/power_monitor/voxlpm)

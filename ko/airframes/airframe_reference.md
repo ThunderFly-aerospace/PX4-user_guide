@@ -352,7 +352,18 @@ div.frame_variant td, div.frame_variant th {
 ### X형 헥사로터
 
 <div class="frame_common">
-<img src="../../assets/airframes/types/HexaRotorX.svg"/>
+  <img src="../../assets/airframes/types/HexaRotorX.svg" /> 
+  
+  <table>
+    <tr>
+      <th>
+        Common Outputs
+      </th>
+    </tr>
+<tr>
+ <td><ul><li><b>MAIN1</b>: motor 1</li><li><b>MAIN2</b>: motor 2</li><li><b>MAIN3</b>: motor 3</li><li><b>MAIN4</b>: motor 4</li><li><b>MAIN5</b>: motor 5</li><li><b>MAIN6</b>: motor 6</li><li><b>AUX1</b>: feed-through of RC AUX1 channel</li><li><b>AUX2</b>: feed-through of RC AUX2 channel</li></ul></td>
+</tr>
+  </table>
 </div>
 
 <div class="frame_variant">
@@ -367,15 +378,11 @@ div.frame_variant td, div.frame_variant th {
     </tr>
 <tr id="copter_hexarotor_x_generic_hexarotor_x_geometry">
  <td>Generic Hexarotor x geometry</td>
- <td>유지보수: Lorenz Meier &lt;lorenz@px4.io&gt;<p><code>SYS_AUTOSTART</code> = 6001</p><p><b>특정 출력:</b><ul><li><b>MAIN1</b>: motor 1</li><li><b>MAIN2</b>: motor 2</li><li><b>MAIN3</b>: motor 3</li><li><b>MAIN4</b>: motor 4</li><li><b>MAIN5</b>: motor 5</li><li><b>MAIN6</b>: motor 6</li><li><b>AUX1</b>: feed-through of RC AUX1 channel</li><li><b>AUX2</b>: feed-through of RC AUX2 channel</li><li><b>AUX3</b>: feed-through of RC AUX3 channel</li></ul></p></td>
+ <td>유지보수: Lorenz Meier &lt;lorenz@px4.io&gt;<p><code>SYS_AUTOSTART</code> = 6001</p><p><b>특정 출력:</b><ul><li><b>AUX3</b>: feed-through of RC AUX3 channel</li></ul></p></td>
 </tr>
 <tr id="copter_hexarotor_x_uvify_draco-r">
  <td>UVify Draco-R</td>
- <td>유지보수: Hyon Lim &lt;lim@uvify.com&gt;<p><code>SYS_AUTOSTART</code> = 6002</p><p><b>특정 출력:</b><ul><li><b>MAIN1</b>: motor 1</li><li><b>MAIN2</b>: motor 2</li><li><b>MAIN3</b>: motor 3</li><li><b>MAIN4</b>: motor 4</li><li><b>MAIN5</b>: motor 5</li><li><b>MAIN6</b>: motor 6</li><li><b>AUX1</b>: feed-through of RC AUX1 channel</li><li><b>AUX2</b>: feed-through of RC AUX2 channel</li></ul></p></td>
-</tr>
-<tr id="copter_hexarotor_x_hex_x_with_control_allocation">
- <td>Hex X with control allocation</td>
- <td>유지보수: Silvan Fuhrer<p><code>SYS_AUTOSTART</code> = 6003</p></td>
+ <td>유지보수: Hyon Lim &lt;lim@uvify.com&gt;<p><code>SYS_AUTOSTART</code> = 6002</p></td>
 </tr>
   </table>
 </div>
@@ -720,33 +727,33 @@ div.frame_variant td, div.frame_variant th {
  <td>NXP HoverGames</td>
  <td>유지보수: Iain Galloway &lt;iain.galloway@nxp.com&gt;<p><code>SYS_AUTOSTART</code> = 4017</p><p><b>특정 출력:</b><ul><li><b>MAIN1</b>: 모터 1</li><li><b>MAIN2</b>: 모터 2</li><li><b>MAIN3</b>: 모터 3</li><li><b>MAIN4</b>: 모터 4</li></ul></p></td>
 </tr>
-<tr id="copter_quadrotor_x_s500_with_control_allocation">
- <td>제어 할당이 있는 S500</td>
- <td>유지보수: Silvan Fuhrer<p><code>SYS_AUTOSTART</code> = 4018</p></td>
+<tr id="copter_quadrotor_x_holybro_x500_v2">
+ <td>Holybro X500 V2</td>
+ <td>Maintainer: Farhang Naderi &lt;farhang.nba@gmail.com&gt;<p><code>SYS_AUTOSTART</code> = 4019</p></td>
 </tr>
 <tr id="copter_quadrotor_x_3dr_solo">
  <td>3DR Solo</td>
- <td>유지보수: Andreas Antener &lt;andreas@uaventure.com&gt;<p><code>SYS_AUTOSTART</code> = 4030</p></td>
+ <td>Maintainer: Andreas Antener &lt;andreas@uaventure.com&gt;<p><code>SYS_AUTOSTART</code> = 4030</p></td>
 </tr>
 <tr id="copter_quadrotor_x_3dr_diy_quad">
  <td>3DR DIY Quad</td>
- <td>유지보수: Lorenz Meier &lt;lorenz@px4.io&gt;<p><code>SYS_AUTOSTART</code> = 4031</p></td>
+ <td>Maintainer: Lorenz Meier &lt;lorenz@px4.io&gt;<p><code>SYS_AUTOSTART</code> = 4031</p></td>
 </tr>
 <tr id="copter_quadrotor_x_generic_250_racer">
  <td>Generic 250 Racer</td>
- <td>유지보수: Lorenz Meier &lt;lorenz@px4.io&gt;<p><code>SYS_AUTOSTART</code> = 4050</p></td>
+ <td>Maintainer: Lorenz Meier &lt;lorenz@px4.io&gt;<p><code>SYS_AUTOSTART</code> = 4050</p></td>
 </tr>
 <tr id="copter_quadrotor_x_holybro_qav250">
  <td><a href="https://docs.px4.io/master/en/frames_multicopter/holybro_qav250_pixhawk4_mini.html">HolyBro QAV250</a></td>
- <td>유지보수: Beat Kueng &lt;beat-kueng@gmx.net&gt;<p><code>SYS_AUTOSTART</code> = 4052</p></td>
+ <td>Maintainer: Beat Kueng &lt;beat-kueng@gmx.net&gt;<p><code>SYS_AUTOSTART</code> = 4052</p></td>
 </tr>
 <tr id="copter_quadrotor_x_holybro_kopis_2">
  <td>Holybro Kopis 2</td>
- <td>유지보수: Beat Kueng &lt;beat@px4.io&gt;<p><code>SYS_AUTOSTART</code> = 4053</p></td>
+ <td>Maintainer: Beat Kueng &lt;beat@px4.io&gt;<p><code>SYS_AUTOSTART</code> = 4053</p></td>
 </tr>
 <tr id="copter_quadrotor_x_dji_matrice_100">
  <td>DJI Matrice 100</td>
- <td>유지보수 : James Goppert &lt;james.goppert@gmail.com&gt;<p><code>SYS_AUTOSTART</code> = 4060</p></td>
+ <td>Maintainer: James Goppert &lt;james.goppert@gmail.com&gt;<p><code>SYS_AUTOSTART</code> = 4060</p></td>
 </tr>
 <tr id="copter_quadrotor_x_advanced_technology_labs_(atl)_mantis_edu">
  <td>Advanced Technology Labs (ATL) Mantis EDU</td>
@@ -1242,7 +1249,41 @@ div.frame_variant td, div.frame_variant th {
 
 ## 수직이착륙기
 
-### 표준 수직 이착륙기
+### Simulation (VTOL)
+
+<div class="frame_common">
+  <img src="../../assets/airframes/types/AirframeUnknown.svg" /> 
+  
+  <table>
+    <tr>
+      <th>
+        Common Outputs
+      </th>
+    </tr>
+<tr>
+ <td><ul><li><b>MAIN1</b>: motor right</li><li><b>MAIN2</b>: motor left</li><li><b>MAIN5</b>: elevon right</li><li><b>MAIN6</b>: elevon left</li></ul></td>
+</tr>
+  </table>
+</div>
+
+<div class="frame_variant">
+  <table>
+    <tr>
+      <th>
+        이름
+      </th>
+      
+      <th>
+      </th>
+    </tr>
+<tr id="vtol_simulation_(vtol)_sih_tailsitter_duo">
+ <td>SIH Tailsitter Duo</td>
+ <td>Maintainer: Romain Chiappinelli &lt;romain.chiap@gmail.com&gt;<p><code>SYS_AUTOSTART</code> = 1102</p></td>
+</tr>
+  </table>
+</div>
+
+### Standard VTOL
 
 <div class="frame_common">
 <img src="../../assets/airframes/types/VTOLPlane.svg"/>
@@ -1259,45 +1300,45 @@ div.frame_variant td, div.frame_variant th {
       </th>
     </tr>
 <tr id="vtol_standard_vtol_hil_standard_vtol_quadplane">
- <td>HIL 표준 VTOL QuadPlane</td>
- <td>유지보수: Roman Bapst &lt;roman@auterion.com&gt;<p><code>SYS_AUTOSTART</code> = 1002</p></td>
+ <td>HIL Standard VTOL QuadPlane</td>
+ <td>Maintainer: Roman Bapst &lt;roman@auterion.com&gt;<p><code>SYS_AUTOSTART</code> = 1002</p></td>
 </tr>
 <tr id="vtol_standard_vtol_generic_quadplane_vtol">
  <td>Generic Quadplane VTOL</td>
- <td><p><code>SYS_AUTOSTART</code> = 13000</p><p><b>특정 출력:</b><ul><li><b>MAIN1</b>: 모터 1</li><li><b>MAIN2</b>: 모터 2</li><li><b>MAIN3</b>: 모터 3</li><li><b>MAIN4</b>: 모터 4</li><li><b>AUX1</b>: 보조익 1</li><li><b>AUX2</b>: 보조익 2</li><li><b>AUX3</b>: 승강타</li><li><b>AUX4</b>: 방향타</li><li><b>AUX5</b>: 스로틀</li></ul></p></td>
+ <td><p><code>SYS_AUTOSTART</code> = 13000</p><p><b>Specific Outputs:</b><ul><li><b>MAIN1</b>: motor 1</li><li><b>MAIN2</b>: motor 2</li><li><b>MAIN3</b>: motor 3</li><li><b>MAIN4</b>: motor 4</li><li><b>AUX1</b>: Aileron 1</li><li><b>AUX2</b>: Aileron 2</li><li><b>AUX3</b>: Elevator</li><li><b>AUX4</b>: Rudder</li><li><b>AUX5</b>: Throttle</li></ul></p></td>
 </tr>
 <tr id="vtol_standard_vtol_fun_cub_quad_vtol">
  <td>Fun Cub Quad VTOL</td>
- <td>유지보수: Simon Wilks &lt;simon@uaventure.com&gt;<p><code>SYS_AUTOSTART</code> = 13005</p><p><b>특정 출력:</b><ul><li><b>MAIN1</b>: 모터 1</li><li><b>MAIN2</b>: 모터 2</li><li><b>MAIN3</b>: 모터 3</li><li><b>MAIN4</b>: 모터 4</li><li><b>AUX1</b>: 보조익 1</li><li><b>AUX2</b>: 보조익 2</li><li><b>AUX3</b>: 승강타</li><li><b>AUX4</b>: 방향타</li><li><b>AUX5</b>: 스로틀</li></ul></p></td>
+ <td>Maintainer: Simon Wilks &lt;simon@uaventure.com&gt;<p><code>SYS_AUTOSTART</code> = 13005</p><p><b>Specific Outputs:</b><ul><li><b>MAIN1</b>: motor 1</li><li><b>MAIN2</b>: motor 2</li><li><b>MAIN3</b>: motor 3</li><li><b>MAIN4</b>: motor 4</li><li><b>AUX1</b>: Aileron 1</li><li><b>AUX2</b>: Aileron 2</li><li><b>AUX3</b>: Elevator</li><li><b>AUX4</b>: Rudder</li><li><b>AUX5</b>: Throttle</li></ul></p></td>
 </tr>
 <tr id="vtol_standard_vtol_generic_quad_delta_vtol">
  <td>Generic quad delta VTOL</td>
- <td>유지보수: Simon Wilks &lt;simon@uaventure.com&gt;<p><code>SYS_AUTOSTART</code> = 13006</p><p><b>특정 출력:</b><ul><li><b>MAIN1</b>: 모터 1</li><li><b>MAIN2</b>: 모터 2</li><li><b>MAIN3</b>: 모터 3</li><li><b>MAIN4</b>: 모터 4</li><li><b>AUX1</b>: 우측 승강 보조익</li><li><b>AUX2</b>: 좌측 승강 보조익</li><li><b>AUX3</b>: 모터</li></ul></p></td>
+ <td>Maintainer: Simon Wilks &lt;simon@uaventure.com&gt;<p><code>SYS_AUTOSTART</code> = 13006</p><p><b>Specific Outputs:</b><ul><li><b>MAIN1</b>: motor 1</li><li><b>MAIN2</b>: motor 2</li><li><b>MAIN3</b>: motor 3</li><li><b>MAIN4</b>: motor 4</li><li><b>AUX1</b>: Right elevon</li><li><b>AUX2</b>: Left elevon</li><li><b>AUX3</b>: Motor</li></ul></p></td>
 </tr>
 <tr id="vtol_standard_vtol_generic_aavvt_v-tail_plane_airframe_with_quad_vtol.">
- <td>Quad VTOL이 있는 일반 AAVVT v-꼬리 비행체</td>
- <td>유지보수: Sander Smeets &lt;sander@droneslab.com&gt;<p><code>SYS_AUTOSTART</code> = 13007</p></td>
+ <td>Generic AAVVT v-tail plane airframe with Quad VTOL.</td>
+ <td>Maintainer: Sander Smeets &lt;sander@droneslab.com&gt;<p><code>SYS_AUTOSTART</code> = 13007</p></td>
 </tr>
 <tr id="vtol_standard_vtol_quadranger">
  <td>QuadRanger</td>
- <td>유지보수: Sander Smeets &lt;sander@droneslab.com&gt;<p><code>SYS_AUTOSTART</code> = 13008</p></td>
+ <td>Maintainer: Sander Smeets &lt;sander@droneslab.com&gt;<p><code>SYS_AUTOSTART</code> = 13008</p></td>
 </tr>
 <tr id="vtol_standard_vtol_sparkle_tech_ranger_vtol">
  <td>Sparkle Tech Ranger VTOL</td>
- <td>유지보수: Andreas Antener &lt;andreas@uaventure.com&gt;<p><code>SYS_AUTOSTART</code> = 13009</p></td>
+ <td>Maintainer: Andreas Antener &lt;andreas@uaventure.com&gt;<p><code>SYS_AUTOSTART</code> = 13009</p></td>
 </tr>
 <tr id="vtol_standard_vtol_vertical_technologies_deltaquad">
  <td>Vertical Technologies DeltaQuad</td>
- <td>유지보수: Sander Smeets &lt;sander@droneslab.com&gt;<p><code>SYS_AUTOSTART</code> = 13013</p><p><b>특정 출력:</b><ul><li><b>MAIN1</b>: 모터 1</li><li><b>MAIN2</b>: 모터 2</li><li><b>MAIN3</b>: 모터 3</li><li><b>MAIN4</b>: 모터 4</li><li><b>MAIN5</b>: 우측 승강 보조익</li><li><b>MAIN6</b>: 좌측 승강 보조익</li><li><b>MAIN7</b>: 추진 모터</li><li><b>MAIN8</b>: 역추진 채널</li></ul></p></td>
+ <td>Maintainer: Sander Smeets &lt;sander@droneslab.com&gt;<p><code>SYS_AUTOSTART</code> = 13013</p><p><b>Specific Outputs:</b><ul><li><b>MAIN1</b>: motor 1</li><li><b>MAIN2</b>: motor 2</li><li><b>MAIN3</b>: motor 3</li><li><b>MAIN4</b>: motor 4</li><li><b>MAIN5</b>: Right elevon</li><li><b>MAIN6</b>: Left elevon</li><li><b>MAIN7</b>: Pusher motor</li><li><b>MAIN8</b>: Pusher reverse channel</li></ul></p></td>
 </tr>
 <tr id="vtol_standard_vtol_babyshark_vtol">
  <td>BabyShark VTOL</td>
- <td>유지보수: Silvan Fuhrer &lt;silvan@auterion.com&gt;<p><code>SYS_AUTOSTART</code> = 13014</p><p><b>특정 출력:</b><ul><li><b>MAIN1</b>: 보조익</li><li><b>MAIN2</b>: A형 주익 좌측</li><li><b>MAIN3</b>: 추진 모터</li><li><b>MAIN4</b>: A형 주익 우측</li><li><b>MAIN5</b>: 모터 1</li><li><b>MAIN6</b>: 모터 2</li><li><b>MAIN7</b>: 모터 3</li><li><b>MAIN8</b>: 모터 4</li></ul></p></td>
+ <td>Maintainer: Silvan Fuhrer &lt;silvan@auterion.com&gt;<p><code>SYS_AUTOSTART</code> = 13014</p><p><b>Specific Outputs:</b><ul><li><b>MAIN1</b>: Ailerons</li><li><b>MAIN2</b>: A-tail left</li><li><b>MAIN3</b>: Pusher motor</li><li><b>MAIN4</b>: A-tail right</li><li><b>MAIN5</b>: motor 1</li><li><b>MAIN6</b>: motor 2</li><li><b>MAIN7</b>: motor 3</li><li><b>MAIN8</b>: motor 4</li></ul></p></td>
 </tr>
   </table>
 </div>
 
-### VTOL 듀오 테일시터
+### VTOL Duo Tailsitter
 
 <div class="frame_common">
   <img src="../../assets/airframes/types/VTOLDuoRotorTailSitter.svg" /> 
@@ -1309,7 +1350,7 @@ div.frame_variant td, div.frame_variant th {
       </th>
     </tr>
 <tr>
- <td><ul><li><b>MAIN1</b>: 우측 모터</li><li><b>MAIN2</b>: 좌측 모터</li><li><b>MAIN5</b>: 우측 승강 보조익</li><li><b>MAIN6</b>: 좌측 승강 보조익</li></ul></td>
+ <td><ul><li><b>MAIN1</b>: motor right</li><li><b>MAIN2</b>: motor left</li><li><b>MAIN5</b>: elevon right</li><li><b>MAIN6</b>: elevon left</li></ul></td>
 </tr>
   </table>
 </div>
@@ -1326,11 +1367,11 @@ div.frame_variant td, div.frame_variant th {
     </tr>
 <tr id="vtol_vtol_duo_tailsitter_caipiroshka_duo_tailsitter">
  <td>Caipiroshka Duo Tailsitter</td>
- <td>유지보수: Roman Bapst &lt;roman@px4.io&gt;<p><code>SYS_AUTOSTART</code> = 13001</p></td>
+ <td>Maintainer: Roman Bapst &lt;roman@px4.io&gt;<p><code>SYS_AUTOSTART</code> = 13001</p></td>
 </tr>
 <tr id="vtol_vtol_duo_tailsitter_generic_tailsitter">
- <td>일반 테일시터</td>
- <td>유지보수: Roman Bapst &lt;roman@px4.io&gt;<p><code>SYS_AUTOSTART</code> = 13200</p></td>
+ <td>Generic Tailsitter</td>
+ <td>Maintainer: Roman Bapst &lt;roman@px4.io&gt;<p><code>SYS_AUTOSTART</code> = 13200</p></td>
 </tr>
   </table>
 </div>
@@ -1343,11 +1384,11 @@ div.frame_variant td, div.frame_variant th {
   <table>
     <tr>
       <th>
-        공통 출력
+        Common Outputs
       </th>
     </tr>
 <tr>
- <td><ul><li><b>MAIN1</b>: 모터 1</li><li><b>MAIN2</b>: 모터 2</li><li><b>MAIN3</b>: 모터 3</li><li><b>MAIN4</b>: 모터 4</li><li><b>MAIN5</b>: 모터 5</li><li><b>MAIN6</b>: 모터 6</li><li><b>MAIN7</b>: 모터 7</li><li><b>MAIN8</b>: 모터 8</li><li><b>AUX1</b>: 보조익 1</li><li><b>AUX2</b>: 보조익 2</li><li><b>AUX3</b>: 승강타</li><li><b>AUX4</b>: 방향타</li><li><b>AUX5</b>: 스로틀</li></ul></td>
+ <td><ul><li><b>MAIN1</b>: motor 1</li><li><b>MAIN2</b>: motor 2</li><li><b>MAIN3</b>: motor 3</li><li><b>MAIN4</b>: motor 4</li><li><b>MAIN5</b>: motor 5</li><li><b>MAIN6</b>: motor 6</li><li><b>MAIN7</b>: motor 7</li><li><b>MAIN8</b>: motor 8</li><li><b>AUX1</b>: Aileron 1</li><li><b>AUX2</b>: Aileron 2</li><li><b>AUX3</b>: Elevator</li><li><b>AUX4</b>: Rudder</li><li><b>AUX5</b>: Throttle</li></ul></td>
 </tr>
   </table>
 </div>
@@ -1364,7 +1405,7 @@ div.frame_variant td, div.frame_variant th {
     </tr>
 <tr id="vtol_vtol_octoplane_generic_octoplane_vtol">
  <td>Generic Octoplane VTOL</td>
- <td>유지보수: John Doe &lt;john@example.com&gt;<p><code>SYS_AUTOSTART</code> = 13050</p></td>
+ <td>Maintainer: John Doe &lt;john@example.com&gt;<p><code>SYS_AUTOSTART</code> = 13050</p></td>
 </tr>
   </table>
 </div>
@@ -1387,16 +1428,16 @@ div.frame_variant td, div.frame_variant th {
     </tr>
 <tr id="vtol_vtol_quad_tailsitter_quadrotor_x_tailsitter">
  <td>Quadrotor X Tailsitter</td>
- <td>유지보수: Roman Bapst &lt;roman@px4.io&gt;<p><code>SYS_AUTOSTART</code> = 13003</p></td>
+ <td>Maintainer: Roman Bapst &lt;roman@px4.io&gt;<p><code>SYS_AUTOSTART</code> = 13003</p></td>
 </tr>
 <tr id="vtol_vtol_quad_tailsitter_quadrotor_+_tailsitter">
  <td>Quadrotor + Tailsitter</td>
- <td>유지보수: Roman Bapst &lt;roman@px4.io&gt;<p><code>SYS_AUTOSTART</code> = 13004</p><p><b>Specific Outputs:</b><ul><li><b>MAIN1</b>: motor 1</li><li><b>MAIN2</b>: motor 2</li><li><b>MAIN3</b>: motor 4</li><li><b>MAIN4</b>: motor 5</li><li><b>MAIN5</b>: elevon left</li><li><b>MAIN6</b>: elevon right</li><li><b>MAIN7</b>: canard surface</li><li><b>MAIN8</b>: rudder</li></ul></p></td>
+ <td>Maintainer: Roman Bapst &lt;roman@px4.io&gt;<p><code>SYS_AUTOSTART</code> = 13004</p><p><b>Specific Outputs:</b><ul><li><b>MAIN1</b>: motor 1</li><li><b>MAIN2</b>: motor 2</li><li><b>MAIN3</b>: motor 3</li><li><b>MAIN4</b>: motor 4</li><li><b>MAIN5</b>: elevon left</li><li><b>MAIN6</b>: elevon right</li><li><b>MAIN7</b>: canard surface</li><li><b>MAIN8</b>: rudder</li></ul></p></td>
 </tr>
   </table>
 </div>
 
-### 수직 이착륙 틸트로터
+### VTOL Tiltrotor
 
 <div class="frame_common">
 <img src="../../assets/airframes/types/VTOLTiltRotor.svg"/>
@@ -1406,7 +1447,7 @@ div.frame_variant td, div.frame_variant th {
   <table>
     <tr>
       <th>
-        이름
+        Name
       </th>
       
       <th>
@@ -1414,19 +1455,19 @@ div.frame_variant td, div.frame_variant th {
     </tr>
 <tr id="vtol_vtol_tiltrotor_birdseyeview_aerobotics_firefly6">
  <td>BirdsEyeView Aerobotics FireFly6</td>
- <td>유지보수: Roman Bapst &lt;roman@uaventure.com&gt;<p><code>SYS_AUTOSTART</code> = 13002</p><p><b>특정 출력:</b><ul><li><b>MAIN1</b>: 전면 우측 모터 하단</li><li><b>MAIN2</b>: 전면 우측 모터 상단</li><li><b>MAIN3</b>: 후면 모터 하단</li><li><b>MAIN4</b>: 후면 모터 상단</li><li><b>MAIN5</b>: 전면 좌측 모터 하단</li><li><b>MAIN6</b>: 전면 좌측 모터 상단</li><li><b>AUX1</b>: 틸트 서보</li><li><b>AUX2</b>: 엘러본(elevon) 1</li><li><b>AUX3</b>: 엘러본(elevon) 2</li><li><b>AUX4</b>: 기어</li></ul></p></td>
+ <td>Maintainer: Roman Bapst &lt;roman@uaventure.com&gt;<p><code>SYS_AUTOSTART</code> = 13002</p><p><b>Specific Outputs:</b><ul><li><b>MAIN1</b>: Front right motor bottom</li><li><b>MAIN2</b>: Front right motor top</li><li><b>MAIN3</b>: Back motor bottom</li><li><b>MAIN4</b>: Back motor top</li><li><b>MAIN5</b>: Front left motor bottom</li><li><b>MAIN6</b>: Front left motor top</li><li><b>AUX1</b>: Tilt servo</li><li><b>AUX2</b>: Elevon 1</li><li><b>AUX3</b>: Elevon 2</li><li><b>AUX4</b>: Gear</li></ul></p></td>
 </tr>
 <tr id="vtol_vtol_tiltrotor_cruiseader_claire">
  <td>CruiseAder Claire</td>
- <td>유지보수: Samay Siga &lt;samay_s@icloud.com&gt;<p><code>SYS_AUTOSTART</code> = 13010</p></td>
+ <td>Maintainer: Samay Siga &lt;samay_s@icloud.com&gt;<p><code>SYS_AUTOSTART</code> = 13010</p></td>
 </tr>
 <tr id="vtol_vtol_tiltrotor_e-flite_convergence">
  <td>E-flite Convergence</td>
- <td>유지보수: Andreas Antener &lt;andreas@uaventure.com&gt;<p><code>SYS_AUTOSTART</code> = 13012</p><p><b>특정 출력:</b><ul><li><b>MAIN1</b>: 우측 모터</li><li><b>MAIN2</b>: 좌측 모터</li><li><b>MAIN3</b>: 후면 모터</li><li><b>MAIN4</b>: (비어 있음)</li><li><b>MAIN5</b>: 우측 틸트 서보</li><li><b>MAIN6</b>: 좌측 틸트 서보</li><li><b>MAIN7</b>: 우측 보조익</li><li><b>MAIN8</b>: 좌측 보조익</li></ul></p></td>
+ <td>Maintainer: Andreas Antener &lt;andreas@uaventure.com&gt;<p><code>SYS_AUTOSTART</code> = 13012</p><p><b>Specific Outputs:</b><ul><li><b>MAIN1</b>: Motor right</li><li><b>MAIN2</b>: Motor left</li><li><b>MAIN3</b>: Motor back</li><li><b>MAIN4</b>: empty</li><li><b>MAIN5</b>: Tilt servo right</li><li><b>MAIN6</b>: Tilt servo left</li><li><b>MAIN7</b>: Elevon right</li><li><b>MAIN8</b>: Elevon left</li></ul></p></td>
 </tr>
 <tr id="vtol_vtol_tiltrotor_generic_quadplane_vtol_tiltrotor">
  <td>Generic Quadplane VTOL Tiltrotor</td>
- <td><p><code>SYS_AUTOSTART</code> = 13030</p><p><b>특정 출력:</b><ul><li><b>MAIN1</b>: 모터 1</li><li><b>MAIN2</b>: 모터 2</li><li><b>MAIN3</b>: 모터 3</li><li><b>MAIN4</b>: 모터 4</li><li><b>AUX1</b>: 전면 좌측 틸트 모터</li><li><b>AUX2</b>: 전면 우측 틸트 모터</li><li><b>AUX3</b>: 후면 좌측 틸트 모터</li><li><b>AUX4</b>: 후면 우측 틸트 모터</li><li><b>AUX5</b>: 좌측 보조익</li><li><b>AUX6</b>: 우측 보조익</li><li><b>AUX7</b>: 승강타</li><li><b>AUX8</b>: 방향타</li></ul></p></td>
+ <td><p><code>SYS_AUTOSTART</code> = 13030</p><p><b>Specific Outputs:</b><ul><li><b>MAIN1</b>: motor 1</li><li><b>MAIN2</b>: motor 2</li><li><b>MAIN3</b>: motor 3</li><li><b>MAIN4</b>: motor 4</li><li><b>AUX1</b>: Motor tilt front left</li><li><b>AUX2</b>: Motor tilt front right</li><li><b>AUX3</b>: Motor tilt rear left</li><li><b>AUX4</b>: Motor tilt rear right</li><li><b>AUX5</b>: Aileron left</li><li><b>AUX6</b>: Aileron right</li><li><b>AUX7</b>: Elevator</li><li><b>AUX8</b>: Rudder</li></ul></p></td>
 </tr>
   </table>
 </div>

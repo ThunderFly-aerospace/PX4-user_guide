@@ -45,7 +45,7 @@ In the near future the intention is to:
 :::
 
 :::warning
-You cannot use an agent generated as part of a "normal" PX4 build with ROS 2 (e.g. if the user uses `BUILD_MICRORTPS_AGENT=1 make px4_sitl_rtps`). While microRTPS client is the same, the IDL files used by ROS 2 are slightly different from the custom ones with generate in PX4. The other detail is that the "normal" PX4 build doesn't use `fastddsgen` with typesupport for ROS 2 networks - and that's also one of the main reasons we have a separate microRTPS agent in `px4_ros_com`, which is completely compatible with ROS 2 networks. We use the `px4_msg` to generate appropriate IDL files for the `micrortps_agent` in `px4_ros_com`.
+You cannot use an agent generated as part of a "normal" PX4 build with ROS 2 (e.g. if the user uses `BUILD_MICRORTPS_AGENT=1 make px4_sitl_rtps`). While microRTPS client is the same, the IDL files used by ROS 2 are slightly different from the [ROS-independent files generated in PX4 builds](../middleware/micrortps.md). The other detail is that the "normal" PX4 build doesn't use `fastddsgen` with typesupport for ROS 2 networks - and that's also one of the main reasons we have a separate microRTPS agent in `px4_ros_com`, which is completely compatible with ROS 2 networks. We use the `px4_msg` to generate appropriate IDL files for the `micrortps_agent` in `px4_ros_com`.
 :::
 
 
@@ -71,7 +71,10 @@ Check the guide to confirm the latest dependencies! You won't be able to continu
 <!-- what other toolchain needed? e.g. for ROS - gcc? does it all come with the ROS setup? -->
 
 :::note
-This install and build guide covers ROS 2 Foxy in Ubuntu 20.04. ::: :::warning If ROS_DOMAIN_ID is set in environment variables from ROS2 tutorial, you need to unset ROS_DOMAIN_ID for connection between ROS2 and microRTPS-agent. ::: To install ROS 2 and its dependencies:
+This install and build guide covers ROS 2 Foxy in Ubuntu 20.04.
+::: :::warning
+If ROS_DOMAIN_ID is set in environment variables from ROS2 tutorial, you need to unset ROS_DOMAIN_ID for connection between ROS2 and microRTPS-agent.
+::: To install ROS 2 and its dependencies:
 
 1. [Install ROS 2 Foxy](https://index.ros.org/doc/ros2/Installation/Foxy/Linux-Install-Debians/)
 1. The install process should also install the **`colcon`** build tools, but in case that doesn't happen, you can install the tools manually:

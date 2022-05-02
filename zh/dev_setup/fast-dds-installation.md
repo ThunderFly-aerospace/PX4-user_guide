@@ -9,11 +9,12 @@ This topic explains how to install Fast DDS and *Fast-RTPS-Gen* to use in the PX
 :::note
 You do not have to install Fast DDS if you have ROS 2 Dashing (Ubuntu 18.04) or ROS 2 Foxy (Ubuntu 20.04) installed, as it comes included with the default `base` or `desktop` installations through the `ros-<distro>-rmw-fastrtps` package. This means you just need to install *Fast-RTPS-Gen* and have your ROS 2 environment sourced (`source /opt/ros/<distro>/setup.bash`) in order to be able to compile the `rtps` targets in the PX4-Autopilot repo.
 
-For *ROS2 Galactic and above*, one has to install the `rmw` implementation through `apt` using `apt install ros-galatic-rmw-fastrtps`, since the default middleware for Galactic and above is CycloneDDS and the FastDDS middleware doesn't come installed by default.
+For *ROS2 Galactic and above*, one has to install the `rmw` implementation through `apt` using `apt install ros-galactic-rmw-fastrtps`, since the default middleware for Galactic and above is CycloneDDS and the FastDDS middleware doesn't come installed by default.
 :::
 
 :::tip
-Fast DDS is not an essential component of the PX4 Autopilot and should only be installed if you plan to interface the PX4 Autopilot with Fast RTPS/DDS participants. ROS 2 nodes are an example of these, though Fast DDS middleware and C++ implementations are installed by default on ROS 2 Foxy and below, as mentioned above.
+Fast DDS is not an essential component of the PX4 Autopilot and should only be installed if you plan to interface the PX4 Autopilot with Fast RTPS/DDS participants.
+ROS 2 nodes are an example of these, though Fast DDS middleware and C++ implementations are installed by default on ROS 2 Foxy and below, as mentioned above.
 :::
 
 :::note
@@ -44,7 +45,8 @@ Java is required to build and use eProsima's RTPS/DDS from IDL code generation t
 You also need to [install Gradle](https://gradle.org/install/) to build *Fast-RTPS-Gen*. We recommend you install Gradle via [sdkman](https://sdkman.io).
 
 :::warning
-Do not install Gradle version 7 or higher. The recommended version is 6.3.
+Do not install Gradle version 7 or higher.
+The recommended version is 6.3.
 :::
 
 ### Foonathan memory

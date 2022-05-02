@@ -199,7 +199,7 @@ Wind direction is passed as a direction vector (standard ENU convention), which 
 Additionally you can state wind velocity variance in (m/s)² and direction variance based on a normal distribution to add some random factor into the simulation.
 Gust is internally handled in the same way as wind, with the slight difference that you can state start time and duration with the following two parameters `windGustStart` and `windGustDuration`.
 
-You can see this how this is done in [PX4/PX4-SITL_gazebo/worlds/windy.world](https://github.com/PX4/PX4-SITL_gazebo/blob/master/worlds/windy.world#L15-L31).
+You can see how this is done in [PX4/PX4-SITL_gazebo/worlds/windy.world](https://github.com/PX4/PX4-SITL_gazebo/blob/master/worlds/windy.world#L15-L31).
 
 ### Using a Joystick
 
@@ -243,7 +243,7 @@ To enable/disable GPS noise:
    ```
    * If it is present, GPS is enabled.
      You can disable it by deleting the line: `<gpsNoise>true</gpsNoise>`
-   * If it is not preset GPS is disabled.
+   * If it is not present, GPS is disabled.
      You can enable it by adding the `gpsNoise` element to the `gps_plugin` section (as shown above).
 
 The next time you build/restart Gazebo it will use the new GPS noise setting.
