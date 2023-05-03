@@ -1,6 +1,6 @@
 # Holybro Pixhawk 5x Wiring Quick Start
 
-:::warning PX4 does not manufacture this (or any) autopilot. Contact the [manufacturer](https://shop.holybro.com/) for hardware support or compliance issues.
+:::warning PX4 does not manufacture this (or any) autopilot. Contact the [manufacturer](https://holybro.com/) for hardware support or compliance issues.
 :::
 
 This quick start guide shows how to power the [Pixhawk<sup>&reg;</sup> 5X](../flight_controller/pixhawk5x.md) flight controller and connect its most important peripherals.
@@ -35,7 +35,7 @@ If the controller cannot be mounted in the recommended/default orientation (e.g
 
 The _Pixhawk5X Standard Set_ can be purchased with M8N or M9N GPS (10-pin connector) that should be connected to the **GPS1** port. These GNSS modules have an integrated compass, safety switch, buzzer and LED.
 
-A secondary [M8N or M9N GPS](https://shop.holybro.com/c/gps-systems_0428) (6-pin connector) can be purchased separately and connected to the **GPS2** port.
+A secondary [M8N or M9N GPS](https://holybro.com/collections/gps) (6-pin connector) can be purchased separately and connected to the **GPS2** port.
 
 The GPS/Compass should be [mounted on the frame](../assembly/mount_gps_compass.md) as far away from other electronics as possible, with the direction marker towards the front of the vehicle (separating the compass from other electronics will reduce interference).
 
@@ -101,7 +101,7 @@ For more information about selecting a radio system, receiver compatibility, and
 
 The vehicle-based radio should be connected to the **TELEM1** port as shown below (if connected to this port, no further configuration is required). The other radio is connected to your ground station computer or mobile device (usually by USB).
 
-Radios are also available for purchase on [Holybro's website](http://www.holybro.com/product-category/radio/) .
+Radios are also available for purchase on [Holybro's website](https://holybro.com/collections/telemetry-radios) .
 
 ## SD Card (Optional)
 
@@ -121,7 +121,7 @@ Motors/servos are connected to the **I/O PWM OUT** (**MAIN**) and **FMU PWM OUT*
 This reference lists the output port to motor/servo mapping for all supported air and ground frames (if your frame is not listed in the reference then use a "generic" airframe of the correct type).
 :::
 
-:::caution
+:::warning
 The mapping is not consistent across frames (e.g. you can't rely on the throttle being on the same output for all plane frames). Make sure to use the correct mapping for your vehicle.
 :::
 
@@ -133,7 +133,7 @@ The wiring and configuration of optional/less common components is covered withi
 
 ![Pixhawk 5X Pinout1](../../assets/flight_controller/pixhawk5x/pixhawk5x_pinout.png)
 
-You can also download *Pixhawk 5X* pinouts from [here](../../assets/flight_controller/pixhawk5x/pixhawk5x_pinout.pdf) or [here](http://www.holybro.com/manual/Holybro_Pixhawk5X_Pinout.pdf).
+You can also download *Pixhawk 5X* pinouts from [here](https://github.com/PX4/PX4-user_guide/blob/main/assets/flight_controller/pixhawk5x/pixhawk5x_pinout.pdf) or [here](https://cdn.shopify.com/s/files/1/0604/5905/7341/files/Holybro_Pixhawk5X_Pinout.pdf).
 
 ## Configuration
 
@@ -146,9 +146,8 @@ QuadPlane specific configuration is covered here: [QuadPlane VTOL Configuration]
 ## Further information
 
 - [Pixhawk 5X](../flight_controller/pixhawk5x.md) (PX4 Doc Overview page)
-- [Pixhawk 5X Overview & Specification](http://www.holybro.com/manual/Holybro_Pixhawk5X_Spec_Overview.pdf) (Holybro)
-- [Pixhawk 5X Pinouts](http://www.holybro.com/manual/Holybro_Pixhawk5X_Pinout.pdf) (Holybro)
-- [PM02D Power Module Manual](http://www.holybro.com/manual/Holybro_PM02D_Power_Module_Manual.pdf) (Holybro)
+- [Pixhawk 5X Overview & Specification](https://cdn.shopify.com/s/files/1/0604/5905/7341/files/Holybro_Pixhawk5X_Spec_Overview.pdf) (Holybro)
+- [Pixhawk 5X Pinouts](https://cdn.shopify.com/s/files/1/0604/5905/7341/files/Holybro_Pixhawk5X_Pinout.pdf) (Holybro)
 - [FMUv5X reference design pinout](https://docs.google.com/spreadsheets/d/1Su7u8PHp-Y1AlLGVuH_I8ewkEEXt_bHHYBHglRuVH7E/edit#gid=562580340).
 - [Pixhawk Autopilot FMUv5X Standard](https://github.com/pixhawk/Pixhawk-Standards/blob/master/DS-011%20Pixhawk%20Autopilot%20v5X%20Standard.pdf).
 - [Pixhawk Autopilot Bus Standard](https://github.com/pixhawk/Pixhawk-Standards/blob/master/DS-010%20Pixhawk%20Autopilot%20Bus%20Standard.pdf).

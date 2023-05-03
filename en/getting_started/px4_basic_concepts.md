@@ -66,7 +66,7 @@ For more information see:
 
 PX4 uses *outputs* to control: motor speed (e.g. via [ESC](#escs-motors)), flight surfaces like ailerons and flaps, camera triggers, parachutes, grippers, and many other types of payloads.
 
-The outputs may be PWM ports or be mapped to UAVCAN nodes (e.g. UAVCAN [motor controllers](../peripherals/uavcan_escs.md)).
+The outputs may be PWM ports or be mapped to DroneCAN nodes (e.g. DroneCAN [motor controllers](../dronecan/escs.md)).
 The same airframe mapping of outputs to nodes is used in both cases case.
 
 The images below show the PWM output ports for [Pixhawk 4](../flight_controller/pixhawk4.md) and [Pixhawk 4 mini](../flight_controller/pixhawk4_mini.md).
@@ -88,7 +88,7 @@ Ensure that you select a controller that has enough of the right types of ports/
 Typically the `MAIN` port is used for core flight controls while `AUX` is used for non-critical actuators/payloads (though `AUX` may be used for flight controls if there aren't enough `MAIN` ports for the vehicle type- e.g. VTOL).
 For example, in a [Generic Quadcopter](../airframes/airframe_reference.md#copter_quadrotor_x_generic_quadcopter) the `MAIN` outputs 1-4 are used for corresponding motors, while the remaining `MAIN` and some `AUX` outputs are used for RC passthrough.
 
-The actual ports/bus used for the outputs on the [flight controller](#vehicle_controller) depends on the hardware and PX4 configuration.
+The actual ports/bus used for the outputs on the [flight controller](#vehicle-flight-controller-board) depends on the hardware and PX4 configuration.
 *Usually* the ports are mapped to PWM outputs as shown above, which are commonly screen printed `MAIN OUT` and `AUX OUT`.
 
 They might also be marked as `FMU PWM OUT` or `IO PWM Out` (or similar).
@@ -145,7 +145,7 @@ PX4 does not require a remote control system for autonomous flight modes.
 ## GCS Joystick Controller
 
 A [computer joystick](../config/joystick.md) connected through *QGroundControl* can also be used to manually control PX4 (QGC converts joystick movements into MAVLink messages that are sent over the telemetry link).
-This approach is used by ground control units that have an integrated ground control station, like the *Auterion* [Skynav](https://auterion-gs.com/skynav/) or *UAVComponents* [MicroNav](https://www.uavcomp.com/command-control/micronav/).
+This approach is used by ground control units that have an integrated ground control station, like the *Auterion* [Skynav](https://auterion-gs.com/skynav/) or *UAVComponents* [MicroNav](https://uxvtechnologies.com/ground-control-stations/micronav/).
 Joysticks are also commonly used to fly the vehicle in simulation.
 
 ![Photo of MicroNav, a ground controller with integrated joysticks](../../assets/peripherals/joystick/micronav.jpg)
@@ -172,7 +172,7 @@ This makes it possible to tune parameters while a vehicle is in flight, inspect 
 PX4 can be controlled from a separate on-vehicle companion computer via a serial cable or wifi.
 The companion computer will usually communicate using a MAVLink API like the MAVSDK or MAVROS.
 
-Relevent topics include:
+Relevant topics include:
 * [Off-board Mode](../flight_modes/offboard.md) - Flight mode for offboard control of PX4 from a GCS or companion computer. 
 * [Robotics APIs](../robotics/README.md)
 
@@ -193,7 +193,7 @@ Flight controllers that do not include an SD Card slot may:
 - Disable notification beeps are disabled using the parameter [CBRK_BUZZER](../advanced_config/parameter_reference.md#CBRK_BUZZER).
 - [Stream logs](../dev_log/logging.md#log-streaming) to another component (companion).
 - Store missions in RAM/FLASH. 
-  <!-- Too low-level for this. But see FLASH_BASED_DATAMAN in  Intel Aero: https://github.com/PX4/PX4-Autopilot/blob/master/boards/intel/aerofc-v1/src/board_config.h#L115 -->
+  <!-- Too low-level for this. But see FLASH_BASED_DATAMAN in  Intel Aero: https://github.com/PX4/PX4-Autopilot/blob/main/boards/intel/aerofc-v1/src/board_config.h#L115 -->
 
 
 ## Arming and Disarming

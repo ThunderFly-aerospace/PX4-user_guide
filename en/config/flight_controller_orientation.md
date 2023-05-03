@@ -33,6 +33,7 @@ To set the orientations:
 1. Start *QGroundControl* and connect the vehicle.
 1. Select the **Gear** icon (Vehicle Setup) in the top toolbar and then **Sensors** in the sidebar.
 1. Select the **Set Orientations** button.
+
    <img src="../../assets/qgc/setup/sensor/sensor_orientation_set_orientations.jpg" style="width: 600px;"/>
 1. Select the **AutoPilot Orientation** (as [calculated above](#calculating-orientation)).
 
@@ -48,4 +49,4 @@ You can use [Level Horizon Calibration](../config/level_horizon_calibration.md) 
 ## Further Information
 
 * [Advanced Orientation Tuning](../advanced_config/advanced_flight_controller_orientation_leveling.md) (advanced users only).
-* [QGroundControl User Guide > Sensors](https://docs.qgroundcontrol.com/en/SetupView/sensors_px4.html#flight_controller_orientation)
+* [QGroundControl User Guide > Sensors](https://docs.qgroundcontrol.com/master/en/SetupView/sensors_px4.html#flight_controller_orientation)

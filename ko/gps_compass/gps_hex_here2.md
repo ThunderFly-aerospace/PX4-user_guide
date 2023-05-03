@@ -3,25 +3,28 @@
 [Here2 GPS 수신기](http://www.proficnc.com/all-products/152-gps-module.html)는 HEX의 Here GPS 모듈에 대한 업데이트입니다.
 
 주요 특징은 다음과 같습니다.
-
-- 최대 3 개의 GNSS(GPS, Galileo, GLOSNASS, BeiDou) 동시 수신
+- Concurrent reception of up to 3 GNSS (GPS, Galileo, GLOSNASS, BeiDou)
 - 업계 최고의 - 167dBm 탐색 감도
 - 보안 및 무결성 보호
 - 모든 위성 증강 시스템 지원
 - 고급 재밍 및 스푸핑 감지
 
-![](../../assets/hardware/gps/here2_gps_module.jpg)
 
-## 구매처
+<img src="../../assets/hardware/gps/here2_gps_module.jpg" />
 
-- [ProfiCNC](http://www.proficnc.com/all-products/152-gps-module.html) (오스트레일리아)
-- [기타 리셀러](http://www.proficnc.com/stores)
+
+## Where to Buy
+
+* [ProfiCNC](http://www.proficnc.com/all-products/152-gps-module.html) (오스트레일리아)
+* [기타 리셀러](http://www.proficnc.com/stores)
 
 ## 설정
 
 PX4의 설정과 사용법은 대부분 플러그앤플레이입니다.
 
-:::note GPS가 *감지되지 않으면* [Here2 펌웨어를 업데이트](https://docs.cubepilot.org/user-guides/here-2/updating-here-2-firmware) 합니다.
+:::note
+- If the GPS is *not detected* then [update the Here2 firmware](https://docs.cubepilot.org/user-guides/here-2/updating-here-2-firmware).
+- If the GPS is detected but does not work, attempt the process outlined in [allocating node uavcan ID](https://docs.cubepilot.org/user-guides/here-2/here-2-can-mode-instruction).
 :::
 
 ## 배선
@@ -52,21 +55,21 @@ Here2 GPS 핀배열은 아래에서 제공합니다. 이것은 다른 자동조�
 ## 사양
 
 - **프로세서:** STM32F302
-- **센서** 
+- **센서**
   - **나침반, 자이로, 가속도계:** ICM20948
   - **기압계:** MS5611
 - **수신기 유형:** 72-채널 u-blox M8N 엔진, GPS/QZSS L2 C/A, GLONASS L10F, BeiDou B11, Galileo E1B/C, SBAS L1 C/A: WAAS, EGNOS, MSAS, GAGAN
 - **내비게이션 업데이트 속도:** 최대 : 10Hz
 - **위치 정확도:** 3D 수정
-- **최초 수정 시간 :** 
+- **최초 수정 시간 :**
   - **콜드 스타트:** 26 초
   - **지원 시작:** 2 초
   - **재 획득:** 1 초
-- **감도:** 
+- **감도:**
   - **추적 및 탐색:** -167dBm
   - **핫 스타트:** -148dBm
   - **콜드 스타트:** - 157 dBm
-- **보조 GNSS** 
+- **보조 GNSS**
   - AssistNow GNSS 온라인
   - AssistNow GNSS 오프라인 (최대 35 일)
   - AssistNow Autonomous (최대 6 일)
@@ -76,6 +79,6 @@ Here2 GPS 핀배열은 아래에서 제공합니다. 이것은 다른 자동조�
 - **ROM:** Flash (NEO-8MN)
 - **사용 가능한 안테나:** Active Antenna 및 패시브 안테나
 - **신호 무결성:** SHA 256을 사용한 서명 기능
-- **프로토콜 및 인터페이스:** 
+- **프로토콜 및 인터페이스:**
   - **UART/I2C/CAN:** JST_GH 메인 인터페이스, 내부 스위치.
   - **STM32 기본 프로그래밍 인터페이스:** JST_SUR

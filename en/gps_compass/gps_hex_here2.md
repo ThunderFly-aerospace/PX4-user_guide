@@ -3,7 +3,7 @@
 The [Here2 GPS receiver](http://www.proficnc.com/all-products/152-gps-module.html) is an update to the Here GPS module from HEX.
 
 Main features include:
-- Concurrent reception of upto 3 GNSS (GPS, Galileo, GLOSNASS, BeiDou)
+- Concurrent reception of up to 3 GNSS (GPS, Galileo, GLOSNASS, BeiDou)
 - Industry Leading -167 dBm navigation sensitivity
 - Security and integrity protection
 - Supports all satellite augmentation systems
@@ -13,7 +13,7 @@ Main features include:
 <img src="../../assets/hardware/gps/here2_gps_module.jpg" />
 
 
-## Purchase
+## Where to Buy
 
 * [ProfiCNC](http://www.proficnc.com/all-products/152-gps-module.html) (Australia)
 * [Other resellers](http://www.proficnc.com/stores)
@@ -23,7 +23,8 @@ Main features include:
 Setup and use on PX4 is largely plug and play.
 
 :::note
-If the GPS is *not detected* then [update the Here2 firmware](https://docs.cubepilot.org/user-guides/here-2/updating-here-2-firmware).
+- If the GPS is *not detected* then [update the Here2 firmware](https://docs.cubepilot.org/user-guides/here-2/updating-here-2-firmware).
+- If the GPS is detected but does not work, attempt the process outlined in [allocating node uavcan ID](https://docs.cubepilot.org/user-guides/here-2/here-2-can-mode-instruction).
 :::
 
 ## Wiring and Connections

@@ -3,13 +3,13 @@
 Many PX4 drones use brushless motors that are driven by the flight controller via an Electronic Speed Controller (ESC).
 The ESC takes a signal from the flight controller and uses it to set control the level of power delivered to the motor.
 
-PX4 supports a number of common protocols for sending the signals to ESCs: [PWM ESCs](../peripherals/pwm_escs_and_servo.md), [OneShot ESCs](../peripherals/oneshot.md), [DShot ESCs](../peripherals/dshot.md), [UAVCAN ESCs](../peripherals/uavcan_escs.md), PCA9685 ESC (via I2C), and some UART ESCs (from Yuneec).
+PX4 supports a number of common protocols for sending the signals to ESCs: [PWM ESCs](../peripherals/pwm_escs_and_servo.md), [OneShot ESCs](../peripherals/oneshot.md), [DShot ESCs](../peripherals/dshot.md), [DroneCAN ESCs](../dronecan/escs.md), PCA9685 ESC (via I2C), and some UART ESCs (from Yuneec).
 
 For more information see:
 * [PWM ESCs and Servos](../peripherals/pwm_escs_and_servo.md)
 * [OneShot ESCs and Servos](../peripherals/oneshot.md)
 * [DShot](../peripherals/dshot.md)
-* [UAVCAN ESCs](../peripherals/uavcan_escs.md)
+* [DroneCAN ESCs](../dronecan/escs.md)
 * [ESC Calibration](../advanced_config/esc_calibration.md)
 * [ESC Firmware and Protocols Overview](https://oscarliang.com/esc-firmware-protocols/) (oscarliang.com)
 
@@ -29,14 +29,13 @@ For PWM servos 50Hz is usually sufficient, and many don't support higher rates.
 
 ![duty cycle for PWM](../../assets/peripherals/esc_pwm_duty_cycle.png)
 
-In addition to being a relatively slow protocol PWM ESCs require [calibration](../advanced_config/esc_calibration.md) because the range values representing low and high values can vary signficantly.
-Unlike [dshot](#dshot) and [UAVCAN ESC](#UAVCAN) they do not have the ability to provide telemetry and feedback on ESC (or servo) state.
+In addition to being a relatively slow protocol PWM ESCs require [calibration](../advanced_config/esc_calibration.md) because the range values representing low and high values can vary significantly.
+Unlike [dshot](#dshot) and [DroneCAN ESC](#dronecan) they do not have the ability to provide telemetry and feedback on ESC (or servo) state.
 
 Setup:
 - [ESC Wiring](../peripherals/pwm_escs_and_servo.md)
 - [PX4 Configuration](../peripherals/pwm_escs_and_servo.md#px4-configuration)
 - [ESC Calibration](../advanced_config/esc_calibration.md)
-
 
 
 ### Oneshot 125
@@ -60,23 +59,21 @@ Setup:
 
 [DShot](../peripherals/dshot.md) is a digital ESC protocol that is highly recommended for vehicles that can benefit from reduce latency, in particular racing multicopters, VTOL vehicles, and so on.
 
-It has reduced latency annd is more robust than both [PWM](#pwm) and [OneShot](#oneshot).
+It has reduced latency and is more robust than both [PWM](#pwm) and [OneShot](#oneshot-125).
 In addition it does not require ESC calibration, telemetry is available from some ESCs, and you can revers motor spin directions
 
-PX4 configuration is done by setting the desired rate using [DSHOT_CONFIG](../advanced_config/parameter_reference.md#DSHOT_CONFIG).
-The parameter value indicates the data rate in kbaud - e.g. DShot150 has a rate of 150kbaud.
-Higher rates result in lower latency, but lower rates are more robust (and hence more suitable for large aircraft with longer leads); some ESCs only support lower rates (see datasheets for information).
+PX4 configuration is done in the [Actuator Configuration](../config/actuators.md).
+Selecting a higher rate DShot ESC in the UI result in lower latency, but lower rates are more robust (and hence more suitable for large aircraft with longer leads); some ESCs only support lower rates (see datasheets for information).
 
 Setup:
 - [ESC Wiring](../peripherals/pwm_escs_and_servo.md) (same as for PWM ESCs)
-- [PX4 Configuration](../peripherals/dshot.md#configuration) (using [DSHOT_CONFIG](../advanced_config/parameter_reference.md#DSHOT_CONFIG))
 - [DShot](../peripherals/dshot.md) also contains information about how to send commands etc.
 
-### UAVCAN
+### DroneCAN
 
-[UAVCAN ESCs](../peripherals/uavcan_escs.md) are recommended when UAVCAN is the primary bus used for your vehicle.
+[DroneCAN ESCs](../dronecan/escs.md) are recommended when DroneCAN is the primary bus used for your vehicle.
 The PX4 implementation is currently limited to update rates of 200Hz.
 
-UAVCAN shares many similar benefits to [Dshot](#dshot) including high data rates, robust connection over long leads, telemetry feedback, no need for calibration of the ESC itself.
+DroneCAN shares many similar benefits to [Dshot](#dshot) including high data rates, robust connection over long leads, telemetry feedback, no need for calibration of the ESC itself.
 
-[UAVCAN ESCs](../peripherals/uavcan_escs.md) are connected via the UAVCAN bus (setup and configuration are covered at that link).
+[DroneCAN ESCs](../dronecan/escs.md) are connected via the DroneCAN bus (setup and configuration are covered at that link).

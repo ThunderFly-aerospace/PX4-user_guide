@@ -2,10 +2,10 @@
 
 :::warning
 PX4 does not manufacture this (or any) autopilot.
-Contact the [manufacturer](https://shop.holybro.com/) for hardware support or compliance issues.
+Contact the [manufacturer](https://holybro.com/) for hardware support or compliance issues.
 :::
 
-The [Holybro Kakute H7](https://shop.holybro.com/kakute-h7-flight-controller-with-bluetooth_p1289.html) is full of features including dual plug-and-play 4in1 ESC ports, HD camera plug, barometer, OSD, 6x UARTs, full Blackbox MicroSD card slot, 5V and 9V BEC, easy soldering layout, and much more.
+The [Holybro Kakute H7](https://holybro.com/products/kakute-h7-v2) is full of features including dual plug-and-play 4in1 ESC ports, HD camera plug, barometer, OSD, 6x UARTs, full Blackbox MicroSD card slot, 5V and 9V BEC, easy soldering layout, and much more.
 
 The Kakute H7 builds upon the best features of its predecessor, the [Kakute F7](../flight_controller/kakutef7.md), and further improves on hardware components and layout.
 Dual plug'n'play 4-in-1 ESC connectors simplify support for x8 and Octocopter configurations, keeping assembly simple and clean.
@@ -20,25 +20,26 @@ This flight controller is [manufacturer supported](../flight_controller/autopilo
 
 ## Key Features
 
-* MCU: STM32H743 32-bit processor running at 480 MHz
-* IMU: MPU6000
-* Barometer: BMP280
-* OSD: AT7456E
-* Onboard Bluetooth chip: Disabled with PX4
-* 2x JST-SH1.0_8pin port (For Single or 4in1 ESCs, x8/Octocopter plug & play compatible)
-* 1x JST-GH1.5_6pin port (For HD System like Caddx Vista & Air Unit)
-* Battery input voltage: 2S - 8S
-* BEC 5V 2A Cont.
-* BEC 9V 1.5A Cont.
-* Mounting: 30.5 x 30.5mm/Φ4mm hole with Φ3mm Grommets
-* Dimension: 35x35mm
-* Weight: 8g
+- MCU: STM32H743 32-bit processor running at 480 MHz
+- IMU: MPU6000
+- Barometer: BMP280
+- OSD: AT7456E
+- Onboard Bluetooth chip: Disabled with PX4
+- 2x JST-SH1.0_8pin port (For Single or 4in1 ESCs, x8/Octocopter plug & play compatible)
+- 1x JST-GH1.5_6pin port (For HD System like Caddx Vista & Air Unit)
+- Battery input voltage: 2S - 8S
+- BEC 5V 2A Cont.
+- BEC 9V 1.5A Cont.
+- Mounting: 30.5 x 30.5mm/Φ4mm hole with Φ3mm Grommets
+- Dimensions: 35x35mm
+- Weight: 8g
 
 
 ## Where to Buy
 
 The board can be bought from one of the following shops (for example):
-- [Holybro](https://shop.holybro.com/kakute-h7-flight-controller-with-bluetooth_p1289.html?)
+
+- [Holybro](https://holybro.com/products/kakute-h7-v2)
 
 :::tip
 The *Kakute H7* is designed to work with the *Tekko32* 4-in-1 ESC and they can be bought in combination.
@@ -79,7 +80,7 @@ This is the silkscreen for the *Kakute H7*, showing the top of the board:
 
 The board comes pre-installed with [Betaflight](https://github.com/betaflight/betaflight/wiki).
 Before PX4 firmware can be installed, the *PX4 bootloader* must be flashed.
-Download the [kakuteh7_bl.hex](https://github.com/PX4/px4_user_guide/raw/master/assets/flight_controller/kakuteh7/holybro_kakuteh7_bootloader.hex) bootloader binary and read [this page](../advanced_config/bootloader_update_from_betaflight.md) for flashing instructions.
+Download the [kakuteh7_bl.hex](https://github.com/PX4/PX4-user_guide/raw/main/assets/flight_controller/kakuteh7/holybro_kakuteh7_bootloader.hex) bootloader binary and read [this page](../advanced_config/bootloader_update_from_betaflight.md) for flashing instructions.
 
 ## Building Firmware
 
@@ -109,7 +110,6 @@ In addition to the [basic configuration](../config/README.md), the following par
 Parameter | Setting
 --- | ---
 [SYS_HAS_MAG](../advanced_config/parameter_reference.md#SYS_HAS_MAG) | This should be disabled since the board does not have an internal mag. You can enable it if you attach an external mag.
-[MOT_ORDERING](../advanced_config/parameter_reference.md#MOT_ORDERING) | If you use a 4-in-1 ESC with Betaflight motor assignment, this parameter can be set accordingly.
 
 
 ## Serial Port Mapping

@@ -2,7 +2,7 @@
 
 :::warning
 PX4 does not manufacture this (or any) autopilot.
-Contact the [manufacturer](https://shop.holybro.com/) for hardware support or compliance issues.
+Contact the [manufacturer](https://holybro.com/) for hardware support or compliance issues.
 :::
 
 This quick start guide shows how to power the [*Pixhawk<sup>&reg;</sup> 4 Mini*](../flight_controller/pixhawk4_mini.md) flight controller and connect its most important peripherals.
@@ -88,7 +88,7 @@ Be careful with the voltage of servo you are going to use here.
 <!--In the future, when Pixhawk 4 kit is available, add wiring images/videos for different airframes.-->
 
 :::note
-Using the Power Module that comes with the kit you will need to configure the *Number of Cells* in the [Power Settings](https://docs.qgroundcontrol.com/en/SetupView/Power.html) but you won't need to calibrate the *voltage divider*.
+Using the Power Module that comes with the kit you will need to configure the *Number of Cells* in the [Power Settings](https://docs.qgroundcontrol.com/master/en/SetupView/Power.html) but you won't need to calibrate the *voltage divider*.
 You will have to update the *voltage divider* if you are using any other power module (e.g. the one from the Pixracer).
 :::
 
@@ -141,7 +141,7 @@ Motors/servos are connected to the **MAIN OUT** ports in the order specified for
 This reference lists the output port to motor/servo mapping for all supported air and ground frames (if your frame is not listed in the reference then use a "generic" airframe of the correct type).
 :::
 
-:::caution
+:::warning
 The mapping is not consistent across frames (e.g. you can't rely on the throttle being on the same output for all plane frames).
 Make sure to use the correct mapping for your vehicle.
 :::

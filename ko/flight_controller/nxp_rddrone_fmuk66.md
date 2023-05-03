@@ -42,7 +42,7 @@ NXP FMU와 포함된 주변 장치는 FCC/CE/RoHs/REACH 지침을 준수합니�
 추가적인 정보는 [기술 데이트시트](https://www.nxp.com/design/designs/px4-robotic-drone-fmu-rddrone-fmuk66:RDDRONE-FMUK66)를 참고하십시오. <!-- www.nxp.com/rddrone-fmuk66 -->
 
 
-## 구매처
+## Where to Buy
 
 **RDDRONE-FMUK66** 참조 설계 키트는 NXP에서 직접 구매하거나 NXP의 공인 전세계 [전자 유통 업체](https://www.nxp.com/support/sample-and-buy/distributor-network:DISTRIBUTORS) 네트워크에서 구매할 수 있습니다.
 
@@ -88,7 +88,7 @@ make nxp_fmuk66-v3_default
 
 [PX4 시스템 콘솔](../debug/system_console.md)과 [SWD 인터페이스](../debug/swd_debug.md)는 [DEC-LZ FMU 디버그](https://nxp.gitbook.io/hovergames/rddrone-fmuk66/connectors/debug-interface-dcd-lz) 포트에서 실행됩니다.
 
-NXP의 DCD-LZ는 7핀 JST-GH 커넥터이며 nRST/MCU_RESET 핀을 [Pixhawk 6 핀 표준 디버그 포트](https://pixhawk.org/pixhawk-connector-standard/#dronecode_debug)에 추가합니다.
+NXP's DCD-LZ is a 7 pin JST-GH connector and adds the nRST/MCU_RESET pin to the [Pixhawk 6-Pin standard debug port](https://github.com/pixhawk/Pixhawk-Standards/blob/master/DS-009%20Pixhawk%20Connector%20Standard.pdf).
 
 DCD-LZ 브레이크아웃 어댑터를 사용하면 표준 10핀 JTAG/SWD 인터페이스(예 : Segger Jlink 사용) 및 표준 5핀 FTDI USB-TTL-3V3 유형 케이블을 사용할 수 있습니다.
 
@@ -104,7 +104,7 @@ DCD-LZ 브레이크아웃 어댑터를 사용하면 표준 10핀 JTAG/SWD 인터
 
 일반 RC 서보 또는 Futaba S-Bus 서보로 제어 가능한 모든 멀티콥터/비행기/로버 또는 보트. 지원되는 운송체의 설정은 [기체 정의서](../airframes/airframe_reference.md)를 참고하십시오.
 
-![HoverGames 드론 키트](../../assets/flight_controller/nxp_rddrone_fmuk66/HoverGamesDrone_14042019_XL_001.jpg)
+![HoverGames 드론 키트](../../assets/flight_controller/nxp_rddrone_fmuk66/hovergames_drone_14042019_xl001.jpg)
 
 :::tip NXP
 [HoverGames Drone Kit](https://www.nxp.com/kit-hgdronek66) (위 그림 참조)는 쿼드콥터 제작에 필요한 것들이 포함된 드론 개발 키트입니다. 3S/4S LiPo 배터리만 추가로 구매하시면 됩니다.
@@ -116,5 +116,5 @@ DCD-LZ 브레이크아웃 어댑터를 사용하면 표준 10핀 JTAG/SWD 인터
 
 - HoverGames 및 RDDRONE-FMUK66을 지원하는 3D 모델은 *Thingiverse*의 검색 링크 [fmuk66](https://www.thingiverse.com/search?q=fmuk66&type=things&sort=relevant), [hovergames](https://www.thingiverse.com/search?q=hovergames&type=things&sort=relevant)을 참고하십시오.
 
-!\[HoverGamesDronelogo\](../../assets/flight_controller/nxp_rddrone_fmuk66/The HoverGames_Colored-small.png)
+![HoverGamesDronelogo](../../assets/flight_controller/nxp_rddrone_fmuk66/hovergames_colored_small.png)
 

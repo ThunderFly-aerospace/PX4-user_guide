@@ -11,10 +11,10 @@ The idea was to develop a platform that allows for easy control of wheeled UGVs 
 * [Traxxas Stampede](https://traxxas.com/products/models/electric/stampede-vxl-tsm) All of this is used except for the top plastic cover.
 * [Pixhawk Mini (Discontinued)](../flight_controller/pixhawk_mini.md)
   * 3DR 10S Power Module
-  * [3DR 433MHz Telemetry Module (EU)
+  * 3DR 433MHz Telemetry Module (EU)
 * [Spektrum Dxe Controller](http://www.spektrumrc.com/Products/Default.aspx?ProdId=SPM1000) or other PX4-compatible remotes
 * [Spektrum Quad Race Serial Receiver w/Diversity](http://www.spektrumrc.com/Products/Default.aspx?ProdID=SPM4648)
-* [PX4Flow](../sensor/px4flow.md)
+* [PX4Flow](../sensor/px4flow.md) (Deprecated)
 
 
 ## Assembly
@@ -34,9 +34,9 @@ Tests showed that a better vibration insulation should be used, especially for t
 
 ![Wodden panel fixture](../../assets/airframes/rover/traxxas_stampede_vxl/mounting_detail.jpg)
 
-For this particular mounting we chose to use the clip supplied with the rover to attach the upper plate. 
-For this, two supports were 3D printed. 
-The CAD files are provided [here](https://github.com/PX4/px4_user_guide/raw/master/assets/airframes/rover/traxxas_stampede_vxl/plane_holders.zip).
+For this particular mounting we chose to use the clip supplied with the rover to attach the upper plate.
+For this, two supports were 3D printed.
+The CAD files are provided [here](https://github.com/PX4/PX4-user_guide/raw/main/assets/airframes/rover/traxxas_stampede_vxl/plane_holders.zip).
 
 :::warning
 It is **HIGHLY RECOMMENDED** to set the ESC in training mode (see Traxxas Stampede Manual), which reduces power to 50%.
@@ -50,7 +50,7 @@ MAIN2 | Steering servo
 MAIN4 | Throttle (ESC input)
 
 :::note
-As documented in the [Airframe reference here](../airframes/airframe_reference.md#rover_rover_generic_ground_vehicle).
+As documented in the Airframe Reference: [Generic ground vehicle (Ackermann)](../airframes/airframe_reference.md#rover_rover_generic_ground_vehicle_(ackermann)).
 :::
 
 ## Configuration

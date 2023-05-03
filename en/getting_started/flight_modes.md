@@ -4,7 +4,7 @@ Flight modes define how the autopilot responds to remote control input, and how 
 
 The modes provide different types/levels of autopilot assistance to the user (pilot), ranging from automation of common tasks like takeoff and landing, through to mechanisms that make it easier to regain level flight, hold the vehicle to a fixed path or position, etc.
 
-This topic provides an overview of the available the flight modes for different frame types: [multicopter](#multicopter) (MC), [fixed-wing](#fixed-wing) (FW), [VTOL](#vertical-take-off-and-landing-vtol), [rovers/boats](#rover-boat).
+This topic provides an overview of the available the flight modes for different frame types: [multicopter/helicopter](#multicopter-helicopter) (MC), [fixed-wing](#fixed-wing) (FW), [VTOL](#vertical-take-off-and-landing-vtol), [rovers/boats](#rover-boat).
 
 :::tip
 More detailed information about specific flight modes can be found in [Flying > Flight Modes](../flight_modes/README.md).
@@ -46,7 +46,7 @@ Fixed Wing:
 * Manual-Acrobatic: [Acro](#acro-mode-fw)
 * Autonomous: [Hold](#hold_fw), [Return](#return-mode-fw), [Mission](#mission-mode-fw), [Takeoff](#takeoff-mode-fw), [Land](#land-mode-fw), [Offboard](#offboard-mode-fw)
 
-Multicopter: 
+Multicopter/Helicopter:
 * Manual-Easy: [Position](#position-mode-mc), [Altitude](#altitude-mode-mc), [Manual/Stabilized](#manual-stabilized-mode-mc), [Orbit](#orbit-mode-mc)
 * Manual-Acrobatic: [Acro](#acro-mode-mc)
 * Autonomous: [Hold](#hold-mode-mc), [Return](#return-mode-mc), [Mission](#mission-mode-mc), [Takeoff](#takeoff-mode-mc), [Land](#land-mode-mc), [Follow Me](#follow-me-mode-mc), [Offboard](#offboard-mode-mc)
@@ -76,8 +76,7 @@ Icon | Description
 
 
 <a id="mc_flight_modes"></a>
-## Multicopter
-
+## Multicopter / Helicopter
 
 ### Position Mode (MC)
 
@@ -141,12 +140,12 @@ The craft will drift in the direction of any wind and you have to control the th
 
 [Acro mode](../flight_modes/acro_mc.md) is the RC mode for performing acrobatic maneuvers e.g. rolls and loops.
 
-The roll, pitch and yaw sticks control the rate of angular rotation around the respective axes and throttle is passed directly to the output mixer.
+The roll, pitch and yaw sticks control the rate of angular rotation around the respective axes and throttle is passed directly to control allocation.
 When sticks are centered the vehicle will stop rotating, but remain in its current orientation (on its side, inverted, or whatever) and moving according to its current momentum.
 
 ![MC Manual Acrobatic Flight](../../assets/flight_modes/manual_acrobatic_MC.png)
 
-<!-- image above incorrect: https://github.com/PX4/px4_user_guide/issues/182 -->
+<!-- image above incorrect: https://github.com/PX4/PX4-user_guide/issues/182 -->
 
 
 <a id="orbit_mc"></a>
@@ -194,7 +193,7 @@ By default a mulitcopter will simply ascend to a safe height, fly to its home po
 The mission is typically created and uploaded with a Ground Control Station (GCS) application.
 
 :::tip
-The PX4 GCS is called [QGroundControl](https://docs.qgroundcontrol.com/en/).
+The PX4 GCS is called [QGroundControl](https://docs.qgroundcontrol.com/master/en/).
 *QGroundControl* is the same application we use for [configuring PX4](../config/README.md).
 :::
 
@@ -302,7 +301,7 @@ In order to perform a turn the command must beheld throughout the maneuver becau
 
 [Acro mode](../flight_modes/acro_fw.md) is the RC mode for performing acrobatic maneuvers e.g. rolls, flips, stalls and acrobatic figures.
 
-The roll, pitch and yaw sticks control the rate of angular rotation around the respective axes and throttle is passed directly to the output mixer.
+The roll, pitch and yaw sticks control the rate of angular rotation around the respective axes and throttle is passed directly to control allocation.
 When sticks are centered the vehicle will stop rotating, but remain in its current orientation (on its side, inverted, or whatever) and moving according to its current momentum.
 
 ![FW Manual Acrobatic Flight](../../assets/flight_modes/manual_acrobatic_FW.png)
@@ -313,7 +312,7 @@ When sticks are centered the vehicle will stop rotating, but remain in its curre
 
 [<img src="../../assets/site/difficulty_hard.png" title="Hard to fly" width="30px" />](#key_difficulty)&nbsp;[<img src="../../assets/site/remote_control.svg" title="Manual/Remote control required" width="30px" />](#key_manual)&nbsp;
 
-[Manual mode](../flight_modes/manual_fw.md) sends RC stick input directly to the output mixer for "fully" manual control.
+[Manual mode](../flight_modes/manual_fw.md) sends RC stick input directly to control allocation for "fully" manual control.
 
 :::tip
 This is the hardest mode to fly, because nothing is stabilised.
@@ -357,7 +356,7 @@ The mission is typically created and uploaded with a Ground Control Station (GCS
 
 
 :::tip
-The PX4 GCS is called [QGroundControl](https://docs.qgroundcontrol.com/en/). *QGroundControl* is the same application we use for [configuring PX4](../config/README.md).
+The PX4 GCS is called [QGroundControl](https://docs.qgroundcontrol.com/master/en/). *QGroundControl* is the same application we use for [configuring PX4](../config/README.md).
 :::
 
 <a id="takeoff_fw"></a>
@@ -374,7 +373,8 @@ The specific launch behaviour depends on the configured takeoff mode (catapult/h
 
 [<img src="../../assets/site/automatic_mode.svg" title="Automatic mode" width="30px" />](#key_automatic)&nbsp;
 
-[Land mode](../flight_modes/land.md) causes the vehicle to turn and land at the location at which the mode was engaged. Fixed wing landing logic and parameters are explained in the topic: [Landing (Fixed Wing)](../flying/fixed_wing_landing.md).
+[Land mode](../flight_modes/land.md) causes the vehicle to turn and land at the location at which the mode was engaged.
+Fixed wing landing logic and parameters are explained in the topic: [Mission > Fixed Wing Mission Landing](../flight_modes/mission.md#fw-mission-landing).
 
 <a id="offboard_fw"></a>
 ### Offboard Mode (FW)
@@ -412,7 +412,7 @@ Ground vehicles and boats only support [manual mode](#manual-mode-ugv) and [miss
 This mode is enabled unless mission mode is set.
 :::
 
-*Manual mode*<!-- [Manual](../flight_modes/manual_ugv.md) --> stops motors when RC control sticks are centered.
+*Manual mode* stops motors when RC control sticks are centered.
 To move the vehicle you move the sticks outside of the center.
 
 <!--
@@ -423,10 +423,6 @@ As soon as you release the control sticks they will return to the center deadzon
 This will turn off the motors and center the wheels/rudder.
 There is no active braking, so the vehicle may continue to move until its momentum dissipates (and for a boat, continue to drift).
 
-<!--
-![MC Manual Flight](../../assets/flight_modes/manual_stabilized_MC.png)
--->
-
 
 ### Mission Mode (UGV)
 
@@ -436,7 +432,7 @@ There is no active braking, so the vehicle may continue to move until its moment
 The mission is typically created and uploaded with a Ground Control Station (GCS) application.
 
 :::tip
-The PX4 GCS is called [QGroundControl](https://docs.qgroundcontrol.com/en/).
+The PX4 GCS is called [QGroundControl](https://docs.qgroundcontrol.com/master/en/).
 *QGroundControl* is the same application we use for [configuring PX4](../config/README.md).
 :::
 

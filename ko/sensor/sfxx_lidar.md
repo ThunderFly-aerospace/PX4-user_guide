@@ -10,10 +10,11 @@ LightWare는 UAV에 장착에 적합한 경량의 범용 레이저 고도계( "�
 
 ### 이용 가능
 
-| 모델                                                                                     | 범위 (m) | 버스           | 설명                                  |
-| -------------------------------------------------------------------------------------- | ------ | ------------ | ----------------------------------- |
-| [SF11/C](https://lightware.co.za/collections/lidar-rangefinders/products/sf11-c-120-m) | 120    | 직렬 또는 I2C 버스 |                                     |
-| [LW20/C](https://lightware.co.za/products/lw20-c-100-m)                                | 100    | I2C 버스       | 감지 및 회피 애플리케이션을 위한 서보가 있는 방수 (IP67) |
+| 모델                                                         | 범위 (m) | 버스           | 설명                                  |
+| ---------------------------------------------------------- | ------ | ------------ | ----------------------------------- |
+| [SF11/C](https://lightwarelidar.com/products/sf11-c-100-m) | 100    | 직렬 또는 I2C 버스 |                                     |
+| [LW20/C](https://lightware.co.za/products/lw20-c-100-m)    | 100    | I2C 버스       | 감지 및 회피 애플리케이션을 위한 서보가 있는 방수 (IP67) |
+
 
 ### 단종됨
 
@@ -26,6 +27,7 @@ LightWare는 UAV에 장착에 적합한 경량의 범용 레이저 고도계( "�
 | [SF10/B](http://documents.lightware.co.za/SF10%20-%20Laser%20Altimeter%20Manual%20-%20Rev%206.pdf) | 50   | 직렬 또는 I2C 버스                                |
 | SF10/C                                                                                             | 100m | 직렬 또는 I2C 버스                                |
 | LW20/B                                                                                             | 50   | I2C 버스 |감지 및 회피 애플리케이션을 위한 서보가 있는 방수 (IP67) |
+
 
 ## I2C 설정
 
@@ -55,6 +57,7 @@ I2C 포트에 연결 가능한 모델을 위의 표를 참고하십시오.
 
 거리계 모델과 일치하도록 [SENS_EN_SF1XX](../advanced_config/parameter_reference.md#SENS_EN_SF1XX) 매개변수를 설정후 재부팅 하십시오.
 
+
 ## 직렬 설정
 
 <a id="serial_hardware_setup"></a>
@@ -79,4 +82,5 @@ LIDAR는 사용하지 않는 *직렬 포트* (UART) (예 : TELEM2, TELEM3, GPS2 
 
 ## 추가 정보
 
-- [모듈 참고: 거리 센서 (드라이버) : sf1xx](../modules/modules_driver_distance_sensor.md#sf1xx)
+- [Modules Reference: Distance Sensor (Driver) : lightware_laser_i2c](../modules/modules_driver_distance_sensor.md#lightware-laser-i2c)
+- [Modules Reference: Distance Sensor (Driver) : lightware_laser_serial](../modules/modules_driver_distance_sensor.md#lightware-laser-serial)

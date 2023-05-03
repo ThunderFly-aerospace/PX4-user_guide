@@ -3,7 +3,7 @@
 Cables are a common source of [electromagnetic interference (EMI)](https://en.wikipedia.org/wiki/Electromagnetic_interference), which can cause problems including flyways, "toilet bowling" and generally poor flight. These problems can be avoided by using appropriate cabling in the UAV.
 
 The following basic concepts should be kept in mind when designing drone cabling:
-* High-Power and signal cables should be separated as much as is practical
+* High-Power and signal cables should be separated as much as is practical.
 * Cable lengths should be the minimum needed to enable easy handling of wired components. The wire tension should be adequate to survive possible airframe deformations even in a crash landing (wires must not be the first thing to break).
 * Cable loops to reduce excess length should be avoided - use shorter lengths!
 * For digital signals you can decrease the baudrate to reduce radiated energy and increase the robustness of data transfer. This means that you may be able to use longer cables when high data rates are not needed.
@@ -15,7 +15,7 @@ Signalling protocols have different characteristics, and therefore the cables us
 This topic provides specific guidance of cabling for different signalling protocols, along with the [colour coding](#cable-colour-coding) used by a number different drone hardware vendors.
 
 
-### I²C cables
+### I2C cables
 
 The [I2C bus](https://en.wikipedia.org/wiki/I%C2%B2C) is widely used for connecting sensors. Cable colors from several vendors are specified in following table.
 
@@ -38,8 +38,7 @@ I2C bus signal cross-talk and electromagnetic compatibility can be greatly impro
 When using appropriate twisted pair cables, the I²C bus is generally suitable for submeter-scale airframes. For larger aircraft the use of CAN or other differential signaling based interface is generally more reliable.
 
 :::note
-This turns/cable-length recommendation has been successfully used with I2C sensors including the [ThunderFly TFSLOT airspeed sensor](../sensor/airspeed_tfslot.md) and [TFRPM01 Revolution Counter](../sensor/thunderfly_tachometer.md).
-:::
+This turns/cable-length recommendation has been successfully used with I2C sensors including the [ThunderFly TFSLOT airspeed sensor](../sensor/airspeed_tfslot.md) and [TFRPM01 Revolution Counter](../sensor/thunderfly_tachometer.md). :::
 
 
 #### Pull-up resistors
