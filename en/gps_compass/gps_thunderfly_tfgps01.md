@@ -2,7 +2,9 @@
 
 The [TFGPS01](https://github.com/ThunderFly-aerospace/TFGPS01/) is a compact, multi-constellation GNSS receiver that features an integrated high-quality patch antenna. Designed to be highly resistant to external RF interference, it ensures accurate positioning during the whole flight, regardless of the surrounding conditions. This open-source receiver allows GPS data output to be shared with multiple devices, including payload that may not be integrated into the PX4 system.
 
-The receiver is based on the U-blox NEO [M9N](https://www.u-blox.com/en/product/neo-m9n-module) module (standard configuration), with the option to assembly receiver with the U-blox [NEO M8](https://www.u-blox.com/en/product/neo-m8-series) module for RTK technology support.
+![Hawk A1](../../assets/hardware/gps/gps_thunderfly_tfgps01.jpg)
+
+The receiver is based on the U-blox NEO [M9N](https://www.u-blox.com/en/product/neo-m9n-module) module (standard configuration), with the option to assembly receiver with the U-blox [NEO M8P](https://www.u-blox.com/en/product/neo-m8-series) module for RTK technology support.
 
 The TFGPS01 is connected to an autopilot through a cable with a [10-pin JST-GH](https://github.com/pixhawk/Pixhawk-Standards/blob/master/DS-009%20Pixhawk%20Connector%20Standard.pdf) connector, ensuring a secure and reliable connection between the receiver and the autopilot's GPS port. TFGPS01 contains a safety buzzer, ARM LED and an additional button with a beeper and LED can be connected via the own SAFETY connector output.
 
