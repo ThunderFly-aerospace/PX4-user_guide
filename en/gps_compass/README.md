@@ -60,6 +60,7 @@ Device | GPS | Compass | [RTK](../gps_compass/rtk_gps.md) | [GPS Yaw Output](#co
 [Septentrio mosaic-go](../gps_compass/septentrio_mosaic-go.md) | mosaic X5 / mosaic H | &check; | &check; | &check; | Septentrio dual antenna heading | &check; |
 [Sky-Drones SmartAP GPS](../gps_compass/gps_smartap.md) | M8N | HMC5983, IST8310, LIS3MDL | | | |
 [SparkFun GPS-RTK2 Board - ZED-F9P](https://www.sparkfun.com/products/15136) | F9P |  &cross; | &check; | | &check; |
+[ThunderFly TFGPS01](../gps_compass/gps_thunderfly_tfgps01.md) | M9N / M8P | &cross; | with M8P |  | | |
 [Trimble MB-Two](../gps_compass/rtk_gps_trimble_mb_two.md) | F9P | &cross; | &check; | &check; | | |
 [Zubax GNSS 2](https://zubax.com/products/gnss_2) | MAX-M8Q | LIS3MDL | | | |
 
