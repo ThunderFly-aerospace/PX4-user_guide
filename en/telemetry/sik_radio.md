@@ -15,6 +15,7 @@ Hardware for the SiK radio can be obtained from various manufacturers/stores in 
 
 - [RFD900 Telemetry Radio](../telemetry/rfd900_telemetry.md)
 - [Holybro Telemetry Radio](../telemetry/holybro_sik_radio.md)
+- [ThunderFly TFSIK01 Telemetry Radio](../telemetry/tfsik_telemetry.md)
 - <del>_HKPilot Telemetry Radio_</del> (Discontinued)
 - <del>_3DR Telemetry Radio_</del> (Discontinued)
 
