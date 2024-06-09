@@ -1,7 +1,7 @@
 
 # ThunderFly TFHT01 Hygrometer
 
-The ThunderFly TFHT01 is open-source a high-precision hygrometer designed specifically for aviation applications. It offers fast response times and high durability, making it an ideal choice for integration into various aviation systems.
+The ThunderFly [TFHT01](https://github.com/ThunderFly-aerospace/TFHT01) is open-source a high-precision hygrometer designed specifically for aviation applications. It offers fast response times and high durability, making it an ideal choice for integration into various aviation systems.
 
 ## Key Features:
 - **High Precision:** Equipped with the SHT35 sensor for accurate humidity and temperature measurements.
@@ -9,6 +9,11 @@ The ThunderFly TFHT01 is open-source a high-precision hygrometer designed specif
 - **Durable Casing:** Encased in a robust plastic housing to withstand mechanical stress and harsh conditions.
 
 ![TFHT01 PCB board](/assets/hardware/sensors/TFHT/tfht01B_small.png)
+
+## Links
+- **Documentation:** https://docs.thunderfly.cz/avionics/TFHT01/
+- **GitHub repository:** https://github.com/ThunderFly-aerospace/TFHT01
+- **Tindie eshop:**: https://www.tindie.com/products/26354/
 
 ## Specifications
 
