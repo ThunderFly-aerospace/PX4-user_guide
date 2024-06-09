@@ -16,4 +16,4 @@ PX4 currently does not influence flight parameters based on measured air humidit
 
 
 ## Hardware Options
-* [ThunderFly TFHT01 accurate hygrometer](./hygrometer_tfht.md)
+* [ThunderFly TFHT01 accurate hygrometer](./hygrometer_TFHT.md)
