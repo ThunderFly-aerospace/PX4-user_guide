@@ -8,6 +8,7 @@ The ThunderFly TFHT01 is open-source a high-precision hygrometer designed specif
 - **Fast Response Time:** Enhanced with a thin PCB and minimal thermal conductivity for rapid adaptation to environmental changes.
 - **Durable Casing:** Encased in a robust plastic housing to withstand mechanical stress and harsh conditions.
 
+![TFHT01 PCB board](/assets/hardware/sensors/TFHT/tfht01B_small.png)
 
 ## Specifications
 
